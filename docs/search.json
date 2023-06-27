@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "conacon_2023.html#quarto",
+    "href": "conacon_2023.html#quarto",
+    "title": "Conacon 2023",
+    "section": "Quarto",
+    "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/."
+  },
+  {
+    "objectID": "conacon_2023.html#bullets",
+    "href": "conacon_2023.html#bullets",
+    "title": "Conacon 2023",
+    "section": "Bullets",
+    "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code"
+  },
+  {
+    "objectID": "conacon_2023.html#code",
+    "href": "conacon_2023.html#code",
+    "title": "Conacon 2023",
+    "section": "Code",
+    "text": "Code\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n[1] 2"
+  }
+]
