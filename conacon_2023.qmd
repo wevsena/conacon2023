@@ -2,8 +2,13 @@
 title: "Controle Externo Orientado a Dados:"
 subtitle: "Conceitos, etapas e desafios para a sua implementação"
 author: "ACE Weverton Lisboa de Sena"
+bibliography: [slides.bib]
+biblio-title: "Referências"
+cls: civitas-revista-de-ciencias-sociais.csl
 format:
   revealjs:
+    sc-sb-title: true
+    subtitle-as-header: true
     slide-number: true
     lang: "pt"
     language: "pt"
@@ -23,12 +28,14 @@ format:
         flat: true
         barhtml:
             header: "<div class='menubar'><ul class='menu'></ul><div>"
-        scale: 0.80
+        scale: 0.40
     verticator:
       tooltip: true
 revealjs-plugins:
   - simplemenu
 ---
+
+
 
 
 ## {data-name="Índice" background-color="aquamarine}
@@ -53,21 +60,35 @@ revealjs-plugins:
 
 ## Introdução {data-name="Introdução"}
 
-::: callout-note
-Analisando o resultado da função, podemos verificar que nosso *data frame* possui 6 observações e 8 variáveis. As observações e variáveis nada mais são do que nossas linhas e colunas, respectivamente. Uma outra informação importante é saber o tipo de dado que cada variável (coluna) apresenta. Podemos facilmente constatar que cinco das nossas variáveis são numéricas, três são numéricas e uma é lógica.
-:::
+<!-- ::: callout-note -->
+<!-- Analisando o resultado da função, podemos verificar que nosso *data frame* possui 6 observações e 8 variáveis. As observações e variáveis nada mais são do que nossas linhas e colunas, respectivamente. Uma outra informação importante é saber o tipo de dado que cada variável (coluna) apresenta. Podemos facilmente constatar que cinco das nossas variáveis são numéricas, três são numéricas e uma é lógica. -->
+<!-- ::: -->
 
-##
+## Renda _per capita_
 
-![](imagens/imagem01.png){fig-align="center" height=500}
+<!-- ![](imagens/imagem02.svg){fig-align="center" height=600} -->
 
-##
-Simplemenu has a solution for that. Make your presentation in a flat structure (no nested sections) and turn the `flat` option to `true`. Then, if a data-name is set for a slide, any following slides will keep that menu name.
+<iframe src="https://ourworldindata.org/grapher/world-gdp-over-the-last-two-millennia" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 
-<p class="small">Of course, you can set it to stop inheriting the name as well.</p>
+<!-- <p class="small">Of course, you can set it to stop inheriting the name as well.</p> -->
+
+## Custo computacional
+
+<iframe src="https://ourworldindata.org/grapher/historical-cost-of-computer-memory-and-storage" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 
 
-## Set it up {data-name="Parte I"}
+
+## {data-name="Parte I"}
+
+> _Sem dados, você é apenas mais uma pessoa com uma opinião._ - **William Edwards Deming**
+
+## O que são dados 
+> _De forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. [...] 
+Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados._ [@eremenko2018] (Tradução livre)
+
+## Lei de Moore
+
+<iframe src="https://ourworldindata.org/grapher/transistors-per-microprocessor?yScale=linear" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 
 ## Set it up {data-name="Parte II"}
 
@@ -160,7 +181,7 @@ Lorem ipsum sit dolor amet
 
 ## That’s it!
 
-## More demos {data-name="More demos"}
+## More demos {data-name="Considerações finais"}
 
 For more demos go to the [Simplemenu plugin](https://github.com/Martinomagnifico/reveal.js-simplemenu) for Reveal.js. 
 Not all of the options in the regular plugin are available in the Quarto plugin.

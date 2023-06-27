@@ -11,14 +11,42 @@
     "href": "conacon_2023.html#introdução",
     "title": "Controle Externo Orientado a Dados:",
     "section": "Introdução",
-    "text": "Introdução\n\n\n\n\n\n\nNota\n\n\nAnalisando o resultado da função, podemos verificar que nosso data frame possui 6 observações e 8 variáveis. As observações e variáveis nada mais são do que nossas linhas e colunas, respectivamente. Uma outra informação importante é saber o tipo de dado que cada variável (coluna) apresenta. Podemos facilmente constatar que cinco das nossas variáveis são numéricas, três são numéricas e uma é lógica."
+    "text": "Introdução"
   },
   {
-    "objectID": "conacon_2023.html#section-2",
-    "href": "conacon_2023.html#section-2",
+    "objectID": "conacon_2023.html#renda-per-capita",
+    "href": "conacon_2023.html#renda-per-capita",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "Renda per capita",
+    "text": "Renda per capita"
+  },
+  {
+    "objectID": "conacon_2023.html#custo-computacional",
+    "href": "conacon_2023.html#custo-computacional",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "Custo computacional",
+    "text": "Custo computacional"
+  },
+  {
+    "objectID": "conacon_2023.html#section-1",
+    "href": "conacon_2023.html#section-1",
     "title": "Controle Externo Orientado a Dados:",
     "section": "",
-    "text": "Simplemenu has a solution for that. Make your presentation in a flat structure (no nested sections) and turn the flat option to true. Then, if a data-name is set for a slide, any following slides will keep that menu name.\n\nOf course, you can set it to stop inheriting the name as well."
+    "text": "Sem dados, você é apenas mais uma pessoa com uma opinião. - William Edwards Deming"
+  },
+  {
+    "objectID": "conacon_2023.html#o-que-são-dados",
+    "href": "conacon_2023.html#o-que-são-dados",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "O que são dados",
+    "text": "O que são dados\n\nDe forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. […] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados. (Eremenko 2018) (Tradução livre)"
+  },
+  {
+    "objectID": "conacon_2023.html#lei-de-moore",
+    "href": "conacon_2023.html#lei-de-moore",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "Lei de Moore",
+    "text": "Lei de Moore"
   },
   {
     "objectID": "conacon_2023.html#set-it-up",
@@ -28,15 +56,8 @@
     "text": "Set it up"
   },
   {
-    "objectID": "conacon_2023.html#set-it-up-1",
-    "href": "conacon_2023.html#set-it-up-1",
-    "title": "Controle Externo Orientado a Dados:",
-    "section": "Set it up",
-    "text": "Set it up"
-  },
-  {
-    "objectID": "conacon_2023.html#section-5",
-    "href": "conacon_2023.html#section-5",
+    "objectID": "conacon_2023.html#section-4",
+    "href": "conacon_2023.html#section-4",
     "title": "Controle Externo Orientado a Dados:",
     "section": "",
     "text": "To stop inheriting the previous slide menu name, start a new named section, or add data-sm=\"false\" to your slide.\n## Chapter one {data-name=\"Chapter 1\"}\n&lt;!-- The 'Chapter 1' menu-item will be active for this slide --&gt;\nLorem ipsum sit dolor amet\n\n## Another slide \n&lt;!-- The 'Chapter 1' menu-item will be active for this slide --&gt;\nLorem ipsum sit dolor amet\n\n## Last slide {data-sm=\"false\"}\nLorem ipsum sit dolor amet"
@@ -53,6 +74,6 @@
     "href": "conacon_2023.html#more-demos",
     "title": "Controle Externo Orientado a Dados:",
     "section": "More demos",
-    "text": "More demos\nFor more demos go to the Simplemenu plugin for Reveal.js. Not all of the options in the regular plugin are available in the Quarto plugin.\n\n\n6º CONACON - João Pessoa - Paraíba"
+    "text": "More demos\nFor more demos go to the Simplemenu plugin for Reveal.js. Not all of the options in the regular plugin are available in the Quarto plugin.\n\n\n6º CONACON - João Pessoa - Paraíba\n\n\n\nEremenko, Kirill. 2018. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. Kogan Page Publishers."
   }
 ]
