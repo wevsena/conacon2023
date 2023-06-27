@@ -1,23 +1,58 @@
 [
   {
-    "objectID": "conacon_2023.html#quarto",
-    "href": "conacon_2023.html#quarto",
-    "title": "Conacon 2023",
-    "section": "Quarto",
-    "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/."
+    "objectID": "conacon_2023.html#section",
+    "href": "conacon_2023.html#section",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "",
+    "text": "Introdução\nO que são dados\nAtributos de dados de qualidade\nDados públicos e no controle externo\nO que é uma organização orientada a dados?\nAlfabetização em dados\nComunicando com dados\nApresentação de casos do TCE-PB\nControle Externo e Inteligência Artificial\nConsiderações finais"
   },
   {
-    "objectID": "conacon_2023.html#bullets",
-    "href": "conacon_2023.html#bullets",
-    "title": "Conacon 2023",
-    "section": "Bullets",
-    "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code"
+    "objectID": "conacon_2023.html#introdução",
+    "href": "conacon_2023.html#introdução",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "Introdução",
+    "text": "Introdução\n\n\n\n\n\n\nNota\n\n\nAnalisando o resultado da função, podemos verificar que nosso data frame possui 6 observações e 8 variáveis. As observações e variáveis nada mais são do que nossas linhas e colunas, respectivamente. Uma outra informação importante é saber o tipo de dado que cada variável (coluna) apresenta. Podemos facilmente constatar que cinco das nossas variáveis são numéricas, três são numéricas e uma é lógica."
   },
   {
-    "objectID": "conacon_2023.html#code",
-    "href": "conacon_2023.html#code",
-    "title": "Conacon 2023",
-    "section": "Code",
-    "text": "Code\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n[1] 2"
+    "objectID": "conacon_2023.html#section-2",
+    "href": "conacon_2023.html#section-2",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "",
+    "text": "Simplemenu has a solution for that. Make your presentation in a flat structure (no nested sections) and turn the flat option to true. Then, if a data-name is set for a slide, any following slides will keep that menu name.\n\nOf course, you can set it to stop inheriting the name as well."
+  },
+  {
+    "objectID": "conacon_2023.html#set-it-up",
+    "href": "conacon_2023.html#set-it-up",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "Set it up",
+    "text": "Set it up"
+  },
+  {
+    "objectID": "conacon_2023.html#set-it-up-1",
+    "href": "conacon_2023.html#set-it-up-1",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "Set it up",
+    "text": "Set it up"
+  },
+  {
+    "objectID": "conacon_2023.html#section-5",
+    "href": "conacon_2023.html#section-5",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "",
+    "text": "To stop inheriting the previous slide menu name, start a new named section, or add data-sm=\"false\" to your slide.\n## Chapter one {data-name=\"Chapter 1\"}\n&lt;!-- The 'Chapter 1' menu-item will be active for this slide --&gt;\nLorem ipsum sit dolor amet\n\n## Another slide \n&lt;!-- The 'Chapter 1' menu-item will be active for this slide --&gt;\nLorem ipsum sit dolor amet\n\n## Last slide {data-sm=\"false\"}\nLorem ipsum sit dolor amet"
+  },
+  {
+    "objectID": "conacon_2023.html#thats-it",
+    "href": "conacon_2023.html#thats-it",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "That’s it!",
+    "text": "That’s it!"
+  },
+  {
+    "objectID": "conacon_2023.html#more-demos",
+    "href": "conacon_2023.html#more-demos",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "More demos",
+    "text": "More demos\nFor more demos go to the Simplemenu plugin for Reveal.js. Not all of the options in the regular plugin are available in the Quarto plugin.\n\n\n6º CONACON - João Pessoa - Paraíba"
   }
 ]

@@ -1,25 +1,166 @@
 ---
-title: "Conacon 2023"
-author: "Weverton Sena"
-format: revealjs
-editor: visual
+title: "Controle Externo Orientado a Dados:"
+subtitle: "Conceitos, etapas e desafios para a sua implementação"
+author: "ACE Weverton Lisboa de Sena"
+format:
+  revealjs:
+    slide-number: true
+    lang: "pt"
+    language: "pt"
+    section-divs: false
+    footer: "6º CONACON - João Pessoa - Paraíba"
+    title-slide-attributes:
+        data-state: "hide-menubar"
+    center: true
+    transition: slide
+    background-transition: fade
+    controls: true
+    controls-layout: bottom-right
+    chalkboard: false
+    menu: false
+    css: "css/style.css"
+    simplemenu:
+        flat: true
+        barhtml:
+            header: "<div class='menubar'><ul class='menu'></ul><div>"
+        scale: 0.80
+    verticator:
+      tooltip: true
+revealjs-plugins:
+  - simplemenu
 ---
 
-## Quarto
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+## {data-name="Índice" background-color="aquamarine}
 
-## Bullets
+::: {.incremental}
 
-When you click the **Render** button a document will be generated that includes:
+- Introdução
+- O que são dados
+- Atributos de dados de qualidade
+- Dados públicos e no controle externo
+- O que é uma organização orientada a dados?
+- Alfabetização em dados
+- Comunicando com dados
+- Apresentação de casos do TCE-PB
+- Controle Externo e Inteligência Artificial
+- Considerações finais
 
--   Content authored with markdown
--   Output from executable code
 
-## Code
+:::
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
 
-```{r}
-1 + 1
+
+## Introdução {data-name="Introdução"}
+
+::: callout-note
+Analisando o resultado da função, podemos verificar que nosso *data frame* possui 6 observações e 8 variáveis. As observações e variáveis nada mais são do que nossas linhas e colunas, respectivamente. Uma outra informação importante é saber o tipo de dado que cada variável (coluna) apresenta. Podemos facilmente constatar que cinco das nossas variáveis são numéricas, três são numéricas e uma é lógica.
+:::
+
+##
+
+![](imagens/imagem01.png){fig-align="center" height=500}
+
+##
+Simplemenu has a solution for that. Make your presentation in a flat structure (no nested sections) and turn the `flat` option to `true`. Then, if a data-name is set for a slide, any following slides will keep that menu name.
+
+<p class="small">Of course, you can set it to stop inheriting the name as well.</p>
+
+
+## Set it up {data-name="Parte I"}
+
+## Set it up {data-name="Parte II"}
+
+
+
+
+---
+
+### Edit the YAML
+Set the flat option to `true`:
+``` yaml
+format:
+  revealjs:
+    ...
+    simplemenu:
+      flat: true
 ```
+
+---
+
+### HTML Markup
+Build your presentation in a flat way (no nested slides). Then give your sections a `data-name`:
+
+``` markdown
+## Chapter one {data-name="Chapter 1"}
+<!-- The 'Chapter 1' menu-item will be active for this slide -->
+Lorem ipsum sit dolor amet
+
+## Another slide 
+<!-- The 'Chapter 1' menu-item will be active for this slide -->
+Lorem ipsum sit dolor amet
+
+## Chapter two {data-name="Chapter 2"}
+<!-- The 'Chapter 2' menu-item will be active for this slide -->
+Lorem ipsum sit dolor amet
+```
+---
+
+###
+To avoid Quarto creating nested sections, set `section-divs: false` and use dividers to separate your slides.
+
+``` yaml
+format:
+  revealjs:
+    section-divs: false
+```
+
+``` markdown
+## Chapter one {data-name="Chapter 1"}
+<!-- The 'Chapter 1' menu-item will be active for this slide -->
+Lorem ipsum sit dolor amet
+
+---
+
+### Another slide 
+<!-- The 'Chapter 1' menu-item will be active for this slide -->
+Lorem ipsum sit dolor amet
+
+---
+
+## Chapter two {data-name="Chapter 2"}
+<!-- The 'Chapter 2' menu-item will be active for this slide -->
+Lorem ipsum sit dolor amet
+```
+
+---
+
+###
+Any slides following a slide with a data-name will keep that menu name.
+
+---
+
+
+
+## {data-sm="false"}
+To stop inheriting the previous slide menu name, start a new named section, or add `data-sm="false"` to your slide.
+
+``` markdown
+## Chapter one {data-name="Chapter 1"}
+<!-- The 'Chapter 1' menu-item will be active for this slide -->
+Lorem ipsum sit dolor amet
+
+## Another slide 
+<!-- The 'Chapter 1' menu-item will be active for this slide -->
+Lorem ipsum sit dolor amet
+
+## Last slide {data-sm="false"}
+Lorem ipsum sit dolor amet
+```
+
+## That’s it!
+
+## More demos {data-name="More demos"}
+
+For more demos go to the [Simplemenu plugin](https://github.com/Martinomagnifico/reveal.js-simplemenu) for Reveal.js. 
+Not all of the options in the regular plugin are available in the Quarto plugin.
