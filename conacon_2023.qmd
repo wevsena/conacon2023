@@ -5,8 +5,7 @@ author: "ACE Weverton Lisboa de Sena"
 institute: "wsena@tce.pb.gov.br"
 title-block-banner: true
 bibliography: [slides.bib]
-biblio-title: "Referências"
-cls: civitas-revista-de-ciencias-sociais.csl
+cls: associacao-brasileira-de-normas-tecnicas-ipea.csl
 fontsize: "32px"
 format:
   revealjs:
@@ -48,6 +47,7 @@ revealjs-plugins:
 -   Atributos de dados de qualidade
 -   Dados públicos e no controle externo
 -   O que é uma organização orientada a dados?
+-   Controle externo orientado a dados: desafios
 -   Alfabetização em dados
 -   Comunicando com dados
 -   Apresentação de casos do TCE-PB
@@ -60,6 +60,14 @@ revealjs-plugins:
 ---
 nocite: |
   @galor2022jornada
+  @silberzahn2018many
+  @anderson2015
+  @morrow2022data
+  @morrow2021data
+  @espindola2021
+  @glass2014big
+  @wickham2023r
+  @susskind2015future
 ---
 
 ## PIB Mundial
@@ -74,7 +82,7 @@ nocite: |
 
 ##  {data-name="Parte I"}
 
-> *Sem dados, você é apenas mais uma pessoa com uma opinião.* - **William Edwards Deming**
+> _Sem dados, você é apenas mais uma pessoa com uma opinião._ - **William Edwards Deming**
 
 ## O que são dados
 
@@ -110,6 +118,25 @@ Esse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em arti
 [^1]: 221.000 Exabyte (EB) correspondem a 221 bilhões de Terabytes (TB).
 
 </br> 
+
+## Organização orientada a dados {background-color="aquamarine"}
+
+## 
+
+> "Nós confiamos em Deus. Todos os outros tragam dados" - **William Edwards Deming**
+
+
+
+## Controle externo orientado a dados: desafios {background-color="aquamarine"}
+
+##
+
+> _O maior problema enfrentado pelas empresas que estão tentando inovar e se transformar com dados é uma cultura de "sempre fizemos assim"._ - **Gabie Boko**
+
+## Vencer a _HiPPO_
+
+![HiPPO - _Highest Paid Person’s Opinion_](imagens/imagem03.jpg)
+
 
 ## Set it up {data-name="Parte II"}
 
@@ -193,3 +220,4 @@ format:
 ## Considerações finais {data-name="Considerações finais" background-color="aquamarine"}
 
 ## Referências bibliográficas
+

@@ -4,7 +4,7 @@
     "href": "conacon_2023.html#section",
     "title": "Controle Externo Orientado a Dados:",
     "section": "",
-    "text": "Introdução\nO que são dados\nAtributos de dados de qualidade\nDados públicos e no controle externo\nO que é uma organização orientada a dados?\nAlfabetização em dados\nComunicando com dados\nApresentação de casos do TCE-PB\nControle Externo e Inteligência Artificial\nConsiderações finais"
+    "text": "Introdução\nO que são dados\nAtributos de dados de qualidade\nDados públicos e no controle externo\nO que é uma organização orientada a dados?\nControle externo orientado a dados: desafios\nAlfabetização em dados\nComunicando com dados\nApresentação de casos do TCE-PB\nControle Externo e Inteligência Artificial\nConsiderações finais"
   },
   {
     "objectID": "conacon_2023.html#introdução",
@@ -63,6 +63,41 @@
     "text": "O IDC’s Global DataSphere1 projeta que em 2026 os dados alcançarão 221.000 Exabytes2, sendo mais de 90% desse volume composto por dados não estruturados.\n\n\n\n\n\n\n\nNota\n\n\nEsse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em artigo publicado na Forbes, estimou-se que 90% dos dados do mundo foram criados apenas nos últimos dois anos.\n\n\n\n\nO IDC Global DataSphere mundial é uma medida de quantos novos dados são criados, capturados, replicados e consumidos a cada ano. É previsto por vários segmentos, incluindo consumidor/empresa, região, tipo de dados, localização (core, edge, endpoint) e tipo de implantação (nuvem/não nuvem) da tecnologia envolvida na geração de dados.221.000 Exabyte (EB) correspondem a 221 bilhões de Terabytes (TB)."
   },
   {
+    "objectID": "conacon_2023.html#organização-orientada-a-dados",
+    "href": "conacon_2023.html#organização-orientada-a-dados",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "Organização orientada a dados",
+    "text": "Organização orientada a dados"
+  },
+  {
+    "objectID": "conacon_2023.html#section-3",
+    "href": "conacon_2023.html#section-3",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "",
+    "text": "“Nós confiamos em Deus. Todos os outros tragam dados” - William Edwards Deming"
+  },
+  {
+    "objectID": "conacon_2023.html#controle-externo-orientado-a-dados-desafios",
+    "href": "conacon_2023.html#controle-externo-orientado-a-dados-desafios",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "Controle externo orientado a dados: desafios",
+    "text": "Controle externo orientado a dados: desafios"
+  },
+  {
+    "objectID": "conacon_2023.html#section-4",
+    "href": "conacon_2023.html#section-4",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "",
+    "text": "O maior problema enfrentado pelas empresas que estão tentando inovar e se transformar com dados é uma cultura de “sempre fizemos assim”. - Gabie Boko"
+  },
+  {
+    "objectID": "conacon_2023.html#vencer-a-hippo",
+    "href": "conacon_2023.html#vencer-a-hippo",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "Vencer a HiPPO",
+    "text": "Vencer a HiPPO\n\nHiPPO - Highest Paid Person’s Opinion"
+  },
+  {
     "objectID": "conacon_2023.html#set-it-up",
     "href": "conacon_2023.html#set-it-up",
     "title": "Controle Externo Orientado a Dados:",
@@ -81,6 +116,6 @@
     "href": "conacon_2023.html#referências-bibliográficas",
     "title": "Controle Externo Orientado a Dados:",
     "section": "Referências bibliográficas",
-    "text": "Referências bibliográficas\n\n\n6º CONACON - João Pessoa - Paraíba\n\n\n\nEremenko, Kirill. 2018. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. Kogan Page Publishers.\n\n\nGalor, Oded. 2022. A Jornada da Humanidade. Leya."
+    "text": "Referências bibliográficas\n\n\n6º CONACON - João Pessoa - Paraíba\n\n\n\nAnderson, Carl. 2015. Creating a data-driven organization: Practical advice from the trenches. 1. ed. O’Reilly Media, Inc.\n\n\nEremenko, Kirill. 2018. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. Kogan Page Publishers.\n\n\nEspindola, David, e Michael W Wright. 2021. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. John Wiley & Sons, Incorporated.\n\n\nGalor, Oded. 2022. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. Rio de Janeiro: Intrínseca.\n\n\nGlass, Russell, e Sean Callahan. 2014. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. John Wiley & Sons.\n\n\nMorrow, Jordan. 2021. Be data literate: The data literacy skills everyone needs to succeed. Kogan Page Publishers.\n\n\n———. 2022. Be Data Driven: How Organizations Can Harness the Power of Data. Kogan Page Publishers.\n\n\nSilberzahn, Raphael, Eric L Uhlmann, Daniel P Martin, Pasquale Anselmi, Frederik Aust, Eli Awtrey, Štěpán Bahnı́k, et al. 2018. «Many analysts, one data set: Making transparent how variations in analytic choices affect results». Advances in Methods and Practices in Psychological Science 1 (3): 337–56.\n\n\nSusskind, Richard E, e Daniel Susskind. 2015. The future of the professions: How technology will transform the work of human experts. Oxford University Press, USA.\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, e Garrett Grolemund. 2023. R for data science. O’Reilly Media, Inc."
   }
 ]
