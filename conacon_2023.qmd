@@ -2,11 +2,17 @@
 title: "Controle Externo Orientado a Dados:"
 subtitle: "Conceitos, etapas e desafios para a sua implementação"
 author: "ACE Weverton Lisboa de Sena"
+institute: "wsena@tce.pb.gov.br"
+title-block-banner: true
 bibliography: [slides.bib]
 biblio-title: "Referências"
 cls: civitas-revista-de-ciencias-sociais.csl
+fontsize: "32px"
 format:
   revealjs:
+    menu:
+      side: right
+      width: wide
     sc-sb-title: true
     subtitle-as-header: true
     slide-number: true
@@ -21,8 +27,6 @@ format:
     background-transition: fade
     controls: true
     controls-layout: bottom-right
-    chalkboard: false
-    menu: false
     css: "css/style.css"
     simplemenu:
         flat: true
@@ -36,69 +40,85 @@ revealjs-plugins:
 ---
 
 
+##  {data-name="Índice" background-color="\"aquamarine"}
 
-
-## {data-name="Índice" background-color="aquamarine}
-
-::: {.incremental}
-
-- Introdução
-- O que são dados
-- Atributos de dados de qualidade
-- Dados públicos e no controle externo
-- O que é uma organização orientada a dados?
-- Alfabetização em dados
-- Comunicando com dados
-- Apresentação de casos do TCE-PB
-- Controle Externo e Inteligência Artificial
-- Considerações finais
-
-
+::: incremental
+-   Introdução
+-   O que são dados
+-   Atributos de dados de qualidade
+-   Dados públicos e no controle externo
+-   O que é uma organização orientada a dados?
+-   Alfabetização em dados
+-   Comunicando com dados
+-   Apresentação de casos do TCE-PB
+-   Controle Externo e Inteligência Artificial
+-   Considerações finais
 :::
 
+## Introdução {data-name="Introdução" background-color="aquamarine"}
 
+---
+nocite: |
+  @galor2022jornada
+---
 
-## Introdução {data-name="Introdução"}
-
-<!-- ::: callout-note -->
-<!-- Analisando o resultado da função, podemos verificar que nosso *data frame* possui 6 observações e 8 variáveis. As observações e variáveis nada mais são do que nossas linhas e colunas, respectivamente. Uma outra informação importante é saber o tipo de dado que cada variável (coluna) apresenta. Podemos facilmente constatar que cinco das nossas variáveis são numéricas, três são numéricas e uma é lógica. -->
-<!-- ::: -->
-
-## Renda _per capita_
+## PIB Mundial
 
 <!-- ![](imagens/imagem02.svg){fig-align="center" height=600} -->
 
-<iframe src="https://ourworldindata.org/grapher/world-gdp-over-the-last-two-millennia" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+<iframe src="https://ourworldindata.org/grapher/world-gdp-over-the-last-two-millennia" loading="lazy" style="width: 100%; height: 600px; border: 0px none;">
+
+</iframe>
 
 <!-- <p class="small">Of course, you can set it to stop inheriting the name as well.</p> -->
 
-## Custo computacional
+##  {data-name="Parte I"}
 
-<iframe src="https://ourworldindata.org/grapher/historical-cost-of-computer-memory-and-storage" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+> *Sem dados, você é apenas mais uma pessoa com uma opinião.* - **William Edwards Deming**
 
+## O que são dados
 
+> *De forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. \[...\] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados.* [@eremenko2018] (Tradução livre)
 
-## {data-name="Parte I"}
+## Por que só agora? {background-iframe="https://data.gov"}
 
-> _Sem dados, você é apenas mais uma pessoa com uma opinião._ - **William Edwards Deming**
-
-## O que são dados 
-> _De forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. [...] 
-Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados._ [@eremenko2018] (Tradução livre)
 
 ## Lei de Moore
 
-<iframe src="https://ourworldindata.org/grapher/transistors-per-microprocessor?yScale=linear" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+<iframe src="https://ourworldindata.org/grapher/transistors-per-microprocessor?yScale=linear" loading="lazy" style="width: 100%; height: 600px; border: 0px none;">
+
+</iframe>
+
+## Custo computacional
+
+<iframe src="https://ourworldindata.org/grapher/historical-cost-of-computer-memory-and-storage" loading="lazy" style="width: 100%; height: 600px; border: 0px none;">
+
+</iframe>
+
+## 
+
+
+O _IDC's Global DataSphere_ projeta que em 2026 os dados alcançarão **221.000 Exabytes**[^1], sendo mais de 90% desse volume composto por dados não estruturados.
+
+</br>
+
+::: callout-note
+Esse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em artigo publicado na Forbes, estimou-se que 90% dos dados do mundo foram criados apenas nos últimos dois anos.
+:::
+
+
+[^1]: 221.000 Exabyte (EB) correspondem a 221 bilhões de Terabytes (TB).
+
+</br> 
 
 ## Set it up {data-name="Parte II"}
 
-
-
-
----
+------------------------------------------------------------------------
 
 ### Edit the YAML
+
 Set the flat option to `true`:
+
 ``` yaml
 format:
   revealjs:
@@ -107,9 +127,10 @@ format:
       flat: true
 ```
 
----
+------------------------------------------------------------------------
 
 ### HTML Markup
+
 Build your presentation in a flat way (no nested slides). Then give your sections a `data-name`:
 
 ``` markdown
@@ -125,9 +146,11 @@ Lorem ipsum sit dolor amet
 <!-- The 'Chapter 2' menu-item will be active for this slide -->
 Lorem ipsum sit dolor amet
 ```
----
 
-###
+------------------------------------------------------------------------
+
+### 
+
 To avoid Quarto creating nested sections, set `section-divs: false` and use dividers to separate your slides.
 
 ``` yaml
@@ -154,16 +177,16 @@ Lorem ipsum sit dolor amet
 Lorem ipsum sit dolor amet
 ```
 
----
+------------------------------------------------------------------------
 
-###
+### 
+
 Any slides following a slide with a data-name will keep that menu name.
 
----
+------------------------------------------------------------------------
 
+##  {data-sm="false"}
 
-
-## {data-sm="false"}
 To stop inheriting the previous slide menu name, start a new named section, or add `data-sm="false"` to your slide.
 
 ``` markdown
@@ -179,9 +202,8 @@ Lorem ipsum sit dolor amet
 Lorem ipsum sit dolor amet
 ```
 
-## That’s it!
+## That's it!
 
 ## More demos {data-name="Considerações finais"}
 
-For more demos go to the [Simplemenu plugin](https://github.com/Martinomagnifico/reveal.js-simplemenu) for Reveal.js. 
-Not all of the options in the regular plugin are available in the Quarto plugin.
+## Referências bibliográficas

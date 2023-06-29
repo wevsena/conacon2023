@@ -14,18 +14,11 @@
     "text": "Introdução"
   },
   {
-    "objectID": "conacon_2023.html#renda-per-capita",
-    "href": "conacon_2023.html#renda-per-capita",
+    "objectID": "conacon_2023.html#pib-mundial",
+    "href": "conacon_2023.html#pib-mundial",
     "title": "Controle Externo Orientado a Dados:",
-    "section": "Renda per capita",
-    "text": "Renda per capita"
-  },
-  {
-    "objectID": "conacon_2023.html#custo-computacional",
-    "href": "conacon_2023.html#custo-computacional",
-    "title": "Controle Externo Orientado a Dados:",
-    "section": "Custo computacional",
-    "text": "Custo computacional"
+    "section": "PIB Mundial",
+    "text": "PIB Mundial"
   },
   {
     "objectID": "conacon_2023.html#section-1",
@@ -42,11 +35,32 @@
     "text": "O que são dados\n\nDe forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. […] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados. (Eremenko 2018) (Tradução livre)"
   },
   {
+    "objectID": "conacon_2023.html#por-que-só-agora",
+    "href": "conacon_2023.html#por-que-só-agora",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "Por que só agora?",
+    "text": "Por que só agora?"
+  },
+  {
     "objectID": "conacon_2023.html#lei-de-moore",
     "href": "conacon_2023.html#lei-de-moore",
     "title": "Controle Externo Orientado a Dados:",
     "section": "Lei de Moore",
     "text": "Lei de Moore"
+  },
+  {
+    "objectID": "conacon_2023.html#custo-computacional",
+    "href": "conacon_2023.html#custo-computacional",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "Custo computacional",
+    "text": "Custo computacional"
+  },
+  {
+    "objectID": "conacon_2023.html#section-2",
+    "href": "conacon_2023.html#section-2",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "",
+    "text": "O IDC’s Global DataSphere1 projeta que em 2026 os dados alcançarão 221.000 Exabytes2, sendo mais de 90% desse volume composto por dados não estruturados.\n\n\n\n\n\n\n\nNota\n\n\nEsse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em artigo publicado na Forbes, estimou-se que 90% dos dados do mundo foram criados apenas nos últimos dois anos.\n\n\n\n\nO IDC Global DataSphere mundial é uma medida de quantos novos dados são criados, capturados, replicados e consumidos a cada ano. É previsto por vários segmentos, incluindo consumidor/empresa, região, tipo de dados, localização (core, edge, endpoint) e tipo de implantação (nuvem/não nuvem) da tecnologia envolvida na geração de dados.221.000 Exabyte (EB) correspondem a 221 bilhões de Terabytes (TB)."
   },
   {
     "objectID": "conacon_2023.html#set-it-up",
@@ -56,24 +70,17 @@
     "text": "Set it up"
   },
   {
-    "objectID": "conacon_2023.html#section-4",
-    "href": "conacon_2023.html#section-4",
+    "objectID": "conacon_2023.html#considerações-finais",
+    "href": "conacon_2023.html#considerações-finais",
     "title": "Controle Externo Orientado a Dados:",
-    "section": "",
-    "text": "To stop inheriting the previous slide menu name, start a new named section, or add data-sm=\"false\" to your slide.\n## Chapter one {data-name=\"Chapter 1\"}\n&lt;!-- The 'Chapter 1' menu-item will be active for this slide --&gt;\nLorem ipsum sit dolor amet\n\n## Another slide \n&lt;!-- The 'Chapter 1' menu-item will be active for this slide --&gt;\nLorem ipsum sit dolor amet\n\n## Last slide {data-sm=\"false\"}\nLorem ipsum sit dolor amet"
+    "section": "Considerações finais",
+    "text": "Considerações finais"
   },
   {
-    "objectID": "conacon_2023.html#thats-it",
-    "href": "conacon_2023.html#thats-it",
+    "objectID": "conacon_2023.html#referências-bibliográficas",
+    "href": "conacon_2023.html#referências-bibliográficas",
     "title": "Controle Externo Orientado a Dados:",
-    "section": "That’s it!",
-    "text": "That’s it!"
-  },
-  {
-    "objectID": "conacon_2023.html#more-demos",
-    "href": "conacon_2023.html#more-demos",
-    "title": "Controle Externo Orientado a Dados:",
-    "section": "More demos",
-    "text": "More demos\nFor more demos go to the Simplemenu plugin for Reveal.js. Not all of the options in the regular plugin are available in the Quarto plugin.\n\n\n6º CONACON - João Pessoa - Paraíba\n\n\n\nEremenko, Kirill. 2018. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. Kogan Page Publishers."
+    "section": "Referências bibliográficas",
+    "text": "Referências bibliográficas\n\n\n6º CONACON - João Pessoa - Paraíba\n\n\n\nEremenko, Kirill. 2018. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. Kogan Page Publishers.\n\n\nGalor, Oded. 2022. A Jornada da Humanidade. Leya."
   }
 ]

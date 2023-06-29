@@ -419,7 +419,10 @@
 <div class="quarto-title-author-name">
 ACE Weverton Lisboa de Sena 
 </div>
-</div>
+        <p class="quarto-title-affiliation">
+            wsena@tce.pb.gov.br
+          </p>
+    </div>
 </div>
 
 </section>
@@ -440,23 +443,15 @@ ACE Weverton Lisboa de Sena
 </ul>
 </div>
 </section>
-<section id="introdução" class="slide level2 center" data-name="Introdução">
+<section id="introdução" class="slide level2 center" data-name="Introdução" data-background-color="aquamarine">
 <h2>Introdução</h2>
-<!-- ::: callout-note -->
-<!-- Analisando o resultado da função, podemos verificar que nosso *data frame* possui 6 observações e 8 variáveis. As observações e variáveis nada mais são do que nossas linhas e colunas, respectivamente. Uma outra informação importante é saber o tipo de dado que cada variável (coluna) apresenta. Podemos facilmente constatar que cinco das nossas variáveis são numéricas, três são numéricas e uma é lógica. -->
-<!-- ::: -->
 </section>
-<section id="renda-per-capita" class="slide level2 center">
-<h2>Renda <em>per capita</em></h2>
+<section id="pib-mundial" class="slide level2 center">
+<h2>PIB Mundial</h2>
 <!-- ![](imagens/imagem02.svg){fig-align="center" height=600} -->
 <iframe src="https://ourworldindata.org/grapher/world-gdp-over-the-last-two-millennia" loading="lazy" style="width: 100%; height: 600px; border: 0px none;">
 </iframe>
 <!-- <p class="small">Of course, you can set it to stop inheriting the name as well.</p> -->
-</section>
-<section id="custo-computacional" class="slide level2 center">
-<h2>Custo computacional</h2>
-<iframe src="https://ourworldindata.org/grapher/historical-cost-of-computer-memory-and-storage" loading="lazy" style="width: 100%; height: 600px; border: 0px none;">
-</iframe>
 </section>
 <section id="section-1" class="slide level2 center" data-name="Parte I">
 <h2></h2>
@@ -467,14 +462,41 @@ ACE Weverton Lisboa de Sena
 <section id="o-que-são-dados" class="slide level2 center">
 <h2>O que são dados</h2>
 <blockquote>
-<p><em>De forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. […] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados.</em> <span class="citation" data-cites="eremenko2018">(<a href="#/more-demos" role="doc-biblioref" onclick="">Eremenko 2018</a>)</span> (Tradução livre)</p>
+<p><em>De forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. […] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados.</em> <span class="citation" data-cites="eremenko2018">(<a href="#/referências-bibliográficas" role="doc-biblioref" onclick="">Eremenko 2018</a>)</span> (Tradução livre)</p>
 </blockquote>
+</section>
+<section id="por-que-só-agora" class="slide level2 center" data-background-iframe="https://data.gov">
+<h2>Por que só agora?</h2>
 </section>
 <section id="lei-de-moore" class="slide level2 center">
 <h2>Lei de Moore</h2>
 <iframe src="https://ourworldindata.org/grapher/transistors-per-microprocessor?yScale=linear" loading="lazy" style="width: 100%; height: 600px; border: 0px none;">
 </iframe>
 </section>
+<section id="custo-computacional" class="slide level2 center">
+<h2>Custo computacional</h2>
+<iframe src="https://ourworldindata.org/grapher/historical-cost-of-computer-memory-and-storage" loading="lazy" style="width: 100%; height: 600px; border: 0px none;">
+</iframe>
+</section>
+<section id="section-2" class="slide level2 center">
+<h2></h2>
+<p>O <em>IDC’s Global DataSphere</em> projeta que em 2026 os dados alcançarão <strong>221.000 Exabytes</strong><sup>1</sup>, sendo mais de 90% desse volume de dados não estruturados.</p>
+<p><br></p>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Nota</strong></p>
+</div>
+<div class="callout-content">
+<p>Esse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em artigo publicado na Forbes, estimou-se que 90% dos dados do mundo foram criados apenas nos últimos dois anos.</p>
+</div>
+</div>
+</div>
+<p><br></p>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>221.000 Exabyte (EB) correspondem a 221 bilhões de Terabytes (TB).</p></li></ol></aside></section>
 <section id="set-it-up" class="slide level2 center" data-name="Parte II">
 <h2>Set it up</h2>
 </section>
@@ -506,7 +528,7 @@ ACE Weverton Lisboa de Sena
 </section>
 <section class="slide level2 center">
 
-<h3 id="section-2"></h3>
+<h3 id="section-3"></h3>
 <p>To avoid Quarto creating nested sections, set <code>section-divs: false</code> and use dividers to separate your slides.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">format</span><span class="kw">:</span></span>
 <span id="cb3-2"><a href="#cb3-2"></a><span class="at">  </span><span class="fu">revealjs</span><span class="kw">:</span></span>
@@ -529,10 +551,10 @@ ACE Weverton Lisboa de Sena
 </section>
 <section class="slide level2 center">
 
-<h3 id="section-3"></h3>
+<h3 id="section-4"></h3>
 <p>Any slides following a slide with a data-name will keep that menu name.</p>
 </section>
-<section id="section-4" class="slide level2 center" data-sm="false">
+<section id="section-5" class="slide level2 center" data-sm="false">
 <h2></h2>
 <p>To stop inheriting the previous slide menu name, start a new named section, or add <code>data-sm="false"</code> to your slide.</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1"></a><span class="fu">## Chapter one {data-name="Chapter 1"}</span></span>
@@ -549,9 +571,11 @@ ACE Weverton Lisboa de Sena
 <section id="thats-it" class="slide level2 center">
 <h2>That’s it!</h2>
 </section>
-<section id="more-demos" class="slide level2 smaller scrollable" data-name="Considerações finais">
+<section id="more-demos" class="slide level2 center" data-name="Considerações finais">
 <h2>More demos</h2>
-<p>For more demos go to the <a href="https://github.com/Martinomagnifico/reveal.js-simplemenu">Simplemenu plugin</a> for Reveal.js. Not all of the options in the regular plugin are available in the Quarto plugin.</p>
+</section>
+<section id="referências-bibliográficas" class="slide level2 smaller scrollable">
+<h2>Referências bibliográficas</h2>
 
 <div class="footer footer-default">
 <p>6º CONACON - João Pessoa - Paraíba</p>
@@ -560,8 +584,12 @@ ACE Weverton Lisboa de Sena
 <div id="ref-eremenko2018" class="csl-entry" role="listitem">
 Eremenko, Kirill. 2018. <em>Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career</em>. Kogan Page Publishers.
 </div>
+<div id="ref-galor2022jornada" class="csl-entry" role="listitem">
+Galor, Oded. 2022. <em>A Jornada da Humanidade</em>. Leya.
+</div>
 </div>
 </section>
+
     </div>
   </div>
 
@@ -594,7 +622,7 @@ Eremenko, Kirill. 2018. <em>Confident Data Skills: Master the Fundamentals of Wo
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":false},
+'menu': {"side":"right","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true,"width":"wide"},
 'simplemenu': {"menubarclass":"menubar","menuclass":"menu","activeclass":"active","activeelement":"li","flat":true,"barhtml":{"header":"<div class='menubar'><ul class='menu'></ul><div>","footer":""},"scale":0.4},
 'smaller': false,
  
