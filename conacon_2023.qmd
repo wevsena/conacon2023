@@ -98,7 +98,7 @@ nocite: |
 ## 
 
 
-O _IDC's Global DataSphere_ projeta que em 2026 os dados alcançarão **221.000 Exabytes**[^1], sendo mais de 90% desse volume composto por dados não estruturados.
+O _IDC's Global DataSphere_^[O IDC Global DataSphere mundial é uma medida de quantos novos dados são criados, capturados, replicados e consumidos a cada ano. É previsto por vários segmentos, incluindo consumidor/empresa, região, tipo de dados, localização (core, edge, endpoint) e tipo de implantação (nuvem/não nuvem) da tecnologia envolvida na geração de dados.] projeta que em 2026 os dados alcançarão **221.000 Exabytes**[^1], sendo mais de 90% desse volume composto por dados não estruturados.
 
 </br>
 
@@ -159,51 +159,37 @@ format:
     section-divs: false
 ```
 
-``` markdown
-## Chapter one {data-name="Chapter 1"}
-<!-- The 'Chapter 1' menu-item will be active for this slide -->
-Lorem ipsum sit dolor amet
+<!-- ``` markdown -->
+<!-- ## Chapter one {data-name="Chapter 1"} -->
+<!-- <!-- The 'Chapter 1' menu-item will be active for this slide --> -->
+<!-- Lorem ipsum sit dolor amet -->
 
----
+<!-- --- -->
 
-### Another slide 
-<!-- The 'Chapter 1' menu-item will be active for this slide -->
-Lorem ipsum sit dolor amet
+<!-- ### Another slide  -->
+<!-- <!-- The 'Chapter 1' menu-item will be active for this slide --> -->
+<!-- Lorem ipsum sit dolor amet -->
 
----
+<!-- --- -->
 
-## Chapter two {data-name="Chapter 2"}
-<!-- The 'Chapter 2' menu-item will be active for this slide -->
-Lorem ipsum sit dolor amet
-```
+<!-- ## Chapter two {data-name="Chapter 2"} -->
+<!-- <!-- The 'Chapter 2' menu-item will be active for this slide --> -->
+<!-- Lorem ipsum sit dolor amet -->
+<!-- ``` -->
 
-------------------------------------------------------------------------
+<!-- ------------------------------------------------------------------------ -->
 
-### 
+<!-- ###  -->
 
-Any slides following a slide with a data-name will keep that menu name.
+<!-- Any slides following a slide with a data-name will keep that menu name. -->
 
-------------------------------------------------------------------------
+<!-- ------------------------------------------------------------------------ -->
 
 ##  {data-sm="false"}
 
-To stop inheriting the previous slide menu name, start a new named section, or add `data-sm="false"` to your slide.
 
-``` markdown
-## Chapter one {data-name="Chapter 1"}
-<!-- The 'Chapter 1' menu-item will be active for this slide -->
-Lorem ipsum sit dolor amet
 
-## Another slide 
-<!-- The 'Chapter 1' menu-item will be active for this slide -->
-Lorem ipsum sit dolor amet
 
-## Last slide {data-sm="false"}
-Lorem ipsum sit dolor amet
-```
-
-## That's it!
-
-## More demos {data-name="Considerações finais"}
+## Considerações finais {data-name="Considerações finais" background-color="aquamarine"}
 
 ## Referências bibliográficas

@@ -480,7 +480,7 @@ ACE Weverton Lisboa de Sena
 </section>
 <section id="section-2" class="slide level2 center">
 <h2></h2>
-<p>O <em>IDC’s Global DataSphere</em> projeta que em 2026 os dados alcançarão <strong>221.000 Exabytes</strong><sup>1</sup>, sendo mais de 90% desse volume de dados não estruturados.</p>
+<p>O <em>IDC’s Global DataSphere</em><sup>1</sup> projeta que em 2026 os dados alcançarão <strong>221.000 Exabytes</strong><sup>2</sup>, sendo mais de 90% desse volume composto por dados não estruturados.</p>
 <p><br></p>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
@@ -496,7 +496,7 @@ ACE Weverton Lisboa de Sena
 </div>
 </div>
 <p><br></p>
-<aside><ol class="aside-footnotes"><li id="fn1"><p>221.000 Exabyte (EB) correspondem a 221 bilhões de Terabytes (TB).</p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>O IDC Global DataSphere mundial é uma medida de quantos novos dados são criados, capturados, replicados e consumidos a cada ano. É previsto por vários segmentos, incluindo consumidor/empresa, região, tipo de dados, localização (core, edge, endpoint) e tipo de implantação (nuvem/não nuvem) da tecnologia envolvida na geração de dados.</p></li><li id="fn2"><p>221.000 Exabyte (EB) correspondem a 221 bilhões de Terabytes (TB).</p></li></ol></aside></section>
 <section id="set-it-up" class="slide level2 center" data-name="Parte II">
 <h2>Set it up</h2>
 </section>
@@ -533,46 +533,28 @@ ACE Weverton Lisboa de Sena
 <div class="sourceCode" id="cb3"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">format</span><span class="kw">:</span></span>
 <span id="cb3-2"><a href="#cb3-2"></a><span class="at">  </span><span class="fu">revealjs</span><span class="kw">:</span></span>
 <span id="cb3-3"><a href="#cb3-3"></a><span class="at">    </span><span class="fu">section-divs</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">## Chapter one {data-name="Chapter 1"}</span></span>
-<span id="cb4-2"><a href="#cb4-2"></a><span class="co">&lt;!-- The 'Chapter 1' menu-item will be active for this slide --&gt;</span></span>
-<span id="cb4-3"><a href="#cb4-3"></a>Lorem ipsum sit dolor amet</span>
-<span id="cb4-4"><a href="#cb4-4"></a></span>
-<span id="cb4-5"><a href="#cb4-5"></a>---</span>
-<span id="cb4-6"><a href="#cb4-6"></a></span>
-<span id="cb4-7"><a href="#cb4-7"></a><span class="fu">### Another slide </span></span>
-<span id="cb4-8"><a href="#cb4-8"></a><span class="co">&lt;!-- The 'Chapter 1' menu-item will be active for this slide --&gt;</span></span>
-<span id="cb4-9"><a href="#cb4-9"></a>Lorem ipsum sit dolor amet</span>
-<span id="cb4-10"><a href="#cb4-10"></a></span>
-<span id="cb4-11"><a href="#cb4-11"></a>---</span>
-<span id="cb4-12"><a href="#cb4-12"></a></span>
-<span id="cb4-13"><a href="#cb4-13"></a><span class="fu">## Chapter two {data-name="Chapter 2"}</span></span>
-<span id="cb4-14"><a href="#cb4-14"></a><span class="co">&lt;!-- The 'Chapter 2' menu-item will be active for this slide --&gt;</span></span>
-<span id="cb4-15"><a href="#cb4-15"></a>Lorem ipsum sit dolor amet</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<!-- ``` markdown -->
+<!-- ## Chapter one {data-name="Chapter 1"} -->
+<!-- <!-- The 'Chapter 1' menu-item will be active for this slide -->
+<p>–&gt; <!-- Lorem ipsum sit dolor amet --></p>
+<!-- --- -->
+<!-- ### Another slide  -->
+<!-- <!-- The 'Chapter 1' menu-item will be active for this slide -->
+<p>–&gt; <!-- Lorem ipsum sit dolor amet --></p>
+<!-- --- -->
+<!-- ## Chapter two {data-name="Chapter 2"} -->
+<!-- <!-- The 'Chapter 2' menu-item will be active for this slide -->
+<p>–&gt; <!-- Lorem ipsum sit dolor amet --> <!-- ``` --></p>
+<!-- ------------------------------------------------------------------------ -->
+<!-- ###  -->
+<!-- Any slides following a slide with a data-name will keep that menu name. -->
+<!-- ------------------------------------------------------------------------ -->
 </section>
-<section class="slide level2 center">
-
-<h3 id="section-4"></h3>
-<p>Any slides following a slide with a data-name will keep that menu name.</p>
-</section>
-<section id="section-5" class="slide level2 center" data-sm="false">
+<section id="section-4" class="slide level2 center" data-sm="false">
 <h2></h2>
-<p>To stop inheriting the previous slide menu name, start a new named section, or add <code>data-sm="false"</code> to your slide.</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1"></a><span class="fu">## Chapter one {data-name="Chapter 1"}</span></span>
-<span id="cb5-2"><a href="#cb5-2"></a><span class="co">&lt;!-- The 'Chapter 1' menu-item will be active for this slide --&gt;</span></span>
-<span id="cb5-3"><a href="#cb5-3"></a>Lorem ipsum sit dolor amet</span>
-<span id="cb5-4"><a href="#cb5-4"></a></span>
-<span id="cb5-5"><a href="#cb5-5"></a><span class="fu">## Another slide </span></span>
-<span id="cb5-6"><a href="#cb5-6"></a><span class="co">&lt;!-- The 'Chapter 1' menu-item will be active for this slide --&gt;</span></span>
-<span id="cb5-7"><a href="#cb5-7"></a>Lorem ipsum sit dolor amet</span>
-<span id="cb5-8"><a href="#cb5-8"></a></span>
-<span id="cb5-9"><a href="#cb5-9"></a><span class="fu">## Last slide {data-sm="false"}</span></span>
-<span id="cb5-10"><a href="#cb5-10"></a>Lorem ipsum sit dolor amet</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="thats-it" class="slide level2 center">
-<h2>That’s it!</h2>
-</section>
-<section id="more-demos" class="slide level2 center" data-name="Considerações finais">
-<h2>More demos</h2>
+<section id="considerações-finais" class="slide level2 center" data-name="Considerações finais" data-background-color="aquamarine">
+<h2>Considerações finais</h2>
 </section>
 <section id="referências-bibliográficas" class="slide level2 smaller scrollable">
 <h2>Referências bibliográficas</h2>
