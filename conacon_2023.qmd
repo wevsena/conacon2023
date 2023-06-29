@@ -68,6 +68,7 @@ nocite: |
   @glass2014big
   @wickham2023r
   @susskind2015future
+  @datasaurus
 ---
 
 ## PIB Mundial
@@ -88,7 +89,7 @@ nocite: |
 
 > *De forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. \[...\] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados.* [@eremenko2018] (Tradução livre)
 
-## Por que só agora? {background-iframe="https://data.gov"}
+## Por que só agora?
 
 
 ## Lei de Moore
@@ -136,6 +137,56 @@ Esse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em arti
 ## Vencer a _HiPPO_
 
 ![HiPPO - _Highest Paid Person’s Opinion_](imagens/imagem03.jpg)
+
+## Qualidade dos dados e ausência de confiança
+
+## Fatores culturais
+
+## Ausência de alfabetização em dados
+
+## Barreiras cognitivas
+
+## datasauRus
+
+```{r datasaurus, echo=FALSE}
+library(datasauRus)
+library(tidyverse)
+ggplot(datasaurus_dozen, aes(x = x, y = y)) +
+  geom_point() + 
+  #geom_smooth(method = "lm", formula = "y ~ x") +
+  theme_bw() +
+  facet_wrap(~dataset)
+```
+
+## Vejamos as medidas...
+
+```{r, echo=FALSE}
+
+datasaurus_dozen |>
+  rename(dados = dataset) |>
+  group_by(dados) |>
+  summarise(media_x = mean(x),
+            variancia_x = var(x),
+            media_y = mean(y),
+            variancia_y = var(y),
+            correlacao = cor(x, y)) |>
+  #knitr::kable(digits = 2) %>% 
+  kableExtra::kable(digits = 2) %>%
+  kableExtra::kable_styling(font_size = 22)
+
+```
+
+
+
+
+## DECIDA!
+
+- **D**efina o problema;
+- **E**stabeleça um critério;
+- **C**onsidere todas as alternativas;
+- **I**dentifique a melhor alternativa;
+- **D**esenvolva e implemente um plano de ação;
+- **A**valie e monitore a solução e feedback quando necessário.
 
 
 ## Set it up {data-name="Parte II"}

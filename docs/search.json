@@ -98,6 +98,55 @@
     "text": "Vencer a HiPPO\n\nHiPPO - Highest Paid Person’s Opinion"
   },
   {
+    "objectID": "conacon_2023.html#qualidade-dos-dados-e-ausência-de-confiança",
+    "href": "conacon_2023.html#qualidade-dos-dados-e-ausência-de-confiança",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "Qualidade dos dados e ausência de confiança",
+    "text": "Qualidade dos dados e ausência de confiança"
+  },
+  {
+    "objectID": "conacon_2023.html#fatores-culturais",
+    "href": "conacon_2023.html#fatores-culturais",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "Fatores culturais",
+    "text": "Fatores culturais"
+  },
+  {
+    "objectID": "conacon_2023.html#ausência-de-alfabetização-em-dados",
+    "href": "conacon_2023.html#ausência-de-alfabetização-em-dados",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "Ausência de alfabetização em dados",
+    "text": "Ausência de alfabetização em dados"
+  },
+  {
+    "objectID": "conacon_2023.html#barreiras-cognitivas",
+    "href": "conacon_2023.html#barreiras-cognitivas",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "Barreiras cognitivas",
+    "text": "Barreiras cognitivas"
+  },
+  {
+    "objectID": "conacon_2023.html#datasaurus",
+    "href": "conacon_2023.html#datasaurus",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "datasauRus",
+    "text": "datasauRus"
+  },
+  {
+    "objectID": "conacon_2023.html#vejamos-as-medidas",
+    "href": "conacon_2023.html#vejamos-as-medidas",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "Vejamos as medidas…",
+    "text": "Vejamos as medidas…\n\n\n\n\n\ndados\nmedia_x\nvariancia_x\nmedia_y\nvariancia_y\ncorrelacao\n\n\n\n\naway\n54.27\n281.23\n47.83\n725.75\n-0.06\n\n\nbullseye\n54.27\n281.21\n47.83\n725.53\n-0.07\n\n\ncircle\n54.27\n280.90\n47.84\n725.23\n-0.07\n\n\ndino\n54.26\n281.07\n47.83\n725.52\n-0.06\n\n\ndots\n54.26\n281.16\n47.84\n725.24\n-0.06\n\n\nh_lines\n54.26\n281.10\n47.83\n725.76\n-0.06\n\n\nhigh_lines\n54.27\n281.12\n47.84\n725.76\n-0.07\n\n\nslant_down\n54.27\n281.12\n47.84\n725.55\n-0.07\n\n\nslant_up\n54.27\n281.19\n47.83\n725.69\n-0.07\n\n\nstar\n54.27\n281.20\n47.84\n725.24\n-0.06\n\n\nv_lines\n54.27\n281.23\n47.84\n725.64\n-0.07\n\n\nwide_lines\n54.27\n281.23\n47.83\n725.65\n-0.07\n\n\nx_shape\n54.26\n281.23\n47.84\n725.22\n-0.07"
+  },
+  {
+    "objectID": "conacon_2023.html#decida",
+    "href": "conacon_2023.html#decida",
+    "title": "Controle Externo Orientado a Dados:",
+    "section": "DECIDA!",
+    "text": "DECIDA!\n\nDefina o problema;\nEstabeleça um critério;\nConsidere todas as alternativas;\nIdentifique a melhor alternativa;\nDesenvolva e implemente um plano de ação;\nAvalie e monitore a solução e feedback quando necessário."
+  },
+  {
     "objectID": "conacon_2023.html#set-it-up",
     "href": "conacon_2023.html#set-it-up",
     "title": "Controle Externo Orientado a Dados:",
@@ -116,6 +165,6 @@
     "href": "conacon_2023.html#referências-bibliográficas",
     "title": "Controle Externo Orientado a Dados:",
     "section": "Referências bibliográficas",
-    "text": "Referências bibliográficas\n\n\n6º CONACON - João Pessoa - Paraíba\n\n\n\nAnderson, Carl. 2015. Creating a data-driven organization: Practical advice from the trenches. 1. ed. O’Reilly Media, Inc.\n\n\nEremenko, Kirill. 2018. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. Kogan Page Publishers.\n\n\nEspindola, David, e Michael W Wright. 2021. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. John Wiley & Sons, Incorporated.\n\n\nGalor, Oded. 2022. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. Rio de Janeiro: Intrínseca.\n\n\nGlass, Russell, e Sean Callahan. 2014. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. John Wiley & Sons.\n\n\nMorrow, Jordan. 2021. Be data literate: The data literacy skills everyone needs to succeed. Kogan Page Publishers.\n\n\n———. 2022. Be Data Driven: How Organizations Can Harness the Power of Data. Kogan Page Publishers.\n\n\nSilberzahn, Raphael, Eric L Uhlmann, Daniel P Martin, Pasquale Anselmi, Frederik Aust, Eli Awtrey, Štěpán Bahnı́k, et al. 2018. «Many analysts, one data set: Making transparent how variations in analytic choices affect results». Advances in Methods and Practices in Psychological Science 1 (3): 337–56.\n\n\nSusskind, Richard E, e Daniel Susskind. 2015. The future of the professions: How technology will transform the work of human experts. Oxford University Press, USA.\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, e Garrett Grolemund. 2023. R for data science. O’Reilly Media, Inc."
+    "text": "Referências bibliográficas\n\n\n6º CONACON - João Pessoa - Paraíba\n\n\n\nAnderson, Carl. 2015. Creating a data-driven organization: Practical advice from the trenches. 1. ed. O’Reilly Media, Inc.\n\n\nDavies, Rhian, Steph Locke, e Lucy D’Agostino McGowan. 2022. datasauRus: Datasets from the Datasaurus Dozen. https://CRAN.R-project.org/package=datasauRus.\n\n\nEremenko, Kirill. 2018. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. Kogan Page Publishers.\n\n\nEspindola, David, e Michael W Wright. 2021. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. John Wiley & Sons, Incorporated.\n\n\nGalor, Oded. 2022. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. Rio de Janeiro: Intrínseca.\n\n\nGlass, Russell, e Sean Callahan. 2014. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. John Wiley & Sons.\n\n\nMorrow, Jordan. 2021. Be data literate: The data literacy skills everyone needs to succeed. Kogan Page Publishers.\n\n\n———. 2022. Be Data Driven: How Organizations Can Harness the Power of Data. Kogan Page Publishers.\n\n\nSilberzahn, Raphael, Eric L Uhlmann, Daniel P Martin, Pasquale Anselmi, Frederik Aust, Eli Awtrey, Štěpán Bahnı́k, et al. 2018. «Many analysts, one data set: Making transparent how variations in analytic choices affect results». Advances in Methods and Practices in Psychological Science 1 (3): 337–56.\n\n\nSusskind, Richard E, e Daniel Susskind. 2015. The future of the professions: How technology will transform the work of human experts. Oxford University Press, USA.\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, e Garrett Grolemund. 2023. R for data science. O’Reilly Media, Inc."
   }
 ]
