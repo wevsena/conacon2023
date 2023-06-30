@@ -2,8 +2,9 @@
 title: "Controle Externo Orientado a Dados:"
 subtitle: "Conceitos, etapas e desafios para a sua implementação"
 author: "ACE Weverton Lisboa de Sena"
-institute: "wsena@tce.pb.gov.br"
-title-block-banner: true
+institute: "Tribunal de Contas do Estado da Paraíba"
+title-slide-attributes:
+  data-background-color: "aquamarine"
 bibliography: [slides.bib]
 cls: associacao-brasileira-de-normas-tecnicas-ipea.csl
 fontsize: "32px"
@@ -189,6 +190,7 @@ datasaurus_dozen |>
 - **A**valie e monitore a solução e feedback quando necessário.
 
 
+
 ## Set it up {data-name="Parte II"}
 
 ------------------------------------------------------------------------
@@ -269,6 +271,17 @@ format:
 
 
 ## Considerações finais {data-name="Considerações finais" background-color="aquamarine"}
+
+
+## Contato {background-color="aquamarine"}
+
+</br></br>
+
+{{< fa brands twitter size=2xl >}} wevsena </br></br>
+{{< fa brands github size=2xl >}} wevsena </br></br>
+{{< fa solid envelope size=2xl >}} wsena@tce.pb.gov.br </br></br>
+{{< fa brands linkedin size=2xl >}} Weverton Lisboa de Sena
+
 
 ## Referências bibliográficas
 
