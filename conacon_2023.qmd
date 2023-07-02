@@ -3,8 +3,11 @@ title: "Controle Externo Orientado a Dados:"
 subtitle: "Conceitos, etapas e desafios para a sua implementação"
 author: "ACE Weverton Lisboa de Sena"
 institute: "Tribunal de Contas do Estado da Paraíba"
+date: 2023/08/29
+date-format: "D - MMMM - YYYY"
 title-slide-attributes:
   data-background-color: "aquamarine"
+  #data-background-image: "https://as1.ftcdn.net/v2/jpg/02/84/36/00/1000_F_284360088_xjmQN278b35rpHYGkwdAEn52aFN8R2LE.jpg"
 bibliography: [slides.bib]
 cls: associacao-brasileira-de-normas-tecnicas-ipea.csl
 fontsize: "32px"
@@ -44,16 +47,18 @@ revealjs-plugins:
 
 ::: incremental
 -   Introdução
--   O que são dados
--   Atributos de dados de qualidade
--   Dados públicos e no controle externo
--   O que é uma organização orientada a dados?
--   Controle externo orientado a dados: desafios
--   Alfabetização em dados
--   Comunicando com dados
--   Apresentação de casos do TCE-PB
--   Controle Externo e Inteligência Artificial
--   Considerações finais
+* Parte I
+  - O que são dados
+  - Atributos de dados de qualidade
+  -   Dados públicos e no controle externo
+  -   O que é uma organização orientada a dados?
+  -   Alfabetização em dados
+  -   Controle externo orientado a dados: desafios
+* Parte II
+  -   Comunicando com dados
+  -   Apresentação de casos do TCE-PB
+  -   Controle Externo e Inteligência Artificial
+*   Considerações finais
 :::
 
 ## Introdução {data-name="Introdução" background-color="aquamarine"}
@@ -70,6 +75,7 @@ nocite: |
   @wickham2023r
   @susskind2015future
   @datasaurus
+  @huff2016
 ---
 
 ## PIB Mundial
@@ -190,8 +196,19 @@ datasaurus_dozen |>
 - **A**valie e monitore a solução e feedback quando necessário.
 
 
+## Parte II {data-name="Parte II"}
 
-## Set it up {data-name="Parte II"}
+## Casos {background-color="aquamarine"}
+
+##
+
+> _Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível espicaçar o assunto com cinco^[Dentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido? ] perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras.
+A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo._ [@huff2016]
+
+
+## Teste {background-image="https://as2.ftcdn.net/v2/jpg/02/50/27/31/1000_F_250273194_wOTKVl5jrOWAj9kfJweJd0istDutK837.jpg"}
+
+
 
 ------------------------------------------------------------------------
 
@@ -272,10 +289,12 @@ format:
 
 ## Considerações finais {data-name="Considerações finais" background-color="aquamarine"}
 
+## {background-video="https://youtu.be/wo9vZccmqwc?autoplay=1" background-size="cover"}
+
 
 ## Contato {background-color="aquamarine"}
 
-</br></br>
+</br>
 
 {{< fa brands twitter size=2xl >}} wevsena </br></br>
 {{< fa brands github size=2xl >}} wevsena </br></br>
