@@ -3,16 +3,18 @@ title: "Controle Externo Orientado a Dados:"
 subtitle: "Conceitos, etapas e desafios para a sua implementação"
 author: "ACE Weverton Lisboa de Sena"
 institute: "Tribunal de Contas do Estado da Paraíba"
-date: 2023/08/29
-date-format: "D - MMMM - YYYY"
+date: 2023/09/01
+date-format: "MMMM - YYYY"
 title-slide-attributes:
   data-background-color: "aquamarine"
-  #data-background-image: "https://as1.ftcdn.net/v2/jpg/02/84/36/00/1000_F_284360088_xjmQN278b35rpHYGkwdAEn52aFN8R2LE.jpg"
-bibliography: [slides.bib]
-cls: associacao-brasileira-de-normas-tecnicas-ipea.csl
+  data-background-image: "imagens/imagem00.jpg"
+bibliography: resources/slides.bib
+csl: resources/associacao-brasileira-de-normas-tecnicas-ipea.csl
 fontsize: "32px"
 format:
   revealjs:
+    template-partials: 
+      - resources/title-slide.html
     menu:
       side: right
       width: wide
@@ -30,7 +32,7 @@ format:
     background-transition: fade
     controls: true
     controls-layout: bottom-right
-    css: "css/style.css"
+    #css: "css/style.css"
     simplemenu:
         flat: true
         barhtml:
@@ -42,6 +44,21 @@ revealjs-plugins:
   - simplemenu
 ---
 
+---
+nocite: |
+  @galor2022jornada
+  @silberzahn2018many
+  @anderson2015
+  @morrow2022data
+  @morrow2021data
+  @espindola2021
+  @glass2014big
+  @wickham2023r
+  @susskind2015future
+  @datasaurus
+  @huff2016
+  @bruce2019
+---
 
 ##  {data-name="Índice" background-color="\"aquamarine"}
 
@@ -63,20 +80,7 @@ revealjs-plugins:
 
 ## Introdução {data-name="Introdução" background-color="aquamarine"}
 
----
-nocite: |
-  @galor2022jornada
-  @silberzahn2018many
-  @anderson2015
-  @morrow2022data
-  @morrow2021data
-  @espindola2021
-  @glass2014big
-  @wickham2023r
-  @susskind2015future
-  @datasaurus
-  @huff2016
----
+## {background-image="imagens/imagem04.jpg"}
 
 ## PIB Mundial
 
@@ -88,13 +92,44 @@ nocite: |
 
 <!-- <p class="small">Of course, you can set it to stop inheriting the name as well.</p> -->
 
-##  {data-name="Parte I"}
+## Parte I  {data-name="Parte I" background-color="aquamarine"}
 
+##
 > _Sem dados, você é apenas mais uma pessoa com uma opinião._ - **William Edwards Deming**
 
 ## O que são dados
 
 > *De forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. \[...\] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados.* [@eremenko2018] (Tradução livre)
+
+## Dados vs. Informação
+
+Apesar de serem frequentemente utilizados como sinônimos, informação e dados possuem conceitos diferentes. 
+
+Em linhas gerais, a informação é derivada do conhecimento e os dados é a informação codificada. [@gutman2021]
+
+::: callout-note
+A temperatura em João Pessoa é de 32º C. (Dado)
+
+32º C em João Pessoa, o dia mais quente de setembro de 2023. (Informação)
+:::
+
+## Tipos de dados
+
+* Numérico
+  - Contínuos (A temperatura de um objeto)
+  - Discretos (Número de filhos de uma pessoa)
+
+* Categórico
+  - Ordinários (A classe de renda de uma pessoa)
+  - Nominais (A nacionalidade de uma pessoa)
+
+## Forma dos dados
+
+* Estruturados
+  - Um banco de dados, uma planilha do excel.
+* Não estruturados
+  - Texto, vídeos, arquivos de áudio.
+
 
 ## Por que só agora?
 
@@ -111,7 +146,7 @@ nocite: |
 
 </iframe>
 
-## 
+##
 
 
 O _IDC's Global DataSphere_^[O IDC Global DataSphere mundial é uma medida de quantos novos dados são criados, capturados, replicados e consumidos a cada ano. É previsto por vários segmentos, incluindo consumidor/empresa, região, tipo de dados, localização (core, edge, endpoint) e tipo de implantação (nuvem/não nuvem) da tecnologia envolvida na geração de dados.] projeta que em 2026 os dados alcançarão **221.000 Exabytes**[^1], sendo mais de 90% desse volume composto por dados não estruturados.
@@ -125,11 +160,11 @@ Esse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em arti
 
 [^1]: 221.000 Exabyte (EB) correspondem a 221 bilhões de Terabytes (TB).
 
-</br> 
+</br>
 
 ## Organização orientada a dados {background-color="aquamarine"}
 
-## 
+##
 
 > "Nós confiamos em Deus. Todos os outros tragam dados" - **William Edwards Deming**
 
@@ -159,7 +194,7 @@ Esse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em arti
 library(datasauRus)
 library(tidyverse)
 ggplot(datasaurus_dozen, aes(x = x, y = y)) +
-  geom_point() + 
+  geom_point() +
   #geom_smooth(method = "lm", formula = "y ~ x") +
   theme_bw() +
   facet_wrap(~dataset)
@@ -177,7 +212,7 @@ datasaurus_dozen |>
             media_y = mean(y),
             variancia_y = var(y),
             correlacao = cor(x, y)) |>
-  #knitr::kable(digits = 2) %>% 
+  #knitr::kable(digits = 2) %>%
   kableExtra::kable(digits = 2) %>%
   kableExtra::kable_styling(font_size = 22)
 
@@ -206,81 +241,9 @@ datasaurus_dozen |>
 A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo._ [@huff2016]
 
 
-## Teste {background-image="https://as2.ftcdn.net/v2/jpg/02/50/27/31/1000_F_250273194_wOTKVl5jrOWAj9kfJweJd0istDutK837.jpg"}
 
 
 
-------------------------------------------------------------------------
-
-### Edit the YAML
-
-Set the flat option to `true`:
-
-``` yaml
-format:
-  revealjs:
-    ...
-    simplemenu:
-      flat: true
-```
-
-------------------------------------------------------------------------
-
-### HTML Markup
-
-Build your presentation in a flat way (no nested slides). Then give your sections a `data-name`:
-
-``` markdown
-## Chapter one {data-name="Chapter 1"}
-<!-- The 'Chapter 1' menu-item will be active for this slide -->
-Lorem ipsum sit dolor amet
-
-## Another slide 
-<!-- The 'Chapter 1' menu-item will be active for this slide -->
-Lorem ipsum sit dolor amet
-
-## Chapter two {data-name="Chapter 2"}
-<!-- The 'Chapter 2' menu-item will be active for this slide -->
-Lorem ipsum sit dolor amet
-```
-
-------------------------------------------------------------------------
-
-### 
-
-To avoid Quarto creating nested sections, set `section-divs: false` and use dividers to separate your slides.
-
-``` yaml
-format:
-  revealjs:
-    section-divs: false
-```
-
-<!-- ``` markdown -->
-<!-- ## Chapter one {data-name="Chapter 1"} -->
-<!-- <!-- The 'Chapter 1' menu-item will be active for this slide --> -->
-<!-- Lorem ipsum sit dolor amet -->
-
-<!-- --- -->
-
-<!-- ### Another slide  -->
-<!-- <!-- The 'Chapter 1' menu-item will be active for this slide --> -->
-<!-- Lorem ipsum sit dolor amet -->
-
-<!-- --- -->
-
-<!-- ## Chapter two {data-name="Chapter 2"} -->
-<!-- <!-- The 'Chapter 2' menu-item will be active for this slide --> -->
-<!-- Lorem ipsum sit dolor amet -->
-<!-- ``` -->
-
-<!-- ------------------------------------------------------------------------ -->
-
-<!-- ###  -->
-
-<!-- Any slides following a slide with a data-name will keep that menu name. -->
-
-<!-- ------------------------------------------------------------------------ -->
 
 ##  {data-sm="false"}
 
@@ -304,3 +267,7 @@ format:
 
 ## Referências bibliográficas
 
+::: {#refs}
+:::
+
+## Obrigado!

@@ -2,197 +2,225 @@
   {
     "objectID": "conacon_2023.html#section",
     "href": "conacon_2023.html#section",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "",
     "text": "Introdução\nParte I\n\nO que são dados\nAtributos de dados de qualidade\nDados públicos e no controle externo\nO que é uma organização orientada a dados?\nAlfabetização em dados\nControle externo orientado a dados: desafios\n\nParte II\n\nComunicando com dados\nApresentação de casos do TCE-PB\nControle Externo e Inteligência Artificial\n\nConsiderações finais"
   },
   {
     "objectID": "conacon_2023.html#introdução",
     "href": "conacon_2023.html#introdução",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "Introdução",
     "text": "Introdução"
   },
   {
     "objectID": "conacon_2023.html#pib-mundial",
     "href": "conacon_2023.html#pib-mundial",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "PIB Mundial",
     "text": "PIB Mundial"
   },
   {
-    "objectID": "conacon_2023.html#section-1",
-    "href": "conacon_2023.html#section-1",
-    "title": "Controle Externo Orientado a Dados:",
+    "objectID": "conacon_2023.html#parte-i",
+    "href": "conacon_2023.html#parte-i",
+    "title": "",
+    "section": "Parte I",
+    "text": "Parte I"
+  },
+  {
+    "objectID": "conacon_2023.html#section-2",
+    "href": "conacon_2023.html#section-2",
+    "title": "",
     "section": "",
     "text": "Sem dados, você é apenas mais uma pessoa com uma opinião. - William Edwards Deming"
   },
   {
     "objectID": "conacon_2023.html#o-que-são-dados",
     "href": "conacon_2023.html#o-que-são-dados",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "O que são dados",
-    "text": "O que são dados\n\nDe forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. […] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados. (Eremenko 2018) (Tradução livre)"
+    "text": "O que são dados\n\nDe forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. […] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados. (Eremenko, 2018) (Tradução livre)"
+  },
+  {
+    "objectID": "conacon_2023.html#dados-vs.-informação",
+    "href": "conacon_2023.html#dados-vs.-informação",
+    "title": "",
+    "section": "Dados vs. Informação",
+    "text": "Dados vs. Informação\nApesar de serem frequentemente utilizados como sinônimos, informação e dados possuem conceitos diferentes.\nEm linhas gerais, a informação é derivada do conhecimento e os dados é a informação codificada. (Gutman e Goldmeier, 2021)\n\n\n\n\n\n\nNota\n\n\nA temperatura em João Pessoa é de 32º C. (Dado)\n32º C em João Pessoa, o dia mais quente de setembro de 2023. (Informação)"
+  },
+  {
+    "objectID": "conacon_2023.html#tipos-de-dados",
+    "href": "conacon_2023.html#tipos-de-dados",
+    "title": "",
+    "section": "Tipos de dados",
+    "text": "Tipos de dados\n\nNumérico\n\nContínuos (A temperatura de um objeto)\nDiscretos (Número de filhos de uma pessoa)\n\nCategórico\n\nOrdinários (A classe de renda de uma pessoa)\nNominais (A nacionalidade de uma pessoa)"
+  },
+  {
+    "objectID": "conacon_2023.html#forma-dos-dados",
+    "href": "conacon_2023.html#forma-dos-dados",
+    "title": "",
+    "section": "Forma dos dados",
+    "text": "Forma dos dados\n\nEstruturados\n\nUm banco de dados, uma planilha do excel.\n\nNão estruturados\n\nTexto, vídeos, arquivos de áudio."
   },
   {
     "objectID": "conacon_2023.html#por-que-só-agora",
     "href": "conacon_2023.html#por-que-só-agora",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "Por que só agora?",
     "text": "Por que só agora?"
   },
   {
     "objectID": "conacon_2023.html#lei-de-moore",
     "href": "conacon_2023.html#lei-de-moore",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "Lei de Moore",
     "text": "Lei de Moore"
   },
   {
     "objectID": "conacon_2023.html#custo-computacional",
     "href": "conacon_2023.html#custo-computacional",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "Custo computacional",
     "text": "Custo computacional"
   },
   {
-    "objectID": "conacon_2023.html#section-2",
-    "href": "conacon_2023.html#section-2",
-    "title": "Controle Externo Orientado a Dados:",
+    "objectID": "conacon_2023.html#section-3",
+    "href": "conacon_2023.html#section-3",
+    "title": "",
     "section": "",
     "text": "O IDC’s Global DataSphere1 projeta que em 2026 os dados alcançarão 221.000 Exabytes2, sendo mais de 90% desse volume composto por dados não estruturados.\n\n\n\n\n\n\n\nNota\n\n\nEsse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em artigo publicado na Forbes, estimou-se que 90% dos dados do mundo foram criados apenas nos últimos dois anos.\n\n\n\n\nO IDC Global DataSphere mundial é uma medida de quantos novos dados são criados, capturados, replicados e consumidos a cada ano. É previsto por vários segmentos, incluindo consumidor/empresa, região, tipo de dados, localização (core, edge, endpoint) e tipo de implantação (nuvem/não nuvem) da tecnologia envolvida na geração de dados.221.000 Exabyte (EB) correspondem a 221 bilhões de Terabytes (TB)."
   },
   {
     "objectID": "conacon_2023.html#organização-orientada-a-dados",
     "href": "conacon_2023.html#organização-orientada-a-dados",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "Organização orientada a dados",
     "text": "Organização orientada a dados"
   },
   {
-    "objectID": "conacon_2023.html#section-3",
-    "href": "conacon_2023.html#section-3",
-    "title": "Controle Externo Orientado a Dados:",
+    "objectID": "conacon_2023.html#section-4",
+    "href": "conacon_2023.html#section-4",
+    "title": "",
     "section": "",
     "text": "“Nós confiamos em Deus. Todos os outros tragam dados” - William Edwards Deming"
   },
   {
     "objectID": "conacon_2023.html#controle-externo-orientado-a-dados-desafios",
     "href": "conacon_2023.html#controle-externo-orientado-a-dados-desafios",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "Controle externo orientado a dados: desafios",
     "text": "Controle externo orientado a dados: desafios"
   },
   {
-    "objectID": "conacon_2023.html#section-4",
-    "href": "conacon_2023.html#section-4",
-    "title": "Controle Externo Orientado a Dados:",
+    "objectID": "conacon_2023.html#section-5",
+    "href": "conacon_2023.html#section-5",
+    "title": "",
     "section": "",
     "text": "O maior problema enfrentado pelas empresas que estão tentando inovar e se transformar com dados é uma cultura de “sempre fizemos assim”. - Gabie Boko"
   },
   {
     "objectID": "conacon_2023.html#vencer-a-hippo",
     "href": "conacon_2023.html#vencer-a-hippo",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "Vencer a HiPPO",
     "text": "Vencer a HiPPO\n\nHiPPO - Highest Paid Person’s Opinion"
   },
   {
     "objectID": "conacon_2023.html#qualidade-dos-dados-e-ausência-de-confiança",
     "href": "conacon_2023.html#qualidade-dos-dados-e-ausência-de-confiança",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "Qualidade dos dados e ausência de confiança",
     "text": "Qualidade dos dados e ausência de confiança"
   },
   {
     "objectID": "conacon_2023.html#fatores-culturais",
     "href": "conacon_2023.html#fatores-culturais",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "Fatores culturais",
     "text": "Fatores culturais"
   },
   {
     "objectID": "conacon_2023.html#ausência-de-alfabetização-em-dados",
     "href": "conacon_2023.html#ausência-de-alfabetização-em-dados",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "Ausência de alfabetização em dados",
     "text": "Ausência de alfabetização em dados"
   },
   {
     "objectID": "conacon_2023.html#barreiras-cognitivas",
     "href": "conacon_2023.html#barreiras-cognitivas",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "Barreiras cognitivas",
     "text": "Barreiras cognitivas"
   },
   {
     "objectID": "conacon_2023.html#datasaurus",
     "href": "conacon_2023.html#datasaurus",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "datasauRus",
     "text": "datasauRus"
   },
   {
     "objectID": "conacon_2023.html#vejamos-as-medidas",
     "href": "conacon_2023.html#vejamos-as-medidas",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "Vejamos as medidas…",
     "text": "Vejamos as medidas…\n\n\n\n\n\ndados\nmedia_x\nvariancia_x\nmedia_y\nvariancia_y\ncorrelacao\n\n\n\n\naway\n54.27\n281.23\n47.83\n725.75\n-0.06\n\n\nbullseye\n54.27\n281.21\n47.83\n725.53\n-0.07\n\n\ncircle\n54.27\n280.90\n47.84\n725.23\n-0.07\n\n\ndino\n54.26\n281.07\n47.83\n725.52\n-0.06\n\n\ndots\n54.26\n281.16\n47.84\n725.24\n-0.06\n\n\nh_lines\n54.26\n281.10\n47.83\n725.76\n-0.06\n\n\nhigh_lines\n54.27\n281.12\n47.84\n725.76\n-0.07\n\n\nslant_down\n54.27\n281.12\n47.84\n725.55\n-0.07\n\n\nslant_up\n54.27\n281.19\n47.83\n725.69\n-0.07\n\n\nstar\n54.27\n281.20\n47.84\n725.24\n-0.06\n\n\nv_lines\n54.27\n281.23\n47.84\n725.64\n-0.07\n\n\nwide_lines\n54.27\n281.23\n47.83\n725.65\n-0.07\n\n\nx_shape\n54.26\n281.23\n47.84\n725.22\n-0.07"
   },
   {
     "objectID": "conacon_2023.html#decida",
     "href": "conacon_2023.html#decida",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "DECIDA!",
     "text": "DECIDA!\n\nDefina o problema;\nEstabeleça um critério;\nConsidere todas as alternativas;\nIdentifique a melhor alternativa;\nDesenvolva e implemente um plano de ação;\nAvalie e monitore a solução e feedback quando necessário."
   },
   {
     "objectID": "conacon_2023.html#parte-ii",
     "href": "conacon_2023.html#parte-ii",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "Parte II",
     "text": "Parte II"
   },
   {
     "objectID": "conacon_2023.html#casos",
     "href": "conacon_2023.html#casos",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "Casos",
     "text": "Casos"
   },
   {
-    "objectID": "conacon_2023.html#section-5",
-    "href": "conacon_2023.html#section-5",
-    "title": "Controle Externo Orientado a Dados:",
+    "objectID": "conacon_2023.html#section-6",
+    "href": "conacon_2023.html#section-6",
+    "title": "",
     "section": "",
-    "text": "Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível espicaçar o assunto com cinco1 perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras. A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo. (Huff 2016)\n\nDentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido?"
-  },
-  {
-    "objectID": "conacon_2023.html#teste",
-    "href": "conacon_2023.html#teste",
-    "title": "Controle Externo Orientado a Dados:",
-    "section": "Teste",
-    "text": "Teste"
+    "text": "Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível espicaçar o assunto com cinco1 perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras. A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo. (Huff, 2016)\n\nDentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido?"
   },
   {
     "objectID": "conacon_2023.html#considerações-finais",
     "href": "conacon_2023.html#considerações-finais",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "Considerações finais",
     "text": "Considerações finais"
   },
   {
     "objectID": "conacon_2023.html#contato",
     "href": "conacon_2023.html#contato",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "Contato",
     "text": "Contato\n\n wevsena   wevsena   wsena@tce.pb.gov.br   Weverton Lisboa de Sena"
   },
   {
     "objectID": "conacon_2023.html#referências-bibliográficas",
     "href": "conacon_2023.html#referências-bibliográficas",
-    "title": "Controle Externo Orientado a Dados:",
+    "title": "",
     "section": "Referências bibliográficas",
-    "text": "Referências bibliográficas\n\n\n6º CONACON - João Pessoa - Paraíba\n\n\n\nAnderson, Carl. 2015. Creating a data-driven organization: Practical advice from the trenches. 1. ed. O’Reilly Media, Inc.\n\n\nDavies, Rhian, Steph Locke, e Lucy D’Agostino McGowan. 2022. datasauRus: Datasets from the Datasaurus Dozen. https://CRAN.R-project.org/package=datasauRus.\n\n\nEremenko, Kirill. 2018. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. Kogan Page Publishers.\n\n\nEspindola, David, e Michael W Wright. 2021. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. John Wiley & Sons, Incorporated.\n\n\nGalor, Oded. 2022. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. Rio de Janeiro: Intrínseca.\n\n\nGlass, Russell, e Sean Callahan. 2014. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. John Wiley & Sons.\n\n\nHuff, Darrell. 2016. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca.\n\n\nMorrow, Jordan. 2021. Be data literate: The data literacy skills everyone needs to succeed. Kogan Page Publishers.\n\n\n———. 2022. Be Data Driven: How Organizations Can Harness the Power of Data. Kogan Page Publishers.\n\n\nSilberzahn, Raphael, Eric L Uhlmann, Daniel P Martin, Pasquale Anselmi, Frederik Aust, Eli Awtrey, Štěpán Bahnı́k, et al. 2018. «Many analysts, one data set: Making transparent how variations in analytic choices affect results». Advances in Methods and Practices in Psychological Science 1 (3): 337–56.\n\n\nSusskind, Richard E, e Daniel Susskind. 2015. The future of the professions: How technology will transform the work of human experts. Oxford University Press, USA.\n\n\nWickham, Hadley, Mine Çetinkaya-Rundel, e Garrett Grolemund. 2023. R for data science. O’Reilly Media, Inc."
+    "text": "Referências bibliográficas\n\n\nANDERSON, C. Creating a data-driven organization: Practical advice from the trenches. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.\n\n\nBRUCE, A.; BRUCE, P. Estatı́stica prática para cientistas de dados. Rio de Janeiro: Alta Books, 2019.\n\n\nDAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen. [s.l: s.n.].\n\n\nEREMENKO, K. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. [s.l.] Kogan Page Publishers, 2018.\n\n\nESPINDOLA, D.; WRIGHT, M. W. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nGALOR, O. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. ed. Rio de Janeiro: Intrínseca, 2022.\n\n\nGLASS, R.; CALLAHAN, S. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. [s.l.] John Wiley & Sons, 2014.\n\n\nGUTMAN, A. J.; GOLDMEIER, J. Becoming a data head: How to think, speak, and understand data science, statistics, and machine learning. Hoboken, NJ: John Wiley & Sons, 2021.\n\n\nHUFF, D. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca, 2016.\n\n\nMORROW, J. Be data literate: The data literacy skills everyone needs to succeed. [s.l.] Kogan Page Publishers, 2021.\n\n\n___. Be Data Driven: How Organizations Can Harness the Power of Data. [s.l.] Kogan Page Publishers, 2022.\n\n\nSILBERZAHN, R. et al. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, v. 1, n. 3, p. 337–356, 2018.\n\n\nSUSSKIND, R. E.; SUSSKIND, D. The future of the professions: How technology will transform the work of human experts. New York: Oxford University Press, USA, 2015.\n\n\nWICKHAM, H.; ÇETINKAYA-RUNDEL, M.; GROLEMUND, G. R for data science. [s.l.] O’Reilly Media, Inc., 2023."
+  },
+  {
+    "objectID": "conacon_2023.html#obrigado",
+    "href": "conacon_2023.html#obrigado",
+    "title": "",
+    "section": "Obrigado!",
+    "text": "Obrigado!\n\n\n6º CONACON - João Pessoa - Paraíba"
   }
 ]
