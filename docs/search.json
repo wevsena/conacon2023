@@ -4,7 +4,7 @@
     "href": "conacon_2023.html#section",
     "title": "",
     "section": "",
-    "text": "Introdução\nParte I\n\nO que são dados\nAtributos de dados de qualidade\nDados públicos e no controle externo\nO que é uma organização orientada a dados?\nAlfabetização em dados\nControle externo orientado a dados: desafios\n\nParte II\n\nComunicando com dados\nApresentação de casos do TCE-PB\nControle Externo e Inteligência Artificial\n\nConsiderações finais"
+    "text": "Introdução\nParte I\n\nO que são dados\nO que é uma organização orientada a dados?\nAtributos de dados de qualidade\nDados públicos e no controle externo\nAlfabetização em dados\nControle externo orientado a dados: desafios\n\nParte II\n\nComunicando com dados\nApresentação de casos do TCE-PB\nControle Externo e Inteligência Artificial\n\nConsiderações finais"
   },
   {
     "objectID": "conacon_2023.html#introdução",
@@ -21,6 +21,13 @@
     "text": "PIB Mundial"
   },
   {
+    "objectID": "conacon_2023.html#section-2",
+    "href": "conacon_2023.html#section-2",
+    "title": "",
+    "section": "",
+    "text": "Na verdade, tal progresso contínuo foi tão radical que muitas vezes perdemos de vista o quanto esse período é excepcional em relação ao resto da nossa história. (Galor, 2022)"
+  },
+  {
     "objectID": "conacon_2023.html#parte-i",
     "href": "conacon_2023.html#parte-i",
     "title": "",
@@ -28,8 +35,8 @@
     "text": "Parte I"
   },
   {
-    "objectID": "conacon_2023.html#section-2",
-    "href": "conacon_2023.html#section-2",
+    "objectID": "conacon_2023.html#section-3",
+    "href": "conacon_2023.html#section-3",
     "title": "",
     "section": "",
     "text": "Sem dados, você é apenas mais uma pessoa com uma opinião. - William Edwards Deming"
@@ -84,36 +91,57 @@
     "text": "Custo computacional"
   },
   {
-    "objectID": "conacon_2023.html#section-3",
-    "href": "conacon_2023.html#section-3",
+    "objectID": "conacon_2023.html#section-4",
+    "href": "conacon_2023.html#section-4",
     "title": "",
     "section": "",
     "text": "O IDC’s Global DataSphere1 projeta que em 2026 os dados alcançarão 221.000 Exabytes2, sendo mais de 90% desse volume composto por dados não estruturados.\n\n\n\n\n\n\n\nNota\n\n\nEsse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em artigo publicado na Forbes, estimou-se que 90% dos dados do mundo foram criados apenas nos últimos dois anos.\n\n\n\n\nO IDC Global DataSphere mundial é uma medida de quantos novos dados são criados, capturados, replicados e consumidos a cada ano. É previsto por vários segmentos, incluindo consumidor/empresa, região, tipo de dados, localização (core, edge, endpoint) e tipo de implantação (nuvem/não nuvem) da tecnologia envolvida na geração de dados.221.000 Exabyte (EB) correspondem a 221 bilhões de Terabytes (TB)."
+  },
+  {
+    "objectID": "conacon_2023.html#o-que-significa-uma-organização-orientada-a-dados",
+    "href": "conacon_2023.html#o-que-significa-uma-organização-orientada-a-dados",
+    "title": "",
+    "section": "O que significa uma organização orientada a dados?",
+    "text": "O que significa uma organização orientada a dados?"
+  },
+  {
+    "objectID": "conacon_2023.html#section-5",
+    "href": "conacon_2023.html#section-5",
+    "title": "",
+    "section": "",
+    "text": "“Nós confiamos em Deus. Todos os outros tragam dados” - William Edwards Deming"
   },
   {
     "objectID": "conacon_2023.html#organização-orientada-a-dados",
     "href": "conacon_2023.html#organização-orientada-a-dados",
     "title": "",
     "section": "Organização orientada a dados",
-    "text": "Organização orientada a dados"
+    "text": "Organização orientada a dados\n\nBasicamente, uma organização orientada a dados é aquela que utiliza dados para melhorar seus negócios - simples assim. (Morrow, 2022) (Tradução livre)\n\n\nA orientação a dados não é algo binário, mas contínuo: você sempre pode ser mais orientado a dados, coletar dados mais relevantes, ter uma organização analítica mais mais qualificada e fazer mais testes. (Anderson, 2015)"
   },
   {
-    "objectID": "conacon_2023.html#section-4",
-    "href": "conacon_2023.html#section-4",
+    "objectID": "conacon_2023.html#parece-simples-mas",
+    "href": "conacon_2023.html#parece-simples-mas",
     "title": "",
-    "section": "",
-    "text": "“Nós confiamos em Deus. Todos os outros tragam dados” - William Edwards Deming"
+    "section": "Parece simples, mas…",
+    "text": "Parece simples, mas…\n\n[…] a NewVantage Partners, em janeiro de 2020, revelou que das 70 empresas pesquisadas, 98,8% estavam investindo em iniciativas de big data e IA, mas apenas 37,8% conseguiram afirmar que criaram uma organização orientada a dados. (Chiu, 2020) (tradução livre)\n\n\nAlgumas organizações pensam que são orientadas a dados simplesmente porque geram vários relatórios e dashboards. (Anderson, 2015) (tradução livre)"
   },
   {
-    "objectID": "conacon_2023.html#controle-externo-orientado-a-dados-desafios",
-    "href": "conacon_2023.html#controle-externo-orientado-a-dados-desafios",
+    "objectID": "conacon_2023.html#controle-externo-orientado-a-dados",
+    "href": "conacon_2023.html#controle-externo-orientado-a-dados",
     "title": "",
-    "section": "Controle externo orientado a dados: desafios",
-    "text": "Controle externo orientado a dados: desafios"
+    "section": "Controle Externo orientado a dados",
+    "text": "Controle Externo orientado a dados"
   },
   {
-    "objectID": "conacon_2023.html#section-5",
-    "href": "conacon_2023.html#section-5",
+    "objectID": "conacon_2023.html#por-que-necessitamos-de-um-controle-externo-orientado-a-dados",
+    "href": "conacon_2023.html#por-que-necessitamos-de-um-controle-externo-orientado-a-dados",
+    "title": "",
+    "section": "Por que necessitamos de um Controle Externo orientado a dados?",
+    "text": "Por que necessitamos de um Controle Externo orientado a dados?\n\n\nRespostas mais rápidas às crises;\nMais transparência aos jurisdicionados e cidadãos;\nAumento da eficiência operacional."
+  },
+  {
+    "objectID": "conacon_2023.html#section-6",
+    "href": "conacon_2023.html#section-6",
     "title": "",
     "section": "",
     "text": "O maior problema enfrentado pelas empresas que estão tentando inovar e se transformar com dados é uma cultura de “sempre fizemos assim”. - Gabie Boko"
@@ -189,8 +217,8 @@
     "text": "Casos"
   },
   {
-    "objectID": "conacon_2023.html#section-6",
-    "href": "conacon_2023.html#section-6",
+    "objectID": "conacon_2023.html#section-7",
+    "href": "conacon_2023.html#section-7",
     "title": "",
     "section": "",
     "text": "Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível espicaçar o assunto com cinco1 perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras. A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo. (Huff, 2016)\n\nDentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido?"
@@ -214,7 +242,7 @@
     "href": "conacon_2023.html#referências-bibliográficas",
     "title": "",
     "section": "Referências bibliográficas",
-    "text": "Referências bibliográficas\n\n\nANDERSON, C. Creating a data-driven organization: Practical advice from the trenches. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.\n\n\nBRUCE, A.; BRUCE, P. Estatı́stica prática para cientistas de dados. Rio de Janeiro: Alta Books, 2019.\n\n\nDAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen. [s.l: s.n.].\n\n\nEREMENKO, K. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. [s.l.] Kogan Page Publishers, 2018.\n\n\nESPINDOLA, D.; WRIGHT, M. W. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nGALOR, O. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. ed. Rio de Janeiro: Intrínseca, 2022.\n\n\nGLASS, R.; CALLAHAN, S. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. [s.l.] John Wiley & Sons, 2014.\n\n\nGUTMAN, A. J.; GOLDMEIER, J. Becoming a data head: How to think, speak, and understand data science, statistics, and machine learning. Hoboken, NJ: John Wiley & Sons, 2021.\n\n\nHUFF, D. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca, 2016.\n\n\nMORROW, J. Be data literate: The data literacy skills everyone needs to succeed. [s.l.] Kogan Page Publishers, 2021.\n\n\n___. Be Data Driven: How Organizations Can Harness the Power of Data. [s.l.] Kogan Page Publishers, 2022.\n\n\nSILBERZAHN, R. et al. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, v. 1, n. 3, p. 337–356, 2018.\n\n\nSUSSKIND, R. E.; SUSSKIND, D. The future of the professions: How technology will transform the work of human experts. New York: Oxford University Press, USA, 2015.\n\n\nWICKHAM, H.; ÇETINKAYA-RUNDEL, M.; GROLEMUND, G. R for data science. [s.l.] O’Reilly Media, Inc., 2023."
+    "text": "Referências bibliográficas\n\n\nANDERSON, C. Creating a data-driven organization: Practical advice from the trenches. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.\n\n\nBRUCE, A.; BRUCE, P. Estatı́stica prática para cientistas de dados. Rio de Janeiro: Alta Books, 2019.\n\n\nCHIU, J. How Enterprise Organizations Can Become Data-Driven. Disponível em: &lt;https://www.datacamp.com/blog/how-enterprise-organizations-can-become-data-driven&gt;. Acesso em: 6 jul. 2023.\n\n\nDAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen. [s.l: s.n.].\n\n\nEREMENKO, K. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. [s.l.] Kogan Page Publishers, 2018.\n\n\nESPINDOLA, D.; WRIGHT, M. W. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nGALOR, O. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. ed. Rio de Janeiro: Intrínseca, 2022.\n\n\nGLASS, R.; CALLAHAN, S. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. [s.l.] John Wiley & Sons, 2014.\n\n\nGUTMAN, A. J.; GOLDMEIER, J. Becoming a data head: How to think, speak, and understand data science, statistics, and machine learning. Hoboken, NJ: John Wiley & Sons, 2021.\n\n\nHUFF, D. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca, 2016.\n\n\nMORROW, J. Be data literate: The data literacy skills everyone needs to succeed. [s.l.] Kogan Page Publishers, 2021.\n\n\n___. Be Data Driven: How Organizations Can Harness the Power of Data. [s.l.] Kogan Page Publishers, 2022.\n\n\nSILBERZAHN, R. et al. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, v. 1, n. 3, p. 337–356, 2018.\n\n\nSUSSKIND, R. E.; SUSSKIND, D. The future of the professions: How technology will transform the work of human experts. New York: Oxford University Press, USA, 2015.\n\n\nWICKHAM, H.; ÇETINKAYA-RUNDEL, M.; GROLEMUND, G. R for data science. [s.l.] O’Reilly Media, Inc., 2023."
   },
   {
     "objectID": "conacon_2023.html#obrigado",

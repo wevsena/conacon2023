@@ -60,17 +60,17 @@ nocite: |
   @bruce2019
 ---
 
-##  {data-name="Índice" background-color="\"aquamarine"}
+##  {data-name="Índice"}
 
 ::: incremental
 -   Introdução
 * Parte I
   - O que são dados
+  - O que é uma organização orientada a dados?
   - Atributos de dados de qualidade
-  -   Dados públicos e no controle externo
-  -   O que é uma organização orientada a dados?
-  -   Alfabetização em dados
-  -   Controle externo orientado a dados: desafios
+  - Dados públicos e no controle externo
+  - Alfabetização em dados
+  - Controle externo orientado a dados: desafios
 * Parte II
   -   Comunicando com dados
   -   Apresentação de casos do TCE-PB
@@ -78,7 +78,7 @@ nocite: |
 *   Considerações finais
 :::
 
-## Introdução {data-name="Introdução" background-color="aquamarine"}
+## Introdução {data-name="Introdução" background="linear-gradient(to right, #33ffcc, #33cc66)"}
 
 ## {background-image="imagens/imagem04.jpg"}
 
@@ -90,9 +90,13 @@ nocite: |
 
 </iframe>
 
+##
+
+> _Na verdade, tal progresso contínuo foi tão radical que muitas vezes perdemos de vista o quanto esse período é excepcional em relação ao resto da nossa história._ [@galor2022jornada]
+
 <!-- <p class="small">Of course, you can set it to stop inheriting the name as well.</p> -->
 
-## Parte I  {data-name="Parte I" background-color="aquamarine"}
+## Parte I  {data-name="Parte I" background="linear-gradient(to right, #33ffcc, #33cc66)"}
 
 ##
 > _Sem dados, você é apenas mais uma pessoa com uma opinião._ - **William Edwards Deming**
@@ -131,7 +135,8 @@ A temperatura em João Pessoa é de 32º C. (Dado)
   - Texto, vídeos, arquivos de áudio.
 
 
-## Por que só agora?
+## Por que só agora? {style="text-align:center" background="linear-gradient(to right, #33ffcc, #33cc66)"}
+
 
 
 ## Lei de Moore
@@ -146,7 +151,7 @@ A temperatura em João Pessoa é de 32º C. (Dado)
 
 </iframe>
 
-##
+## {style="text-align:justify"}
 
 
 O _IDC's Global DataSphere_^[O IDC Global DataSphere mundial é uma medida de quantos novos dados são criados, capturados, replicados e consumidos a cada ano. É previsto por vários segmentos, incluindo consumidor/empresa, região, tipo de dados, localização (core, edge, endpoint) e tipo de implantação (nuvem/não nuvem) da tecnologia envolvida na geração de dados.] projeta que em 2026 os dados alcançarão **221.000 Exabytes**[^1], sendo mais de 90% desse volume composto por dados não estruturados.
@@ -162,15 +167,47 @@ Esse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em arti
 
 </br>
 
-## Organização orientada a dados {background-color="aquamarine"}
+
+
+
+
+
+
+## O que significa uma organização orientada a dados? {style="text-align:justify" background="linear-gradient(to right, #33ffcc, #33cc66)"}
 
 ##
 
 > "Nós confiamos em Deus. Todos os outros tragam dados" - **William Edwards Deming**
 
 
+## Organização orientada a dados {style="text-align:justify"}
 
-## Controle externo orientado a dados: desafios {background-color="aquamarine"}
+> _Basicamente, uma organização orientada a dados é aquela que utiliza dados para melhorar seus negócios - simples assim._ [@morrow2022] (Tradução livre)
+
+> _A orientação a dados não é algo binário, mas contínuo: você sempre pode ser mais orientado a dados, coletar dados mais relevantes, ter uma organização analítica mais mais qualificada e fazer mais testes._ [@anderson2015]
+
+## Parece simples, mas... {style="text-align:justify"}
+
+> _[...] a NewVantage Partners, em janeiro de 2020, revelou que das 70 empresas pesquisadas, 98,8% estavam investindo em iniciativas de _big data_ e IA, mas apenas 37,8% conseguiram afirmar que criaram uma organização orientada a dados._ [@joice2020] (tradução livre)
+
+> _Algumas organizações pensam que são orientadas a dados simplesmente porque geram vários relatórios e _dashboards_._  [@anderson2015] (tradução livre)
+
+
+## Controle Externo orientado a dados {background="linear-gradient(to right, #33ffcc, #33cc66)" style="text-align:center"}
+
+## Por que necessitamos de um Controle Externo orientado a dados?
+
+::: incremental
+
+* Respostas mais rápidas às crises;
+
+* Mais transparência aos jurisdicionados e cidadãos;
+
+* Aumento da eficiência operacional.
+
+:::
+
+
 
 ##
 
