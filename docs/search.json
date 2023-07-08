@@ -4,7 +4,7 @@
     "href": "conacon_2023.html#section",
     "title": "",
     "section": "",
-    "text": "Introdução\nParte I\n\nO que são dados\nO que é uma organização orientada a dados?\nAtributos de dados de qualidade\nDados públicos e no controle externo\nAlfabetização em dados\nControle externo orientado a dados: desafios\n\nParte II\n\nComunicando com dados\nApresentação de casos do TCE-PB\nControle Externo e Inteligência Artificial\n\nConsiderações finais"
+    "text": "Introdução\nParte I\n\nO que são dados?\nO que é uma organização orientada a dados?\nFundamentos de governança de dados\nDados públicos e no controle externo\nAlfabetização em dados\nControle externo orientado a dados: desafios\n\nParte II\n\nComunicando com dados\nApresentação de casos do TCE-PB\nControle Externo e Inteligência Artificial\n\nConsiderações finais"
   },
   {
     "objectID": "conacon_2023.html#introdução",
@@ -45,29 +45,29 @@
     "objectID": "conacon_2023.html#o-que-são-dados",
     "href": "conacon_2023.html#o-que-são-dados",
     "title": "",
-    "section": "O que são dados",
-    "text": "O que são dados\n\nDe forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. […] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados. (Eremenko, 2018) (Tradução livre)"
+    "section": "O que são dados?",
+    "text": "O que são dados?\n\nDe forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. […] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados. (Eremenko, 2018) (Tradução livre)"
   },
   {
     "objectID": "conacon_2023.html#dados-vs.-informação",
     "href": "conacon_2023.html#dados-vs.-informação",
     "title": "",
     "section": "Dados vs. Informação",
-    "text": "Dados vs. Informação\nApesar de serem frequentemente utilizados como sinônimos, informação e dados possuem conceitos diferentes.\nEm linhas gerais, a informação é derivada do conhecimento e os dados é a informação codificada. (Gutman e Goldmeier, 2021)\n\n\n\n\n\n\nNota\n\n\nA temperatura em João Pessoa é de 32º C. (Dado)\n32º C em João Pessoa, o dia mais quente de setembro de 2023. (Informação)"
+    "text": "Dados vs. Informação\n\nApesar de serem frequentemente utilizados como sinônimos, informação e dados possuem conceitos diferentes.\nEm linhas gerais, a informação é derivada do conhecimento e os dados é a informação codificada. (Gutman e Goldmeier, 2021)\n\n\n\n\n\n\nDica\n\n\nA temperatura em João Pessoa é de 32º C. (Dado)\nFaz 32º C em João Pessoa, o dia mais quente de setembro de 2023. (Informação)"
   },
   {
     "objectID": "conacon_2023.html#tipos-de-dados",
     "href": "conacon_2023.html#tipos-de-dados",
     "title": "",
     "section": "Tipos de dados",
-    "text": "Tipos de dados\n\nNumérico\n\nContínuos (A temperatura de um objeto)\nDiscretos (Número de filhos de uma pessoa)\n\nCategórico\n\nOrdinários (A classe de renda de uma pessoa)\nNominais (A nacionalidade de uma pessoa)"
+    "text": "Tipos de dados\n\n\nNumérico\n\nContínuos (A temperatura de um objeto)\nDiscretos (Número de filhos de uma pessoa)\n\nCategórico\n\nOrdinários (A classe de renda de uma pessoa)\nNominais (A nacionalidade de uma pessoa)"
   },
   {
     "objectID": "conacon_2023.html#forma-dos-dados",
     "href": "conacon_2023.html#forma-dos-dados",
     "title": "",
     "section": "Forma dos dados",
-    "text": "Forma dos dados\n\nEstruturados\n\nUm banco de dados, uma planilha do excel.\n\nNão estruturados\n\nTexto, vídeos, arquivos de áudio."
+    "text": "Forma dos dados\n\n\nEstruturados\n\nUm banco de dados, uma planilha do excel, um arquivo CSV.\n\nNão estruturados\n\nTexto, vídeos, imagens, áudio."
   },
   {
     "objectID": "conacon_2023.html#por-que-só-agora",
@@ -242,7 +242,7 @@
     "href": "conacon_2023.html#referências-bibliográficas",
     "title": "",
     "section": "Referências bibliográficas",
-    "text": "Referências bibliográficas\n\n\nANDERSON, C. Creating a data-driven organization: Practical advice from the trenches. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.\n\n\nBRUCE, A.; BRUCE, P. Estatı́stica prática para cientistas de dados. Rio de Janeiro: Alta Books, 2019.\n\n\nCHIU, J. How Enterprise Organizations Can Become Data-Driven. Disponível em: &lt;https://www.datacamp.com/blog/how-enterprise-organizations-can-become-data-driven&gt;. Acesso em: 6 jul. 2023.\n\n\nDAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen. [s.l: s.n.].\n\n\nEREMENKO, K. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. [s.l.] Kogan Page Publishers, 2018.\n\n\nESPINDOLA, D.; WRIGHT, M. W. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nGALOR, O. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. ed. Rio de Janeiro: Intrínseca, 2022.\n\n\nGLASS, R.; CALLAHAN, S. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. [s.l.] John Wiley & Sons, 2014.\n\n\nGUTMAN, A. J.; GOLDMEIER, J. Becoming a data head: How to think, speak, and understand data science, statistics, and machine learning. Hoboken, NJ: John Wiley & Sons, 2021.\n\n\nHUFF, D. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca, 2016.\n\n\nMORROW, J. Be data literate: The data literacy skills everyone needs to succeed. [s.l.] Kogan Page Publishers, 2021.\n\n\n___. Be Data Driven: How Organizations Can Harness the Power of Data. [s.l.] Kogan Page Publishers, 2022.\n\n\nSILBERZAHN, R. et al. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, v. 1, n. 3, p. 337–356, 2018.\n\n\nSUSSKIND, R. E.; SUSSKIND, D. The future of the professions: How technology will transform the work of human experts. New York: Oxford University Press, USA, 2015.\n\n\nWICKHAM, H.; ÇETINKAYA-RUNDEL, M.; GROLEMUND, G. R for data science. [s.l.] O’Reilly Media, Inc., 2023."
+    "text": "Referências bibliográficas\n\n\nANDERSON, C. Creating a data-driven organization: Practical advice from the trenches. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.\n\n\nBRUCE, A.; BRUCE, P. Estatı́stica prática para cientistas de dados. Rio de Janeiro: Alta Books, 2019.\n\n\nCABTREE, M.; NEHME, A. What is Data Literacy? A Comprehensive Guide for Organizations. Disponível em: &lt;https://www.datacamp.com/blog/what-is-data-literacy-a-comprehensive-guide-for-organizations&gt;. Acesso em: 8 jul. 2023.\n\n\nCHIU, J. How Enterprise Organizations Can Become Data-Driven. Disponível em: &lt;https://www.datacamp.com/blog/how-enterprise-organizations-can-become-data-driven&gt;. Acesso em: 6 jul. 2023.\n\n\nDAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen. [s.l: s.n.].\n\n\nEREMENKO, K. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. [s.l.] Kogan Page Publishers, 2018.\n\n\nESPINDOLA, D.; WRIGHT, M. W. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nGALOR, O. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. ed. Rio de Janeiro: Intrínseca, 2022.\n\n\nGLASS, R.; CALLAHAN, S. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. [s.l.] John Wiley & Sons, 2014.\n\n\nGUTMAN, A. J.; GOLDMEIER, J. Becoming a data head: How to think, speak, and understand data science, statistics, and machine learning. Hoboken, NJ: John Wiley & Sons, 2021.\n\n\nHUFF, D. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca, 2016.\n\n\nMORROW, J. Be data literate: The data literacy skills everyone needs to succeed. [s.l.] Kogan Page Publishers, 2021.\n\n\n___. Be Data Driven: How Organizations Can Harness the Power of Data. [s.l.] Kogan Page Publishers, 2022.\n\n\nSILBERZAHN, R. et al. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, v. 1, n. 3, p. 337–356, 2018.\n\n\nSUSSKIND, R. E.; SUSSKIND, D. The future of the professions: How technology will transform the work of human experts. New York: Oxford University Press, USA, 2015.\n\n\nWICKHAM, H.; ÇETINKAYA-RUNDEL, M.; GROLEMUND, G. R for data science. [s.l.] O’Reilly Media, Inc., 2023."
   },
   {
     "objectID": "conacon_2023.html#obrigado",

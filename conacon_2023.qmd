@@ -58,6 +58,7 @@ nocite: |
   @datasaurus
   @huff2016
   @bruce2019
+  @crabtree2023
 ---
 
 ##  {data-name="Índice"}
@@ -65,9 +66,9 @@ nocite: |
 ::: incremental
 -   Introdução
 * Parte I
-  - O que são dados
+  - O que são dados?
   - O que é uma organização orientada a dados?
-  - Atributos de dados de qualidade
+  - Fundamentos de governança de dados
   - Dados públicos e no controle externo
   - Alfabetização em dados
   - Controle externo orientado a dados: desafios
@@ -82,6 +83,8 @@ nocite: |
 
 ## {background-image="imagens/imagem04.jpg"}
 
+
+
 ## PIB Mundial
 
 <!-- ![](imagens/imagem02.svg){fig-align="center" height=600} -->
@@ -90,7 +93,7 @@ nocite: |
 
 </iframe>
 
-##
+## {style="text-align:justify"}
 
 > _Na verdade, tal progresso contínuo foi tão radical que muitas vezes perdemos de vista o quanto esse período é excepcional em relação ao resto da nossa história._ [@galor2022jornada]
 
@@ -101,23 +104,27 @@ nocite: |
 ##
 > _Sem dados, você é apenas mais uma pessoa com uma opinião._ - **William Edwards Deming**
 
-## O que são dados
+## O que são dados? {style="text-align:justify"}
 
 > *De forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. \[...\] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados.* [@eremenko2018] (Tradução livre)
 
-## Dados vs. Informação
+## Dados vs. Informação {style="text-align:justify"}
+
+<br>
 
 Apesar de serem frequentemente utilizados como sinônimos, informação e dados possuem conceitos diferentes. 
 
 Em linhas gerais, a informação é derivada do conhecimento e os dados é a informação codificada. [@gutman2021]
 
-::: callout-note
+::: callout-tip
 A temperatura em João Pessoa é de 32º C. (Dado)
 
-32º C em João Pessoa, o dia mais quente de setembro de 2023. (Informação)
+Faz 32º C em João Pessoa, o dia mais quente de setembro de 2023. (Informação)
 :::
 
 ## Tipos de dados
+
+<br>
 
 * Numérico
   - Contínuos (A temperatura de um objeto)
@@ -129,10 +136,12 @@ A temperatura em João Pessoa é de 32º C. (Dado)
 
 ## Forma dos dados
 
+<br>
+
 * Estruturados
-  - Um banco de dados, uma planilha do excel.
+  - Um banco de dados, uma planilha do excel, um arquivo CSV.
 * Não estruturados
-  - Texto, vídeos, arquivos de áudio.
+  - Texto, vídeos, imagens, áudio.
 
 
 ## Por que só agora? {style="text-align:center" background="linear-gradient(to right, #33ffcc, #33cc66)"}
