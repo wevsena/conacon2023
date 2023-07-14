@@ -3,7 +3,7 @@ title: "Controle Externo Orientado a Dados:"
 subtitle: "Conceitos, etapas e desafios para a sua implementação"
 author: "ACE Weverton Lisboa de Sena"
 institute: "Tribunal de Contas do Estado da Paraíba"
-date: 2023/09/01
+date: 2023/08/30
 date-format: "MMMM - YYYY"
 title-slide-attributes:
   data-background-color: "aquamarine"
@@ -13,6 +13,7 @@ csl: resources/associacao-brasileira-de-normas-tecnicas-ipea.csl
 fontsize: "32px"
 format:
   revealjs:
+    scrollable: true
     template-partials: 
       - resources/title-slide.html
     menu:
@@ -59,6 +60,8 @@ nocite: |
   @huff2016
   @bruce2019
   @crabtree2023
+  @ribeiro2017
+  @bean2022book
 ---
 
 ##  {data-name="Índice"}
@@ -79,7 +82,7 @@ nocite: |
 *   Considerações finais
 :::
 
-## Introdução {data-name="Introdução" background="linear-gradient(to right, #33ffcc, #33cc66)"}
+## Introdução {data-name="Introdução" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title}
 
 ## {background-image="imagens/imagem04.jpg"}
 
@@ -99,7 +102,22 @@ nocite: |
 
 <!-- <p class="small">Of course, you can set it to stop inheriting the name as well.</p> -->
 
-## Parte I  {data-name="Parte I" background="linear-gradient(to right, #33ffcc, #33cc66)"}
+## Parte I  {data-name="Parte I" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title}
+
+  <!-- font-style: italic; -->
+  <!-- font-family: Arial; -->
+  <!-- font-variant: small-caps; -->
+
+```{css, echo=FALSE}
+.parte-title {
+  font-size: 50px
+}
+
+.scrolling {
+  max-height: 700px;
+  overflow-y: auto;
+}
+```
 
 ##
 > _Sem dados, você é apenas mais uma pessoa com uma opinião._ - **William Edwards Deming**
@@ -114,7 +132,7 @@ nocite: |
 
 Apesar de serem frequentemente utilizados como sinônimos, informação e dados possuem conceitos diferentes. 
 
-Em linhas gerais, a informação é derivada do conhecimento e os dados é a informação codificada. [@gutman2021]
+Em linhas gerais, a informação é derivada do conhecimento e o dado é a informação codificada. [@gutman2021]
 
 ::: callout-tip
 A temperatura em João Pessoa é de 32º C. (Dado)
@@ -201,6 +219,11 @@ Esse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em arti
 
 > _Algumas organizações pensam que são orientadas a dados simplesmente porque geram vários relatórios e _dashboards_._  [@anderson2015] (tradução livre)
 
+## A corrida começou {style="text-align:justify"}
+
+> O governo federal dos EUA está se mobilizando em um esforço unificado para realizar uma das maiores iniciativas de transformação federal em décadas. [...]
+> Esta é a história da iniciativa do governo federal para permitir que todas as agências federais tomem decisões orientadas por dados em uma economia mundial e nacional em ritmo acelerado, em mudança e competitiva. Esta é uma história sobre a qual você pode não ler nas primeiras páginas do The New York Times ou do The Wall Street Journal, mas pode ser ainda mais conseqüente e de longo alcance em termos de seu impacto competitivo econômico e global [@bean2022] (Tradução livre)
+
 
 ## Controle Externo orientado a dados {background="linear-gradient(to right, #33ffcc, #33cc66)" style="text-align:center"}
 
@@ -216,6 +239,192 @@ Esse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em arti
 
 :::
 
+
+## Por falar em eficiência...
+
+
+## Por onde começamos? {style="text-align:justify"}
+
+Segundo @morrow2022, há cinco pilares para construir uma organização orientada a dados:
+
+::: incremental
+1. **Estratégia:** o que estamos fazendo?
+2. **Liderança:** quem decide o que estamos fazendo?
+3. **Alfabetização em dados:** nós temos as habilidades necessárias para cumprir o que estamos fazendo?
+4. **Dados e tecnologia:** nós temos acesso aos dados e às ferramentas necessárias para tomar decisões baseadas em dados?
+5. **Cultura:** o ambiente está pronto para ter sucesso com dados?
+
+:::
+
+
+
+
+## Coletando e democratizando os dados
+
+
+## Coletando dados de qualidade {style="text-align:justify"}
+
+* relevante;
+* tempestivo;
+* acurado;
+* limpo;
+* sem viés;
+* confiável.
+
+::: callout-note
+A estimativa da IBM (em 2016) para o custo anual de dados de baixa qualidade é de US$ 3,1 trilhões por ano apenas nos Estados Unidos. [@redman2016]
+
+:::
+
+## {background-iframe="https://www.google.com/maps/d/embed?mid=1nm4ySKGTSqTSF_K1wLARgAPyjpkdDaE&ehbc=2E312F"}
+
+Erros, aparentemente simples, podem causar grandes problemas.
+
+* Coordenada geográfica do TCE-PB: -7.13023, -34.**8**7061
+* Coordenada geográfica do TCE-PB (erro): -7.13023, -34.**9**7061
+
+
+## Disponibilize seus dados! {style="text-align:justify"}
+
+<br>
+
+> _A publicidade é justamente elogiada como um remédio para doenças sociais e industriais. A luz solar é considerada o melhor dos desinfetantes; a luz elétrica o policial mais eficiente._ - **Louis Brandeis**
+
+## Dados abertos são valiosos {style="text-align:justify"}
+
+> _Na União Europeia, estima-se que apenas os dados governamentais abertos gerem um impacto econômico agregado direto e indireto anual de 40 bilhões de euros. Fundamentalmente, essas projeções econômicas reforçam ainda mais a noção de dados governamentais abertos como uma tendência sociotécnica promissora e valiosa._ [@ribeiro2017]
+
+## Dados abertos no Brasil vs. outros países.
+
+Em números^[Números coletados em 11 julho de 2023.] de conjuntos de dados: 
+
+* Brasil - 11.998 (<https://dados.gov.br/>)
+* Estados Unidos - 252.595 (<https://data.gov>)
+* França - 46.118 (<https://www.data.gouv.fr/en/>)
+* Alemanha - 83.821 (<https://www.govdata.de>)
+* Argentina - 1.176 (<https://datos.gob.ar>)
+* Índia - 610.541 (<https://data.gov.in>)
+
+
+
+## Caso I: Dados abertos da vacinação contra a Covid-19 {{< fa solid syringe size=1xl >}} {background="linear-gradient(to right, #33ffcc, #33cc66)" style="text-align:justify"}
+
+
+
+## Dados sobre doses {.scrolling}
+
+```{r, echo=FALSE, results='asis'}
+library(gt)
+
+covid_vacinas_doses <- readRDS("dados/tab_doses_vacinas.RDS")
+
+
+# covid_vacinas_doses %>% 
+#   kableExtra::kable()
+
+covid_vacinas_doses %>%
+  gt() %>%
+  tab_header(
+    title = md("**Vacinação - Covid-19**"),
+    subtitle = "Dados referentes à Paraíba"
+  ) %>%
+  cols_label(
+    vacina_descricao_dose = "Descrição da dose",
+    total = "Frequência"
+  ) %>% 
+  sub_missing(
+    columns = everything(),
+    missing_text = "-"
+  ) %>% 
+  cols_width(
+    everything() ~ px(200)
+  ) %>% 
+  fmt_number(
+    columns = total,
+    dec_mark = ",",
+    sep_mark = ".",
+    decimals = 0
+  ) %>% 
+  tab_footnote(footnote = "Dados coletados em 6 de julho de 2023.") %>% 
+  tab_source_note(source_note = "OpenDataSUS - opendatasus.saude.gov.br")
+
+```
+
+
+## Dados sobre fabricantes {.scrolling}
+
+```{r, echo=FALSE}
+library(gt)
+dados_fabricantes <- readRDS("dados/tab_fabricantes_vacinas.RDS")
+
+
+dados_fabricantes %>% 
+  gt() %>% 
+  tab_header(
+    title = md("**Vacinação - Covid-19**"),
+    subtitle = "Dados referentes à Paraíba"
+  ) %>% 
+    cols_label(
+    vacina_fabricante_nome = "Nome do fabricante",
+    total = "Frequência"
+  ) %>% 
+    fmt_number(
+    columns = total,
+    dec_mark = ",",
+    sep_mark = ".",
+    decimals = 0
+  ) %>% 
+  sub_missing(
+    columns = everything(),
+    missing_text = "-"
+  ) %>% 
+  cols_width(
+    total ~ px(200)
+  ) %>% 
+  tab_footnote(footnote = "Dados coletados em 6 de julho de 2023.") %>% 
+  tab_source_note(source_note = "OpenDataSUS - opendatasus.saude.gov.br")
+```
+
+
+
+## Idades dos pacientes {.scrolling}
+
+```{r, echo=FALSE}
+library(gt)
+library(dplyr)
+
+dados_pacientes_idades <- readRDS("dados/tab_paciente_idade.RDS")
+dados_pacientes_idades$N <- 1:nrow(dados_pacientes_idades)
+dados_pacientes_idades <- dados_pacientes_idades %>% select(N, paciente_id, paciente_idade, paciente_dataNascimento)
+
+
+dados_pacientes_idades %>% 
+  gt() %>% 
+  tab_header(
+    title = md("**Vacinação - Covid-19**"),
+    subtitle = "Dados referentes à Paraíba"
+  ) %>% 
+    cols_label(
+    N = "#",
+    paciente_id = "ID do paciente",
+    paciente_idade = "Idade",
+    paciente_dataNascimento = "Data de nascimento"
+  ) %>% 
+  sub_missing(
+    columns = everything(),
+    missing_text = "-"
+  ) %>% 
+  cols_width(
+    paciente_idade ~ px(100)
+  ) %>% 
+  tab_footnote(footnote = "Dados coletados em 6 de julho de 2023.") %>% 
+  tab_source_note(source_note = "OpenDataSUS - opendatasus.saude.gov.br")
+```
+
+
+## Vamos ver como é na Alemanha?
+
+## {background-iframe="https://robert-koch-institut.github.io/COVID-19-Impfungen_in_Deutschland"}
 
 
 ##
@@ -277,7 +486,7 @@ datasaurus_dozen |>
 - **A**valie e monitore a solução e feedback quando necessário.
 
 
-## Parte II {data-name="Parte II"}
+## Parte II {data-name="Parte II" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title}
 
 ## Casos {background-color="aquamarine"}
 
@@ -311,7 +520,7 @@ A primeira característica a procurar é a parcialidade — o laboratório que t
 {{< fa brands linkedin size=2xl >}} Weverton Lisboa de Sena
 
 
-## Referências bibliográficas
+## Referências
 
 ::: {#refs}
 :::

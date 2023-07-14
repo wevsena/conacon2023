@@ -53,7 +53,7 @@
     "href": "conacon_2023.html#dados-vs.-informação",
     "title": "",
     "section": "Dados vs. Informação",
-    "text": "Dados vs. Informação\n\nApesar de serem frequentemente utilizados como sinônimos, informação e dados possuem conceitos diferentes.\nEm linhas gerais, a informação é derivada do conhecimento e os dados é a informação codificada. (Gutman e Goldmeier, 2021)\n\n\n\n\n\n\nDica\n\n\nA temperatura em João Pessoa é de 32º C. (Dado)\nFaz 32º C em João Pessoa, o dia mais quente de setembro de 2023. (Informação)"
+    "text": "Dados vs. Informação\n\nApesar de serem frequentemente utilizados como sinônimos, informação e dados possuem conceitos diferentes.\nEm linhas gerais, a informação é derivada do conhecimento e o dado é a informação codificada. (Gutman e Goldmeier, 2021)\n\n\n\n\n\n\nDica\n\n\nA temperatura em João Pessoa é de 32º C. (Dado)\nFaz 32º C em João Pessoa, o dia mais quente de setembro de 2023. (Informação)"
   },
   {
     "objectID": "conacon_2023.html#tipos-de-dados",
@@ -126,6 +126,13 @@
     "text": "Parece simples, mas…\n\n[…] a NewVantage Partners, em janeiro de 2020, revelou que das 70 empresas pesquisadas, 98,8% estavam investindo em iniciativas de big data e IA, mas apenas 37,8% conseguiram afirmar que criaram uma organização orientada a dados. (Chiu, 2020) (tradução livre)\n\n\nAlgumas organizações pensam que são orientadas a dados simplesmente porque geram vários relatórios e dashboards. (Anderson, 2015) (tradução livre)"
   },
   {
+    "objectID": "conacon_2023.html#a-corrida-começou",
+    "href": "conacon_2023.html#a-corrida-começou",
+    "title": "",
+    "section": "A corrida começou",
+    "text": "A corrida começou\n\nO governo federal dos EUA está se mobilizando em um esforço unificado para realizar uma das maiores iniciativas de transformação federal em décadas. […] Esta é a história da iniciativa do governo federal para permitir que todas as agências federais tomem decisões orientadas por dados em uma economia mundial e nacional em ritmo acelerado, em mudança e competitiva. Esta é uma história sobre a qual você pode não ler nas primeiras páginas do The New York Times ou do The Wall Street Journal, mas pode ser ainda mais conseqüente e de longo alcance em termos de seu impacto competitivo econômico e global (Bean, 2022) (Tradução livre)"
+  },
+  {
     "objectID": "conacon_2023.html#controle-externo-orientado-a-dados",
     "href": "conacon_2023.html#controle-externo-orientado-a-dados",
     "title": "",
@@ -140,8 +147,99 @@
     "text": "Por que necessitamos de um Controle Externo orientado a dados?\n\n\nRespostas mais rápidas às crises;\nMais transparência aos jurisdicionados e cidadãos;\nAumento da eficiência operacional."
   },
   {
+    "objectID": "conacon_2023.html#por-falar-em-eficiência",
+    "href": "conacon_2023.html#por-falar-em-eficiência",
+    "title": "",
+    "section": "Por falar em eficiência…",
+    "text": "Por falar em eficiência…"
+  },
+  {
+    "objectID": "conacon_2023.html#por-onde-começamos",
+    "href": "conacon_2023.html#por-onde-começamos",
+    "title": "",
+    "section": "Por onde começamos?",
+    "text": "Por onde começamos?\nSegundo Morrow (2022), há cinco pilares para construir uma organização orientada a dados:\n\n\nEstratégia: o que estamos fazendo?\nLiderança: quem decide o que estamos fazendo?\nAlfabetização em dados: nós temos as habilidades necessárias para cumprir o que estamos fazendo?\nDados e tecnologia: nós temos acesso aos dados e às ferramentas necessárias para tomar decisões baseadas em dados?\nCultura: o ambiente está pronto para ter sucesso com dados?"
+  },
+  {
+    "objectID": "conacon_2023.html#coletando-e-democratizando-os-dados",
+    "href": "conacon_2023.html#coletando-e-democratizando-os-dados",
+    "title": "",
+    "section": "Coletando e democratizando os dados",
+    "text": "Coletando e democratizando os dados"
+  },
+  {
+    "objectID": "conacon_2023.html#coletando-dados-de-qualidade",
+    "href": "conacon_2023.html#coletando-dados-de-qualidade",
+    "title": "",
+    "section": "Coletando dados de qualidade",
+    "text": "Coletando dados de qualidade\n\nrelevante;\ntempestivo;\nacurado;\nlimpo;\nsem viés;\nconfiável.\n\n\n\n\n\n\n\nNota\n\n\nA estimativa da IBM (em 2016) para o custo anual de dados de baixa qualidade é de US$ 3,1 trilhões por ano apenas nos Estados Unidos. (Redman, 2016)"
+  },
+  {
     "objectID": "conacon_2023.html#section-6",
     "href": "conacon_2023.html#section-6",
+    "title": "",
+    "section": "",
+    "text": "Erros, aparentemente simples, podem causar grandes problemas.\n\nCoordenada geográfica do TCE-PB: -7.13023, -34.87061\nCoordenada geográfica do TCE-PB (erro): -7.13023, -34.97061"
+  },
+  {
+    "objectID": "conacon_2023.html#disponibilize-seus-dados",
+    "href": "conacon_2023.html#disponibilize-seus-dados",
+    "title": "",
+    "section": "Disponibilize seus dados!",
+    "text": "Disponibilize seus dados!\n\n\nA publicidade é justamente elogiada como um remédio para doenças sociais e industriais. A luz solar é considerada o melhor dos desinfetantes; a luz elétrica o policial mais eficiente. - Louis Brandeis"
+  },
+  {
+    "objectID": "conacon_2023.html#dados-abertos-são-valiosos",
+    "href": "conacon_2023.html#dados-abertos-são-valiosos",
+    "title": "",
+    "section": "Dados abertos são valiosos",
+    "text": "Dados abertos são valiosos\n\nNa União Europeia, estima-se que apenas os dados governamentais abertos gerem um impacto econômico agregado direto e indireto anual de 40 bilhões de euros. Fundamentalmente, essas projeções econômicas reforçam ainda mais a noção de dados governamentais abertos como uma tendência sociotécnica promissora e valiosa. (Ribeiro, 2017)"
+  },
+  {
+    "objectID": "conacon_2023.html#dados-abertos-no-brasil-vs.-outros-países.",
+    "href": "conacon_2023.html#dados-abertos-no-brasil-vs.-outros-países.",
+    "title": "",
+    "section": "Dados abertos no Brasil vs. outros países.",
+    "text": "Dados abertos no Brasil vs. outros países.\nEm números1 de conjuntos de dados:\n\nBrasil - 11.998 (https://dados.gov.br/)\nEstados Unidos - 252.595 (https://data.gov)\nFrança - 46.118 (https://www.data.gouv.fr/en/)\nAlemanha - 83.821 (https://www.govdata.de)\nArgentina - 1.176 (https://datos.gob.ar)\nÍndia - 610.541 (https://data.gov.in)\n\nNúmeros coletados em 11 julho de 2023."
+  },
+  {
+    "objectID": "conacon_2023.html#caso-i-dados-abertos-da-vacinação-contra-a-covid-19-fa-solid-syringe-size1xl",
+    "href": "conacon_2023.html#caso-i-dados-abertos-da-vacinação-contra-a-covid-19-fa-solid-syringe-size1xl",
+    "title": "",
+    "section": "Caso I: Dados abertos da vacinação contra a Covid-19 ",
+    "text": "Caso I: Dados abertos da vacinação contra a Covid-19"
+  },
+  {
+    "objectID": "conacon_2023.html#dados-sobre-doses",
+    "href": "conacon_2023.html#dados-sobre-doses",
+    "title": "",
+    "section": "Dados sobre doses",
+    "text": "Dados sobre doses\n\n\n\n\n\n  \n    \n    \n  \n  \n    \n      Vacinação - Covid-19\n    \n    \n      Dados referentes à Paraíba\n    \n    \n      Descrição da dose\n      Frequência\n    \n  \n  \n    1ª Dose\n3.618.785\n    1ª Dose Fracionada\n3\n    1ª Dose Revacinação\n7.943\n    1º Reforço\n36.799\n    2ª Dose\n3.286.210\n    2ª Dose Fracionada\n3\n    2ª Dose Revacinação\n7.002\n    2º Reforço\n730.342\n    3ª Dose\n41.499\n    3ª Dose Revacinação\n3.037\n    3º Reforço\n4.336\n    4ª Dose\n183.257\n    4ª Dose Revacinação\n3.893\n    5ª Dose\n4.972\n    5ª Dose Revacinação\n18\n    Dose\n47.191\n    Dose Adicional\n59.189\n    Dose Inicial\n1.062\n    Reforço\n2.567.552\n    Revacinação\n1.798\n    Única\n86\n    -\n7\n  \n  \n    \n      OpenDataSUS - opendatasus.saude.gov.br\n    \n  \n  \n    \n       Dados coletados em 6 de julho de 2023."
+  },
+  {
+    "objectID": "conacon_2023.html#dados-sobre-fabricantes",
+    "href": "conacon_2023.html#dados-sobre-fabricantes",
+    "title": "",
+    "section": "Dados sobre fabricantes",
+    "text": "Dados sobre fabricantes\n\n\n\n\n\n\n  \n    \n    \n  \n  \n    \n      Vacinação - Covid-19\n    \n    \n      Dados referentes à Paraíba\n    \n    \n      Nome do fabricante\n      Frequência\n    \n  \n  \n    ASTRAZENECA\n127.037\n    ASTRAZENECA/FIOCRUZ\n2.832.865\n    FUNDACAO OSWALDO CRUZ\n22\n    JANSSEN\n547.386\n    JANSSEN PHARMACEUTICA NV\n4\n    PFIZER\n4.447.698\n    PFIZER - PEDI?TRICA\n47.944\n    PFIZER - PEDIÁTRICA\n131.155\n    PFIZER - PEDIÁTRICA MENOR DE 5 ANOS\n109.989\n    PFIZER MANUFACTURING BELGIUM NV - BELGICA\n13\n    Pendente Identifica??o\n4.888\n    Pendente Identificação\n183.301\n    SINOVAC\n1.050\n    SINOVAC LIFE SCIENCES CO., LTD\n3\n    SINOVAC/BUTANTAN\n2.171.629\n  \n  \n    \n      OpenDataSUS - opendatasus.saude.gov.br\n    \n  \n  \n    \n       Dados coletados em 6 de julho de 2023."
+  },
+  {
+    "objectID": "conacon_2023.html#idades-dos-pacientes",
+    "href": "conacon_2023.html#idades-dos-pacientes",
+    "title": "",
+    "section": "Idades dos pacientes",
+    "text": "Idades dos pacientes\n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n      Vacinação - Covid-19\n    \n    \n      Dados referentes à Paraíba\n    \n    \n      #\n      ID do paciente\n      Idade\n      Data de nascimento\n    \n  \n  \n    1\nccf216a200402d9bdb9aabcfd97e5cab6ecd88a9f7801864445546e64236fb7c\n-1\n1953-07-17\n    2\nb7da1448c5c3b248dc2619251b8556d0c811a26f6c90d083f030f06c1b878b4a\n-1\n1965-08-07\n    3\n3fddf484c2a897803c44009d0d43c591bd61e30da2342d841fd2c9a05446113c\n-60\n1982-02-04\n    4\nb259157778f037bd6e1a86d62e82c45a18215fdc17a96982d6ec74d708d828f9\n-3\n1978-10-21\n    5\na6d2d4e1ec4d15627ce3cc2771cf70ced7ca62e4a53571c70e286ec173ae64d5\n-6\n1928-06-24\n    6\n62c16921669e8a5301db6d3585247c98f116448181435a15f4a465c1cc2cd396\n-52\n1973-11-23\n    7\n6823d2a57157fa77da255622be626fa2a25dfac5d99d86b1eab29b411d896186\n-37\n1958-09-02\n    8\n613f8a214c70f987587579f507266442e2d913b856b2491420a1c17782a85fcc\n-48\n2004-06-13\n    9\n5944a8a5d74c3e4c6a5e0c6d9f2d43b14009b1e5744c45423fd23d948c0bc12d\n-1\n1961-04-10\n    10\nf2bb5f828e53225f985c00f0af695881fe7b54641585046fec6f8d9466ce8ef9\n-42\n1964-07-10\n    11\n2773055d842bdd8f48e87987be13c8f0d7cc84fc11070463fa9c656093f88583\n-48\n1970-05-07\n    12\nd6f803ece9ba9793362be1e604679b106b76411530349735280e38520c209fbf\n-54\n1976-01-20\n    13\nc02f720286870b33c692f9f54803dbc27e2543b3718cea439dc83239baedc154\n-5\n1990-03-24\n    14\n804d901e719b8ab6f4a18b3370a8a4820e41678b9255b20d65cd3219137d6044\n-70\n1992-02-04\n    15\n67fb29887cc0abf0237125abf82bddaa3b7c90685e0e80a67f7dc2a8f2ce31b6\n-29\n1950-09-23\n    16\ne205aeddcf1eee51347f1cd2fff32c4ef9b3db5b00ba0dbf20c74c8e14d90e93\n-43\n1964-11-17\n    17\ndba2093426b5e947956b5657707a70324040694d335bdbea350b44567f9183d0\n-42\n1964-03-21\n    18\n804d901e719b8ab6f4a18b3370a8a4820e41678b9255b20d65cd3219137d6044\n-70\n1992-02-04\n    19\nb348f5ce1b601bcb9b124fba9c8abd11e375ec4c30fec219e117b319624af855\n-5\n1989-04-26\n    20\n762786307372d5bd5799d028dca351d555801926faa364c5bc111f8303b0a7cd\n-33\n1955-04-02\n    21\n41722f5454f10b470a73e6193ec7eacff254ed14f7771ee2e28bda1fa55ec500\n-68\n1990-11-19\n    22\n40db74044f14c8876fc54e65bf9a7a7160b7537a8da75f6e03cd5fa8a53739f6\n-1\n1955-12-23\n    23\nd6f803ece9ba9793362be1e604679b106b76411530349735280e38520c209fbf\n-54\n1976-01-20\n    24\n8758abffdcca041c8c207cd71cb2e07b1d423f39d133b3326b7c58564664d6a2\n-5\n2008-09-03\n    25\n9deccdc32509a6cd46d1160cfc819f0b018d4f36b2e17dd5fa2baf3bd9651759\n-53\n1975-01-25\n    26\nb62f7848c0e441159d369ee38affa7adaf4c42c6dbabb7d20f273da21a1eb2f6\n-43\n1964-10-22\n    27\n4c0084442178f4905a2518e49ad7fccc91e11e8b28ef5f1c6d1ff23e046b4e53\n-46\n1968-06-25\n    28\nc25b80e719abe421fc040841d815d21b4f46a213a36da17e76736448e6e38f38\n-35\n1957-04-28\n    29\n16de302fe1de58ece80870e96ca6a71c4c215420e129016f862d2a1ed3309b52\n-47\n1969-05-23\n    30\n22618b1bff1b85fa4c238413d60891763eb37fcacf7cdfb748d74e5c3d01d642\n-8\n1983-02-28\n  \n  \n    \n      OpenDataSUS - opendatasus.saude.gov.br\n    \n  \n  \n    \n       Dados coletados em 6 de julho de 2023."
+  },
+  {
+    "objectID": "conacon_2023.html#vamos-ver-como-é-na-alemanha",
+    "href": "conacon_2023.html#vamos-ver-como-é-na-alemanha",
+    "title": "",
+    "section": "Vamos ver como é na Alemanha?",
+    "text": "Vamos ver como é na Alemanha?"
+  },
+  {
+    "objectID": "conacon_2023.html#section-8",
+    "href": "conacon_2023.html#section-8",
     "title": "",
     "section": "",
     "text": "O maior problema enfrentado pelas empresas que estão tentando inovar e se transformar com dados é uma cultura de “sempre fizemos assim”. - Gabie Boko"
@@ -217,8 +315,8 @@
     "text": "Casos"
   },
   {
-    "objectID": "conacon_2023.html#section-7",
-    "href": "conacon_2023.html#section-7",
+    "objectID": "conacon_2023.html#section-9",
+    "href": "conacon_2023.html#section-9",
     "title": "",
     "section": "",
     "text": "Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível espicaçar o assunto com cinco1 perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras. A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo. (Huff, 2016)\n\nDentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido?"
@@ -238,11 +336,11 @@
     "text": "Contato\n\n wevsena   wevsena   wsena@tce.pb.gov.br   Weverton Lisboa de Sena"
   },
   {
-    "objectID": "conacon_2023.html#referências-bibliográficas",
-    "href": "conacon_2023.html#referências-bibliográficas",
+    "objectID": "conacon_2023.html#referências",
+    "href": "conacon_2023.html#referências",
     "title": "",
-    "section": "Referências bibliográficas",
-    "text": "Referências bibliográficas\n\n\nANDERSON, C. Creating a data-driven organization: Practical advice from the trenches. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.\n\n\nBRUCE, A.; BRUCE, P. Estatı́stica prática para cientistas de dados. Rio de Janeiro: Alta Books, 2019.\n\n\nCABTREE, M.; NEHME, A. What is Data Literacy? A Comprehensive Guide for Organizations. Disponível em: &lt;https://www.datacamp.com/blog/what-is-data-literacy-a-comprehensive-guide-for-organizations&gt;. Acesso em: 8 jul. 2023.\n\n\nCHIU, J. How Enterprise Organizations Can Become Data-Driven. Disponível em: &lt;https://www.datacamp.com/blog/how-enterprise-organizations-can-become-data-driven&gt;. Acesso em: 6 jul. 2023.\n\n\nDAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen. [s.l: s.n.].\n\n\nEREMENKO, K. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. [s.l.] Kogan Page Publishers, 2018.\n\n\nESPINDOLA, D.; WRIGHT, M. W. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nGALOR, O. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. ed. Rio de Janeiro: Intrínseca, 2022.\n\n\nGLASS, R.; CALLAHAN, S. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. [s.l.] John Wiley & Sons, 2014.\n\n\nGUTMAN, A. J.; GOLDMEIER, J. Becoming a data head: How to think, speak, and understand data science, statistics, and machine learning. Hoboken, NJ: John Wiley & Sons, 2021.\n\n\nHUFF, D. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca, 2016.\n\n\nMORROW, J. Be data literate: The data literacy skills everyone needs to succeed. [s.l.] Kogan Page Publishers, 2021.\n\n\n___. Be Data Driven: How Organizations Can Harness the Power of Data. [s.l.] Kogan Page Publishers, 2022.\n\n\nSILBERZAHN, R. et al. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, v. 1, n. 3, p. 337–356, 2018.\n\n\nSUSSKIND, R. E.; SUSSKIND, D. The future of the professions: How technology will transform the work of human experts. New York: Oxford University Press, USA, 2015.\n\n\nWICKHAM, H.; ÇETINKAYA-RUNDEL, M.; GROLEMUND, G. R for data science. [s.l.] O’Reilly Media, Inc., 2023."
+    "section": "Referências",
+    "text": "Referências\n\n\nANDERSON, C. Creating a data-driven organization: Practical advice from the trenches. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.\n\n\nBEAN, R. Fail fast, learn faster : lessons in data-driven leadership in an age of disruption, big data, and AI. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\n___. How The U.S. Federal Government Is Mobilizing To Enable Data-Driven Decision Making. Disponível em: &lt;https://www.forbes.com/sites/randybean/2022/06/01/how-the-us-federal-government-is-mobilizing-to-enable-data-driven-decision-making&gt;. Acesso em: 10 jul. 2023.\n\n\nBRUCE, A.; BRUCE, P. Estatı́stica prática para cientistas de dados. Rio de Janeiro: Alta Books, 2019.\n\n\nCABTREE, M.; NEHME, A. What is Data Literacy? A Comprehensive Guide for Organizations. Disponível em: &lt;https://www.datacamp.com/blog/what-is-data-literacy-a-comprehensive-guide-for-organizations&gt;. Acesso em: 8 jul. 2023.\n\n\nCHIU, J. How Enterprise Organizations Can Become Data-Driven. Disponível em: &lt;https://www.datacamp.com/blog/how-enterprise-organizations-can-become-data-driven&gt;. Acesso em: 6 jul. 2023.\n\n\nDAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen. [s.l: s.n.].\n\n\nEREMENKO, K. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. [s.l.] Kogan Page Publishers, 2018.\n\n\nESPINDOLA, D.; WRIGHT, M. W. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nGALOR, O. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. ed. Rio de Janeiro: Intrínseca, 2022.\n\n\nGLASS, R.; CALLAHAN, S. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. [s.l.] John Wiley & Sons, 2014.\n\n\nGUTMAN, A. J.; GOLDMEIER, J. Becoming a data head: How to think, speak, and understand data science, statistics, and machine learning. Hoboken, NJ: John Wiley & Sons, 2021.\n\n\nHUFF, D. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca, 2016.\n\n\nMORROW, J. Be data literate: The data literacy skills everyone needs to succeed. [s.l.] Kogan Page Publishers, 2021.\n\n\n___. Be Data Driven: How Organizations Can Harness the Power of Data. [s.l.] Kogan Page Publishers, 2022.\n\n\nREDMAN, T. C. Bad Data Costs the U.S. $ 3 Trillion Per Year. Disponível em: &lt;https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year&gt;. Acesso em: 10 jul. 2023.\n\n\nRIBEIRO, F. G. DE M. M. Value creation and barriers in the commercial use of open government data. Porto, Portugal: Universidade do Porto, 2017.\n\n\nSILBERZAHN, R. et al. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, v. 1, n. 3, p. 337–356, 2018.\n\n\nSUSSKIND, R. E.; SUSSKIND, D. The future of the professions: How technology will transform the work of human experts. New York: Oxford University Press, USA, 2015.\n\n\nWICKHAM, H.; ÇETINKAYA-RUNDEL, M.; GROLEMUND, G. R for data science. [s.l.] O’Reilly Media, Inc., 2023."
   },
   {
     "objectID": "conacon_2023.html#obrigado",

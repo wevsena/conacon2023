@@ -265,6 +265,7 @@
     }
     .reveal .slide:not(.center) {
       height: 100%;
+      overflow-y: auto;
     }
     .reveal .slide.scrollable {
       overflow-y: auto;
@@ -354,7 +355,7 @@
   <p class="subtitle">Conceitos, etapas e desafios para a sua implementação</p>
   <p class="author">ACE Weverton Lisboa de Sena</p>
   <p class="institute">Tribunal de Contas do Estado da Paraíba</p>
-  <p class="date">setembro - 2023</p>
+  <p class="date">agosto - 2023</p>
 </section>
 <section id="section" class="slide level2 center" data-name="Índice">
 <h2></h2>
@@ -380,7 +381,7 @@
 </ul>
 </div>
 </section>
-<section id="introdução" class="slide level2 center" data-name="Introdução" data-background="linear-gradient(to right, #33ffcc, #33cc66)">
+<section id="introdução" class="slide level2 parte-title center" data-name="Introdução" data-background="linear-gradient(to right, #33ffcc, #33cc66)" data-font-size="200px">
 <h2>Introdução</h2>
 </section>
 <section id="section-1" class="slide level2 center" data-background-image="imagens/imagem04.jpg">
@@ -395,12 +396,25 @@
 <section id="section-2" class="slide level2 center" style="text-align:justify">
 <h2></h2>
 <blockquote>
-<p><em>Na verdade, tal progresso contínuo foi tão radical que muitas vezes perdemos de vista o quanto esse período é excepcional em relação ao resto da nossa história.</em> <span class="citation" data-cites="galor2022jornada">(<a href="#/referências-bibliográficas" role="doc-biblioref" onclick="">Galor, 2022</a>)</span></p>
+<p><em>Na verdade, tal progresso contínuo foi tão radical que muitas vezes perdemos de vista o quanto esse período é excepcional em relação ao resto da nossa história.</em> <span class="citation" data-cites="galor2022jornada">(<a href="#/referências" role="doc-biblioref" onclick="">Galor, 2022</a>)</span></p>
 </blockquote>
 <!-- <p class="small">Of course, you can set it to stop inheriting the name as well.</p> -->
 </section>
-<section id="parte-i" class="slide level2 center" data-name="Parte I" data-background="linear-gradient(to right, #33ffcc, #33cc66)">
+<section id="parte-i" class="slide level2 parte-title center" data-name="Parte I" data-background="linear-gradient(to right, #33ffcc, #33cc66)" data-font-size="200px">
 <h2>Parte I</h2>
+<p><!-- font-style: italic; --> <!-- font-family: Arial; --> <!-- font-variant: small-caps; --></p>
+<div class="cell">
+<style type="text/css">
+.parte-title {
+  font-size: 50px
+}
+
+.scrolling {
+  max-height: 700px;
+  overflow-y: auto;
+}
+</style>
+</div>
 </section>
 <section id="section-3" class="slide level2 center">
 <h2></h2>
@@ -411,14 +425,14 @@
 <section id="o-que-são-dados" class="slide level2 center" style="text-align:justify">
 <h2>O que são dados?</h2>
 <blockquote>
-<p><em>De forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. […] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados.</em> <span class="citation" data-cites="eremenko2018">(<a href="#/referências-bibliográficas" role="doc-biblioref" onclick="">Eremenko, 2018</a>)</span> (Tradução livre)</p>
+<p><em>De forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. […] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados.</em> <span class="citation" data-cites="eremenko2018">(<a href="#/referências" role="doc-biblioref" onclick="">Eremenko, 2018</a>)</span> (Tradução livre)</p>
 </blockquote>
 </section>
 <section id="dados-vs.-informação" class="slide level2 center" style="text-align:justify">
 <h2>Dados vs.&nbsp;Informação</h2>
 <p><br></p>
 <p>Apesar de serem frequentemente utilizados como sinônimos, informação e dados possuem conceitos diferentes.</p>
-<p>Em linhas gerais, a informação é derivada do conhecimento e os dados é a informação codificada. <span class="citation" data-cites="gutman2021">(<a href="#/referências-bibliográficas" role="doc-biblioref" onclick="">Gutman e Goldmeier, 2021</a>)</span></p>
+<p>Em linhas gerais, a informação é derivada do conhecimento e o dado é a informação codificada. <span class="citation" data-cites="gutman2021">(<a href="#/referências" role="doc-biblioref" onclick="">Gutman e Goldmeier, 2021</a>)</span></p>
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -508,19 +522,25 @@
 <section id="organização-orientada-a-dados" class="slide level2 center" style="text-align:justify">
 <h2>Organização orientada a dados</h2>
 <blockquote>
-<p><em>Basicamente, uma organização orientada a dados é aquela que utiliza dados para melhorar seus negócios - simples assim.</em> <span class="citation" data-cites="morrow2022">(<a href="#/referências-bibliográficas" role="doc-biblioref" onclick="">Morrow, 2022</a>)</span> (Tradução livre)</p>
+<p><em>Basicamente, uma organização orientada a dados é aquela que utiliza dados para melhorar seus negócios - simples assim.</em> <span class="citation" data-cites="morrow2022">(<a href="#/referências" role="doc-biblioref" onclick="">Morrow, 2022</a>)</span> (Tradução livre)</p>
 </blockquote>
 <blockquote>
-<p><em>A orientação a dados não é algo binário, mas contínuo: você sempre pode ser mais orientado a dados, coletar dados mais relevantes, ter uma organização analítica mais mais qualificada e fazer mais testes.</em> <span class="citation" data-cites="anderson2015">(<a href="#/referências-bibliográficas" role="doc-biblioref" onclick="">Anderson, 2015</a>)</span></p>
+<p><em>A orientação a dados não é algo binário, mas contínuo: você sempre pode ser mais orientado a dados, coletar dados mais relevantes, ter uma organização analítica mais mais qualificada e fazer mais testes.</em> <span class="citation" data-cites="anderson2015">(<a href="#/referências" role="doc-biblioref" onclick="">Anderson, 2015</a>)</span></p>
 </blockquote>
 </section>
 <section id="parece-simples-mas" class="slide level2 center" style="text-align:justify">
 <h2>Parece simples, mas…</h2>
 <blockquote>
-<p><em>[…] a NewVantage Partners, em janeiro de 2020, revelou que das 70 empresas pesquisadas, 98,8% estavam investindo em iniciativas de <em>big data</em> e IA, mas apenas 37,8% conseguiram afirmar que criaram uma organização orientada a dados.</em> <span class="citation" data-cites="joice2020">(<a href="#/referências-bibliográficas" role="doc-biblioref" onclick="">Chiu, 2020</a>)</span> (tradução livre)</p>
+<p><em>[…] a NewVantage Partners, em janeiro de 2020, revelou que das 70 empresas pesquisadas, 98,8% estavam investindo em iniciativas de <em>big data</em> e IA, mas apenas 37,8% conseguiram afirmar que criaram uma organização orientada a dados.</em> <span class="citation" data-cites="joice2020">(<a href="#/referências" role="doc-biblioref" onclick="">Chiu, 2020</a>)</span> (tradução livre)</p>
 </blockquote>
 <blockquote>
-<p><em>Algumas organizações pensam que são orientadas a dados simplesmente porque geram vários relatórios e <em>dashboards</em>.</em> <span class="citation" data-cites="anderson2015">(<a href="#/referências-bibliográficas" role="doc-biblioref" onclick="">Anderson, 2015</a>)</span> (tradução livre)</p>
+<p><em>Algumas organizações pensam que são orientadas a dados simplesmente porque geram vários relatórios e <em>dashboards</em>.</em> <span class="citation" data-cites="anderson2015">(<a href="#/referências" role="doc-biblioref" onclick="">Anderson, 2015</a>)</span> (tradução livre)</p>
+</blockquote>
+</section>
+<section id="a-corrida-começou" class="slide level2 center" style="text-align:justify">
+<h2>A corrida começou</h2>
+<blockquote>
+<p>O governo federal dos EUA está se mobilizando em um esforço unificado para realizar uma das maiores iniciativas de transformação federal em décadas. […] Esta é a história da iniciativa do governo federal para permitir que todas as agências federais tomem decisões orientadas por dados em uma economia mundial e nacional em ritmo acelerado, em mudança e competitiva. Esta é uma história sobre a qual você pode não ler nas primeiras páginas do The New York Times ou do The Wall Street Journal, mas pode ser ainda mais conseqüente e de longo alcance em termos de seu impacto competitivo econômico e global <span class="citation" data-cites="bean2022">(<a href="#/referências" role="doc-biblioref" onclick="">Bean, 2022</a>)</span> (Tradução livre)</p>
 </blockquote>
 </section>
 <section id="controle-externo-orientado-a-dados" class="slide level2 center" data-background="linear-gradient(to right, #33ffcc, #33cc66)" style="text-align:center">
@@ -536,7 +556,1725 @@
 </ul>
 </div>
 </section>
-<section id="section-6" class="slide level2 center">
+<section id="por-falar-em-eficiência" class="slide level2 center">
+<h2>Por falar em eficiência…</h2>
+</section>
+<section id="por-onde-começamos" class="slide level2 center" style="text-align:justify">
+<h2>Por onde começamos?</h2>
+<p>Segundo <span class="citation" data-cites="morrow2022">Morrow (<a href="#/referências" role="doc-biblioref" onclick="">2022</a>)</span>, há cinco pilares para construir uma organização orientada a dados:</p>
+<div>
+<ol type="1">
+<li class="fragment"><strong>Estratégia:</strong> o que estamos fazendo?</li>
+<li class="fragment"><strong>Liderança:</strong> quem decide o que estamos fazendo?</li>
+<li class="fragment"><strong>Alfabetização em dados:</strong> nós temos as habilidades necessárias para cumprir o que estamos fazendo?</li>
+<li class="fragment"><strong>Dados e tecnologia:</strong> nós temos acesso aos dados e às ferramentas necessárias para tomar decisões baseadas em dados?</li>
+<li class="fragment"><strong>Cultura:</strong> o ambiente está pronto para ter sucesso com dados?</li>
+</ol>
+</div>
+</section>
+<section id="coletando-e-democratizando-os-dados" class="slide level2 center">
+<h2>Coletando e democratizando os dados</h2>
+</section>
+<section id="coletando-dados-de-qualidade" class="slide level2 center" style="text-align:justify">
+<h2>Coletando dados de qualidade</h2>
+<ul>
+<li>relevante;</li>
+<li>tempestivo;</li>
+<li>acurado;</li>
+<li>limpo;</li>
+<li>sem viés;</li>
+<li>confiável.</li>
+</ul>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Nota</strong></p>
+</div>
+<div class="callout-content">
+<p>A estimativa da IBM (em 2016) para o custo anual de dados de baixa qualidade é de US$ 3,1 trilhões por ano apenas nos Estados Unidos. <span class="citation" data-cites="redman2016">(<a href="#/referências" role="doc-biblioref" onclick="">Redman, 2016</a>)</span></p>
+</div>
+</div>
+</div>
+</section>
+<section id="section-6" class="slide level2 center" data-background-iframe="https://www.google.com/maps/d/embed?mid=1nm4ySKGTSqTSF_K1wLARgAPyjpkdDaE&amp;ehbc=2E312F">
+<h2></h2>
+<p>Erros, aparentemente simples, podem causar grandes problemas.</p>
+<ul>
+<li>Coordenada geográfica do TCE-PB: -7.13023, -34.<strong>8</strong>7061</li>
+<li>Coordenada geográfica do TCE-PB (erro): -7.13023, -34.<strong>9</strong>7061</li>
+</ul>
+</section>
+<section id="disponibilize-seus-dados" class="slide level2 center" style="text-align:justify">
+<h2>Disponibilize seus dados!</h2>
+<p><br></p>
+<blockquote>
+<p><em>A publicidade é justamente elogiada como um remédio para doenças sociais e industriais. A luz solar é considerada o melhor dos desinfetantes; a luz elétrica o policial mais eficiente.</em> - <strong>Louis Brandeis</strong></p>
+</blockquote>
+</section>
+<section id="dados-abertos-são-valiosos" class="slide level2 center" style="text-align:justify">
+<h2>Dados abertos são valiosos</h2>
+<blockquote>
+<p><em>Na União Europeia, estima-se que apenas os dados governamentais abertos gerem um impacto econômico agregado direto e indireto anual de 40 bilhões de euros. Fundamentalmente, essas projeções econômicas reforçam ainda mais a noção de dados governamentais abertos como uma tendência sociotécnica promissora e valiosa.</em> <span class="citation" data-cites="ribeiro2017">(<a href="#/referências" role="doc-biblioref" onclick="">Ribeiro, 2017</a>)</span></p>
+</blockquote>
+</section>
+<section id="dados-abertos-no-brasil-vs.-outros-países." class="slide level2 center">
+<h2>Dados abertos no Brasil vs.&nbsp;outros países.</h2>
+<p>Em números<sup>1</sup> de conjuntos de dados:</p>
+<ul>
+<li>Brasil - 11.998 (<a href="https://dados.gov.br/" class="uri">https://dados.gov.br/</a>)</li>
+<li>Estados Unidos - 252.595 (<a href="https://data.gov" class="uri">https://data.gov</a>)</li>
+<li>França - 46.118 (<a href="https://www.data.gouv.fr/en/" class="uri">https://www.data.gouv.fr/en/</a>)</li>
+<li>Alemanha - 83.821 (<a href="https://www.govdata.de" class="uri">https://www.govdata.de</a>)</li>
+<li>Argentina - 1.176 (<a href="https://datos.gob.ar" class="uri">https://datos.gob.ar</a>)</li>
+<li>Índia - 610.541 (<a href="https://data.gov.in" class="uri">https://data.gov.in</a>)</li>
+</ul>
+<aside><ol class="aside-footnotes"><li id="fn3"><p>Números coletados em 11 julho de 2023.</p></li></ol></aside></section>
+<section id="caso-i-dados-abertos-da-vacinação-contra-a-covid-19-fa-solid-syringe-size1xl" class="slide level2 center" data-background="linear-gradient(to right, #33ffcc, #33cc66)" style="text-align:justify">
+<h2>Caso I: Dados abertos da vacinação contra a Covid-19 <i class="fa-solid fa-syringe fa-1xl" aria-label="syringe"></i></h2>
+</section>
+<section id="dados-sobre-doses" class="slide level2 scrolling center">
+<h2>Dados sobre doses</h2>
+<div class="cell-output-display">
+
+<div id="skyzhcdqei" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#skyzhcdqei table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#skyzhcdqei thead, #skyzhcdqei tbody, #skyzhcdqei tfoot, #skyzhcdqei tr, #skyzhcdqei td, #skyzhcdqei th {
+  border-style: none;
+}
+
+#skyzhcdqei p {
+  margin: 0;
+  padding: 0;
+}
+
+#skyzhcdqei .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#skyzhcdqei .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#skyzhcdqei .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#skyzhcdqei .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#skyzhcdqei .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#skyzhcdqei .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#skyzhcdqei .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#skyzhcdqei .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#skyzhcdqei .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#skyzhcdqei .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#skyzhcdqei .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#skyzhcdqei .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#skyzhcdqei .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#skyzhcdqei .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#skyzhcdqei .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#skyzhcdqei .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#skyzhcdqei .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#skyzhcdqei .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#skyzhcdqei .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#skyzhcdqei .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#skyzhcdqei .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#skyzhcdqei .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#skyzhcdqei .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#skyzhcdqei .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#skyzhcdqei .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#skyzhcdqei .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#skyzhcdqei .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#skyzhcdqei .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#skyzhcdqei .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#skyzhcdqei .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#skyzhcdqei .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#skyzhcdqei .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#skyzhcdqei .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#skyzhcdqei .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#skyzhcdqei .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#skyzhcdqei .gt_left {
+  text-align: left;
+}
+
+#skyzhcdqei .gt_center {
+  text-align: center;
+}
+
+#skyzhcdqei .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#skyzhcdqei .gt_font_normal {
+  font-weight: normal;
+}
+
+#skyzhcdqei .gt_font_bold {
+  font-weight: bold;
+}
+
+#skyzhcdqei .gt_font_italic {
+  font-style: italic;
+}
+
+#skyzhcdqei .gt_super {
+  font-size: 65%;
+}
+
+#skyzhcdqei .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#skyzhcdqei .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#skyzhcdqei .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#skyzhcdqei .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#skyzhcdqei .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#skyzhcdqei .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#skyzhcdqei .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" style="table-layout: fixed;; width: 0px" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+  <colgroup>
+    <col style="width:200px;">
+    <col style="width:200px;">
+  </colgroup>
+  <thead>
+    <tr class="gt_heading">
+      <td colspan="2" class="gt_heading gt_title gt_font_normal" style=""><strong>Vacinação - Covid-19</strong></td>
+    </tr>
+    <tr class="gt_heading">
+      <td colspan="2" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="">Dados referentes à Paraíba</td>
+    </tr>
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="Descrição da dose">Descrição da dose</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Frequência">Frequência</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">1ª Dose</td>
+<td headers="total" class="gt_row gt_right">3.618.785</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">1ª Dose Fracionada</td>
+<td headers="total" class="gt_row gt_right">3</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">1ª Dose Revacinação</td>
+<td headers="total" class="gt_row gt_right">7.943</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">1º Reforço</td>
+<td headers="total" class="gt_row gt_right">36.799</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">2ª Dose</td>
+<td headers="total" class="gt_row gt_right">3.286.210</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">2ª Dose Fracionada</td>
+<td headers="total" class="gt_row gt_right">3</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">2ª Dose Revacinação</td>
+<td headers="total" class="gt_row gt_right">7.002</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">2º Reforço</td>
+<td headers="total" class="gt_row gt_right">730.342</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">3ª Dose</td>
+<td headers="total" class="gt_row gt_right">41.499</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">3ª Dose Revacinação</td>
+<td headers="total" class="gt_row gt_right">3.037</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">3º Reforço</td>
+<td headers="total" class="gt_row gt_right">4.336</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">4ª Dose</td>
+<td headers="total" class="gt_row gt_right">183.257</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">4ª Dose Revacinação</td>
+<td headers="total" class="gt_row gt_right">3.893</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">5ª Dose</td>
+<td headers="total" class="gt_row gt_right">4.972</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">5ª Dose Revacinação</td>
+<td headers="total" class="gt_row gt_right">18</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">Dose</td>
+<td headers="total" class="gt_row gt_right">47.191</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">Dose Adicional</td>
+<td headers="total" class="gt_row gt_right">59.189</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">Dose Inicial</td>
+<td headers="total" class="gt_row gt_right">1.062</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">Reforço</td>
+<td headers="total" class="gt_row gt_right">2.567.552</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">Revacinação</td>
+<td headers="total" class="gt_row gt_right">1.798</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">Única</td>
+<td headers="total" class="gt_row gt_right">86</td></tr>
+    <tr><td headers="vacina_descricao_dose" class="gt_row gt_left">-</td>
+<td headers="total" class="gt_row gt_right">7</td></tr>
+  </tbody>
+  <tfoot class="gt_sourcenotes">
+    <tr>
+      <td class="gt_sourcenote" colspan="2">OpenDataSUS - opendatasus.saude.gov.br</td>
+    </tr>
+  </tfoot>
+  <tfoot class="gt_footnotes">
+    <tr>
+      <td class="gt_footnote" colspan="2"> Dados coletados em 6 de julho de 2023.</td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+</div>
+</section>
+<section id="dados-sobre-fabricantes" class="slide level2 scrolling center">
+<h2>Dados sobre fabricantes</h2>
+<div class="cell">
+<div class="cell-output-display">
+
+<div id="gpxjuyxkah" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#gpxjuyxkah table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#gpxjuyxkah thead, #gpxjuyxkah tbody, #gpxjuyxkah tfoot, #gpxjuyxkah tr, #gpxjuyxkah td, #gpxjuyxkah th {
+  border-style: none;
+}
+
+#gpxjuyxkah p {
+  margin: 0;
+  padding: 0;
+}
+
+#gpxjuyxkah .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#gpxjuyxkah .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#gpxjuyxkah .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#gpxjuyxkah .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#gpxjuyxkah .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#gpxjuyxkah .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#gpxjuyxkah .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#gpxjuyxkah .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#gpxjuyxkah .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#gpxjuyxkah .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#gpxjuyxkah .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#gpxjuyxkah .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#gpxjuyxkah .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#gpxjuyxkah .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#gpxjuyxkah .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#gpxjuyxkah .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#gpxjuyxkah .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#gpxjuyxkah .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#gpxjuyxkah .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gpxjuyxkah .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#gpxjuyxkah .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#gpxjuyxkah .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#gpxjuyxkah .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gpxjuyxkah .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#gpxjuyxkah .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#gpxjuyxkah .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#gpxjuyxkah .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gpxjuyxkah .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#gpxjuyxkah .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#gpxjuyxkah .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#gpxjuyxkah .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#gpxjuyxkah .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#gpxjuyxkah .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gpxjuyxkah .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#gpxjuyxkah .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gpxjuyxkah .gt_left {
+  text-align: left;
+}
+
+#gpxjuyxkah .gt_center {
+  text-align: center;
+}
+
+#gpxjuyxkah .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#gpxjuyxkah .gt_font_normal {
+  font-weight: normal;
+}
+
+#gpxjuyxkah .gt_font_bold {
+  font-weight: bold;
+}
+
+#gpxjuyxkah .gt_font_italic {
+  font-style: italic;
+}
+
+#gpxjuyxkah .gt_super {
+  font-size: 65%;
+}
+
+#gpxjuyxkah .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#gpxjuyxkah .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#gpxjuyxkah .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#gpxjuyxkah .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#gpxjuyxkah .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#gpxjuyxkah .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#gpxjuyxkah .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" style="table-layout: fixed;" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+  <colgroup>
+    <col>
+    <col style="width:200px;">
+  </colgroup>
+  <thead>
+    <tr class="gt_heading">
+      <td colspan="2" class="gt_heading gt_title gt_font_normal" style=""><strong>Vacinação - Covid-19</strong></td>
+    </tr>
+    <tr class="gt_heading">
+      <td colspan="2" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="">Dados referentes à Paraíba</td>
+    </tr>
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="Nome do fabricante">Nome do fabricante</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Frequência">Frequência</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="vacina_fabricante_nome" class="gt_row gt_left">ASTRAZENECA</td>
+<td headers="total" class="gt_row gt_right">127.037</td></tr>
+    <tr><td headers="vacina_fabricante_nome" class="gt_row gt_left">ASTRAZENECA/FIOCRUZ</td>
+<td headers="total" class="gt_row gt_right">2.832.865</td></tr>
+    <tr><td headers="vacina_fabricante_nome" class="gt_row gt_left">FUNDACAO OSWALDO CRUZ</td>
+<td headers="total" class="gt_row gt_right">22</td></tr>
+    <tr><td headers="vacina_fabricante_nome" class="gt_row gt_left">JANSSEN</td>
+<td headers="total" class="gt_row gt_right">547.386</td></tr>
+    <tr><td headers="vacina_fabricante_nome" class="gt_row gt_left">JANSSEN PHARMACEUTICA NV</td>
+<td headers="total" class="gt_row gt_right">4</td></tr>
+    <tr><td headers="vacina_fabricante_nome" class="gt_row gt_left">PFIZER</td>
+<td headers="total" class="gt_row gt_right">4.447.698</td></tr>
+    <tr><td headers="vacina_fabricante_nome" class="gt_row gt_left">PFIZER - PEDI?TRICA</td>
+<td headers="total" class="gt_row gt_right">47.944</td></tr>
+    <tr><td headers="vacina_fabricante_nome" class="gt_row gt_left">PFIZER - PEDIÁTRICA</td>
+<td headers="total" class="gt_row gt_right">131.155</td></tr>
+    <tr><td headers="vacina_fabricante_nome" class="gt_row gt_left">PFIZER - PEDIÁTRICA MENOR DE 5 ANOS</td>
+<td headers="total" class="gt_row gt_right">109.989</td></tr>
+    <tr><td headers="vacina_fabricante_nome" class="gt_row gt_left">PFIZER MANUFACTURING BELGIUM NV - BELGICA</td>
+<td headers="total" class="gt_row gt_right">13</td></tr>
+    <tr><td headers="vacina_fabricante_nome" class="gt_row gt_left">Pendente Identifica??o</td>
+<td headers="total" class="gt_row gt_right">4.888</td></tr>
+    <tr><td headers="vacina_fabricante_nome" class="gt_row gt_left">Pendente Identificação</td>
+<td headers="total" class="gt_row gt_right">183.301</td></tr>
+    <tr><td headers="vacina_fabricante_nome" class="gt_row gt_left">SINOVAC</td>
+<td headers="total" class="gt_row gt_right">1.050</td></tr>
+    <tr><td headers="vacina_fabricante_nome" class="gt_row gt_left">SINOVAC LIFE SCIENCES CO., LTD</td>
+<td headers="total" class="gt_row gt_right">3</td></tr>
+    <tr><td headers="vacina_fabricante_nome" class="gt_row gt_left">SINOVAC/BUTANTAN</td>
+<td headers="total" class="gt_row gt_right">2.171.629</td></tr>
+  </tbody>
+  <tfoot class="gt_sourcenotes">
+    <tr>
+      <td class="gt_sourcenote" colspan="2">OpenDataSUS - opendatasus.saude.gov.br</td>
+    </tr>
+  </tfoot>
+  <tfoot class="gt_footnotes">
+    <tr>
+      <td class="gt_footnote" colspan="2"> Dados coletados em 6 de julho de 2023.</td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section id="idades-dos-pacientes" class="slide level2 scrolling center">
+<h2>Idades dos pacientes</h2>
+<div class="cell">
+<div class="cell-output-display">
+
+<div id="fwutggnwkv" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#fwutggnwkv table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#fwutggnwkv thead, #fwutggnwkv tbody, #fwutggnwkv tfoot, #fwutggnwkv tr, #fwutggnwkv td, #fwutggnwkv th {
+  border-style: none;
+}
+
+#fwutggnwkv p {
+  margin: 0;
+  padding: 0;
+}
+
+#fwutggnwkv .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#fwutggnwkv .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#fwutggnwkv .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#fwutggnwkv .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#fwutggnwkv .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#fwutggnwkv .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#fwutggnwkv .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#fwutggnwkv .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#fwutggnwkv .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#fwutggnwkv .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#fwutggnwkv .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#fwutggnwkv .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#fwutggnwkv .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#fwutggnwkv .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#fwutggnwkv .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#fwutggnwkv .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#fwutggnwkv .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#fwutggnwkv .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#fwutggnwkv .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fwutggnwkv .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#fwutggnwkv .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#fwutggnwkv .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#fwutggnwkv .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fwutggnwkv .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#fwutggnwkv .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#fwutggnwkv .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#fwutggnwkv .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fwutggnwkv .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#fwutggnwkv .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#fwutggnwkv .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#fwutggnwkv .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#fwutggnwkv .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#fwutggnwkv .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fwutggnwkv .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#fwutggnwkv .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fwutggnwkv .gt_left {
+  text-align: left;
+}
+
+#fwutggnwkv .gt_center {
+  text-align: center;
+}
+
+#fwutggnwkv .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#fwutggnwkv .gt_font_normal {
+  font-weight: normal;
+}
+
+#fwutggnwkv .gt_font_bold {
+  font-weight: bold;
+}
+
+#fwutggnwkv .gt_font_italic {
+  font-style: italic;
+}
+
+#fwutggnwkv .gt_super {
+  font-size: 65%;
+}
+
+#fwutggnwkv .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#fwutggnwkv .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#fwutggnwkv .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#fwutggnwkv .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#fwutggnwkv .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#fwutggnwkv .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#fwutggnwkv .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" style="table-layout: fixed;" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+  <colgroup>
+    <col>
+    <col>
+    <col style="width:100px;">
+    <col>
+  </colgroup>
+  <thead>
+    <tr class="gt_heading">
+      <td colspan="4" class="gt_heading gt_title gt_font_normal" style=""><strong>Vacinação - Covid-19</strong></td>
+    </tr>
+    <tr class="gt_heading">
+      <td colspan="4" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="">Dados referentes à Paraíba</td>
+    </tr>
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="#">#</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="ID do paciente">ID do paciente</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Idade">Idade</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Data de nascimento">Data de nascimento</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="N" class="gt_row gt_right">1</td>
+<td headers="paciente_id" class="gt_row gt_left">ccf216a200402d9bdb9aabcfd97e5cab6ecd88a9f7801864445546e64236fb7c</td>
+<td headers="paciente_idade" class="gt_row gt_right">-1</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1953-07-17</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">2</td>
+<td headers="paciente_id" class="gt_row gt_left">b7da1448c5c3b248dc2619251b8556d0c811a26f6c90d083f030f06c1b878b4a</td>
+<td headers="paciente_idade" class="gt_row gt_right">-1</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1965-08-07</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">3</td>
+<td headers="paciente_id" class="gt_row gt_left">3fddf484c2a897803c44009d0d43c591bd61e30da2342d841fd2c9a05446113c</td>
+<td headers="paciente_idade" class="gt_row gt_right">-60</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1982-02-04</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">4</td>
+<td headers="paciente_id" class="gt_row gt_left">b259157778f037bd6e1a86d62e82c45a18215fdc17a96982d6ec74d708d828f9</td>
+<td headers="paciente_idade" class="gt_row gt_right">-3</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1978-10-21</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">5</td>
+<td headers="paciente_id" class="gt_row gt_left">a6d2d4e1ec4d15627ce3cc2771cf70ced7ca62e4a53571c70e286ec173ae64d5</td>
+<td headers="paciente_idade" class="gt_row gt_right">-6</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1928-06-24</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">6</td>
+<td headers="paciente_id" class="gt_row gt_left">62c16921669e8a5301db6d3585247c98f116448181435a15f4a465c1cc2cd396</td>
+<td headers="paciente_idade" class="gt_row gt_right">-52</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1973-11-23</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">7</td>
+<td headers="paciente_id" class="gt_row gt_left">6823d2a57157fa77da255622be626fa2a25dfac5d99d86b1eab29b411d896186</td>
+<td headers="paciente_idade" class="gt_row gt_right">-37</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1958-09-02</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">8</td>
+<td headers="paciente_id" class="gt_row gt_left">613f8a214c70f987587579f507266442e2d913b856b2491420a1c17782a85fcc</td>
+<td headers="paciente_idade" class="gt_row gt_right">-48</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">2004-06-13</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">9</td>
+<td headers="paciente_id" class="gt_row gt_left">5944a8a5d74c3e4c6a5e0c6d9f2d43b14009b1e5744c45423fd23d948c0bc12d</td>
+<td headers="paciente_idade" class="gt_row gt_right">-1</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1961-04-10</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">10</td>
+<td headers="paciente_id" class="gt_row gt_left">f2bb5f828e53225f985c00f0af695881fe7b54641585046fec6f8d9466ce8ef9</td>
+<td headers="paciente_idade" class="gt_row gt_right">-42</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1964-07-10</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">11</td>
+<td headers="paciente_id" class="gt_row gt_left">2773055d842bdd8f48e87987be13c8f0d7cc84fc11070463fa9c656093f88583</td>
+<td headers="paciente_idade" class="gt_row gt_right">-48</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1970-05-07</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">12</td>
+<td headers="paciente_id" class="gt_row gt_left">d6f803ece9ba9793362be1e604679b106b76411530349735280e38520c209fbf</td>
+<td headers="paciente_idade" class="gt_row gt_right">-54</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1976-01-20</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">13</td>
+<td headers="paciente_id" class="gt_row gt_left">c02f720286870b33c692f9f54803dbc27e2543b3718cea439dc83239baedc154</td>
+<td headers="paciente_idade" class="gt_row gt_right">-5</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1990-03-24</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">14</td>
+<td headers="paciente_id" class="gt_row gt_left">804d901e719b8ab6f4a18b3370a8a4820e41678b9255b20d65cd3219137d6044</td>
+<td headers="paciente_idade" class="gt_row gt_right">-70</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1992-02-04</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">15</td>
+<td headers="paciente_id" class="gt_row gt_left">67fb29887cc0abf0237125abf82bddaa3b7c90685e0e80a67f7dc2a8f2ce31b6</td>
+<td headers="paciente_idade" class="gt_row gt_right">-29</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1950-09-23</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">16</td>
+<td headers="paciente_id" class="gt_row gt_left">e205aeddcf1eee51347f1cd2fff32c4ef9b3db5b00ba0dbf20c74c8e14d90e93</td>
+<td headers="paciente_idade" class="gt_row gt_right">-43</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1964-11-17</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">17</td>
+<td headers="paciente_id" class="gt_row gt_left">dba2093426b5e947956b5657707a70324040694d335bdbea350b44567f9183d0</td>
+<td headers="paciente_idade" class="gt_row gt_right">-42</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1964-03-21</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">18</td>
+<td headers="paciente_id" class="gt_row gt_left">804d901e719b8ab6f4a18b3370a8a4820e41678b9255b20d65cd3219137d6044</td>
+<td headers="paciente_idade" class="gt_row gt_right">-70</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1992-02-04</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">19</td>
+<td headers="paciente_id" class="gt_row gt_left">b348f5ce1b601bcb9b124fba9c8abd11e375ec4c30fec219e117b319624af855</td>
+<td headers="paciente_idade" class="gt_row gt_right">-5</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1989-04-26</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">20</td>
+<td headers="paciente_id" class="gt_row gt_left">762786307372d5bd5799d028dca351d555801926faa364c5bc111f8303b0a7cd</td>
+<td headers="paciente_idade" class="gt_row gt_right">-33</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1955-04-02</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">21</td>
+<td headers="paciente_id" class="gt_row gt_left">41722f5454f10b470a73e6193ec7eacff254ed14f7771ee2e28bda1fa55ec500</td>
+<td headers="paciente_idade" class="gt_row gt_right">-68</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1990-11-19</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">22</td>
+<td headers="paciente_id" class="gt_row gt_left">40db74044f14c8876fc54e65bf9a7a7160b7537a8da75f6e03cd5fa8a53739f6</td>
+<td headers="paciente_idade" class="gt_row gt_right">-1</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1955-12-23</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">23</td>
+<td headers="paciente_id" class="gt_row gt_left">d6f803ece9ba9793362be1e604679b106b76411530349735280e38520c209fbf</td>
+<td headers="paciente_idade" class="gt_row gt_right">-54</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1976-01-20</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">24</td>
+<td headers="paciente_id" class="gt_row gt_left">8758abffdcca041c8c207cd71cb2e07b1d423f39d133b3326b7c58564664d6a2</td>
+<td headers="paciente_idade" class="gt_row gt_right">-5</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">2008-09-03</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">25</td>
+<td headers="paciente_id" class="gt_row gt_left">9deccdc32509a6cd46d1160cfc819f0b018d4f36b2e17dd5fa2baf3bd9651759</td>
+<td headers="paciente_idade" class="gt_row gt_right">-53</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1975-01-25</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">26</td>
+<td headers="paciente_id" class="gt_row gt_left">b62f7848c0e441159d369ee38affa7adaf4c42c6dbabb7d20f273da21a1eb2f6</td>
+<td headers="paciente_idade" class="gt_row gt_right">-43</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1964-10-22</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">27</td>
+<td headers="paciente_id" class="gt_row gt_left">4c0084442178f4905a2518e49ad7fccc91e11e8b28ef5f1c6d1ff23e046b4e53</td>
+<td headers="paciente_idade" class="gt_row gt_right">-46</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1968-06-25</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">28</td>
+<td headers="paciente_id" class="gt_row gt_left">c25b80e719abe421fc040841d815d21b4f46a213a36da17e76736448e6e38f38</td>
+<td headers="paciente_idade" class="gt_row gt_right">-35</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1957-04-28</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">29</td>
+<td headers="paciente_id" class="gt_row gt_left">16de302fe1de58ece80870e96ca6a71c4c215420e129016f862d2a1ed3309b52</td>
+<td headers="paciente_idade" class="gt_row gt_right">-47</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1969-05-23</td></tr>
+    <tr><td headers="N" class="gt_row gt_right">30</td>
+<td headers="paciente_id" class="gt_row gt_left">22618b1bff1b85fa4c238413d60891763eb37fcacf7cdfb748d74e5c3d01d642</td>
+<td headers="paciente_idade" class="gt_row gt_right">-8</td>
+<td headers="paciente_dataNascimento" class="gt_row gt_right">1983-02-28</td></tr>
+  </tbody>
+  <tfoot class="gt_sourcenotes">
+    <tr>
+      <td class="gt_sourcenote" colspan="4">OpenDataSUS - opendatasus.saude.gov.br</td>
+    </tr>
+  </tfoot>
+  <tfoot class="gt_footnotes">
+    <tr>
+      <td class="gt_footnote" colspan="4"> Dados coletados em 6 de julho de 2023.</td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section id="vamos-ver-como-é-na-alemanha" class="slide level2 center">
+<h2>Vamos ver como é na Alemanha?</h2>
+</section>
+<section id="section-7" class="slide level2 center" data-background-iframe="https://robert-koch-institut.github.io/COVID-19-Impfungen_in_Deutschland">
+<h2></h2>
+</section>
+<section id="section-8" class="slide level2 center">
 <h2></h2>
 <blockquote>
 <p><em>O maior problema enfrentado pelas empresas que estão tentando inovar e se transformar com dados é uma cultura de “sempre fizemos assim”.</em> - <strong>Gabie Boko</strong></p>
@@ -700,25 +2438,25 @@
 <li><strong>A</strong>valie e monitore a solução e feedback quando necessário.</li>
 </ul>
 </section>
-<section id="parte-ii" class="slide level2 center" data-name="Parte II">
+<section id="parte-ii" class="slide level2 parte-title center" data-name="Parte II" data-background="linear-gradient(to right, #33ffcc, #33cc66)" data-font-size="200px">
 <h2>Parte II</h2>
 </section>
 <section id="casos" class="slide level2 center" data-background-color="aquamarine">
 <h2>Casos</h2>
 </section>
-<section id="section-7" class="slide level2 center">
+<section id="section-9" class="slide level2 center">
 <h2></h2>
 <blockquote>
-<p><em>Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível espicaçar o assunto com cinco<sup>1</sup> perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras. A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo.</em> <span class="citation" data-cites="huff2016">(<a href="#/referências-bibliográficas" role="doc-biblioref" onclick="">Huff, 2016</a>)</span></p>
+<p><em>Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível espicaçar o assunto com cinco<sup>1</sup> perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras. A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo.</em> <span class="citation" data-cites="huff2016">(<a href="#/referências" role="doc-biblioref" onclick="">Huff, 2016</a>)</span></p>
 </blockquote>
-<aside><ol class="aside-footnotes"><li id="fn3"><p>Dentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido? </p></li></ol></aside></section>
-<section id="section-8" class="slide level2 center" data-sm="false">
+<aside><ol class="aside-footnotes"><li id="fn4"><p>Dentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido? </p></li></ol></aside></section>
+<section id="section-10" class="slide level2 center" data-sm="false">
 <h2></h2>
 </section>
 <section id="considerações-finais" class="slide level2 center" data-name="Considerações finais" data-background-color="aquamarine">
 <h2>Considerações finais</h2>
 </section>
-<section id="section-9" class="slide level2 center" data-background-video="https://youtu.be/wo9vZccmqwc?autoplay=1" data-background-size="cover">
+<section id="section-11" class="slide level2 center" data-background-video="https://youtu.be/wo9vZccmqwc?autoplay=1" data-background-size="cover">
 <h2></h2>
 </section>
 <section id="contato" class="slide level2 center" data-background-color="aquamarine">
@@ -726,11 +2464,17 @@
 <p><br></p>
 <p><i class="fa-brands fa-twitter fa-2xl" aria-label="twitter"></i> wevsena <br><br> <i class="fa-brands fa-github fa-2xl" aria-label="github"></i> wevsena <br><br> <i class="fa-solid fa-envelope fa-2xl" aria-label="envelope"></i> wsena@tce.pb.gov.br <br><br> <i class="fa-brands fa-linkedin fa-2xl" aria-label="linkedin"></i> Weverton Lisboa de Sena</p>
 </section>
-<section id="referências-bibliográficas" class="slide level2 smaller scrollable">
-<h2>Referências bibliográficas</h2>
+<section id="referências" class="slide level2 smaller scrollable">
+<h2>Referências</h2>
 <div id="refs" class="references csl-bib-body" role="list">
 <div id="ref-anderson2015" class="csl-entry" role="listitem">
 ANDERSON, C. <strong>Creating a data-driven organization: Practical advice from the trenches</strong>. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.
+</div>
+<div id="ref-bean2022book" class="csl-entry" role="listitem">
+BEAN, R. <strong>Fail fast, learn faster : lessons in data-driven leadership in an age of disruption, big data, and AI</strong>. Hoboken, New Jersey: John Wiley &amp; Sons, Incorporated, 2021.
+</div>
+<div id="ref-bean2022" class="csl-entry" role="listitem">
+___. <strong>How The U.S. Federal Government Is Mobilizing To Enable Data-Driven Decision Making</strong>. Disponível em: &lt;<a href="https://www.forbes.com/sites/randybean/2022/06/01/how-the-us-federal-government-is-mobilizing-to-enable-data-driven-decision-making">https://www.forbes.com/sites/randybean/2022/06/01/how-the-us-federal-government-is-mobilizing-to-enable-data-driven-decision-making</a>&gt;. Acesso em: 10 jul. 2023.
 </div>
 <div id="ref-bruce2019" class="csl-entry" role="listitem">
 BRUCE, A.; BRUCE, P. <strong>Estat<span>ı́</span>stica pr<span>á</span>tica para cientistas de dados</strong>. Rio de Janeiro: Alta Books, 2019.
@@ -767,6 +2511,12 @@ MORROW, J. <strong>Be data literate: The data literacy skills everyone needs to 
 </div>
 <div id="ref-morrow2022" class="csl-entry" role="listitem">
 ___. <strong>Be Data Driven: How Organizations Can Harness the Power of Data</strong>. [s.l.] Kogan Page Publishers, 2022.
+</div>
+<div id="ref-redman2016" class="csl-entry" role="listitem">
+REDMAN, T. C. <strong>Bad Data Costs the U.S. $ 3 Trillion Per Year</strong>. Disponível em: &lt;<a href="https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year">https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year</a>&gt;. Acesso em: 10 jul. 2023.
+</div>
+<div id="ref-ribeiro2017" class="csl-entry" role="listitem">
+RIBEIRO, F. G. DE M. M. <strong>Value creation and barriers in the commercial use of open government data</strong>. Porto, Portugal: Universidade do Porto, 2017.
 </div>
 <div id="ref-silberzahn2018many" class="csl-entry" role="listitem">
 SILBERZAHN, R. <em>et al.</em> Many analysts, one data set: Making transparent how variations in analytic choices affect results. <strong>Advances in Methods and Practices in Psychological Science</strong>, v. 1, n. 3, p. 337–356, 2018.
