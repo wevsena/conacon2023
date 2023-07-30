@@ -62,6 +62,7 @@ nocite: |
   @crabtree2023
   @ribeiro2017
   @bean2022book
+  @kahneman2021noise
 ---
 
 ##  {data-name="Índice"}
@@ -86,7 +87,7 @@ nocite: |
 
 ## {background-image="imagens/imagem04.jpg"}
 
-
+## {background-image="imagens/imagem05.jpg"}
 
 ## PIB Mundial
 
@@ -510,9 +511,114 @@ Foram encontrados 86^[Há a possibilidade de outros casos, uma vez que a busca s
 
 <br>
 
-##
+
+
+
+## Ler os dados {style="text-align:justify"}
+
+> No nosso caso, ler dados significa olhar para os dados e informações apresentados e compreendê-los. Claro e simples. No mundo dos dados, existem muitas formas em que os dados chegam e serão apresentados, mostrados para cada um de nós. A leitura de dados é a nossa capacidade de olhar e compreender os dados e as informações, quando as possuímos, o que nos capacita a ter sucesso com os dados. [@morrow2021data]
+
+
+## Trabalhar com os dados {style="text-align:justify"}
+
+> [...] vemos que trabalhar com dados é fazer algo com dados em uma organização para atingir um resultado ou propósito. [@morrow2021data]
+
+
+## Analisar os dados {style="text-align:justify"}
+
+> A análise de dados também nos dá uma maneira de decifrar e filtrar as enormes quantidades de dados e informações que nos são apresentadas em nossas vidas. A maioria de nós já ouviu a expressão “notícias falsas”. A capacidade adequada de fazer perguntas e analisar dados e informações pode nos ajudar a decifrar a desinformação que nos é apresentada. [@morrow2021data]
+
+
+## Comunicar com dados {style="text-align:justify"}
+
+> Além de coletar dados e torná-los apresentáveis, essa habilidade trata de explicar esses dados para não especialistas de uma maneira compreensível. Muitas vezes, isso significa entender tópicos de dados mais avançados. [@crabtree2023]
+
+> Somo mal preparados para uma importante tarefa, cada vez mais exigida. A tecnologia permitiu acumular volumes de dados cada vez maiores e há um também crescente desejo associado de entendê-los. [@knaflic2015]
+
+
+## Comunicando com dados {background="linear-gradient(to right, #33ffcc, #33cc66)"}
+
+## O que evitar
+
+
+
+## O que utilizar
+
+
+<iframe src="https://e.infogram.com/9c67e8ad-39a0-4274-b7a1-16649f489f50?src=embed" title="conacon" style="width: 100%" height="727" scrolling="no" frameborder="0" style="border:none;" allowfullscreen="allowfullscreen"></iframe>
+
+
+
+
+## Parte II {data-name="Parte II" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title}
+
+## Desafios para um Controle Externo orientado a dados
 
 > _O maior problema enfrentado pelas empresas que estão tentando inovar e se transformar com dados é uma cultura de "sempre fizemos assim"._ - **Gabie Boko**
+
+
+## Esforço das organizações
+
+
+
+```{r, echo=FALSE}
+library(tidyverse)
+library(gt)
+
+tab_01 <- tibble(state = c("Impulsionando a inovação com dados",
+                           "Competindo com análise de dados",
+                           "Gerenciando dados como um ativo de negócio",
+                           "Possui uma estratégia de dados bem articulada",
+                           "Resultados de negócios em transformação",
+                           "Forjou uma cultura de dados",
+                           "Criou uma organização orientada a dados"),
+                 `2019` = c(0.595, 0.476, 0.469, NA, NA, 0.283, 0.310),
+                 `2020` = c(0.642, 0.451, 0.500, NA, NA, 0.268, 0.378),
+                 `2021` = c(0.485, 0.412, 0.393, 0.30, 0.292, 0.244, 0.240)
+                 )
+
+tab_01 %>% 
+  gt() %>% 
+  # tab_header(
+  #   title = md("**Vacinação - Covid-19**"),
+  #   subtitle = "Dados referentes ao Estado da Paraíba"
+  # ) %>% 
+    cols_label(
+    state = "Situação em relação a Big Data/IA",
+    ) %>% 
+    cols_width(
+    state ~ px(600)
+    ) %>% 
+    fmt_percent(
+    columns = c("2019", "2020", "2021")
+    ) %>% 
+    sub_missing(
+    rows = everything(),
+    missing_text = "-"
+    ) %>% 
+  tab_source_note(source_note = "Fonte: NewVantage Partners, Big Data and IA Executive Survey 2021.") %>% 
+  tab_source_note(source_note = md("Referência: (BEAN, 2021)")) %>% 
+  tab_options(column_labels.background.color = "gray50", column_labels.font.weight = "bold")
+  # tab_style(
+  #   style = list(
+  #     cell_fill(color = "gray80"),
+  #     cell_text(weight = "bold")
+  #     ),
+  #   locations = cells_stubhead()
+  #  
+  # )
+
+
+```
+
+::: callout-note
+
+Participaram do _The 2021 Big Data and IA Executive Survey_ empresas como: Bank of America, Citigroup, Morgan Stanley, VISA, Mastercard, Pfizer, AIG, McDonald's, Starbucks e Wallmart.
+
+Apesar dos altos níveis de investimento em Big Data e Inteligência Artificial, chegando a 99% das empresas que participaram da pesquisa, as organizações ainda lutam para extrair valor dessas tecnologias e se tornarem organizações orientadas a dados [@bean2022].
+
+:::
+
 
 ## Vencer a _HiPPO_
 
@@ -569,7 +675,7 @@ datasaurus_dozen |>
 - **A**valie e monitore a solução e feedback quando necessário.
 
 
-## Parte II {data-name="Parte II" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title}
+
 
 ## Casos {background-color="aquamarine"}
 
