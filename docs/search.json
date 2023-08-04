@@ -4,7 +4,7 @@
     "href": "conacon_2023.html#section",
     "title": "",
     "section": "",
-    "text": "Introdução\nParte I\n\nO que são dados?\nO que é uma organização orientada a dados?\nFundamentos de governança de dados\nDados públicos e no controle externo\nAlfabetização em dados\nControle externo orientado a dados: desafios\n\nParte II\n\nComunicando com dados\nApresentação de casos do TCE-PB\nControle Externo e Inteligência Artificial\n\nConsiderações finais"
+    "text": "Introdução\nParte I\n\nO que são dados?\nO que é uma organização orientada a dados?\nControle Externo orientado a dados\nAnálise de caso I\nAlfabetização em dados\nComunicando com dados\n\nParte II\n\nDesafios para nos tornarmos orientados a dados\nItem\nItem\nItem\n\nConsiderações finais"
   },
   {
     "objectID": "conacon_2023.html#introdução",
@@ -95,7 +95,7 @@
     "href": "conacon_2023.html#section-5",
     "title": "",
     "section": "",
-    "text": "O IDC’s Global DataSphere1 projeta que em 2026 os dados alcançarão 221.000 Exabytes2, sendo mais de 90% desse volume composto por dados não estruturados.\n\n\n\n\n\n\n\nNota\n\n\nEsse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em artigo publicado na Forbes, estimou-se que 90% dos dados do mundo foram criados apenas nos últimos dois anos.\n\n\n\n\nO IDC Global DataSphere mundial é uma medida de quantos novos dados são criados, capturados, replicados e consumidos a cada ano. É previsto por vários segmentos, incluindo consumidor/empresa, região, tipo de dados, localização (core, edge, endpoint) e tipo de implantação (nuvem/não nuvem) da tecnologia envolvida na geração de dados.221.000 Exabyte (EB) correspondem a 221 bilhões de Terabytes (TB)."
+    "text": "O IDC’s Global DataSphere1 projeta que em 2026 os dados alcançarão 221.000 Exabytes2, sendo mais de 90% desse volume composto por dados não estruturados.\n\n\n\n\n\n\n\nNota\n\n\nEsse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em artigo publicado na Forbes, estimou-se que 90% dos dados do mundo foram criados apenas nos últimos dois anos.\n\n\n\n\nO IDC Global DataSphere mundial é uma medida de quantos novos dados são criados, capturados, replicados e consumidos a cada ano. É previsto por vários segmentos, incluindo consumidor/empresa, região, tipo de dados, localização (core, edge, endpoint) e tipo de implantação (nuvem/não nuvem) da tecnologia envolvida na geração de dados.Dados de 2022."
   },
   {
     "objectID": "conacon_2023.html#o-que-significa-uma-organização-orientada-a-dados",
@@ -130,7 +130,7 @@
     "href": "conacon_2023.html#a-corrida-começou",
     "title": "",
     "section": "A corrida começou",
-    "text": "A corrida começou\n\nO governo federal dos EUA está se mobilizando em um esforço unificado para realizar uma das maiores iniciativas de transformação federal em décadas. […] Esta é a história da iniciativa do governo federal para permitir que todas as agências federais tomem decisões orientadas por dados em uma economia mundial e nacional em ritmo acelerado, em mudança e competitiva. Esta é uma história sobre a qual você pode não ler nas primeiras páginas do The New York Times ou do The Wall Street Journal, mas pode ser ainda mais conseqüente e de longo alcance em termos de seu impacto competitivo econômico e global (Bean, 2022) (Tradução livre)"
+    "text": "A corrida começou\n\n\nO governo federal dos EUA está se mobilizando em um esforço unificado para realizar uma das maiores iniciativas de transformação federal em décadas. […] Esta é a história da iniciativa do governo federal para permitir que todas as agências federais tomem decisões orientadas por dados em uma economia mundial e nacional em ritmo acelerado, em mudança e competitiva. Esta é uma história sobre a qual você pode não ler nas primeiras páginas do The New York Times ou do The Wall Street Journal, mas pode ser ainda mais conseqüente e de longo alcance em termos de seu impacto competitivo econômico e global (Bean, 2022) (Tradução livre)"
   },
   {
     "objectID": "conacon_2023.html#controle-externo-orientado-a-dados",
@@ -144,14 +144,14 @@
     "href": "conacon_2023.html#por-que-necessitamos-de-um-controle-externo-orientado-a-dados",
     "title": "",
     "section": "Por que necessitamos de um Controle Externo orientado a dados?",
-    "text": "Por que necessitamos de um Controle Externo orientado a dados?\n\n\nRespostas mais rápidas às crises;\nMais transparência aos jurisdicionados e cidadãos;\nAumento da eficiência operacional."
+    "text": "Por que necessitamos de um Controle Externo orientado a dados?\n\n\n\nRespostas mais rápidas às crises;\nMais transparência aos jurisdicionados e cidadãos;\nAumento da eficiência operacional."
   },
   {
     "objectID": "conacon_2023.html#por-falar-em-eficiência",
     "href": "conacon_2023.html#por-falar-em-eficiência",
     "title": "",
     "section": "Por falar em eficiência…",
-    "text": "Por falar em eficiência…"
+    "text": "Por falar em eficiência…\n \n\n\nR$ 0,17 Bi\nOrçamento do TCE-PB1\n\nR$ 33,0 Bi\nVolume a ser fiscalizado2\n\n\n\nDados de 2022.Valor aproximado a ser fiscalizado considerando as despesas das esferas estadual e municipal executadas em 2022. Os valores estaduais foram obtidos através do Portal da Transparência do Governo do Estado da Paraíba. Os valores dos municípios foram obtidos através do Sistema SAGRES/TCE-PB."
   },
   {
     "objectID": "conacon_2023.html#por-onde-começamos",
@@ -179,7 +179,7 @@
     "href": "conacon_2023.html#section-7",
     "title": "",
     "section": "",
-    "text": "Erros, aparentemente simples, podem causar grandes problemas.\n\nCoordenada geográfica do TCE-PB: -7.13023, -34.87061\nCoordenada geográfica do TCE-PB (erro): -7.13023, -34.97061"
+    "text": "Erros, aparentemente simples, podem causar grandes problemas.\n\nCoordenada geográfica do TCE-PB: -7.13023, -34.87061\nCoordenada geográfica do TCE-PB: -7.13023, -34.97061"
   },
   {
     "objectID": "conacon_2023.html#disponibilize-seus-dados",
@@ -208,6 +208,13 @@
     "title": "",
     "section": "Caso I: Dados abertos da vacinação contra a Covid-19 ",
     "text": "Caso I: Dados abertos da vacinação contra a Covid-19"
+  },
+  {
+    "objectID": "conacon_2023.html#dados-do-opendatasus",
+    "href": "conacon_2023.html#dados-do-opendatasus",
+    "title": "",
+    "section": "Dados do openDataSUS",
+    "text": "Dados do openDataSUS"
   },
   {
     "objectID": "conacon_2023.html#dados-sobre-doses",
@@ -252,6 +259,13 @@
     "text": "Vamos ver como é na Alemanha?"
   },
   {
+    "objectID": "conacon_2023.html#section-9",
+    "href": "conacon_2023.html#section-9",
+    "title": "",
+    "section": "",
+    "text": "Clique aqui para ver a tradução"
+  },
+  {
     "objectID": "conacon_2023.html#alfabetização-em-dados",
     "href": "conacon_2023.html#alfabetização-em-dados",
     "title": "",
@@ -263,35 +277,42 @@
     "href": "conacon_2023.html#definição",
     "title": "",
     "section": "Definição",
-    "text": "Definição\n\nAlfabetização de dados é a capacidade de ler, trabalhar, analisar e se comunicar com dados. (Morrow, 2021)"
+    "text": "Definição\n\n\nAlfabetização de dados é a capacidade de ler, trabalhar, analisar e se comunicar com dados. (Morrow, 2021)"
   },
   {
     "objectID": "conacon_2023.html#uma-necessidade",
     "href": "conacon_2023.html#uma-necessidade",
     "title": "",
     "section": "Uma necessidade",
-    "text": "Uma necessidade\n\nTodos devem se tornar alfabetizados em dados. Todos devem ensinar as crianças a serem alfabetizadas em dados e fazer perguntas importantes sobre os dados e o mundo ao seu redor. No passado, você poderia dizer que ver é acreditar. Mas com deepfakes e desinformação alimentada por IA, não podemos mais dizer isso. Se você não está fazendo as perguntas certas sobre os dados e as tecnologias que vemos, pode estar prestando um desserviço a si mesmo e às gerações futuras. (Anjali Samani1)\n\n\nDiretora de Ciência de Dados e Inteligência de Decisão da Salesforce"
+    "text": "Uma necessidade\n\n\nTodos devem se tornar alfabetizados em dados. Todos devem ensinar as crianças a serem alfabetizadas em dados e fazer perguntas importantes sobre os dados e o mundo ao seu redor. No passado, você poderia dizer que ver é acreditar. Mas com deepfakes e desinformação alimentada por IA, não podemos mais dizer isso. Se você não está fazendo as perguntas certas sobre os dados e as tecnologias que vemos, pode estar prestando um desserviço a si mesmo e às gerações futuras. (Anjali Samani1)\n\n\nDiretora de Ciência de Dados e Inteligência de Decisão da Salesforce"
   },
   {
     "objectID": "conacon_2023.html#ler-os-dados",
     "href": "conacon_2023.html#ler-os-dados",
     "title": "",
     "section": "Ler os dados",
-    "text": "Ler os dados\n\nNo nosso caso, ler dados significa olhar para os dados e informações apresentados e compreendê-los. Claro e simples. No mundo dos dados, existem muitas formas em que os dados chegam e serão apresentados, mostrados para cada um de nós. A leitura de dados é a nossa capacidade de olhar e compreender os dados e as informações, quando as possuímos, o que nos capacita a ter sucesso com os dados. (Morrow, 2021)"
+    "text": "Ler os dados\n\n\nNo nosso caso, ler dados significa olhar para os dados e informações apresentados e compreendê-los. Claro e simples. No mundo dos dados, existem muitas formas em que os dados chegam e serão apresentados, mostrados para cada um de nós. A leitura de dados é a nossa capacidade de olhar e compreender os dados e as informações, quando as possuímos, o que nos capacita a ter sucesso com os dados. (Morrow, 2021)"
   },
   {
     "objectID": "conacon_2023.html#trabalhar-com-os-dados",
     "href": "conacon_2023.html#trabalhar-com-os-dados",
     "title": "",
     "section": "Trabalhar com os dados",
-    "text": "Trabalhar com os dados\n\n[…] vemos que trabalhar com dados é fazer algo com dados em uma organização para atingir um resultado ou propósito. (Morrow, 2021)"
+    "text": "Trabalhar com os dados\n\n\n[…] vemos que trabalhar com dados é fazer algo com dados em uma organização para atingir um resultado ou propósito. (Morrow, 2021)"
   },
   {
     "objectID": "conacon_2023.html#analisar-os-dados",
     "href": "conacon_2023.html#analisar-os-dados",
     "title": "",
     "section": "Analisar os dados",
-    "text": "Analisar os dados\n\nA análise de dados também nos dá uma maneira de decifrar e filtrar as enormes quantidades de dados e informações que nos são apresentadas em nossas vidas. A maioria de nós já ouviu a expressão “notícias falsas”. A capacidade adequada de fazer perguntas e analisar dados e informações pode nos ajudar a decifrar a desinformação que nos é apresentada. (Morrow, 2021)"
+    "text": "Analisar os dados\n\n\nA análise de dados também nos dá uma maneira de decifrar e filtrar as enormes quantidades de dados e informações que nos são apresentadas em nossas vidas. A maioria de nós já ouviu a expressão “notícias falsas”. A capacidade adequada de fazer perguntas e analisar dados e informações pode nos ajudar a decifrar a desinformação que nos é apresentada. (Morrow, 2021)"
+  },
+  {
+    "objectID": "conacon_2023.html#os-quatro-tipos-de-análise",
+    "href": "conacon_2023.html#os-quatro-tipos-de-análise",
+    "title": "",
+    "section": "Os quatro tipos de análise",
+    "text": "Os quatro tipos de análise\n\n\nAnálise descritiva: O que aconteceu?\nAnálise diagnóstica: Por que isso aconteceu?\nAnálise preditiva: O que acontecerá?\nAnálise prescritiva: O que devemos fazer caso isso ocorra?"
   },
   {
     "objectID": "conacon_2023.html#comunicar-com-dados",
@@ -306,6 +327,13 @@
     "title": "",
     "section": "Comunicando com dados",
     "text": "Comunicando com dados"
+  },
+  {
+    "objectID": "conacon_2023.html#section-10",
+    "href": "conacon_2023.html#section-10",
+    "title": "",
+    "section": "",
+    "text": "Somos mal preparados para uma importante tarefa, cada vez mais exigida. A tecnologia permitiu acumular volumes de dados cada vez maiores e há também um crescente desejo associado de entendê-los. […] Há uma história em seus dados. Mas suas ferramentas não sabem qual é essa história. É aí que você entra. (Knaflic, 2018)"
   },
   {
     "objectID": "conacon_2023.html#o-que-evitar",
@@ -371,6 +399,27 @@
     "text": "Ausência de alfabetização em dados"
   },
   {
+    "objectID": "conacon_2023.html#vamos-decidir-com-dados",
+    "href": "conacon_2023.html#vamos-decidir-com-dados",
+    "title": "",
+    "section": "Vamos decidir com dados?",
+    "text": "Vamos decidir com dados?"
+  },
+  {
+    "objectID": "conacon_2023.html#exercício-1-a-infecção-pelo-cordyceps",
+    "href": "conacon_2023.html#exercício-1-a-infecção-pelo-cordyceps",
+    "title": "",
+    "section": "Exercício 1: A infecção pelo Cordyceps",
+    "text": "Exercício 1: A infecção pelo Cordyceps\n\nEm um município do Estado da Paraíba, 6.000 pessoas foram infectadas pelo Cordyceps. Um grupo de cientistas concluiu por duas possibilidades de tratamento para essas pessoas. Como sendo a autoridade responsável pela tomada de decisão, você foi informado das consequências de cada uma das opções, com dados precisos, ou seja, sem margem de erro.\nTome a decisão com base no que foi reportado. Vidas estão em jogo e você não tem muito tempo!"
+  },
+  {
+    "objectID": "conacon_2023.html#exercício-2-nascimentos-de-uma-maternidade-pública",
+    "href": "conacon_2023.html#exercício-2-nascimentos-de-uma-maternidade-pública",
+    "title": "",
+    "section": "Exercício 2: Nascimentos de uma maternidade pública",
+    "text": "Exercício 2: Nascimentos de uma maternidade pública"
+  },
+  {
     "objectID": "conacon_2023.html#barreiras-cognitivas",
     "href": "conacon_2023.html#barreiras-cognitivas",
     "title": "",
@@ -406,11 +455,18 @@
     "text": "Casos"
   },
   {
-    "objectID": "conacon_2023.html#section-9",
-    "href": "conacon_2023.html#section-9",
+    "objectID": "conacon_2023.html#section-11",
+    "href": "conacon_2023.html#section-11",
     "title": "",
     "section": "",
     "text": "Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível espicaçar o assunto com cinco1 perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras. A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo. (Huff, 2016)\n\nDentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido?"
+  },
+  {
+    "objectID": "conacon_2023.html#section-12",
+    "href": "conacon_2023.html#section-12",
+    "title": "",
+    "section": "",
+    "text": "Com apenas 17 mil habitantes, Prefeitura de Juazeirinho abre licitação de R$ 2,8 milhões em combustíveis.\nMunicípio da Paraíba com 3,3 mil habitantes assina contrato de mais de R$ 1,4 milhão em combustíveis.\nCom apenas 14,6 mil habitantes, Prefeitura de Coremas vai gastar mais de meio milhão com combustíveis."
   },
   {
     "objectID": "conacon_2023.html#considerações-finais",
@@ -431,7 +487,7 @@
     "href": "conacon_2023.html#referências",
     "title": "",
     "section": "Referências",
-    "text": "Referências\n\n\nANDERSON, C. Creating a data-driven organization: Practical advice from the trenches. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.\n\n\nBEAN, R. Fail fast, learn faster : lessons in data-driven leadership in an age of disruption, big data, and AI. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\n___. How The U.S. Federal Government Is Mobilizing To Enable Data-Driven Decision Making. Disponível em: &lt;https://www.forbes.com/sites/randybean/2022/06/01/how-the-us-federal-government-is-mobilizing-to-enable-data-driven-decision-making&gt;. Acesso em: 10 jul. 2023.\n\n\nBRUCE, A.; BRUCE, P. Estatı́stica prática para cientistas de dados. Rio de Janeiro: Alta Books, 2019.\n\n\nCABTREE, M.; NEHME, A. What is Data Literacy? A Comprehensive Guide for Organizations. Disponível em: &lt;https://www.datacamp.com/blog/what-is-data-literacy-a-comprehensive-guide-for-organizations&gt;. Acesso em: 8 jul. 2023.\n\n\nCHIU, J. How Enterprise Organizations Can Become Data-Driven. Disponível em: &lt;https://www.datacamp.com/blog/how-enterprise-organizations-can-become-data-driven&gt;. Acesso em: 6 jul. 2023.\n\n\nDAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen. [s.l: s.n.].\n\n\nEREMENKO, K. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. [s.l.] Kogan Page Publishers, 2018.\n\n\nESPINDOLA, D.; WRIGHT, M. W. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nGALOR, O. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. ed. Rio de Janeiro: Intrínseca, 2022.\n\n\nGLASS, R.; CALLAHAN, S. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. [s.l.] John Wiley & Sons, 2014.\n\n\nGUTMAN, A. J.; GOLDMEIER, J. Becoming a data head: How to think, speak, and understand data science, statistics, and machine learning. Hoboken, NJ: John Wiley & Sons, 2021.\n\n\nHUFF, D. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca, 2016.\n\n\nKAHNEMAN, D.; SIBONY, O.; SUNSTEIN, C. R. Noise: a flaw in human judgment. [s.l.] HarperCollins Publishers, 2021.\n\n\nKNAFLIC, C. N. Storytelling com dados: um guia sobre visualização de dados para profissionais de negócios. Rio de Janeiro: Alta Books: Alta Books, 2018.\n\n\nMORROW, J. Be data literate: The data literacy skills everyone needs to succeed. [s.l.] Kogan Page Publishers, 2021.\n\n\n___. Be Data Driven: How Organizations Can Harness the Power of Data. New York, NY: Kogan Page Publishers, 2022.\n\n\nREDMAN, T. C. Bad Data Costs the U.S. $ 3 Trillion Per Year. Disponível em: &lt;https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year&gt;. Acesso em: 10 jul. 2023.\n\n\nRIBEIRO, F. G. DE M. M. Value creation and barriers in the commercial use of open government data. Porto, Portugal: Universidade do Porto, 2017.\n\n\nSILBERZAHN, R. et al. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, v. 1, n. 3, p. 337–356, 2018.\n\n\nSUSSKIND, R. E.; SUSSKIND, D. The future of the professions: How technology will transform the work of human experts. New York: Oxford University Press, USA, 2015.\n\n\nWICKHAM, H.; ÇETINKAYA-RUNDEL, M.; GROLEMUND, G. R for data science. [s.l.] O’Reilly Media, Inc., 2023."
+    "text": "Referências\n\n\nANDERSON, C. Creating a data-driven organization: Practical advice from the trenches. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.\n\n\nBEAN, R. Fail fast, learn faster : lessons in data-driven leadership in an age of disruption, big data, and AI. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\n___. How The U.S. Federal Government Is Mobilizing To Enable Data-Driven Decision Making. Disponível em: &lt;https://www.forbes.com/sites/randybean/2022/06/01/how-the-us-federal-government-is-mobilizing-to-enable-data-driven-decision-making&gt;. Acesso em: 10 jul. 2023.\n\n\nBRUCE, A.; BRUCE, P. Estatı́stica prática para cientistas de dados. Rio de Janeiro: Alta Books, 2019.\n\n\nCABTREE, M.; NEHME, A. What is Data Literacy? A Comprehensive Guide for Organizations. Disponível em: &lt;https://www.datacamp.com/blog/what-is-data-literacy-a-comprehensive-guide-for-organizations&gt;. Acesso em: 8 jul. 2023.\n\n\nCHIU, J. How Enterprise Organizations Can Become Data-Driven. Disponível em: &lt;https://www.datacamp.com/blog/how-enterprise-organizations-can-become-data-driven&gt;. Acesso em: 6 jul. 2023.\n\n\nDAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen. [s.l: s.n.].\n\n\nEREMENKO, K. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. [s.l.] Kogan Page Publishers, 2018.\n\n\nESPINDOLA, D.; WRIGHT, M. W. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nGALOR, O. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. ed. Rio de Janeiro: Intrínseca, 2022.\n\n\nGLASS, R.; CALLAHAN, S. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. [s.l.] John Wiley & Sons, 2014.\n\n\nGUTMAN, A. J.; GOLDMEIER, J. Becoming a data head: How to think, speak, and understand data science, statistics, and machine learning. Hoboken, NJ: John Wiley & Sons, 2021.\n\n\nHUFF, D. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca, 2016.\n\n\nKAHNEMAN, D.; SIBONY, O.; SUNSTEIN, C. R. Noise: a flaw in human judgment. London: UK: HarperCollins Publishers, 2021.\n\n\nKNAFLIC, C. N. Storytelling com dados: um guia sobre visualização de dados para profissionais de negócios. Rio de Janeiro: RJ: Alta Books, 2018.\n\n\nMORROW, J. Be data literate: The data literacy skills everyone needs to succeed. [s.l.] Kogan Page Publishers, 2021.\n\n\n___. Be Data Driven: How Organizations Can Harness the Power of Data. New York, NY: Kogan Page Publishers, 2022.\n\n\nREDMAN, T. C. Bad Data Costs the U.S. $ 3 Trillion Per Year. Disponível em: &lt;https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year&gt;. Acesso em: 10 jul. 2023.\n\n\nRIBEIRO, F. G. DE M. M. Value creation and barriers in the commercial use of open government data. Porto, Portugal: Universidade do Porto, 2017.\n\n\nSILBERZAHN, R. et al. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, v. 1, n. 3, p. 337–356, 2018.\n\n\nSUSSKIND, R. E.; SUSSKIND, D. The future of the professions: How technology will transform the work of human experts. New York: Oxford University Press, USA, 2015.\n\n\nWICKHAM, H.; ÇETINKAYA-RUNDEL, M.; GROLEMUND, G. R for data science. [s.l.] O’Reilly Media, Inc., 2023."
   },
   {
     "objectID": "conacon_2023.html#obrigado",
