@@ -84,11 +84,11 @@
     "text": "Lei de Moore"
   },
   {
-    "objectID": "conacon_2023.html#custo-computacional",
-    "href": "conacon_2023.html#custo-computacional",
+    "objectID": "conacon_2023.html#custo-de-armazenamento",
+    "href": "conacon_2023.html#custo-de-armazenamento",
     "title": "",
-    "section": "Custo computacional",
-    "text": "Custo computacional"
+    "section": "Custo de armazenamento",
+    "text": "Custo de armazenamento"
   },
   {
     "objectID": "conacon_2023.html#section-5",
@@ -200,7 +200,7 @@
     "href": "conacon_2023.html#dados-abertos-no-brasil-vs.-outros-países.",
     "title": "",
     "section": "Dados abertos no Brasil vs. outros países.",
-    "text": "Dados abertos no Brasil vs. outros países.\nEm números1 de conjuntos de dados:\n\nBrasil - 11.998 (https://dados.gov.br/)\nEstados Unidos - 252.595 (https://data.gov)\nFrança - 46.118 (https://www.data.gouv.fr/en/)\nAlemanha - 83.821 (https://www.govdata.de)\nArgentina - 1.176 (https://datos.gob.ar)\nÍndia - 610.541 (https://data.gov.in)\n\nNúmeros coletados em 11 julho de 2023."
+    "text": "Dados abertos no Brasil vs. outros países.\nEm números1 de conjuntos de dados:\n\nBrasil - 11.998 (https://dados.gov.br/)\nEstados Unidos - 252.595 (https://data.gov)\nFrança - 46.118 (https://www.data.gouv.fr/en/)\nAlemanha - 83.821 (https://www.govdata.de)\nArgentina - 1.176 (https://datos.gob.ar)\nÍndia - 610.541 (https://data.gov.in)\nAustrália - 104.457 (https://data.gov.au)\n\nNúmeros coletados em 11 julho de 2023."
   },
   {
     "objectID": "conacon_2023.html#caso-i-dados-abertos-da-vacinação-contra-a-covid-19-fa-solid-syringe-size1xl",
@@ -343,6 +343,41 @@
     "text": "O que evitar"
   },
   {
+    "objectID": "conacon_2023.html#fuja-do-3d-e-dos-gráficos-de-pizza",
+    "href": "conacon_2023.html#fuja-do-3d-e-dos-gráficos-de-pizza",
+    "title": "",
+    "section": "Fuja do 3D e dos gráficos de pizza!",
+    "text": "Fuja do 3D e dos gráficos de pizza!\n\nNão use 3D! Não serve absolutamente para nada e pode prejudicar muito, como vemos aqui, pois distorce a percepção visual dos números. (Knaflic, 2018)"
+  },
+  {
+    "objectID": "conacon_2023.html#bases-diferentes-de-zero-em-gráficos-de-barras",
+    "href": "conacon_2023.html#bases-diferentes-de-zero-em-gráficos-de-barras",
+    "title": "",
+    "section": "Bases diferentes de zero em gráficos de barras",
+    "text": "Bases diferentes de zero em gráficos de barras\n\n\n\n\n\n\n\n\n\n\n\n\n\nAviso\n\n\nOs gráficos de barras são fáceis são fáceis de interpretar e identificar diferenças entre as categorias. No entanto, no exemplo acima, as escalas iniciam em valores diferentes, causando essa distorção visual."
+  },
+  {
+    "objectID": "conacon_2023.html#exemplo-1",
+    "href": "conacon_2023.html#exemplo-1",
+    "title": "",
+    "section": "Exemplo 1",
+    "text": "Exemplo 1\n\nSituação dos municípios em relação à aplicação do Fundeb1\n\n\n\n\n\n\nRelatório de Auditoria Temática"
+  },
+  {
+    "objectID": "conacon_2023.html#exemplo-2",
+    "href": "conacon_2023.html#exemplo-2",
+    "title": "",
+    "section": "Exemplo 2",
+    "text": "Exemplo 2\n\nAplicação em Fundeb x DTP1\n\n\n\n\n\n\nRelatório de Auditoria Temática"
+  },
+  {
+    "objectID": "conacon_2023.html#exemplo-3",
+    "href": "conacon_2023.html#exemplo-3",
+    "title": "",
+    "section": "Exemplo 3",
+    "text": "Exemplo 3\n\nAplicação de vacinas diárias contra a Covid-191\n\n\n\n\n\n\nRelatório de Auditoria Temática"
+  },
+  {
     "objectID": "conacon_2023.html#o-que-utilizar",
     "href": "conacon_2023.html#o-que-utilizar",
     "title": "",
@@ -420,11 +455,32 @@
     "text": "Exercício 2: Nascimentos de uma maternidade pública"
   },
   {
+    "objectID": "conacon_2023.html#relembrando",
+    "href": "conacon_2023.html#relembrando",
+    "title": "",
+    "section": "Relembrando…",
+    "text": "Relembrando…\n\n\n\n\n\n\n\nNota\n\n\nSe A e B forem dois eventos independentes, a probabilidade de ocorrência conjunta deles é igual ao produto de suas probabilidades individuais. Para \\(n\\) eventos temos:\n\\[\nP(A_{1}\\cap A_{2} \\cap A_{3} ...A_{n} ) = P(A_{1}) \\cdot P(A_{2}) \\cdot ... P(A_{n})\n\\]"
+  },
+  {
+    "objectID": "conacon_2023.html#section-11",
+    "href": "conacon_2023.html#section-11",
+    "title": "",
+    "section": "",
+    "text": "O maquinário associativo procura causas. A dificuldade que temos com as regularidades estatísticas é que elas pedem uma abordagem diferente. […] Somos ávidos por padrões, temos fé em um mundo coerente, em que as regularidades não aparecem por acidente, mas como resultado de uma causalidade mecânica ou da intenção de alguém. (Kahneman, 2012)"
+  },
+  {
     "objectID": "conacon_2023.html#barreiras-cognitivas",
     "href": "conacon_2023.html#barreiras-cognitivas",
     "title": "",
     "section": "Barreiras cognitivas",
     "text": "Barreiras cognitivas"
+  },
+  {
+    "objectID": "conacon_2023.html#section-12",
+    "href": "conacon_2023.html#section-12",
+    "title": "",
+    "section": "",
+    "text": "[…] uma limitação desconcertante de nossa mente: nossa confiança excessiva no que acreditamos saber, e nossa aparente incapacidade de admitir a verdadeira extensão da nossa ignorância e a incerteza do mundo em que vivemos. (Kahneman, 2012)"
   },
   {
     "objectID": "conacon_2023.html#datasaurus",
@@ -441,6 +497,27 @@
     "text": "Vejamos as medidas…\n\n\n\n\n\ndados\nmedia_x\nvariancia_x\nmedia_y\nvariancia_y\ncorrelacao\n\n\n\n\naway\n54.27\n281.23\n47.83\n725.75\n-0.06\n\n\nbullseye\n54.27\n281.21\n47.83\n725.53\n-0.07\n\n\ncircle\n54.27\n280.90\n47.84\n725.23\n-0.07\n\n\ndino\n54.26\n281.07\n47.83\n725.52\n-0.06\n\n\ndots\n54.26\n281.16\n47.84\n725.24\n-0.06\n\n\nh_lines\n54.26\n281.10\n47.83\n725.76\n-0.06\n\n\nhigh_lines\n54.27\n281.12\n47.84\n725.76\n-0.07\n\n\nslant_down\n54.27\n281.12\n47.84\n725.55\n-0.07\n\n\nslant_up\n54.27\n281.19\n47.83\n725.69\n-0.07\n\n\nstar\n54.27\n281.20\n47.84\n725.24\n-0.06\n\n\nv_lines\n54.27\n281.23\n47.84\n725.64\n-0.07\n\n\nwide_lines\n54.27\n281.23\n47.83\n725.65\n-0.07\n\n\nx_shape\n54.26\n281.23\n47.84\n725.22\n-0.07"
   },
   {
+    "objectID": "conacon_2023.html#section-13",
+    "href": "conacon_2023.html#section-13",
+    "title": "",
+    "section": "",
+    "text": "Os mal informados são muito mais perigosos do que os não informados; a má informação é pegajosa. (Anderson, 2015)"
+  },
+  {
+    "objectID": "conacon_2023.html#viés",
+    "href": "conacon_2023.html#viés",
+    "title": "",
+    "section": "VIÉS",
+    "text": "VIÉS"
+  },
+  {
+    "objectID": "conacon_2023.html#alguns-tipos-de-vieses",
+    "href": "conacon_2023.html#alguns-tipos-de-vieses",
+    "title": "",
+    "section": "Alguns tipos de vieses",
+    "text": "Alguns tipos de vieses\n\nViés de sobrevivência: nós consideramos aqueles que sobreviveram como representativos da população;\nViés de confirmação:\nViés temporal:\nViés amigo ou inimigo:"
+  },
+  {
     "objectID": "conacon_2023.html#decida",
     "href": "conacon_2023.html#decida",
     "title": "",
@@ -455,18 +532,25 @@
     "text": "Casos"
   },
   {
-    "objectID": "conacon_2023.html#section-11",
-    "href": "conacon_2023.html#section-11",
+    "objectID": "conacon_2023.html#section-14",
+    "href": "conacon_2023.html#section-14",
     "title": "",
     "section": "",
     "text": "Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível espicaçar o assunto com cinco1 perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras. A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo. (Huff, 2016)\n\nDentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido?"
   },
   {
-    "objectID": "conacon_2023.html#section-12",
-    "href": "conacon_2023.html#section-12",
+    "objectID": "conacon_2023.html#títulos-de-notícias",
+    "href": "conacon_2023.html#títulos-de-notícias",
     "title": "",
-    "section": "",
-    "text": "Com apenas 17 mil habitantes, Prefeitura de Juazeirinho abre licitação de R$ 2,8 milhões em combustíveis.\nMunicípio da Paraíba com 3,3 mil habitantes assina contrato de mais de R$ 1,4 milhão em combustíveis.\nCom apenas 14,6 mil habitantes, Prefeitura de Coremas vai gastar mais de meio milhão com combustíveis."
+    "section": "Títulos de notícias",
+    "text": "Títulos de notícias\n\nCom apenas 17 mil habitantes, Prefeitura de Juazeirinho abre licitação de R$ 2,8 milhões em combustíveis.\nMunicípio da Paraíba com 3,3 mil habitantes assina contrato de mais de R$ 1,4 milhão em combustíveis.\nCom apenas 14,6 mil habitantes, Prefeitura de Coremas vai gastar mais de meio milhão com combustíveis."
+  },
+  {
+    "objectID": "conacon_2023.html#devemos-questionar",
+    "href": "conacon_2023.html#devemos-questionar",
+    "title": "",
+    "section": "Devemos questionar",
+    "text": "Devemos questionar\n\n\nA população está correlacionada com o gasto de combustíveis?\nNão seria mais interessante associar com o número de veículos do município ao consumo de combustíveis?\nA distância entre o município e o respectivo pólo tem influência no consumo?\nA área geográfica do município tem influência no consumo de combustíveis?\nHá veículos de diferentes portes na frota municipal? (ônibus, camionetes, veículos de passeio)\nTodo valor licitado será gasto?\nHá máquinas consumindo combustível?"
   },
   {
     "objectID": "conacon_2023.html#considerações-finais",
@@ -480,14 +564,14 @@
     "href": "conacon_2023.html#contato",
     "title": "",
     "section": "Contato",
-    "text": "Contato\n\n wevsena   wevsena   wsena@tce.pb.gov.br   Weverton Lisboa de Sena"
+    "text": "Contato\n\n\n\n wevsena   wevsena   wsena@tce.pb.gov.br   Weverton Lisboa de Sena\n\nLink da apresentação"
   },
   {
     "objectID": "conacon_2023.html#referências",
     "href": "conacon_2023.html#referências",
     "title": "",
     "section": "Referências",
-    "text": "Referências\n\n\nANDERSON, C. Creating a data-driven organization: Practical advice from the trenches. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.\n\n\nBEAN, R. Fail fast, learn faster : lessons in data-driven leadership in an age of disruption, big data, and AI. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\n___. How The U.S. Federal Government Is Mobilizing To Enable Data-Driven Decision Making. Disponível em: &lt;https://www.forbes.com/sites/randybean/2022/06/01/how-the-us-federal-government-is-mobilizing-to-enable-data-driven-decision-making&gt;. Acesso em: 10 jul. 2023.\n\n\nBRUCE, A.; BRUCE, P. Estatı́stica prática para cientistas de dados. Rio de Janeiro: Alta Books, 2019.\n\n\nCABTREE, M.; NEHME, A. What is Data Literacy? A Comprehensive Guide for Organizations. Disponível em: &lt;https://www.datacamp.com/blog/what-is-data-literacy-a-comprehensive-guide-for-organizations&gt;. Acesso em: 8 jul. 2023.\n\n\nCHIU, J. How Enterprise Organizations Can Become Data-Driven. Disponível em: &lt;https://www.datacamp.com/blog/how-enterprise-organizations-can-become-data-driven&gt;. Acesso em: 6 jul. 2023.\n\n\nDAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen. [s.l: s.n.].\n\n\nEREMENKO, K. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. [s.l.] Kogan Page Publishers, 2018.\n\n\nESPINDOLA, D.; WRIGHT, M. W. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nGALOR, O. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. ed. Rio de Janeiro: Intrínseca, 2022.\n\n\nGLASS, R.; CALLAHAN, S. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. [s.l.] John Wiley & Sons, 2014.\n\n\nGUTMAN, A. J.; GOLDMEIER, J. Becoming a data head: How to think, speak, and understand data science, statistics, and machine learning. Hoboken, NJ: John Wiley & Sons, 2021.\n\n\nHUFF, D. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca, 2016.\n\n\nKAHNEMAN, D.; SIBONY, O.; SUNSTEIN, C. R. Noise: a flaw in human judgment. London: UK: HarperCollins Publishers, 2021.\n\n\nKNAFLIC, C. N. Storytelling com dados: um guia sobre visualização de dados para profissionais de negócios. Rio de Janeiro: RJ: Alta Books, 2018.\n\n\nMORROW, J. Be data literate: The data literacy skills everyone needs to succeed. [s.l.] Kogan Page Publishers, 2021.\n\n\n___. Be Data Driven: How Organizations Can Harness the Power of Data. New York, NY: Kogan Page Publishers, 2022.\n\n\nREDMAN, T. C. Bad Data Costs the U.S. $ 3 Trillion Per Year. Disponível em: &lt;https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year&gt;. Acesso em: 10 jul. 2023.\n\n\nRIBEIRO, F. G. DE M. M. Value creation and barriers in the commercial use of open government data. Porto, Portugal: Universidade do Porto, 2017.\n\n\nSILBERZAHN, R. et al. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, v. 1, n. 3, p. 337–356, 2018.\n\n\nSUSSKIND, R. E.; SUSSKIND, D. The future of the professions: How technology will transform the work of human experts. New York: Oxford University Press, USA, 2015.\n\n\nWICKHAM, H.; ÇETINKAYA-RUNDEL, M.; GROLEMUND, G. R for data science. [s.l.] O’Reilly Media, Inc., 2023."
+    "text": "Referências\n\n\nANDERSON, C. Creating a data-driven organization: Practical advice from the trenches. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.\n\n\nBEAN, R. Fail fast, learn faster : lessons in data-driven leadership in an age of disruption, big data, and AI. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\n___. How The U.S. Federal Government Is Mobilizing To Enable Data-Driven Decision Making. Disponível em: &lt;https://www.forbes.com/sites/randybean/2022/06/01/how-the-us-federal-government-is-mobilizing-to-enable-data-driven-decision-making&gt;. Acesso em: 10 jul. 2023.\n\n\nBRUCE, A.; BRUCE, P. Estatı́stica prática para cientistas de dados. Rio de Janeiro: Alta Books, 2019.\n\n\nCABTREE, M.; NEHME, A. What is Data Literacy? A Comprehensive Guide for Organizations. Disponível em: &lt;https://www.datacamp.com/blog/what-is-data-literacy-a-comprehensive-guide-for-organizations&gt;. Acesso em: 8 jul. 2023.\n\n\nCHIU, J. How Enterprise Organizations Can Become Data-Driven. Disponível em: &lt;https://www.datacamp.com/blog/how-enterprise-organizations-can-become-data-driven&gt;. Acesso em: 6 jul. 2023.\n\n\nDAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen. [s.l: s.n.].\n\n\nEREMENKO, K. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. [s.l.] Kogan Page Publishers, 2018.\n\n\nESPINDOLA, D.; WRIGHT, M. W. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nGALOR, O. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. ed. Rio de Janeiro: Intrínseca, 2022.\n\n\nGLASS, R.; CALLAHAN, S. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. [s.l.] John Wiley & Sons, 2014.\n\n\nGUTMAN, A. J.; GOLDMEIER, J. Becoming a data head: How to think, speak, and understand data science, statistics, and machine learning. Hoboken, NJ: John Wiley & Sons, 2021.\n\n\nHUFF, D. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca, 2016.\n\n\nKAHNEMAN, D. Rápido e devagar: duas formas de pensar. 1 ed. ed. Rio de Janeiro, RJ: Objetiva, 2012.\n\n\nKAHNEMAN, D.; SIBONY, O.; SUNSTEIN, C. R. Noise: a flaw in human judgment. London: UK: HarperCollins Publishers, 2021.\n\n\nKNAFLIC, C. N. Storytelling com dados: um guia sobre visualização de dados para profissionais de negócios. Rio de Janeiro: RJ: Alta Books, 2018.\n\n\nMORROW, J. Be data literate: The data literacy skills everyone needs to succeed. [s.l.] Kogan Page Publishers, 2021.\n\n\n___. Be Data Driven: How Organizations Can Harness the Power of Data. New York, NY: Kogan Page Publishers, 2022.\n\n\nREDMAN, T. C. Bad Data Costs the U.S. $ 3 Trillion Per Year. Disponível em: &lt;https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year&gt;. Acesso em: 10 jul. 2023.\n\n\nRIBEIRO, F. G. DE M. M. Value creation and barriers in the commercial use of open government data. Porto, Portugal: Universidade do Porto, 2017.\n\n\nSILBERZAHN, R. et al. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, v. 1, n. 3, p. 337–356, 2018.\n\n\nSUSSKIND, R. E.; SUSSKIND, D. The future of the professions: How technology will transform the work of human experts. New York: Oxford University Press, USA, 2015.\n\n\nWICKHAM, H.; ÇETINKAYA-RUNDEL, M.; GROLEMUND, G. R for data science. [s.l.] O’Reilly Media, Inc., 2023."
   },
   {
     "objectID": "conacon_2023.html#obrigado",

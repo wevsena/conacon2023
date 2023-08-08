@@ -2,7 +2,7 @@
 title: "Controle Externo Orientado a Dados:"
 subtitle: "Conceitos, etapas e desafios para a sua implementação"
 author: "ACE Weverton Lisboa de Sena"
-institute: "Tribunal de Contas do Estado da Paraíba"
+institute: ""
 date: 2023/08/30
 date-format: "MMMM - YYYY"
 title-slide-attributes:
@@ -119,6 +119,7 @@ nocite: |
 
 .scrolling {
   max-height: 700px;
+  max-width: 1800px;
   overflow-y: auto;
 }
 
@@ -151,6 +152,14 @@ nocite: |
   text-align: center;
   vertical-align: middle;
   background: #000
+}
+
+.title1{
+  font-size: 300px;
+  background: linear-gradient(to left, #FFFFFF 0%, #2AB814 100%);;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
 }
 
 ```
@@ -208,7 +217,7 @@ Faz 32º C em João Pessoa, o dia mais quente de setembro de 2023. (Informação
 
 </iframe>
 
-## Custo computacional
+## Custo de armazenamento
 
 <iframe src="https://ourworldindata.org/grapher/historical-cost-of-computer-memory-and-storage" loading="lazy" style="width: 100%; height: 600px; border: 0px none;">
 
@@ -376,6 +385,7 @@ Em números^[Números coletados em 11 julho de 2023.] de conjuntos de dados:
 * Alemanha - 83.821 (<https://www.govdata.de>)
 * Argentina - 1.176 (<https://datos.gob.ar>)
 * Índia - 610.541 (<https://data.gov.in>)
+* Austrália - 104.457 (<https://data.gov.au>)
 
 
 
@@ -631,6 +641,8 @@ Foram encontrados 86^[Há a possibilidade de outros casos, uma vez que a busca s
 * **Análise prescritiva:** _O que devemos fazer caso isso ocorra?_
 
 
+
+
 ## Comunicar com dados {style="text-align:justify"}
 
 > Além de coletar dados e torná-los apresentáveis, essa habilidade trata de explicar esses dados para não especialistas de uma maneira compreensível. Muitas vezes, isso significa entender tópicos de dados mais avançados. [@crabtree2023]
@@ -648,6 +660,72 @@ Foram encontrados 86^[Há a possibilidade de outros casos, uma vez que a busca s
 
 
 ## O que evitar
+
+
+## Fuja do 3D e dos gráficos de pizza!
+
+> Não use 3D! Não serve absolutamente para nada e pode prejudicar muito, como vemos aqui, pois distorce a percepção visual dos números. [@knaflic2015]
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](./imagens/imagem07.png)
+
+
+:::
+
+::: {.column width="50%"}
+
+![](./imagens/imagem08.png)
+
+:::
+
+::::
+
+## Bases diferentes de zero em gráficos de barras
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](./imagens/imagem09.png)
+
+:::
+
+::: {.column width="50%"}
+
+![](./imagens/imagem10.png)
+
+:::
+
+::::
+
+::: callout-warning
+
+Os gráficos de barras são fáceis são fáceis de interpretar e identificar diferenças entre as categorias. No entanto, no exemplo acima, as escalas iniciam em valores diferentes, causando essa distorção visual.
+
+:::
+
+## Exemplo 1
+
+
+<h4> Situação dos municípios em relação à aplicação do Fundeb^[Relatório de Auditoria Temática] <h4>
+
+![](./imagens/imagem11.svg){fig-align="center" width=60%}
+
+## Exemplo 2
+
+<h4> Aplicação em Fundeb x DTP^[Relatório de Auditoria Temática] <h4>
+
+![](./imagens/imagem12.svg){fig-align="center" width=65%}
+
+## Exemplo 3
+
+<h4> Aplicação de vacinas diárias contra a Covid-19^[Relatório de Auditoria Temática] <h4>
+
+![](./imagens/imagem13.svg){fig-align="center" width=65%}
+
 
 
 
@@ -739,9 +817,9 @@ Apesar dos altos níveis de investimento em Big Data e Inteligência Artificial,
 
 ## Ausência de alfabetização em dados
 
-## Vamos decidir com dados?
+## Vamos decidir com dados? {background="linear-gradient(to right, #33ffcc, #33cc66)"}
 
-## Exercício 1: A infecção pelo Cordyceps {style="text-align:justify" background-image="imagens/imagem06.jpg"}
+## [Exercício 1:]{.case} A infecção pelo Cordyceps {style="text-align:justify" background-image="imagens/imagem06.jpg"}
 
 <br>
 
@@ -749,26 +827,48 @@ Apesar dos altos níveis de investimento em Big Data e Inteligência Artificial,
 
 [Tome a decisão com base no que foi reportado. Vidas estão em jogo e você não tem muito tempo!]{.case}
 
-## Exercício 2: Nascimentos de uma maternidade pública
+## [Exercício 2:]{.case} Nascimentos de uma maternidade pública
 
 <br>
 
 
+::: {.incremental}
 
-{{< fa solid child size=3x >}} {{< fa solid child size=3x >}} {{< fa solid child size=3x >}} {{< fa solid child-dress size=3x >}} {{< fa solid child-dress size=3x >}} {{< fa solid child-dress size=3x >}} 
+a. [{{< fa solid child size=3x >}}]{style="color:lightskyblue"} [{{< fa solid child size=3x >}}]{style="color:lightskyblue"} [{{< fa solid child size=3x >}}]{style="color:lightskyblue"} [{{< fa solid child-dress size=3x >}}]{style="color:pink"} [{{< fa solid child-dress size=3x >}}]{style="color:pink"} [{{< fa solid child-dress size=3x >}}]{style="color:pink"}
+
+b. [{{< fa solid child-dress size=3x >}}]{style="color:pink"} [{{< fa solid child-dress size=3x >}}]{style="color:pink"} [{{< fa solid child-dress size=3x >}}]{style="color:pink"} [{{< fa solid child-dress size=3x >}}]{style="color:pink"} [{{< fa solid child-dress size=3x >}}]{style="color:pink"} [{{< fa solid child-dress size=3x >}}]{style="color:pink"}
+
+c. [{{< fa solid child size=3x >}}]{style="color:lightskyblue"} [{{< fa solid child-dress size=3x >}}]{style="color:pink"} [{{< fa solid child-dress size=3x >}}]{style="color:pink"} [{{< fa solid child size=3x >}}]{style="color:lightskyblue"} [{{< fa solid child-dress size=3x >}}]{style="color:pink"} [{{< fa solid child size=3x >}}]{style="color:lightskyblue"}
+
+:::
+
+## Relembrando...
 
 <br>
 
-{{< fa solid child-dress size=3x >}} {{< fa solid child-dress size=3x >}} {{< fa solid child-dress size=3x >}} {{< fa solid child-dress size=3x >}} {{< fa solid child-dress size=3x >}} {{< fa solid child-dress size=3x >}} 
+::: callout-note
+Se A e B forem dois eventos independentes, a probabilidade de ocorrência conjunta deles é igual ao produto de suas probabilidades individuais. Para $n$ eventos temos:
 
-<br>
+$$
+P(A_{1}\cap A_{2} \cap A_{3} ...A_{n} ) = P(A_{1}) \cdot P(A_{2}) \cdot ... P(A_{n})
+$$
 
-{{< fa solid child size=3x >}} {{< fa solid child-dress size=3x >}} {{< fa solid child-dress size=3x >}} {{< fa solid child size=3x >}} {{< fa solid child-dress size=3x >}} {{< fa solid child size=3x >}} 
+:::
 
+
+## {style="text-align:justify"}
+
+> O maquinário associativo procura causas. A dificuldade que temos com as regularidades estatísticas é que elas pedem uma abordagem diferente. [...]
+Somos ávidos por padrões, temos fé em um mundo coerente, em que as regularidades não aparecem por acidente, mas como resultado de uma causalidade mecânica ou da intenção de alguém. [@kahneman2012]
 
 
 
 ## Barreiras cognitivas
+
+## {style="text-align:justify"}
+
+> [...] uma limitação desconcertante de nossa mente: nossa confiança excessiva no que acreditamos saber, e nossa aparente incapacidade de admitir a verdadeira extensão da nossa ignorância e a incerteza do mundo em que vivemos. [@kahneman2012]
+
 
 ## datasauRus
 
@@ -801,6 +901,18 @@ datasaurus_dozen |>
 ```
 
 
+##
+
+> Os mal informados são muito mais perigosos do que os não informados; a má informação é pegajosa. [@anderson2015]
+
+## [VIÉS]{.title1}{style="text-align:center"}
+
+## Alguns tipos de vieses
+
+* Viés de sobrevivência: nós consideramos aqueles que sobreviveram como representativos da população;
+* Viés de confirmação: 
+* Viés temporal:
+* Viés amigo ou inimigo:
 
 
 ## DECIDA!
@@ -824,35 +936,80 @@ A primeira característica a procurar é a parcialidade — o laboratório que t
 
 
 
-## 
+## Títulos de notícias {style="text-align:justify"}
 
-Com apenas 17 mil habitantes, Prefeitura de Juazeirinho abre licitação de R$ 2,8 milhões em combustíveis.
+<br>
 
-Município da Paraíba com 3,3 mil habitantes assina contrato de mais de R$ 1,4 milhão em combustíveis.
+[Com apenas 17 mil habitantes, Prefeitura de Juazeirinho abre licitação de R$ 2,8 milhões em combustíveis.]{.hlight}
 
-Com apenas 14,6 mil habitantes, Prefeitura de Coremas vai gastar mais de meio milhão com combustíveis.
+[Município da Paraíba com 3,3 mil habitantes assina contrato de mais de R$ 1,4 milhão em combustíveis.]{.hlight}
 
-
-##  {data-sm="false"}
-
+[Com apenas 14,6 mil habitantes, Prefeitura de Coremas vai gastar mais de meio milhão com combustíveis.]{.hlight}
 
 
 
-## Considerações finais {data-name="Considerações finais" background-color="aquamarine"}
+## Devemos questionar {style="text-align:justify"}
+
+::: incremental
+
+1. A população está correlacionada com o gasto de combustíveis?
+2. Não seria mais interessante associar com o número de veículos do município ao consumo de combustíveis?
+3. A distância entre o município e o respectivo pólo tem influência no consumo?
+4. A área geográfica do município tem influência no consumo de combustíveis?
+5. Há veículos de diferentes portes na frota municipal? (ônibus, camionetes, veículos de passeio)
+6. Todo valor licitado será gasto?
+7. Há máquinas consumindo combustível?
+
+:::
+
+
+<!-- ##  {data-sm="false"} -->
+
+
+## Considerações finais {data-name="Considerações finais" background="linear-gradient(to right, #33ffcc, #33cc66)"}
 
 ## {background-video="https://youtu.be/wo9vZccmqwc?autoplay=1" background-size="cover"}
 
 
-## Contato {background-color="aquamarine"}
+## Contato {background="linear-gradient(to right, #33ffcc, #33cc66)"}
 
 </br>
+
+:::: {.columns}
+
+::: {.column width="70%"}
 
 {{< fa brands twitter size=2xl >}} wevsena </br></br>
 {{< fa brands github size=2xl >}} wevsena </br></br>
 {{< fa solid envelope size=2xl >}} wsena@tce.pb.gov.br </br></br>
 {{< fa brands linkedin size=2xl >}} Weverton Lisboa de Sena
 
+:::
 
+::: {.column width="30%"}
+
+[_Link da apresentação_]{style="text-align:center"}
+
+![](./imagens/qrcode2.svg){fig-alt="Link da apresentação." width=80% fig-position=left}
+
+:::
+
+::::
+
+<!-- ## -->
+
+<!-- :::: {.columns} -->
+<!-- :::{.column width="40%"} -->
+<!-- ![](./imagens/qrcode.png){fig-alt="Link da apresentação." width=50%} -->
+<!-- ::: -->
+
+<!-- ::: {.column width="60%" .center} -->
+<!-- {{< fa brands twitter size=2xl >}} wevsena </br></br> -->
+<!-- {{< fa brands github size=2xl >}} wevsena </br></br> -->
+<!-- {{< fa solid envelope size=2xl >}} wsena@tce.pb.gov.br </br></br> -->
+<!-- {{< fa brands linkedin size=2xl >}} Weverton Lisboa de Sena -->
+<!-- ::: -->
+<!-- :::: -->
 
 ## Referências
 
