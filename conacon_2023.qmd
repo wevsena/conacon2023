@@ -703,7 +703,7 @@ Foram encontrados 86^[Há a possibilidade de outros casos, uma vez que a busca s
 
 ::: callout-warning
 
-Os gráficos de barras são fáceis são fáceis de interpretar e identificar diferenças entre as categorias. No entanto, no exemplo acima, as escalas iniciam em valores diferentes, causando essa distorção visual.
+Os gráficos de barras são fáceis de interpretar e identificar diferenças entre as categorias. No entanto, no exemplo acima, as escalas iniciam em valores diferentes, causando essa distorção visual.
 
 :::
 
@@ -817,6 +817,46 @@ Apesar dos altos níveis de investimento em Big Data e Inteligência Artificial,
 
 ## Ausência de alfabetização em dados
 
+## Algo em comum?
+
+```{r datasaurus, echo=FALSE}
+library(datasauRus)
+library(tidyverse)
+
+datasaurus_dozen %>% 
+  filter(dataset != "x_shape") %>% 
+ggplot(aes(x = x, y = y, color = dataset)) +
+  geom_point() +
+  labs(color = "") +
+  #geom_smooth(method = "lm", formula = "y ~ x") +
+  theme_bw() +
+  theme(panel.grid.minor.y = element_blank()) +
+  guides(color = "none") +
+  facet_wrap(~dataset)
+```
+
+## Vejamos as medidas...
+
+```{r, echo=FALSE}
+library(gt)
+
+datasaurus_dozen |>
+  filter(dataset != "x_shape") |>
+  rename(dados = dataset) |>
+  group_by(dados) |>
+  summarise(media_x = mean(x),
+            variancia_x = var(x),
+            media_y = mean(y),
+            variancia_y = var(y),
+            correlacao = cor(x, y)) |>
+  #knitr::kable(digits = 2) %>%
+  gt() %>% 
+  tab_options(column_labels.background.color = "gray50", column_labels.font.weight = "bold") %>% 
+  tab_source_note(source_note = "Fonte: DAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen.")
+
+```
+
+
 ## Vamos decidir com dados? {background="linear-gradient(to right, #33ffcc, #33cc66)"}
 
 ## [Exercício 1:]{.case} A infecção pelo Cordyceps {style="text-align:justify" background-image="imagens/imagem06.jpg"}
@@ -870,35 +910,6 @@ Somos ávidos por padrões, temos fé em um mundo coerente, em que as regularida
 > [...] uma limitação desconcertante de nossa mente: nossa confiança excessiva no que acreditamos saber, e nossa aparente incapacidade de admitir a verdadeira extensão da nossa ignorância e a incerteza do mundo em que vivemos. [@kahneman2012]
 
 
-## datasauRus
-
-```{r datasaurus, echo=FALSE}
-library(datasauRus)
-library(tidyverse)
-ggplot(datasaurus_dozen, aes(x = x, y = y)) +
-  geom_point() +
-  #geom_smooth(method = "lm", formula = "y ~ x") +
-  theme_bw() +
-  facet_wrap(~dataset)
-```
-
-## Vejamos as medidas...
-
-```{r, echo=FALSE}
-
-datasaurus_dozen |>
-  rename(dados = dataset) |>
-  group_by(dados) |>
-  summarise(media_x = mean(x),
-            variancia_x = var(x),
-            media_y = mean(y),
-            variancia_y = var(y),
-            correlacao = cor(x, y)) |>
-  #knitr::kable(digits = 2) %>%
-  kableExtra::kable(digits = 2) %>%
-  kableExtra::kable_styling(font_size = 22)
-
-```
 
 
 ##

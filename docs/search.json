@@ -354,7 +354,7 @@
     "href": "conacon_2023.html#bases-diferentes-de-zero-em-gráficos-de-barras",
     "title": "",
     "section": "Bases diferentes de zero em gráficos de barras",
-    "text": "Bases diferentes de zero em gráficos de barras\n\n\n\n\n\n\n\n\n\n\n\n\n\nAviso\n\n\nOs gráficos de barras são fáceis são fáceis de interpretar e identificar diferenças entre as categorias. No entanto, no exemplo acima, as escalas iniciam em valores diferentes, causando essa distorção visual."
+    "text": "Bases diferentes de zero em gráficos de barras\n\n\n\n\n\n\n\n\n\n\n\n\n\nAviso\n\n\nOs gráficos de barras são fáceis de interpretar e identificar diferenças entre as categorias. No entanto, no exemplo acima, as escalas iniciam em valores diferentes, causando essa distorção visual."
   },
   {
     "objectID": "conacon_2023.html#exemplo-1",
@@ -434,6 +434,20 @@
     "text": "Ausência de alfabetização em dados"
   },
   {
+    "objectID": "conacon_2023.html#datasaurus",
+    "href": "conacon_2023.html#datasaurus",
+    "title": "",
+    "section": "datasauRus",
+    "text": "datasauRus"
+  },
+  {
+    "objectID": "conacon_2023.html#vejamos-as-medidas",
+    "href": "conacon_2023.html#vejamos-as-medidas",
+    "title": "",
+    "section": "Vejamos as medidas…",
+    "text": "Vejamos as medidas…\n\n\n\n\n\n\n  \n    \n    \n      dados\n      media_x\n      variancia_x\n      media_y\n      variancia_y\n      correlacao\n    \n  \n  \n    away\n54.26610\n281.2270\n47.83472\n725.7498\n-0.06412835\n    bullseye\n54.26873\n281.2074\n47.83082\n725.5334\n-0.06858639\n    circle\n54.26732\n280.8980\n47.83772\n725.2268\n-0.06834336\n    dino\n54.26327\n281.0700\n47.83225\n725.5160\n-0.06447185\n    dots\n54.26030\n281.1570\n47.83983\n725.2352\n-0.06034144\n    h_lines\n54.26144\n281.0953\n47.83025\n725.7569\n-0.06171484\n    high_lines\n54.26881\n281.1224\n47.83545\n725.7635\n-0.06850422\n    slant_down\n54.26785\n281.1242\n47.83590\n725.5537\n-0.06897974\n    slant_up\n54.26588\n281.1944\n47.83150\n725.6886\n-0.06860921\n    star\n54.26734\n281.1980\n47.83955\n725.2397\n-0.06296110\n    v_lines\n54.26993\n281.2315\n47.83699\n725.6388\n-0.06944557\n    wide_lines\n54.26692\n281.2329\n47.83160\n725.6506\n-0.06657523\n  \n  \n    \n      Fonte: DAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen."
+  },
+  {
     "objectID": "conacon_2023.html#vamos-decidir-com-dados",
     "href": "conacon_2023.html#vamos-decidir-com-dados",
     "title": "",
@@ -481,20 +495,6 @@
     "title": "",
     "section": "",
     "text": "[…] uma limitação desconcertante de nossa mente: nossa confiança excessiva no que acreditamos saber, e nossa aparente incapacidade de admitir a verdadeira extensão da nossa ignorância e a incerteza do mundo em que vivemos. (Kahneman, 2012)"
-  },
-  {
-    "objectID": "conacon_2023.html#datasaurus",
-    "href": "conacon_2023.html#datasaurus",
-    "title": "",
-    "section": "datasauRus",
-    "text": "datasauRus"
-  },
-  {
-    "objectID": "conacon_2023.html#vejamos-as-medidas",
-    "href": "conacon_2023.html#vejamos-as-medidas",
-    "title": "",
-    "section": "Vejamos as medidas…",
-    "text": "Vejamos as medidas…\n\n\n\n\n\ndados\nmedia_x\nvariancia_x\nmedia_y\nvariancia_y\ncorrelacao\n\n\n\n\naway\n54.27\n281.23\n47.83\n725.75\n-0.06\n\n\nbullseye\n54.27\n281.21\n47.83\n725.53\n-0.07\n\n\ncircle\n54.27\n280.90\n47.84\n725.23\n-0.07\n\n\ndino\n54.26\n281.07\n47.83\n725.52\n-0.06\n\n\ndots\n54.26\n281.16\n47.84\n725.24\n-0.06\n\n\nh_lines\n54.26\n281.10\n47.83\n725.76\n-0.06\n\n\nhigh_lines\n54.27\n281.12\n47.84\n725.76\n-0.07\n\n\nslant_down\n54.27\n281.12\n47.84\n725.55\n-0.07\n\n\nslant_up\n54.27\n281.19\n47.83\n725.69\n-0.07\n\n\nstar\n54.27\n281.20\n47.84\n725.24\n-0.06\n\n\nv_lines\n54.27\n281.23\n47.84\n725.64\n-0.07\n\n\nwide_lines\n54.27\n281.23\n47.83\n725.65\n-0.07\n\n\nx_shape\n54.26\n281.23\n47.84\n725.22\n-0.07"
   },
   {
     "objectID": "conacon_2023.html#section-13",
