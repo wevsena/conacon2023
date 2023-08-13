@@ -106,7 +106,7 @@ nocite: |
 
 <!-- <p class="small">Of course, you can set it to stop inheriting the name as well.</p> -->
 
-## Parte I  {data-name="Parte I" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title}
+## Parte I  {data-name="Parte I" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title background-image="imagens/imagem14.png" background-size="500px" background-position="top 0px right 200px"}
 
   <!-- font-style: italic; -->
   <!-- font-family: Arial; -->
@@ -737,7 +737,7 @@ Os gráficos de barras são fáceis de interpretar e identificar diferenças ent
 
 
 
-## Parte II {data-name="Parte II" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title}
+## Parte II {data-name="Parte II" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title background-image="imagens/imagem15.png" background-size="850px" background-position="bottom 40px left 0px"}
 
 ## Desafios para um Controle Externo orientado a dados
 
@@ -940,14 +940,39 @@ Somos ávidos por padrões, temos fé em um mundo coerente, em que as regularida
 
 ## Casos {background-color="aquamarine"}
 
-##
+## {style="text-align:justify"}
 
-> _Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível espicaçar o assunto com cinco^[Dentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido? ] perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras.
+> _Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível provocar o assunto com cinco^[Dentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido? ] perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras.
 A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo._ [@huff2016]
 
+## [Caso II:]{.case} São João em Maceió!  {{< fa solid fire size=1xl >}} {background="linear-gradient(to right, #33ffcc, #33cc66)" style="text-align:justify"}
+
+## Matéria disponibilizada no [sítio oficial](https://maceio.al.gov.br/noticias/fmac/estudo-garante-que-sao-joao-de-maceio-deve-injetar-mais-de-r-dollar-100-milhoes-na-economia-local) em 2022 {style="text-align:justify" .scrolling}
+
+<br>
 
 
-## Títulos de notícias {style="text-align:justify"}
+>[Um estudo elaborado pelo Instituto Fecomércio/AL comprovou a viabilidade e o impacto positivo]{.hlight} da realização do São João 'Massayó: Sol... Mar e Forró', programado pela Prefeitura de Maceió. A estimativa é de que, nos 15 dias, mais de [R$ 100 milhões sejam injetados na economia local]{.hlight}, beneficiando 9,4 mil empresas de 32 segmentos, além de sacudir o mercado informal e elevar a ocupação hoteleira numa temporada tradicionalmente fria.
+
+>Os pesquisadores entrevistaram [518 pessoas na cidade, inclusive comerciários, para obter de forma mais verídica]{.hlight} o perfil geral e a opinião sobre os festejos juninos. Eles responderam a um questionário no qual reagiam sobre a possibilidade de o município investir em uma programação competitiva, mesclando atrações locais e nacionais.
+
+>Quando os resultados foram compilados, a pesquisa revelou que 8 em cada 10 maceioenses aprovam a festa; 7 em cada 10 entrevistados acharam que ter um grande São João, com uma megaestrutura e novas atrações, é uma ideia entre boa e excelente. Além disso, 82,10% deste público reconhecem que o evento vai movimentar a economia local, gerando emprego e renda.
+
+>Levando em consideração a população ocupada de Maceió, [aproximadamente 145.751 mil pessoas pretendem ir para as festividades juninas]{.hlight} organizada pela Prefeitura de Maceió, representando mais da metade dos entrevistados.
+
+> Projeta-se, também, que, [por dia, sejam gastos R$ 3,7 milhões com alimentação em barraquinhas e ambulantes]{.hlight}, totalizando um volume gasto de, aproximadamente, R$ 56,2 milhões, dando um ‘gás’ no mercado informal da cidade.
+
+## Matéria disponibilizada no [sítio oficial](https://maceio.al.gov.br/noticias/fmac/sao-joao-comeca-hoje-em-maceio-e-vai-injetar-r-200-milhoes-na-economia-local) em 2023 {style="text-align:justify" .scrolling}
+
+<br>
+
+> Na edição anterior, que teve 15 dias de duração, foram injetados mais de R$ 100 milhões na economia local. A expectativa para este [ano é dobrar a marca e chegar a R$ 200 milhões]{.hlight}, gerando renda e postos de trabalho para toda a cadeia produtiva do turismo.
+
+
+
+## [Caso III:]{.case} Gastos com combustíveis {{< fa solid gas-pump size=1xl >}} {background="linear-gradient(to right, #33ffcc, #33cc66)" style="text-align:justify"}
+
+##
 
 <br>
 
@@ -1001,7 +1026,7 @@ A primeira característica a procurar é a parcialidade — o laboratório que t
 
 [_Link da apresentação_]{style="text-align:center"}
 
-![](./imagens/qrcode2.svg){fig-alt="Link da apresentação." width=80% fig-position=left}
+![](./imagens/qrcode2.svg){fig-alt="Link da apresentação." width=75% fig-position=left}
 
 :::
 
