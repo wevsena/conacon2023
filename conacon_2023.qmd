@@ -106,7 +106,7 @@ nocite: |
 
 <!-- <p class="small">Of course, you can set it to stop inheriting the name as well.</p> -->
 
-## Parte I  {data-name="Parte I" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title background-image="imagens/imagem14.png" background-size="500px" background-position="top 0px right 200px"}
+## Parte I  {data-name="Parte I" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title background-image="imagens/imagem14.png" background-size="500px" background-position="top 0px right 2px"}
 
   <!-- font-style: italic; -->
   <!-- font-family: Arial; -->
@@ -741,6 +741,8 @@ Os gráficos de barras são fáceis de interpretar e identificar diferenças ent
 
 ## Desafios para um Controle Externo orientado a dados
 
+<br>
+
 > _O maior problema enfrentado pelas empresas que estão tentando inovar e se transformar com dados é uma cultura de "sempre fizemos assim"._ - **Gabie Boko**
 
 
@@ -813,9 +815,28 @@ Apesar dos altos níveis de investimento em Big Data e Inteligência Artificial,
 
 ## Qualidade dos dados e ausência de confiança
 
-## Fatores culturais
+## Fatores culturais {style="text-align:justify"}
 
-## Ausência de alfabetização em dados
+<br>
+
+::: callout-note
+
+Por cinco anos consecutivos, o grande desafio para as organizações se tornarem orientadas a dados continuam sendo as barreiras culturais (92,2%) e não as barreiras tecnológicas. As empresas continuam lutando contra mudanças de cultura, alinhamento organizacional, e problemas com comunicação, conhecimento das pessoas, resistência ou falta de compreensão sobre a necessidade de mudança. [@bean2022book]
+
+:::
+
+## Ausência de alfabetização em dados {style="text-align:justify"}
+
+<br>
+
+> ..quero desmistificar dois mitos comuns. O primeiro é a visão de que você precisa ser um sábio da matemática para tomar decisões com dados, o que impede muitas pessoas de usar dados para a tomada de decisões. Esta é uma crença errônea. A realidade é que tomar decisões com dados não é uma escolha mais, é uma necessidade.
+>
+>[...]
+>
+> O segundo mito é a ilusão de que, com a abundância de Big Data que nos cercam, podemos finalmente chegar ao nirvana de tomar certas decisões — a decisão perfeita. [@frank2022]
+
+
+
 
 ## Algo em comum?
 
@@ -858,6 +879,11 @@ datasaurus_dozen |>
 
 
 ## Vamos decidir com dados? {background="linear-gradient(to right, #33ffcc, #33cc66)"}
+
+
+## {style="text-align:justify"}
+
+> O desafio do mundo atual não é a falta de informação, mas nosso julgamento para utilizá-la. [@frank2022]
 
 ## [Exercício 1:]{.case} A infecção pelo Cordyceps {style="text-align:justify" background-image="imagens/imagem06.jpg"}
 
@@ -917,6 +943,8 @@ Somos ávidos por padrões, temos fé em um mundo coerente, em que as regularida
 > Os mal informados são muito mais perigosos do que os não informados; a má informação é pegajosa. [@anderson2015]
 
 ## [VIÉS]{.title1}{style="text-align:center"}
+
+
 
 ## Alguns tipos de vieses
 
@@ -1052,4 +1080,9 @@ A primeira característica a procurar é a parcialidade — o laboratório que t
 ::: {#refs}
 :::
 
-## Obrigado!
+## {font-size="500px" .parte-title background-image="imagens/imagem16.jpg" background-size="1000px" background-position="bottom 0px right 100px"}
+
+
+
+[**Muito obrigado!**]{.incremental}
+

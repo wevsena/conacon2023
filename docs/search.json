@@ -396,7 +396,7 @@
     "href": "conacon_2023.html#desafios-para-um-controle-externo-orientado-a-dados",
     "title": "",
     "section": "Desafios para um Controle Externo orientado a dados",
-    "text": "Desafios para um Controle Externo orientado a dados\n\nO maior problema enfrentado pelas empresas que estão tentando inovar e se transformar com dados é uma cultura de “sempre fizemos assim”. - Gabie Boko"
+    "text": "Desafios para um Controle Externo orientado a dados\n\n\nO maior problema enfrentado pelas empresas que estão tentando inovar e se transformar com dados é uma cultura de “sempre fizemos assim”. - Gabie Boko"
   },
   {
     "objectID": "conacon_2023.html#esforço-das-organizações",
@@ -424,14 +424,14 @@
     "href": "conacon_2023.html#fatores-culturais",
     "title": "",
     "section": "Fatores culturais",
-    "text": "Fatores culturais"
+    "text": "Fatores culturais\n\n\n\n\n\n\n\nNota\n\n\nPor cinco anos consecutivos, o grande desafio para as organizações se tornarem orientadas a dados continuam sendo as barreiras culturais (92,2%) e não as barreiras tecnológicas. As empresas continuam lutando contra mudanças de cultura, alinhamento organizacional, e problemas com comunicação, conhecimento das pessoas, resistência ou falta de compreensão sobre a necessidade de mudança. (Bean, 2021)"
   },
   {
     "objectID": "conacon_2023.html#ausência-de-alfabetização-em-dados",
     "href": "conacon_2023.html#ausência-de-alfabetização-em-dados",
     "title": "",
     "section": "Ausência de alfabetização em dados",
-    "text": "Ausência de alfabetização em dados"
+    "text": "Ausência de alfabetização em dados\n\n\n..quero desmistificar dois mitos comuns. O primeiro é a visão de que você precisa ser um sábio da matemática para tomar decisões com dados, o que impede muitas pessoas de usar dados para a tomada de decisões. Esta é uma crença errônea. A realidade é que tomar decisões com dados não é uma escolha mais, é uma necessidade.\n[…]\nO segundo mito é a ilusão de que, com a abundância de Big Data que nos cercam, podemos finalmente chegar ao nirvana de tomar certas decisões — a decisão perfeita. (Frank, Magnone e Netzer, 2022)"
   },
   {
     "objectID": "conacon_2023.html#algo-em-comum",
@@ -455,6 +455,13 @@
     "text": "Vamos decidir com dados?"
   },
   {
+    "objectID": "conacon_2023.html#section-11",
+    "href": "conacon_2023.html#section-11",
+    "title": "",
+    "section": "",
+    "text": "O desafio do mundo atual não é a falta de informação, mas nosso julgamento para utilizá-la. (Frank, Magnone e Netzer, 2022)"
+  },
+  {
     "objectID": "conacon_2023.html#exercício-1-a-infecção-pelo-cordyceps",
     "href": "conacon_2023.html#exercício-1-a-infecção-pelo-cordyceps",
     "title": "",
@@ -476,8 +483,8 @@
     "text": "Relembrando…\n\n\n\n\n\n\n\nNota\n\n\nSe A e B forem dois eventos independentes, a probabilidade de ocorrência conjunta deles é igual ao produto de suas probabilidades individuais. Para \\(n\\) eventos temos:\n\\[\nP(A_{1}\\cap A_{2} \\cap A_{3} ...A_{n} ) = P(A_{1}) \\cdot P(A_{2}) \\cdot ... P(A_{n})\n\\]"
   },
   {
-    "objectID": "conacon_2023.html#section-11",
-    "href": "conacon_2023.html#section-11",
+    "objectID": "conacon_2023.html#section-12",
+    "href": "conacon_2023.html#section-12",
     "title": "",
     "section": "",
     "text": "O maquinário associativo procura causas. A dificuldade que temos com as regularidades estatísticas é que elas pedem uma abordagem diferente. […] Somos ávidos por padrões, temos fé em um mundo coerente, em que as regularidades não aparecem por acidente, mas como resultado de uma causalidade mecânica ou da intenção de alguém. (Kahneman, 2012)"
@@ -490,15 +497,15 @@
     "text": "Barreiras cognitivas"
   },
   {
-    "objectID": "conacon_2023.html#section-12",
-    "href": "conacon_2023.html#section-12",
+    "objectID": "conacon_2023.html#section-13",
+    "href": "conacon_2023.html#section-13",
     "title": "",
     "section": "",
     "text": "[…] uma limitação desconcertante de nossa mente: nossa confiança excessiva no que acreditamos saber, e nossa aparente incapacidade de admitir a verdadeira extensão da nossa ignorância e a incerteza do mundo em que vivemos. (Kahneman, 2012)"
   },
   {
-    "objectID": "conacon_2023.html#section-13",
-    "href": "conacon_2023.html#section-13",
+    "objectID": "conacon_2023.html#section-14",
+    "href": "conacon_2023.html#section-14",
     "title": "",
     "section": "",
     "text": "Os mal informados são muito mais perigosos do que os não informados; a má informação é pegajosa. (Anderson, 2015)"
@@ -532,8 +539,8 @@
     "text": "Casos"
   },
   {
-    "objectID": "conacon_2023.html#section-14",
-    "href": "conacon_2023.html#section-14",
+    "objectID": "conacon_2023.html#section-15",
+    "href": "conacon_2023.html#section-15",
     "title": "",
     "section": "",
     "text": "Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível provocar o assunto com cinco1 perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras. A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo. (Huff, 2016)\n\nDentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido?"
@@ -567,8 +574,8 @@
     "text": "Caso III: Gastos com combustíveis"
   },
   {
-    "objectID": "conacon_2023.html#section-15",
-    "href": "conacon_2023.html#section-15",
+    "objectID": "conacon_2023.html#section-16",
+    "href": "conacon_2023.html#section-16",
     "title": "",
     "section": "",
     "text": "Com apenas 17 mil habitantes, Prefeitura de Juazeirinho abre licitação de R$ 2,8 milhões em combustíveis.\nMunicípio da Paraíba com 3,3 mil habitantes assina contrato de mais de R$ 1,4 milhão em combustíveis.\nCom apenas 14,6 mil habitantes, Prefeitura de Coremas vai gastar mais de meio milhão com combustíveis."
@@ -599,13 +606,13 @@
     "href": "conacon_2023.html#referências",
     "title": "",
     "section": "Referências",
-    "text": "Referências\n\n\nANDERSON, C. Creating a data-driven organization: Practical advice from the trenches. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.\n\n\nBEAN, R. Fail fast, learn faster : lessons in data-driven leadership in an age of disruption, big data, and AI. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\n___. How The U.S. Federal Government Is Mobilizing To Enable Data-Driven Decision Making. Disponível em: &lt;https://www.forbes.com/sites/randybean/2022/06/01/how-the-us-federal-government-is-mobilizing-to-enable-data-driven-decision-making&gt;. Acesso em: 10 jul. 2023.\n\n\nBRUCE, A.; BRUCE, P. Estatı́stica prática para cientistas de dados. Rio de Janeiro: Alta Books, 2019.\n\n\nCABTREE, M.; NEHME, A. What is Data Literacy? A Comprehensive Guide for Organizations. Disponível em: &lt;https://www.datacamp.com/blog/what-is-data-literacy-a-comprehensive-guide-for-organizations&gt;. Acesso em: 8 jul. 2023.\n\n\nCHIU, J. How Enterprise Organizations Can Become Data-Driven. Disponível em: &lt;https://www.datacamp.com/blog/how-enterprise-organizations-can-become-data-driven&gt;. Acesso em: 6 jul. 2023.\n\n\nDAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen. [s.l: s.n.].\n\n\nEREMENKO, K. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. [s.l.] Kogan Page Publishers, 2018.\n\n\nESPINDOLA, D.; WRIGHT, M. W. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nGALOR, O. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. ed. Rio de Janeiro: Intrínseca, 2022.\n\n\nGLASS, R.; CALLAHAN, S. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. [s.l.] John Wiley & Sons, 2014.\n\n\nGUTMAN, A. J.; GOLDMEIER, J. Becoming a data head: How to think, speak, and understand data science, statistics, and machine learning. Hoboken, NJ: John Wiley & Sons, 2021.\n\n\nHUFF, D. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca, 2016.\n\n\nKAHNEMAN, D. Rápido e devagar: duas formas de pensar. 1 ed. ed. Rio de Janeiro, RJ: Objetiva, 2012.\n\n\nKAHNEMAN, D.; SIBONY, O.; SUNSTEIN, C. R. Noise: a flaw in human judgment. London: UK: HarperCollins Publishers, 2021.\n\n\nKNAFLIC, C. N. Storytelling com dados: um guia sobre visualização de dados para profissionais de negócios. Rio de Janeiro: RJ: Alta Books, 2018.\n\n\nMORROW, J. Be data literate: The data literacy skills everyone needs to succeed. [s.l.] Kogan Page Publishers, 2021.\n\n\n___. Be Data Driven: How Organizations Can Harness the Power of Data. New York, NY: Kogan Page Publishers, 2022.\n\n\nREDMAN, T. C. Bad Data Costs the U.S. $ 3 Trillion Per Year. Disponível em: &lt;https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year&gt;. Acesso em: 10 jul. 2023.\n\n\nRIBEIRO, F. G. DE M. M. Value creation and barriers in the commercial use of open government data. Porto, Portugal: Universidade do Porto, 2017.\n\n\nSILBERZAHN, R. et al. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, v. 1, n. 3, p. 337–356, 2018.\n\n\nSUSSKIND, R. E.; SUSSKIND, D. The future of the professions: How technology will transform the work of human experts. New York: Oxford University Press, USA, 2015.\n\n\nWICKHAM, H.; ÇETINKAYA-RUNDEL, M.; GROLEMUND, G. R for data science. [s.l.] O’Reilly Media, Inc., 2023."
+    "text": "Referências\n\n\nANDERSON, C. Creating a data-driven organization: Practical advice from the trenches. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.\n\n\nBEAN, R. Fail fast, learn faster : lessons in data-driven leadership in an age of disruption, big data, and AI. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\n___. How The U.S. Federal Government Is Mobilizing To Enable Data-Driven Decision Making. Disponível em: &lt;https://www.forbes.com/sites/randybean/2022/06/01/how-the-us-federal-government-is-mobilizing-to-enable-data-driven-decision-making&gt;. Acesso em: 10 jul. 2023.\n\n\nBRUCE, A.; BRUCE, P. Estatı́stica prática para cientistas de dados. Rio de Janeiro: Alta Books, 2019.\n\n\nCABTREE, M.; NEHME, A. What is Data Literacy? A Comprehensive Guide for Organizations. Disponível em: &lt;https://www.datacamp.com/blog/what-is-data-literacy-a-comprehensive-guide-for-organizations&gt;. Acesso em: 8 jul. 2023.\n\n\nCHIU, J. How Enterprise Organizations Can Become Data-Driven. Disponível em: &lt;https://www.datacamp.com/blog/how-enterprise-organizations-can-become-data-driven&gt;. Acesso em: 6 jul. 2023.\n\n\nDAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen. [s.l: s.n.].\n\n\nEREMENKO, K. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. [s.l.] Kogan Page Publishers, 2018.\n\n\nESPINDOLA, D.; WRIGHT, M. W. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nFRANK, C. J.; MAGNONE, P. F.; NETZER, O. Decisions Over Decimals: Striking the Balance Between Intuition and Information. Hoboken, New Jersey: John Wiley & Sons, 2022.\n\n\nGALOR, O. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. ed. Rio de Janeiro: Intrínseca, 2022.\n\n\nGLASS, R.; CALLAHAN, S. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. [s.l.] John Wiley & Sons, 2014.\n\n\nGUTMAN, A. J.; GOLDMEIER, J. Becoming a data head: How to think, speak, and understand data science, statistics, and machine learning. Hoboken, NJ: John Wiley & Sons, 2021.\n\n\nHUFF, D. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca, 2016.\n\n\nKAHNEMAN, D. Rápido e devagar: duas formas de pensar. 1 ed. ed. Rio de Janeiro, RJ: Objetiva, 2012.\n\n\nKAHNEMAN, D.; SIBONY, O.; SUNSTEIN, C. R. Noise: a flaw in human judgment. London: UK: HarperCollins Publishers, 2021.\n\n\nKNAFLIC, C. N. Storytelling com dados: um guia sobre visualização de dados para profissionais de negócios. Rio de Janeiro: RJ: Alta Books, 2018.\n\n\nMORROW, J. Be data literate: The data literacy skills everyone needs to succeed. [s.l.] Kogan Page Publishers, 2021.\n\n\n___. Be Data Driven: How Organizations Can Harness the Power of Data. New York, NY: Kogan Page Publishers, 2022.\n\n\nREDMAN, T. C. Bad Data Costs the U.S. $ 3 Trillion Per Year. Disponível em: &lt;https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year&gt;. Acesso em: 10 jul. 2023.\n\n\nRIBEIRO, F. G. DE M. M. Value creation and barriers in the commercial use of open government data. Porto, Portugal: Universidade do Porto, 2017.\n\n\nSILBERZAHN, R. et al. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, v. 1, n. 3, p. 337–356, 2018.\n\n\nSUSSKIND, R. E.; SUSSKIND, D. The future of the professions: How technology will transform the work of human experts. New York: Oxford University Press, USA, 2015.\n\n\nWICKHAM, H.; ÇETINKAYA-RUNDEL, M.; GROLEMUND, G. R for data science. [s.l.] O’Reilly Media, Inc., 2023."
   },
   {
-    "objectID": "conacon_2023.html#obrigado",
-    "href": "conacon_2023.html#obrigado",
+    "objectID": "conacon_2023.html#section-18",
+    "href": "conacon_2023.html#section-18",
     "title": "",
-    "section": "Obrigado!",
-    "text": "Obrigado!\n\n\n6º CONACON - João Pessoa - Paraíba"
+    "section": "",
+    "text": "Muito obrigado!\n\n\n6º CONACON - João Pessoa - Paraíba"
   }
 ]
