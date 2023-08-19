@@ -106,7 +106,7 @@ nocite: |
 
 <!-- <p class="small">Of course, you can set it to stop inheriting the name as well.</p> -->
 
-## Parte I  {data-name="Parte I" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title background-image="imagens/imagem14.png" background-size="500px" background-position="top 0px right 2px"}
+## Parte I  {data-name="Parte I" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title background-image="imagens/imagem14.png" background-size="35%" background-position="top 0px right 2px"}
 
   <!-- font-style: italic; -->
   <!-- font-family: Arial; -->
@@ -737,7 +737,7 @@ Os gráficos de barras são fáceis de interpretar e identificar diferenças ent
 
 
 
-## Parte II {data-name="Parte II" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title background-image="imagens/imagem15.png" background-size="850px" background-position="bottom 40px left 0px"}
+## Parte II {data-name="Parte II" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title background-image="imagens/imagem15.png" background-size="45%" background-position="bottom 40px left 0px"}
 
 ## Desafios para um Controle Externo orientado a dados
 
@@ -1080,7 +1080,7 @@ A primeira característica a procurar é a parcialidade — o laboratório que t
 ::: {#refs}
 :::
 
-## {font-size="500px" .parte-title background-image="imagens/imagem16.jpg" background-size="1000px" background-position="bottom 0px right 100px"}
+## {font-size="500px" .parte-title background-image="imagens/imagem16.jpg" background-size="50%" background-position="bottom 0px right 0px"}
 
 
 
