@@ -13,6 +13,7 @@ csl: resources/associacao-brasileira-de-normas-tecnicas-ipea.csl
 fontsize: "32px"
 format:
   revealjs:
+    multiplex: true
     scrollable: true
     template-partials: 
       - resources/title-slide.html
@@ -997,7 +998,6 @@ A primeira característica a procurar é a parcialidade — o laboratório que t
 > Na edição anterior, que teve 15 dias de duração, foram injetados mais de R$ 100 milhões na economia local. A expectativa para este [ano é dobrar a marca e chegar a R$ 200 milhões]{.hlight}, gerando renda e postos de trabalho para toda a cadeia produtiva do turismo.
 
 
-
 ## [Caso III:]{.case} Gastos com combustíveis {{< fa solid gas-pump size=1xl >}} {background="linear-gradient(to right, #33ffcc, #33cc66)" style="text-align:justify"}
 
 ##
@@ -1080,9 +1080,11 @@ A primeira característica a procurar é a parcialidade — o laboratório que t
 ::: {#refs}
 :::
 
-## {font-size="500px" .parte-title background-image="imagens/imagem16.jpg" background-size="50%" background-position="bottom 0px right 0px"}
+## {background-image="imagens/imagem16.jpg" background-size="50%" background-position="bottom 0px right 0px"}
 
 
+::: {.fragment}
 
-[**Muito obrigado!**]{.incremental}
+<h1> **Muito obrigado!** </h1>
 
+:::
