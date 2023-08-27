@@ -10,7 +10,7 @@ title-slide-attributes:
   data-background-image: "imagens/imagem00.jpg"
 bibliography: resources/slides.bib
 csl: resources/associacao-brasileira-de-normas-tecnicas-ipea.csl
-fontsize: "32px"
+fontsize: "33px"
 format:
   revealjs:
     multiplex: true
@@ -64,54 +64,8 @@ nocite: |
   @ribeiro2017
   @bean2022book
   @kahneman2021noise
+  @gladwell2005
 ---
-
-##  {data-name="Índice" .scrolling}
-
-::: incremental
--   Introdução
-* Parte I
-  - O que são dados?
-  - O que é uma organização orientada a dados?
-  - Controle Externo orientado a dados
-  - Análise de caso I
-  - Alfabetização em dados
-  - Comunicando com dados
-* Parte II
-  - Desafios para nos tornarmos orientados a dados
-  - Item
-  - Item
-  - Item
-*   Considerações finais
-:::
-
-
-
-## Introdução {data-name="Introdução" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title}
-
-## {background-image="imagens/imagem04.jpg"}
-
-## {background-image="imagens/imagem05.jpg"}
-
-## PIB Mundial
-
-<!-- ![](imagens/imagem02.svg){fig-align="center" height=600} -->
-
-<iframe src="https://ourworldindata.org/grapher/world-gdp-over-the-last-two-millennia" loading="lazy" style="width: 100%; height: 600px; border: 0px none;">
-
-</iframe>
-
-## {style="text-align:justify"}
-
-> _Na verdade, tal progresso contínuo foi tão radical que muitas vezes perdemos de vista o quanto esse período é excepcional em relação ao resto da nossa história._ [@galor2022jornada]
-
-<!-- <p class="small">Of course, you can set it to stop inheriting the name as well.</p> -->
-
-## Parte I  {data-name="Parte I" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title background-image="imagens/imagem14.png" background-size="35%" background-position="top 0px right 2px"}
-
-  <!-- font-style: italic; -->
-  <!-- font-family: Arial; -->
-  <!-- font-variant: small-caps; -->
 
 ```{css, echo=FALSE}
 .parte-title {
@@ -132,6 +86,14 @@ nocite: |
   vertical-align: middle;
   font-weight: bold;
   border-radius: 20px
+}
+
+.white {
+  color: gray;
+  background-color: white;
+  font-size: 1.5em;
+  vertical-align: middle;
+  font-weight: bold;
 }
 
 .case{
@@ -163,14 +125,66 @@ nocite: |
   -webkit-text-fill-color: transparent;
 }
 
+
 ```
+
+
+##  {data-name="Índice" .scrolling}
+
+::: incremental
+-   **Introdução**
+* **Parte I**
+  - O que são dados?
+  - O que é uma organização orientada a dados?
+  - Controle Externo orientado a dados
+  - Caso I
+  - Alfabetização em dados
+  - Comunicando com dados
+* **Parte II**
+  - Desafios para um Controle Externo orientados a dados
+  - Vamos decidir com dados?
+  - Barreiras cognitivas
+  - Viés
+  - Casos II, III e IV
+  - Inteligência artificial: para onde vamos?
+
+*   **Considerações finais**
+:::
+
+
+
+## Introdução {data-name="Introdução" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title}
+
+## {background-image="imagens/imagem04.jpg"}
+
+## {background-image="imagens/imagem05.jpg"}
+
+## PIB Mundial
+
+<!-- ![](imagens/imagem02.svg){fig-align="center" height=600} -->
+
+<iframe src="https://ourworldindata.org/grapher/world-gdp-over-the-last-two-millennia" loading="lazy" style="width: 100%; height: 600px; border: 0px none;">
+
+</iframe>
+
+## {style="text-align:justify"}
+
+> _Na verdade, tal progresso contínuo foi tão radical que muitas vezes perdemos de vista o quanto esse período é excepcional em relação ao resto da nossa história._ [@galor2022jornada]
+
+<!-- <p class="small">Of course, you can set it to stop inheriting the name as well.</p> -->
+
+## Parte I  {data-name="Parte I" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title background-image="imagens/imagem14.png" background-size="35%" background-position="top 0px right 2px"}
+
+
 
 ##
 > _Sem dados, você é apenas mais uma pessoa com uma opinião._ - **William Edwards Deming**
 
 ## O que são dados? {style="text-align:justify"}
 
-> *De forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. \[...\] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados.* [@eremenko2018] (Tradução livre)
+<br>
+
+> *De forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. \[...\] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados.* [@eremenko2018]
 
 ## Dados vs. Informação {style="text-align:justify"}
 
@@ -190,11 +204,11 @@ Faz 32º C em João Pessoa, o dia mais quente de setembro de 2023. (Informação
 
 <br>
 
-* Numérico
+* **Numérico**
   - Contínuos (A temperatura de um objeto)
   - Discretos (Número de filhos de uma pessoa)
 
-* Categórico
+* **Categórico**
   - Ordinários (A classe de renda de uma pessoa)
   - Nominais (A nacionalidade de uma pessoa)
 
@@ -202,21 +216,20 @@ Faz 32º C em João Pessoa, o dia mais quente de setembro de 2023. (Informação
 
 <br>
 
-* Estruturados
+* **Estruturados**
   - Um banco de dados, uma planilha do excel, um arquivo CSV.
-* Não estruturados
+* **Não estruturados**
   - Texto, vídeos, imagens, áudio.
 
 
-## Por que só agora? {style="text-align:center" background="linear-gradient(to right, #33ffcc, #33cc66)"}
+## Por que só agora? {style="text-align:left" background="linear-gradient(to right, #33ffcc, #33cc66)"}
 
 
 
 ## Lei de Moore
 
-<iframe src="https://ourworldindata.org/grapher/transistors-per-microprocessor?yScale=linear" loading="lazy" style="width: 100%; height: 600px; border: 0px none;">
+<iframe src="https://ourworldindata.org/grapher/transistors-per-microprocessor?yScale=linear" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 
-</iframe>
 
 ## Custo de armazenamento
 
@@ -227,7 +240,7 @@ Faz 32º C em João Pessoa, o dia mais quente de setembro de 2023. (Informação
 ## {style="text-align:justify"}
 
 
-O _IDC's Global DataSphere_^[O IDC Global DataSphere mundial é uma medida de quantos novos dados são criados, capturados, replicados e consumidos a cada ano. É previsto por vários segmentos, incluindo consumidor/empresa, região, tipo de dados, localização (core, edge, endpoint) e tipo de implantação (nuvem/não nuvem) da tecnologia envolvida na geração de dados.] projeta que em 2026 os dados alcançarão **221.000 Exabytes**[^1], sendo mais de 90% desse volume composto por dados não estruturados.
+O _IDC's Global DataSphere_^[O IDC Global DataSphere mundial é uma medida de quantos novos dados são criados, capturados, replicados e consumidos a cada ano. É previsto por vários segmentos, incluindo consumidor/empresa, região, tipo de dados, localização (core, edge, endpoint) e tipo de implantação (nuvem/não nuvem) da tecnologia envolvida na geração de dados.] projeta que em 2026 os dados alcançarão **221.000 Exabytes**^[221.000 Exabyte (EB) correspondem a 221 bilhões de Terabytes (TB).], sendo mais de 90% desse volume composto por dados não estruturados. Essa informação é de 2022.
 
 </br>
 
@@ -236,14 +249,7 @@ Esse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em arti
 :::
 
 
-[^1]: 221.000 Exabyte (EB) correspondem a 221 bilhões de Terabytes (TB).
-
 </br>
-
-
-
-
-
 
 
 ## O que significa uma organização orientada a dados? {style="text-align:justify" background="linear-gradient(to right, #33ffcc, #33cc66)"}
@@ -255,22 +261,26 @@ Esse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em arti
 
 ## Organização orientada a dados {style="text-align:justify"}
 
-> _Basicamente, uma organização orientada a dados é aquela que utiliza dados para melhorar seus negócios - simples assim._ [@morrow2022] (Tradução livre)
+<br>
+
+> _Basicamente, uma organização orientada a dados é aquela que utiliza dados para melhorar seus negócios - simples assim._ [@morrow2022]
 
 > _A orientação a dados não é algo binário, mas contínuo: você sempre pode ser mais orientado a dados, coletar dados mais relevantes, ter uma organização analítica mais mais qualificada e fazer mais testes._ [@anderson2015]
 
 ## Parece simples, mas... {style="text-align:justify"}
 
-> _[...] a NewVantage Partners, em janeiro de 2020, revelou que das 70 empresas pesquisadas, 98,8% estavam investindo em iniciativas de _big data_ e IA, mas apenas 37,8% conseguiram afirmar que criaram uma organização orientada a dados._ [@joice2020] (tradução livre)
+<br>
 
-> _Algumas organizações pensam que são orientadas a dados simplesmente porque geram vários relatórios e _dashboards_._  [@anderson2015] (tradução livre)
+> _[...] a NewVantage Partners, em janeiro de 2020, revelou que das 70 empresas pesquisadas, 98,8% estavam investindo em iniciativas de _big data_ e IA, mas apenas 37,8% conseguiram afirmar que criaram uma organização orientada a dados._ [@joice2020]
+
+> _Algumas organizações pensam que são orientadas a dados simplesmente porque geram vários relatórios e _dashboards_._  [@anderson2015]
 
 ## A corrida começou {style="text-align:justify"}
 
 <br>
 
 > O governo federal dos EUA está se mobilizando em um esforço unificado para realizar uma das maiores iniciativas de transformação federal em décadas. [...]
-> Esta é a história da iniciativa do governo federal para permitir que todas as agências federais tomem decisões orientadas por dados em uma economia mundial e nacional em ritmo acelerado, em mudança e competitiva. [Esta é uma história sobre a qual você pode não ler nas primeiras páginas do The New York Times ou do The Wall Street Journal]{.hlight}, mas pode ser ainda mais conseqüente e de longo alcance em termos de seu impacto competitivo econômico e global [@bean2022] (Tradução livre)
+> Esta é a história da iniciativa do governo federal para permitir que todas as agências federais tomem decisões orientadas por dados em uma economia mundial e nacional em ritmo acelerado, em mudança e competitiva. [Esta é uma história sobre a qual você pode não ler nas primeiras páginas do The New York Times ou do The Wall Street Journal]{.hlight}, mas pode ser ainda mais conseqüente e de longo alcance em termos de seu impacto competitivo econômico e global [@bean2022]
 
 
 ## Controle Externo orientado a dados {background="linear-gradient(to right, #33ffcc, #33cc66)" style="text-align:center"}
@@ -370,9 +380,11 @@ Erros, aparentemente simples, podem causar grandes problemas.
 
 <br>
 
-> _A publicidade é justamente elogiada como um remédio para doenças sociais e industriais. A luz solar é considerada o melhor dos desinfetantes; a luz elétrica o policial mais eficiente._ - **Louis Brandeis**
+> _A publicidade é justamente elogiada como um remédio para doenças sociais e industriais. A luz solar é considerada o melhor dos desinfetantes; a luz elétrica o policial mais eficiente._ - [**Louis Brandeis**](https://pt.wikipedia.org/wiki/Louis_Brandeis){preview-link="true"}
 
 ## Dados abertos são valiosos {style="text-align:justify"}
+
+<br>
 
 > _Na União Europeia, estima-se que apenas os dados governamentais abertos gerem um impacto econômico agregado direto e indireto anual de 40 bilhões de euros. Fundamentalmente, essas projeções econômicas reforçam ainda mais a noção de dados governamentais abertos como uma tendência sociotécnica promissora e valiosa._ [@ribeiro2017]
 
@@ -390,9 +402,7 @@ Em números^[Números coletados em 11 julho de 2023.] de conjuntos de dados:
 
 
 
-## [Caso I:]{.case} Dados abertos da vacinação contra a Covid-19 {{< fa solid syringe size=1xl >}} {background="linear-gradient(to right, #33ffcc, #33cc66)" style="text-align:justify"}
-
-## Dados do _openDataSUS_
+## [Caso I: Dados abertos da vacinação contra a Covid-19]{.case} {{< fa solid syringe size=1xl >}} {background="linear-gradient(to right, #33ffcc, #33cc66)" style="text-align:justify"}
 
 ## {background-iframe="https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao"}
 
@@ -579,7 +589,7 @@ Foram encontrados 86^[Há a possibilidade de outros casos, uma vez que a busca s
 
 
 
-## Vamos ver como é na Alemanha?
+## [Vamos ver como é na Alemanha?]{.case} {background-image="imagens/imagem18.jpg"}
 
 ## {background-iframe="https://robert-koch-institut.github.io/COVID-19-Impfungen_in_Deutschland"}
 
@@ -711,29 +721,29 @@ Os gráficos de barras são fáceis de interpretar e identificar diferenças ent
 ## Exemplo 1
 
 
-<h4> Situação dos municípios em relação à aplicação do Fundeb^[Relatório de Auditoria Temática] <h4>
+<h4> Situação dos municípios em relação à aplicação do Fundeb^[Relatório de Auditoria Temática do Novo Fundeb - TCE-PB ] <h4>
 
 ![](./imagens/imagem11.svg){fig-align="center" width=60%}
 
 ## Exemplo 2
 
-<h4> Aplicação em Fundeb x DTP^[Relatório de Auditoria Temática] <h4>
+<h4> Aplicação em Fundeb x DTP^[Relatório de Auditoria Temática do Novo Fundeb - TCE-PB] <h4>
 
 ![](./imagens/imagem12.svg){fig-align="center" width=65%}
 
 ## Exemplo 3
 
-<h4> Aplicação de vacinas diárias contra a Covid-19^[Relatório de Auditoria Temática] <h4>
+<h4> Aplicação de vacinas diárias contra a Covid-19^[Relatório de Acompanhamento da Pandemia - TCE-PB] <h4>
 
 ![](./imagens/imagem13.svg){fig-align="center" width=65%}
 
 
 
 
-## O que utilizar
+<!-- ## O que utilizar -->
 
 
-<iframe src="https://e.infogram.com/9c67e8ad-39a0-4274-b7a1-16649f489f50?src=embed" title="conacon" style="width: 100%" height="727" scrolling="no" frameborder="0" style="border:none;" allowfullscreen="allowfullscreen"></iframe>
+<!-- <iframe src="https://e.infogram.com/9c67e8ad-39a0-4274-b7a1-16649f489f50?src=embed" title="conacon" style="width: 100%" height="727" scrolling="no" frameborder="0" style="border:none;" allowfullscreen="allowfullscreen"></iframe> -->
 
 
 
@@ -786,7 +796,7 @@ tab_01 %>%
     rows = everything(),
     missing_text = "-"
     ) %>% 
-  tab_source_note(source_note = "Fonte: NewVantage Partners, Big Data and IA Executive Survey 2021.") %>% 
+  tab_source_note(source_note = "Fonte: NewVantage Partners, Big Data and AI Executive Survey 2021.") %>% 
   tab_source_note(source_note = md("Referência: (BEAN, 2021)")) %>% 
   tab_options(column_labels.background.color = "gray50", column_labels.font.weight = "bold")
   # tab_style(
@@ -803,7 +813,7 @@ tab_01 %>%
 
 ::: callout-note
 
-Participaram do _The 2021 Big Data and IA Executive Survey_ empresas como: Bank of America, Citigroup, Morgan Stanley, VISA, Mastercard, Pfizer, AIG, McDonald's, Starbucks e Wallmart.
+Participaram do _The 2021 Big Data and AI Executive Survey_ empresas como: Bank of America, Citigroup, Morgan Stanley, VISA, Mastercard, Pfizer, AIG, McDonald's, Starbucks e Wallmart.
 
 Apesar dos altos níveis de investimento em Big Data e Inteligência Artificial, chegando a 99% das empresas que participaram da pesquisa, as organizações ainda lutam para extrair valor dessas tecnologias e se tornarem organizações orientadas a dados [@bean2022].
 
@@ -814,7 +824,17 @@ Apesar dos altos níveis de investimento em Big Data e Inteligência Artificial,
 
 ![HiPPO - _Highest Paid Person’s Opinion_](imagens/imagem03.jpg)
 
+## Desafios organizacionais {style="text-align:justify"}
+
+
+> Grandes organizações geralmente têm **silos** nos quais as equipes podem ter objetivos diferentes. Esses silos podem estar em vigor devido a requisitos legais, como é comum nas finanças, ou podem existir simplesmente porque as equipes podem não ter trabalhado de forma colaborativa no passado. Seja qual for a causa, os silos causam falta de comunicação e desalinhamento, o que prejudica a eficácia geral da organização.
+
+>Um sintoma disso pode ser gerentes que querem construir equipes maiores ou a criação de mais de um centro de excelência em IA. [@pecherskiy]
+
+
 ## Qualidade dos dados e ausência de confiança
+
+![](./imagens/imagem17.svg){fig-align="center" width=50%}
 
 ## Fatores culturais {style="text-align:justify"}
 
@@ -937,44 +957,80 @@ Somos ávidos por padrões, temos fé em um mundo coerente, em que as regularida
 > [...] uma limitação desconcertante de nossa mente: nossa confiança excessiva no que acreditamos saber, e nossa aparente incapacidade de admitir a verdadeira extensão da nossa ignorância e a incerteza do mundo em que vivemos. [@kahneman2012]
 
 
+## {style="text-align:justify"}
 
-
-##
-
-> Os mal informados são muito mais perigosos do que os não informados; a má informação é pegajosa. [@anderson2015]
+> Os mal-informados são muito mais perigosos do que os não informados; a má informação é pegajosa. [@anderson2015]
 
 ## [VIÉS]{.title1}{style="text-align:center"}
 
 
 
-## Alguns tipos de vieses
+## Alguns tipos de vieses {style="text-align:justify"}
 
-* Viés de sobrevivência: nós consideramos aqueles que sobreviveram como representativos da população;
-* Viés de confirmação: 
-* Viés temporal:
-* Viés amigo ou inimigo:
+<br>
+
+* **Viés de sobrevivência:** nós consideramos aqueles que sobreviveram como representativos da população;
+* **Viés de confirmação:** preconceito que prefere ou busca dados que confirmem o que acreditamos saber;
+* **Viés temporal:** foco em dados mais recentes em detrimento de dados mais antigos;
+* **Viés amigo ou inimigo:** julgamento da informação com base na pessoa que a fornece.
 
 
 ## DECIDA!
 
-- **D**efina o problema;
-- **E**stabeleça um critério;
-- **C**onsidere todas as alternativas;
-- **I**dentifique a melhor alternativa;
-- **D**esenvolva e implemente um plano de ação;
-- **A**valie e monitore a solução e feedback quando necessário.
+<br>
+
+- [**D**]{.case}efina o problema;
+- [**E**]{.case}stabeleça um critério;
+- [**C**]{.case}onsidere todas as alternativas;
+- [**I**]{.case}dentifique a melhor alternativa;
+- [**D**]{.case}esenvolva e implemente um plano de ação;
+- [**A**]{.case}valie e monitore a solução e _feedback_ quando necessário.
 
 
 
 
-## Casos {background-color="aquamarine"}
+## Casos {background="linear-gradient(to right, #33ffcc, #33cc66)"}
 
 ## {style="text-align:justify"}
 
 > _Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível provocar o assunto com cinco^[Dentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido? ] perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras.
 A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo._ [@huff2016]
 
-## [Caso II:]{.case} São João em Maceió!  {{< fa solid fire size=1xl >}} {background="linear-gradient(to right, #33ffcc, #33cc66)" style="text-align:justify"}
+## [Caso II: New Coke]{.case} {{< fa solid glass-water size=1xl >}} {background="linear-gradient(to right, #33ffcc, #33cc66)" style="text-align:justify"}
+
+## [New Coke]{.hlight} {background-image="imagens/imagem19.jpg" background-size="100%"}
+
+::: incremental
+* [1972: 18% bebiam apenas Coca-cola e 4% apenas Pepsi;]{.hlight}
+* [1980: A Coca-cola tinha caído para 12% enquanto a Pepsi subido para 11%;]{.hlight}
+* [A Coca-cola gastava, nesse período, mais de U$ 100 Mi a mais por ano;]{.hlight}
+* [Desafio Pepsi com consumidores exclusivos de Coca-cola;]{.hlight}
+* [Pesquisa interna da Coca-cola: 57% Pepsi, 43% Coca-cola;]{.hlight}
+* [Os cientistas da Coca-cola alteraram a fórmula para torná-la mais leve e suave;]{.hlight}
+* [Centenas de milhares de consumidores foram testados com o novo sabor;]{.hlight}
+* [CEO: "O movimento mais seguro jamais feito pela empresa"]{.hlight}
+* [O resultado foi um desastre e, meses depois, a Coca-cola retornou à formula original]{.hlight}
+
+:::
+
+
+## [Onde estava o erro?]{.hlight} {background-image="imagens/imagem19.jpg" background-size="100%"}
+
+<br>
+<br>
+
+::: incremental
+
+* ["Teste do golinho";]{.hlight}
+* [Atribuição da perda de mercado a uma única causa.]{.hlight}
+* [Transferência de sensação.]{.hlight}
+
+
+:::
+
+
+
+## [Caso III: São João em Maceió!]{.case}  {{< fa solid fire size=1xl >}} {background="linear-gradient(to right, #33ffcc, #33cc66)" style="text-align:justify"}
 
 ## Matéria disponibilizada no [sítio oficial](https://maceio.al.gov.br/noticias/fmac/estudo-garante-que-sao-joao-de-maceio-deve-injetar-mais-de-r-dollar-100-milhoes-na-economia-local) em 2022 {style="text-align:justify" .scrolling}
 
@@ -998,17 +1054,17 @@ A primeira característica a procurar é a parcialidade — o laboratório que t
 > Na edição anterior, que teve 15 dias de duração, foram injetados mais de R$ 100 milhões na economia local. A expectativa para este [ano é dobrar a marca e chegar a R$ 200 milhões]{.hlight}, gerando renda e postos de trabalho para toda a cadeia produtiva do turismo.
 
 
-## [Caso III:]{.case} Gastos com combustíveis {{< fa solid gas-pump size=1xl >}} {background="linear-gradient(to right, #33ffcc, #33cc66)" style="text-align:justify"}
+## [Caso IV: Gastos com combustíveis]{.case}  {{< fa solid gas-pump size=1xl >}} {background="linear-gradient(to right, #33ffcc, #33cc66)" style="text-align:justify"}
 
 ##
 
 <br>
 
-[Com apenas 17 mil habitantes, Prefeitura de Juazeirinho abre licitação de R$ 2,8 milhões em combustíveis.]{.hlight}
+[Com apenas 17 mil habitantes, Prefeitura de  ########### abre licitação de R$ 2,8 milhões em combustíveis.]{.hlight}
 
 [Município da Paraíba com 3,3 mil habitantes assina contrato de mais de R$ 1,4 milhão em combustíveis.]{.hlight}
 
-[Com apenas 14,6 mil habitantes, Prefeitura de Coremas vai gastar mais de meio milhão com combustíveis.]{.hlight}
+[Com apenas 14,6 mil habitantes, Prefeitura de ########### vai gastar mais de meio milhão com combustíveis.]{.hlight}
 
 
 
@@ -1027,12 +1083,24 @@ A primeira característica a procurar é a parcialidade — o laboratório que t
 :::
 
 
-<!-- ##  {data-sm="false"} -->
+## {background-image="https://uploads8.wikiart.org/images/johannes-vermeer/the-milkmaid.jpg" background-size="100%" style="text-align:center"}
+
+[Inteligência Artificial: para onde vamos?]{.white}
 
 
-## Considerações finais {data-name="Considerações finais" background="linear-gradient(to right, #33ffcc, #33cc66)"}
+## {background-image="https://uploads3.wikiart.org/00129/images/johannes-vermeer/the-girl-with-a-pearl-earring.jpg!HD.jpg" background-size="50%" style="text-align:center"}
 
-## {background-video="https://youtu.be/wo9vZccmqwc?autoplay=1" background-size="cover"}
+
+## {style="text-align:justify"}
+
+> IA não é um conceito novo. Na verdade, as suas raízes remontam a várias décadas. Mas a sua adoção generalizada e o seu crescimento exponencial só foram sentidos nos últimos 10-15 anos devido à convergência de três vetores de crescimento: **avanços algorítmicos, poder computacional e explosão de dados**. [@espindola2021]
+
+## Para onde queremos ir? {style="text-align:justify"}
+
+> Pedimos aos nossos leitores, especialmente aos profissionais, que se coloquem atrás de um [véu de ignorância](https://pt.wikipedia.org/wiki/Véu_da_ignorância) e ponderem como devemos partilhar conhecimentos práticos numa sociedade baseada na tecnologia e na internet. Não estamos pedindo aos leitores que considerem o futuro das profissões. Isso limitaria imediatamente a imaginação – convidar a opiniões sobre como as profissões deveriam evoluir sugere que as profissões devem ter um papel central a desempenhar. Em contraste, este livro sugere que máquinas cada vez mais capazes e não pensantes substituirão grande parte do trabalho dos profissionais humanos. [A nossa questão, em vez disso, é se, por detrás do véu da ignorância, deveríamos preferir que estes sistemas e máquinas fossem partilhados por muitos ou controlados por alguns, se deveríamos preferir que os conhecimentos práticos fossem disponibilizados a baixo custo ou mais caros, que sejam liberados ou fechados]{.hlight}. [@susskind2015future]
+
+
+## Considerações finais {data-name="Final" background="linear-gradient(to right, #33ffcc, #33cc66)"}
 
 
 ## Contato {background="linear-gradient(to right, #33ffcc, #33cc66)"}
@@ -1079,6 +1147,10 @@ A primeira característica a procurar é a parcialidade — o laboratório que t
 
 ::: {#refs}
 :::
+
+
+
+
 
 ## {background-image="imagens/imagem16.jpg" background-size="50%" background-position="bottom 0px right 0px"}
 

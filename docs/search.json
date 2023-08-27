@@ -4,7 +4,7 @@
     "href": "conacon_2023.html#section",
     "title": "",
     "section": "",
-    "text": "Introdução\nParte I\n\nO que são dados?\nO que é uma organização orientada a dados?\nControle Externo orientado a dados\nAnálise de caso I\nAlfabetização em dados\nComunicando com dados\n\nParte II\n\nDesafios para nos tornarmos orientados a dados\nItem\nItem\nItem\n\nConsiderações finais"
+    "text": "Introdução\nParte I\n\nO que são dados?\nO que é uma organização orientada a dados?\nControle Externo orientado a dados\nCaso I\nAlfabetização em dados\nComunicando com dados\n\nParte II\n\nDesafios para um Controle Externo orientados a dados\nVamos decidir com dados?\nBarreiras cognitivas\nViés\nCasos II, III e IV\nInteligência artificial: para onde vamos?\n\nConsiderações finais"
   },
   {
     "objectID": "conacon_2023.html#introdução",
@@ -46,7 +46,7 @@
     "href": "conacon_2023.html#o-que-são-dados",
     "title": "",
     "section": "O que são dados?",
-    "text": "O que são dados?\n\nDe forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. […] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados. (Eremenko, 2018) (Tradução livre)"
+    "text": "O que são dados?\n\n\nDe forma simples, dados são qualquer unidade de informação. É o subproduto de toda e qualquer ação, permeando todas as partes de nossas vidas, não apenas na esfera da internet, mas também na história, lugar e cultura. […] Digamos que, nessa definição, dados são uma unidade de informação, o passado tangível. Isso é bastante profundo quando você pensa sobre isso. Os dados são o passado e o passado são os dados. (Eremenko, 2018)"
   },
   {
     "objectID": "conacon_2023.html#dados-vs.-informação",
@@ -95,7 +95,7 @@
     "href": "conacon_2023.html#section-5",
     "title": "",
     "section": "",
-    "text": "O IDC’s Global DataSphere1 projeta que em 2026 os dados alcançarão 221.000 Exabytes2, sendo mais de 90% desse volume composto por dados não estruturados.\n\n\n\n\n\n\n\nNota\n\n\nEsse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em artigo publicado na Forbes, estimou-se que 90% dos dados do mundo foram criados apenas nos últimos dois anos.\n\n\n\n\nO IDC Global DataSphere mundial é uma medida de quantos novos dados são criados, capturados, replicados e consumidos a cada ano. É previsto por vários segmentos, incluindo consumidor/empresa, região, tipo de dados, localização (core, edge, endpoint) e tipo de implantação (nuvem/não nuvem) da tecnologia envolvida na geração de dados.Dados de 2022."
+    "text": "O IDC’s Global DataSphere1 projeta que em 2026 os dados alcançarão 221.000 Exabytes2, sendo mais de 90% desse volume composto por dados não estruturados. Essa informação é de 2022.\n\n\n\n\n\n\n\nNota\n\n\nEsse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em artigo publicado na Forbes, estimou-se que 90% dos dados do mundo foram criados apenas nos últimos dois anos.\n\n\n\n\nO IDC Global DataSphere mundial é uma medida de quantos novos dados são criados, capturados, replicados e consumidos a cada ano. É previsto por vários segmentos, incluindo consumidor/empresa, região, tipo de dados, localização (core, edge, endpoint) e tipo de implantação (nuvem/não nuvem) da tecnologia envolvida na geração de dados.221.000 Exabyte (EB) correspondem a 221 bilhões de Terabytes (TB)."
   },
   {
     "objectID": "conacon_2023.html#o-que-significa-uma-organização-orientada-a-dados",
@@ -116,21 +116,21 @@
     "href": "conacon_2023.html#organização-orientada-a-dados",
     "title": "",
     "section": "Organização orientada a dados",
-    "text": "Organização orientada a dados\n\nBasicamente, uma organização orientada a dados é aquela que utiliza dados para melhorar seus negócios - simples assim. (Morrow, 2022) (Tradução livre)\n\n\nA orientação a dados não é algo binário, mas contínuo: você sempre pode ser mais orientado a dados, coletar dados mais relevantes, ter uma organização analítica mais mais qualificada e fazer mais testes. (Anderson, 2015)"
+    "text": "Organização orientada a dados\n\n\nBasicamente, uma organização orientada a dados é aquela que utiliza dados para melhorar seus negócios - simples assim. (Morrow, 2022)\n\n\nA orientação a dados não é algo binário, mas contínuo: você sempre pode ser mais orientado a dados, coletar dados mais relevantes, ter uma organização analítica mais mais qualificada e fazer mais testes. (Anderson, 2015)"
   },
   {
     "objectID": "conacon_2023.html#parece-simples-mas",
     "href": "conacon_2023.html#parece-simples-mas",
     "title": "",
     "section": "Parece simples, mas…",
-    "text": "Parece simples, mas…\n\n[…] a NewVantage Partners, em janeiro de 2020, revelou que das 70 empresas pesquisadas, 98,8% estavam investindo em iniciativas de big data e IA, mas apenas 37,8% conseguiram afirmar que criaram uma organização orientada a dados. (Chiu, 2020) (tradução livre)\n\n\nAlgumas organizações pensam que são orientadas a dados simplesmente porque geram vários relatórios e dashboards. (Anderson, 2015) (tradução livre)"
+    "text": "Parece simples, mas…\n\n\n[…] a NewVantage Partners, em janeiro de 2020, revelou que das 70 empresas pesquisadas, 98,8% estavam investindo em iniciativas de big data e IA, mas apenas 37,8% conseguiram afirmar que criaram uma organização orientada a dados. (Chiu, 2020)\n\n\nAlgumas organizações pensam que são orientadas a dados simplesmente porque geram vários relatórios e dashboards. (Anderson, 2015)"
   },
   {
     "objectID": "conacon_2023.html#a-corrida-começou",
     "href": "conacon_2023.html#a-corrida-começou",
     "title": "",
     "section": "A corrida começou",
-    "text": "A corrida começou\n\n\nO governo federal dos EUA está se mobilizando em um esforço unificado para realizar uma das maiores iniciativas de transformação federal em décadas. […] Esta é a história da iniciativa do governo federal para permitir que todas as agências federais tomem decisões orientadas por dados em uma economia mundial e nacional em ritmo acelerado, em mudança e competitiva. Esta é uma história sobre a qual você pode não ler nas primeiras páginas do The New York Times ou do The Wall Street Journal, mas pode ser ainda mais conseqüente e de longo alcance em termos de seu impacto competitivo econômico e global (Bean, 2022) (Tradução livre)"
+    "text": "A corrida começou\n\n\nO governo federal dos EUA está se mobilizando em um esforço unificado para realizar uma das maiores iniciativas de transformação federal em décadas. […] Esta é a história da iniciativa do governo federal para permitir que todas as agências federais tomem decisões orientadas por dados em uma economia mundial e nacional em ritmo acelerado, em mudança e competitiva. Esta é uma história sobre a qual você pode não ler nas primeiras páginas do The New York Times ou do The Wall Street Journal, mas pode ser ainda mais conseqüente e de longo alcance em termos de seu impacto competitivo econômico e global (Bean, 2022)"
   },
   {
     "objectID": "conacon_2023.html#controle-externo-orientado-a-dados",
@@ -193,7 +193,7 @@
     "href": "conacon_2023.html#dados-abertos-são-valiosos",
     "title": "",
     "section": "Dados abertos são valiosos",
-    "text": "Dados abertos são valiosos\n\nNa União Europeia, estima-se que apenas os dados governamentais abertos gerem um impacto econômico agregado direto e indireto anual de 40 bilhões de euros. Fundamentalmente, essas projeções econômicas reforçam ainda mais a noção de dados governamentais abertos como uma tendência sociotécnica promissora e valiosa. (Ribeiro, 2017)"
+    "text": "Dados abertos são valiosos\n\n\nNa União Europeia, estima-se que apenas os dados governamentais abertos gerem um impacto econômico agregado direto e indireto anual de 40 bilhões de euros. Fundamentalmente, essas projeções econômicas reforçam ainda mais a noção de dados governamentais abertos como uma tendência sociotécnica promissora e valiosa. (Ribeiro, 2017)"
   },
   {
     "objectID": "conacon_2023.html#dados-abertos-no-brasil-vs.-outros-países.",
@@ -208,13 +208,6 @@
     "title": "",
     "section": "Caso I: Dados abertos da vacinação contra a Covid-19 ",
     "text": "Caso I: Dados abertos da vacinação contra a Covid-19"
-  },
-  {
-    "objectID": "conacon_2023.html#dados-do-opendatasus",
-    "href": "conacon_2023.html#dados-do-opendatasus",
-    "title": "",
-    "section": "Dados do openDataSUS",
-    "text": "Dados do openDataSUS"
   },
   {
     "objectID": "conacon_2023.html#dados-sobre-doses",
@@ -361,28 +354,21 @@
     "href": "conacon_2023.html#exemplo-1",
     "title": "",
     "section": "Exemplo 1",
-    "text": "Exemplo 1\n\nSituação dos municípios em relação à aplicação do Fundeb1\n\n\n\n\n\n\nRelatório de Auditoria Temática"
+    "text": "Exemplo 1\n\nSituação dos municípios em relação à aplicação do Fundeb1\n\n\n\n\n\n\nRelatório de Auditoria Temática do Novo Fundeb - TCE-PB"
   },
   {
     "objectID": "conacon_2023.html#exemplo-2",
     "href": "conacon_2023.html#exemplo-2",
     "title": "",
     "section": "Exemplo 2",
-    "text": "Exemplo 2\n\nAplicação em Fundeb x DTP1\n\n\n\n\n\n\nRelatório de Auditoria Temática"
+    "text": "Exemplo 2\n\nAplicação em Fundeb x DTP1\n\n\n\n\n\n\nRelatório de Auditoria Temática do Novo Fundeb - TCE-PB"
   },
   {
     "objectID": "conacon_2023.html#exemplo-3",
     "href": "conacon_2023.html#exemplo-3",
     "title": "",
     "section": "Exemplo 3",
-    "text": "Exemplo 3\n\nAplicação de vacinas diárias contra a Covid-191\n\n\n\n\n\n\nRelatório de Auditoria Temática"
-  },
-  {
-    "objectID": "conacon_2023.html#o-que-utilizar",
-    "href": "conacon_2023.html#o-que-utilizar",
-    "title": "",
-    "section": "O que utilizar",
-    "text": "O que utilizar"
+    "text": "Exemplo 3\n\nAplicação de vacinas diárias contra a Covid-191\n\n\n\n\n\n\n\n\nRelatório de Acompanhamento da Pandemia - TCE-PB"
   },
   {
     "objectID": "conacon_2023.html#parte-ii",
@@ -403,7 +389,7 @@
     "href": "conacon_2023.html#esforço-das-organizações",
     "title": "",
     "section": "Esforço das organizações",
-    "text": "Esforço das organizações\n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      Situação em relação a Big Data/IA\n      2019\n      2020\n      2021\n    \n  \n  \n    Impulsionando a inovação com dados\n59.50%\n64.20%\n48.50%\n    Competindo com análise de dados\n47.60%\n45.10%\n41.20%\n    Gerenciando dados como um ativo de negócio\n46.90%\n50.00%\n39.30%\n    Possui uma estratégia de dados bem articulada\n-\n-\n30.00%\n    Resultados de negócios em transformação\n-\n-\n29.20%\n    Forjou uma cultura de dados\n28.30%\n26.80%\n24.40%\n    Criou uma organização orientada a dados\n31.00%\n37.80%\n24.00%\n  \n  \n    \n      Fonte: NewVantage Partners, Big Data and IA Executive Survey 2021.\n    \n    \n      Referência: (BEAN, 2021)\n    \n  \n  \n\n\n\n\n\n\n\n\n\n\nNota\n\n\nParticiparam do The 2021 Big Data and IA Executive Survey empresas como: Bank of America, Citigroup, Morgan Stanley, VISA, Mastercard, Pfizer, AIG, McDonald’s, Starbucks e Wallmart.\nApesar dos altos níveis de investimento em Big Data e Inteligência Artificial, chegando a 99% das empresas que participaram da pesquisa, as organizações ainda lutam para extrair valor dessas tecnologias e se tornarem organizações orientadas a dados (Bean, 2022)."
+    "text": "Esforço das organizações\n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      Situação em relação a Big Data/IA\n      2019\n      2020\n      2021\n    \n  \n  \n    Impulsionando a inovação com dados\n59.50%\n64.20%\n48.50%\n    Competindo com análise de dados\n47.60%\n45.10%\n41.20%\n    Gerenciando dados como um ativo de negócio\n46.90%\n50.00%\n39.30%\n    Possui uma estratégia de dados bem articulada\n-\n-\n30.00%\n    Resultados de negócios em transformação\n-\n-\n29.20%\n    Forjou uma cultura de dados\n28.30%\n26.80%\n24.40%\n    Criou uma organização orientada a dados\n31.00%\n37.80%\n24.00%\n  \n  \n    \n      Fonte: NewVantage Partners, Big Data and AI Executive Survey 2021.\n    \n    \n      Referência: (BEAN, 2021)\n    \n  \n  \n\n\n\n\n\n\n\n\n\n\nNota\n\n\nParticiparam do The 2021 Big Data and AI Executive Survey empresas como: Bank of America, Citigroup, Morgan Stanley, VISA, Mastercard, Pfizer, AIG, McDonald’s, Starbucks e Wallmart.\nApesar dos altos níveis de investimento em Big Data e Inteligência Artificial, chegando a 99% das empresas que participaram da pesquisa, as organizações ainda lutam para extrair valor dessas tecnologias e se tornarem organizações orientadas a dados (Bean, 2022)."
   },
   {
     "objectID": "conacon_2023.html#vencer-a-hippo",
@@ -411,6 +397,13 @@
     "title": "",
     "section": "Vencer a HiPPO",
     "text": "Vencer a HiPPO\n\nHiPPO - Highest Paid Person’s Opinion"
+  },
+  {
+    "objectID": "conacon_2023.html#desafios-organizacionais",
+    "href": "conacon_2023.html#desafios-organizacionais",
+    "title": "",
+    "section": "Desafios organizacionais",
+    "text": "Desafios organizacionais\n\nGrandes organizações geralmente têm silos nos quais as equipes podem ter objetivos diferentes. Esses silos podem estar em vigor devido a requisitos legais, como é comum nas finanças, ou podem existir simplesmente porque as equipes podem não ter trabalhado de forma colaborativa no passado. Seja qual for a causa, os silos causam falta de comunicação e desalinhamento, o que prejudica a eficácia geral da organização.\n\n\nUm sintoma disso pode ser gerentes que querem construir equipes maiores ou a criação de mais de um centro de excelência em IA. (Pecherskiy, 2021)"
   },
   {
     "objectID": "conacon_2023.html#qualidade-dos-dados-e-ausência-de-confiança",
@@ -508,7 +501,7 @@
     "href": "conacon_2023.html#section-14",
     "title": "",
     "section": "",
-    "text": "Os mal informados são muito mais perigosos do que os não informados; a má informação é pegajosa. (Anderson, 2015)"
+    "text": "Os mal-informados são muito mais perigosos do que os não informados; a má informação é pegajosa. (Anderson, 2015)"
   },
   {
     "objectID": "conacon_2023.html#viés",
@@ -522,14 +515,14 @@
     "href": "conacon_2023.html#alguns-tipos-de-vieses",
     "title": "",
     "section": "Alguns tipos de vieses",
-    "text": "Alguns tipos de vieses\n\nViés de sobrevivência: nós consideramos aqueles que sobreviveram como representativos da população;\nViés de confirmação:\nViés temporal:\nViés amigo ou inimigo:"
+    "text": "Alguns tipos de vieses\n\n\nViés de sobrevivência: nós consideramos aqueles que sobreviveram como representativos da população;\nViés de confirmação: preconceito que prefere ou busca dados que confirmem o que acreditamos saber;\nViés temporal: foco em dados mais recentes em detrimento de dados mais antigos;\nViés amigo ou inimigo: julgamento da informação com base na pessoa que a fornece."
   },
   {
     "objectID": "conacon_2023.html#decida",
     "href": "conacon_2023.html#decida",
     "title": "",
     "section": "DECIDA!",
-    "text": "DECIDA!\n\nDefina o problema;\nEstabeleça um critério;\nConsidere todas as alternativas;\nIdentifique a melhor alternativa;\nDesenvolva e implemente um plano de ação;\nAvalie e monitore a solução e feedback quando necessário."
+    "text": "DECIDA!\n\n\nDefina o problema;\nEstabeleça um critério;\nConsidere todas as alternativas;\nIdentifique a melhor alternativa;\nDesenvolva e implemente um plano de ação;\nAvalie e monitore a solução e feedback quando necessário."
   },
   {
     "objectID": "conacon_2023.html#casos",
@@ -546,11 +539,32 @@
     "text": "Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível provocar o assunto com cinco1 perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras. A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo. (Huff, 2016)\n\nDentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido?"
   },
   {
-    "objectID": "conacon_2023.html#caso-ii-são-joão-em-maceió-fa-solid-fire-size1xl",
-    "href": "conacon_2023.html#caso-ii-são-joão-em-maceió-fa-solid-fire-size1xl",
+    "objectID": "conacon_2023.html#caso-ii-new-coke-fa-solid-glass-water-size1xl",
+    "href": "conacon_2023.html#caso-ii-new-coke-fa-solid-glass-water-size1xl",
     "title": "",
-    "section": "Caso II: São João em Maceió! ",
-    "text": "Caso II: São João em Maceió!"
+    "section": "Caso II: New Coke ",
+    "text": "Caso II: New Coke"
+  },
+  {
+    "objectID": "conacon_2023.html#new-coke",
+    "href": "conacon_2023.html#new-coke",
+    "title": "",
+    "section": "New Coke",
+    "text": "New Coke\n\n\n1972: 18% bebiam apenas Coca-cola e 4% apenas Pepsi;\n1980: A Coca-cola tinha caído para 12% enquanto a Pepsi subido para 11%;\nA Coca-cola gastava, nesse período, mais de U$ 100 Mi a mais por ano;\nDesafio Pepsi com consumidores exclusivos de Coca-cola;\nPesquisa interna da Coca-cola: 57% Pepsi, 43% Coca-cola;\nOs cientistas da Coca-cola alteraram a fórmula para torná-la mais leve e suave;\nCentenas de milhares de consumidores foram testados com o novo sabor;\nCEO: “O movimento mais seguro jamais feito pela empresa”\nO resultado foi um desastre e, meses depois, a Coca-cola retornou à formula original"
+  },
+  {
+    "objectID": "conacon_2023.html#onde-estava-o-erro",
+    "href": "conacon_2023.html#onde-estava-o-erro",
+    "title": "",
+    "section": "Onde estava o erro?",
+    "text": "Onde estava o erro?\n \n\n\n“Teste do golinho”;\nAtribuição da perda de mercado a uma única causa.\nTransferência de sensação."
+  },
+  {
+    "objectID": "conacon_2023.html#caso-iii-são-joão-em-maceió-fa-solid-fire-size1xl",
+    "href": "conacon_2023.html#caso-iii-são-joão-em-maceió-fa-solid-fire-size1xl",
+    "title": "",
+    "section": "Caso III: São João em Maceió! ",
+    "text": "Caso III: São João em Maceió!"
   },
   {
     "objectID": "conacon_2023.html#matéria-disponibilizada-no-sítio-oficial-em-2022",
@@ -567,18 +581,18 @@
     "text": "Matéria disponibilizada no sítio oficial em 2023\n\n\nNa edição anterior, que teve 15 dias de duração, foram injetados mais de R$ 100 milhões na economia local. A expectativa para este ano é dobrar a marca e chegar a R$ 200 milhões, gerando renda e postos de trabalho para toda a cadeia produtiva do turismo."
   },
   {
-    "objectID": "conacon_2023.html#caso-iii-gastos-com-combustíveis-fa-solid-gas-pump-size1xl",
-    "href": "conacon_2023.html#caso-iii-gastos-com-combustíveis-fa-solid-gas-pump-size1xl",
+    "objectID": "conacon_2023.html#caso-iv-gastos-com-combustíveis-fa-solid-gas-pump-size1xl",
+    "href": "conacon_2023.html#caso-iv-gastos-com-combustíveis-fa-solid-gas-pump-size1xl",
     "title": "",
-    "section": "Caso III: Gastos com combustíveis ",
-    "text": "Caso III: Gastos com combustíveis"
+    "section": "Caso IV: Gastos com combustíveis ",
+    "text": "Caso IV: Gastos com combustíveis"
   },
   {
     "objectID": "conacon_2023.html#section-16",
     "href": "conacon_2023.html#section-16",
     "title": "",
     "section": "",
-    "text": "Com apenas 17 mil habitantes, Prefeitura de Juazeirinho abre licitação de R$ 2,8 milhões em combustíveis.\nMunicípio da Paraíba com 3,3 mil habitantes assina contrato de mais de R$ 1,4 milhão em combustíveis.\nCom apenas 14,6 mil habitantes, Prefeitura de Coremas vai gastar mais de meio milhão com combustíveis."
+    "text": "Com apenas 17 mil habitantes, Prefeitura de ########### abre licitação de R$ 2,8 milhões em combustíveis.\nMunicípio da Paraíba com 3,3 mil habitantes assina contrato de mais de R$ 1,4 milhão em combustíveis.\nCom apenas 14,6 mil habitantes, Prefeitura de ########### vai gastar mais de meio milhão com combustíveis."
   },
   {
     "objectID": "conacon_2023.html#devemos-questionar",
@@ -586,6 +600,27 @@
     "title": "",
     "section": "Devemos questionar",
     "text": "Devemos questionar\n\n\nA população está correlacionada com o gasto de combustíveis?\nNão seria mais interessante associar com o número de veículos do município ao consumo de combustíveis?\nA distância entre o município e o respectivo pólo tem influência no consumo?\nA área geográfica do município tem influência no consumo de combustíveis?\nHá veículos de diferentes portes na frota municipal? (ônibus, camionetes, veículos de passeio)\nTodo valor licitado será gasto?\nHá máquinas consumindo combustível?"
+  },
+  {
+    "objectID": "conacon_2023.html#section-17",
+    "href": "conacon_2023.html#section-17",
+    "title": "",
+    "section": "",
+    "text": "Inteligência Artificial: para onde vamos?"
+  },
+  {
+    "objectID": "conacon_2023.html#section-19",
+    "href": "conacon_2023.html#section-19",
+    "title": "",
+    "section": "",
+    "text": "IA não é um conceito novo. Na verdade, as suas raízes remontam a várias décadas. Mas a sua adoção generalizada e o seu crescimento exponencial só foram sentidos nos últimos 10-15 anos devido à convergência de três vetores de crescimento: avanços algorítmicos, poder computacional e explosão de dados. (Espindola e Wright, 2021)"
+  },
+  {
+    "objectID": "conacon_2023.html#para-onde-queremos-ir",
+    "href": "conacon_2023.html#para-onde-queremos-ir",
+    "title": "",
+    "section": "Para onde queremos ir?",
+    "text": "Para onde queremos ir?\n\nPedimos aos nossos leitores, especialmente aos profissionais, que se coloquem atrás de um véu de ignorância e ponderem como devemos partilhar conhecimentos práticos numa sociedade baseada na tecnologia e na internet. Não estamos pedindo aos leitores que considerem o futuro das profissões. Isso limitaria imediatamente a imaginação – convidar a opiniões sobre como as profissões deveriam evoluir sugere que as profissões devem ter um papel central a desempenhar. Em contraste, este livro sugere que máquinas cada vez mais capazes e não pensantes substituirão grande parte do trabalho dos profissionais humanos. A nossa questão, em vez disso, é se, por detrás do véu da ignorância, deveríamos preferir que estes sistemas e máquinas fossem partilhados por muitos ou controlados por alguns, se deveríamos preferir que os conhecimentos práticos fossem disponibilizados a baixo custo ou mais caros, que sejam liberados ou fechados. (Susskind e Susskind, 2015)"
   },
   {
     "objectID": "conacon_2023.html#considerações-finais",
@@ -606,11 +641,11 @@
     "href": "conacon_2023.html#referências",
     "title": "",
     "section": "Referências",
-    "text": "Referências\n\n\nANDERSON, C. Creating a data-driven organization: Practical advice from the trenches. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.\n\n\nBEAN, R. Fail fast, learn faster : lessons in data-driven leadership in an age of disruption, big data, and AI. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\n___. How The U.S. Federal Government Is Mobilizing To Enable Data-Driven Decision Making. Disponível em: &lt;https://www.forbes.com/sites/randybean/2022/06/01/how-the-us-federal-government-is-mobilizing-to-enable-data-driven-decision-making&gt;. Acesso em: 10 jul. 2023.\n\n\nBRUCE, A.; BRUCE, P. Estatı́stica prática para cientistas de dados. Rio de Janeiro: Alta Books, 2019.\n\n\nCABTREE, M.; NEHME, A. What is Data Literacy? A Comprehensive Guide for Organizations. Disponível em: &lt;https://www.datacamp.com/blog/what-is-data-literacy-a-comprehensive-guide-for-organizations&gt;. Acesso em: 8 jul. 2023.\n\n\nCHIU, J. How Enterprise Organizations Can Become Data-Driven. Disponível em: &lt;https://www.datacamp.com/blog/how-enterprise-organizations-can-become-data-driven&gt;. Acesso em: 6 jul. 2023.\n\n\nDAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen. [s.l: s.n.].\n\n\nEREMENKO, K. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. [s.l.] Kogan Page Publishers, 2018.\n\n\nESPINDOLA, D.; WRIGHT, M. W. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nFRANK, C. J.; MAGNONE, P. F.; NETZER, O. Decisions Over Decimals: Striking the Balance Between Intuition and Information. Hoboken, New Jersey: John Wiley & Sons, 2022.\n\n\nGALOR, O. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. ed. Rio de Janeiro: Intrínseca, 2022.\n\n\nGLASS, R.; CALLAHAN, S. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. [s.l.] John Wiley & Sons, 2014.\n\n\nGUTMAN, A. J.; GOLDMEIER, J. Becoming a data head: How to think, speak, and understand data science, statistics, and machine learning. Hoboken, NJ: John Wiley & Sons, 2021.\n\n\nHUFF, D. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca, 2016.\n\n\nKAHNEMAN, D. Rápido e devagar: duas formas de pensar. 1 ed. ed. Rio de Janeiro, RJ: Objetiva, 2012.\n\n\nKAHNEMAN, D.; SIBONY, O.; SUNSTEIN, C. R. Noise: a flaw in human judgment. London: UK: HarperCollins Publishers, 2021.\n\n\nKNAFLIC, C. N. Storytelling com dados: um guia sobre visualização de dados para profissionais de negócios. Rio de Janeiro: RJ: Alta Books, 2018.\n\n\nMORROW, J. Be data literate: The data literacy skills everyone needs to succeed. [s.l.] Kogan Page Publishers, 2021.\n\n\n___. Be Data Driven: How Organizations Can Harness the Power of Data. New York, NY: Kogan Page Publishers, 2022.\n\n\nREDMAN, T. C. Bad Data Costs the U.S. $ 3 Trillion Per Year. Disponível em: &lt;https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year&gt;. Acesso em: 10 jul. 2023.\n\n\nRIBEIRO, F. G. DE M. M. Value creation and barriers in the commercial use of open government data. Porto, Portugal: Universidade do Porto, 2017.\n\n\nSILBERZAHN, R. et al. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, v. 1, n. 3, p. 337–356, 2018.\n\n\nSUSSKIND, R. E.; SUSSKIND, D. The future of the professions: How technology will transform the work of human experts. New York: Oxford University Press, USA, 2015.\n\n\nWICKHAM, H.; ÇETINKAYA-RUNDEL, M.; GROLEMUND, G. R for data science. [s.l.] O’Reilly Media, Inc., 2023."
+    "text": "Referências\n\n\nANDERSON, C. Creating a data-driven organization: Practical advice from the trenches. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.\n\n\nBEAN, R. Fail fast, learn faster : lessons in data-driven leadership in an age of disruption, big data, and AI. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\n___. How The U.S. Federal Government Is Mobilizing To Enable Data-Driven Decision Making. Disponível em: &lt;https://www.forbes.com/sites/randybean/2022/06/01/how-the-us-federal-government-is-mobilizing-to-enable-data-driven-decision-making&gt;. Acesso em: 10 jul. 2023.\n\n\nBRUCE, A.; BRUCE, P. Estatı́stica prática para cientistas de dados. Rio de Janeiro: Alta Books, 2019.\n\n\nCABTREE, M.; NEHME, A. What is Data Literacy? A Comprehensive Guide for Organizations. Disponível em: &lt;https://www.datacamp.com/blog/what-is-data-literacy-a-comprehensive-guide-for-organizations&gt;. Acesso em: 8 jul. 2023.\n\n\nCHIU, J. How Enterprise Organizations Can Become Data-Driven. Disponível em: &lt;https://www.datacamp.com/blog/how-enterprise-organizations-can-become-data-driven&gt;. Acesso em: 6 jul. 2023.\n\n\nDAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen. [s.l: s.n.].\n\n\nEREMENKO, K. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. [s.l.] Kogan Page Publishers, 2018.\n\n\nESPINDOLA, D.; WRIGHT, M. W. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nFRANK, C. J.; MAGNONE, P. F.; NETZER, O. Decisions Over Decimals: Striking the Balance Between Intuition and Information. Hoboken, New Jersey: John Wiley & Sons, 2022.\n\n\nGALOR, O. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. ed. Rio de Janeiro: Intrínseca, 2022.\n\n\nGLADWELL, M. Blink: a desisão num piscar de olhos. Rio de Janeiro, RJ: Sextante, 2016.\n\n\nGLASS, R.; CALLAHAN, S. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. [s.l.] John Wiley & Sons, 2014.\n\n\nGUTMAN, A. J.; GOLDMEIER, J. Becoming a data head: How to think, speak, and understand data science, statistics, and machine learning. Hoboken, NJ: John Wiley & Sons, 2021.\n\n\nHUFF, D. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca, 2016.\n\n\nKAHNEMAN, D. Rápido e devagar: duas formas de pensar. 1 ed. ed. Rio de Janeiro, RJ: Objetiva, 2012.\n\n\nKAHNEMAN, D.; SIBONY, O.; SUNSTEIN, C. R. Noise: a flaw in human judgment. London: UK: HarperCollins Publishers, 2021.\n\n\nKNAFLIC, C. N. Storytelling com dados: um guia sobre visualização de dados para profissionais de negócios. Rio de Janeiro: RJ: Alta Books, 2018.\n\n\nMORROW, J. Be data literate: The data literacy skills everyone needs to succeed. [s.l.] Kogan Page Publishers, 2021.\n\n\n___. Be Data Driven: How Organizations Can Harness the Power of Data. New York, NY: Kogan Page Publishers, 2022.\n\n\nPECHERSKIY, M. Operationalizing Data Within Large Organizations. Disponível em: &lt;https://www.datacamp.com/resources/webinars/operationalizing-data-within-large-organizations&gt;. Acesso em: 20 ago. 2023.\n\n\nREDMAN, T. C. Bad Data Costs the U.S. $ 3 Trillion Per Year. Disponível em: &lt;https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year&gt;. Acesso em: 10 jul. 2023.\n\n\nRIBEIRO, F. G. DE M. M. Value creation and barriers in the commercial use of open government data. Porto, Portugal: Universidade do Porto, 2017.\n\n\nSILBERZAHN, R. et al. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, v. 1, n. 3, p. 337–356, 2018.\n\n\nSUSSKIND, R. E.; SUSSKIND, D. The future of the professions: How technology will transform the work of human experts. New York: Oxford University Press, USA, 2015.\n\n\nWICKHAM, H.; ÇETINKAYA-RUNDEL, M.; GROLEMUND, G. R for data science. [s.l.] O’Reilly Media, Inc., 2023."
   },
   {
-    "objectID": "conacon_2023.html#section-18",
-    "href": "conacon_2023.html#section-18",
+    "objectID": "conacon_2023.html#section-20",
+    "href": "conacon_2023.html#section-20",
     "title": "",
     "section": "",
     "text": "Muito obrigado!\n\n\n\n\n6º CONACON - João Pessoa - Paraíba"
