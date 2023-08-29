@@ -1,0 +1,64 @@
+.parte-title {
+  font-size: 50px
+}
+
+.scrolling {
+  max-height: 700px;
+  max-width: 1800px;
+  overflow-y: auto;
+}
+
+.big {
+  background-color: black;
+  color: white;
+  font-size: 3em;
+  padding: 10px;
+  vertical-align: middle;
+  font-weight: bold;
+  border-radius: 20px
+}
+
+.small {
+  color: gray;
+  font-size: 0.35em;
+  line-height: 2px;
+  vertical-align: middle;
+  bottom: 50px
+}
+
+.white {
+  color: gray;
+  background-color: white;
+  font-size: 1.5em;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.case{
+  background-color: black;
+  color: white;
+}
+
+.hlight{
+  background-color: yellow;
+}
+
+.circle1 {
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
+  border-radius: 50%;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  background: #000
+}
+
+.title1{
+  font-size: 300px;
+  background: linear-gradient(to left, #FFFFFF 0%, #2AB814 100%);;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+}

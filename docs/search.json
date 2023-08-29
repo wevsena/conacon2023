@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "conacon_2023.html#section",
-    "href": "conacon_2023.html#section",
+    "objectID": "conacon_2023.html#índice",
+    "href": "conacon_2023.html#índice",
     "title": "",
-    "section": "",
-    "text": "Introdução\nParte I\n\nO que são dados?\nO que é uma organização orientada a dados?\nControle Externo orientado a dados\nCaso I\nAlfabetização em dados\nComunicando com dados\n\nParte II\n\nDesafios para um Controle Externo orientados a dados\nVamos decidir com dados?\nBarreiras cognitivas\nViés\nCasos II, III e IV\nInteligência artificial: para onde vamos?\n\nConsiderações finais"
+    "section": "Índice",
+    "text": "Índice\n\nIntrodução\nParte I\n\nO que são dados?\nO que é uma organização orientada a dados?\nControle Externo orientado a dados\nCaso I\nAlfabetização de dados\nComunicando com dados\n\nParte II\n\nDesafios para um Controle Externo orientados a dados\nVamos decidir com dados?\nBarreiras cognitivas\nViés\nCasos II, III e IV\nInteligência artificial: para onde vamos?\n\nConsiderações finais"
   },
   {
     "objectID": "conacon_2023.html#introdução",
@@ -21,8 +21,8 @@
     "text": "PIB Mundial"
   },
   {
-    "objectID": "conacon_2023.html#section-3",
-    "href": "conacon_2023.html#section-3",
+    "objectID": "conacon_2023.html#section-2",
+    "href": "conacon_2023.html#section-2",
     "title": "",
     "section": "",
     "text": "Na verdade, tal progresso contínuo foi tão radical que muitas vezes perdemos de vista o quanto esse período é excepcional em relação ao resto da nossa história. (Galor, 2022)"
@@ -35,8 +35,8 @@
     "text": "Parte I"
   },
   {
-    "objectID": "conacon_2023.html#section-4",
-    "href": "conacon_2023.html#section-4",
+    "objectID": "conacon_2023.html#section-3",
+    "href": "conacon_2023.html#section-3",
     "title": "",
     "section": "",
     "text": "Sem dados, você é apenas mais uma pessoa com uma opinião. - William Edwards Deming"
@@ -91,25 +91,18 @@
     "text": "Custo de armazenamento"
   },
   {
-    "objectID": "conacon_2023.html#section-5",
-    "href": "conacon_2023.html#section-5",
+    "objectID": "conacon_2023.html#section-4",
+    "href": "conacon_2023.html#section-4",
     "title": "",
     "section": "",
     "text": "O IDC’s Global DataSphere1 projeta que em 2026 os dados alcançarão 221.000 Exabytes2, sendo mais de 90% desse volume composto por dados não estruturados. Essa informação é de 2022.\n\n\n\n\n\n\n\nNota\n\n\nEsse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em artigo publicado na Forbes, estimou-se que 90% dos dados do mundo foram criados apenas nos últimos dois anos.\n\n\n\n\nO IDC Global DataSphere mundial é uma medida de quantos novos dados são criados, capturados, replicados e consumidos a cada ano. É previsto por vários segmentos, incluindo consumidor/empresa, região, tipo de dados, localização (core, edge, endpoint) e tipo de implantação (nuvem/não nuvem) da tecnologia envolvida na geração de dados.221.000 Exabyte (EB) correspondem a 221 bilhões de Terabytes (TB)."
   },
   {
-    "objectID": "conacon_2023.html#o-que-significa-uma-organização-orientada-a-dados",
-    "href": "conacon_2023.html#o-que-significa-uma-organização-orientada-a-dados",
+    "objectID": "conacon_2023.html#o-que-significa-uma-organização-orientada-a-dados-data-driven",
+    "href": "conacon_2023.html#o-que-significa-uma-organização-orientada-a-dados-data-driven",
     "title": "",
-    "section": "O que significa uma organização orientada a dados?",
-    "text": "O que significa uma organização orientada a dados?"
-  },
-  {
-    "objectID": "conacon_2023.html#section-6",
-    "href": "conacon_2023.html#section-6",
-    "title": "",
-    "section": "",
-    "text": "“Nós confiamos em Deus. Todos os outros tragam dados” - William Edwards Deming"
+    "section": "O que significa uma organização orientada a dados (data-driven) ?",
+    "text": "O que significa uma organização orientada a dados (data-driven) ?"
   },
   {
     "objectID": "conacon_2023.html#organização-orientada-a-dados",
@@ -130,7 +123,7 @@
     "href": "conacon_2023.html#a-corrida-começou",
     "title": "",
     "section": "A corrida começou",
-    "text": "A corrida começou\n\n\nO governo federal dos EUA está se mobilizando em um esforço unificado para realizar uma das maiores iniciativas de transformação federal em décadas. […] Esta é a história da iniciativa do governo federal para permitir que todas as agências federais tomem decisões orientadas por dados em uma economia mundial e nacional em ritmo acelerado, em mudança e competitiva. Esta é uma história sobre a qual você pode não ler nas primeiras páginas do The New York Times ou do The Wall Street Journal, mas pode ser ainda mais conseqüente e de longo alcance em termos de seu impacto competitivo econômico e global (Bean, 2022)"
+    "text": "A corrida começou\n\n\nO governo federal dos EUA está se mobilizando em um esforço unificado para realizar uma das maiores iniciativas de transformação federal em décadas. […] Esta é a história da iniciativa do governo federal para permitir que todas as agências federais tomem decisões orientadas por dados em uma economia mundial e nacional em ritmo acelerado, em mudança e competitiva. Esta é uma história sobre a qual você pode não ler nas primeiras páginas do The New York Times ou do The Wall Street Journal, mas pode ser ainda mais consequente e de longo alcance em termos de seu impacto competitivo econômico e global (Bean, 2022)"
   },
   {
     "objectID": "conacon_2023.html#controle-externo-orientado-a-dados",
@@ -158,7 +151,7 @@
     "href": "conacon_2023.html#por-onde-começamos",
     "title": "",
     "section": "Por onde começamos?",
-    "text": "Por onde começamos?\nSegundo Morrow (2022), há cinco pilares para construir uma organização orientada a dados:\n\n\nEstratégia: o que estamos fazendo?\nLiderança: quem decide o que estamos fazendo?\nAlfabetização em dados: nós temos as habilidades necessárias para cumprir o que estamos fazendo?\nDados e tecnologia: nós temos acesso aos dados e às ferramentas necessárias para tomar decisões baseadas em dados?\nCultura: o ambiente está pronto para ter sucesso com dados?"
+    "text": "Por onde começamos?\nSegundo Morrow (2022), há cinco pilares para construir uma organização orientada a dados:\n\n\nEstratégia: o que estamos fazendo?\nLiderança: quem decide o que estamos fazendo?\nAlfabetização de dados: nós temos as habilidades necessárias para cumprir o que estamos fazendo?\nDados e tecnologia: nós temos acesso aos dados e às ferramentas necessárias para tomar decisões baseadas em dados?\nCultura: o ambiente está pronto para ter sucesso com dados?"
   },
   {
     "objectID": "conacon_2023.html#coletando-e-democratizando-os-dados",
@@ -175,8 +168,8 @@
     "text": "Coletando dados de qualidade\n\nrelevante;\ntempestivo;\nacurado;\nlimpo;\nsem viés;\nconfiável.\n\n\n\n\n\n\n\nNota\n\n\nA estimativa da IBM (em 2016) para o custo anual de dados de baixa qualidade é de US$ 3,1 trilhões por ano apenas nos Estados Unidos. (Redman, 2016)"
   },
   {
-    "objectID": "conacon_2023.html#section-7",
-    "href": "conacon_2023.html#section-7",
+    "objectID": "conacon_2023.html#section-5",
+    "href": "conacon_2023.html#section-5",
     "title": "",
     "section": "",
     "text": "Erros, aparentemente simples, podem causar grandes problemas.\n\nCoordenada geográfica do TCE-PB: -7.13023, -34.87061\nCoordenada geográfica do TCE-PB: -7.13023, -34.97061"
@@ -252,18 +245,18 @@
     "text": "Vamos ver como é na Alemanha?"
   },
   {
-    "objectID": "conacon_2023.html#section-9",
-    "href": "conacon_2023.html#section-9",
+    "objectID": "conacon_2023.html#section-7",
+    "href": "conacon_2023.html#section-7",
     "title": "",
     "section": "",
     "text": "Clique aqui para ver a tradução"
   },
   {
-    "objectID": "conacon_2023.html#alfabetização-em-dados",
-    "href": "conacon_2023.html#alfabetização-em-dados",
+    "objectID": "conacon_2023.html#alfabetização-de-dados",
+    "href": "conacon_2023.html#alfabetização-de-dados",
     "title": "",
-    "section": "Alfabetização em dados",
-    "text": "Alfabetização em dados"
+    "section": "Alfabetização de dados",
+    "text": "Alfabetização de dados"
   },
   {
     "objectID": "conacon_2023.html#definição",
@@ -284,7 +277,7 @@
     "href": "conacon_2023.html#ler-os-dados",
     "title": "",
     "section": "Ler os dados",
-    "text": "Ler os dados\n\n\nNo nosso caso, ler dados significa olhar para os dados e informações apresentados e compreendê-los. Claro e simples. No mundo dos dados, existem muitas formas em que os dados chegam e serão apresentados, mostrados para cada um de nós. A leitura de dados é a nossa capacidade de olhar e compreender os dados e as informações, quando as possuímos, o que nos capacita a ter sucesso com os dados. (Morrow, 2021)"
+    "text": "Ler os dados\n\n\nA leitura de dados é a nossa capacidade de olhar e compreender os dados e as informações, quando as possuímos, o que nos capacita a ter sucesso com os dados. (Morrow, 2021)"
   },
   {
     "objectID": "conacon_2023.html#trabalhar-com-os-dados",
@@ -322,8 +315,8 @@
     "text": "Comunicando com dados"
   },
   {
-    "objectID": "conacon_2023.html#section-10",
-    "href": "conacon_2023.html#section-10",
+    "objectID": "conacon_2023.html#section-8",
+    "href": "conacon_2023.html#section-8",
     "title": "",
     "section": "",
     "text": "Somos mal preparados para uma importante tarefa, cada vez mais exigida. A tecnologia permitiu acumular volumes de dados cada vez maiores e há também um crescente desejo associado de entendê-los. […] Há uma história em seus dados. Mas suas ferramentas não sabem qual é essa história. É aí que você entra. (Knaflic, 2018)"
@@ -348,6 +341,13 @@
     "title": "",
     "section": "Bases diferentes de zero em gráficos de barras",
     "text": "Bases diferentes de zero em gráficos de barras\n\n\n\n\n\n\n\n\n\n\n\n\n\nAviso\n\n\nOs gráficos de barras são fáceis de interpretar e identificar diferenças entre as categorias. No entanto, no exemplo acima, as escalas iniciam em valores diferentes, causando essa distorção visual."
+  },
+  {
+    "objectID": "conacon_2023.html#tabelas",
+    "href": "conacon_2023.html#tabelas",
+    "title": "",
+    "section": "Tabelas",
+    "text": "Tabelas\nAlguns exemplos1:\n\n\n\n\n\nOs exemplos acima foram obtidos de Wilke (2019)."
   },
   {
     "objectID": "conacon_2023.html#exemplo-1",
@@ -389,7 +389,7 @@
     "href": "conacon_2023.html#esforço-das-organizações",
     "title": "",
     "section": "Esforço das organizações",
-    "text": "Esforço das organizações\n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      Situação em relação a Big Data/IA\n      2019\n      2020\n      2021\n    \n  \n  \n    Impulsionando a inovação com dados\n59.50%\n64.20%\n48.50%\n    Competindo com análise de dados\n47.60%\n45.10%\n41.20%\n    Gerenciando dados como um ativo de negócio\n46.90%\n50.00%\n39.30%\n    Possui uma estratégia de dados bem articulada\n-\n-\n30.00%\n    Resultados de negócios em transformação\n-\n-\n29.20%\n    Forjou uma cultura de dados\n28.30%\n26.80%\n24.40%\n    Criou uma organização orientada a dados\n31.00%\n37.80%\n24.00%\n  \n  \n    \n      Fonte: NewVantage Partners, Big Data and AI Executive Survey 2021.\n    \n    \n      Referência: (BEAN, 2021)\n    \n  \n  \n\n\n\n\n\n\n\n\n\n\nNota\n\n\nParticiparam do The 2021 Big Data and AI Executive Survey empresas como: Bank of America, Citigroup, Morgan Stanley, VISA, Mastercard, Pfizer, AIG, McDonald’s, Starbucks e Wallmart.\nApesar dos altos níveis de investimento em Big Data e Inteligência Artificial, chegando a 99% das empresas que participaram da pesquisa, as organizações ainda lutam para extrair valor dessas tecnologias e se tornarem organizações orientadas a dados (Bean, 2022)."
+    "text": "Esforço das organizações\n\n\n\n\n\n\n  \n    \n    \n    \n    \n  \n  \n    \n    \n      Situação em relação a Big Data/IA\n      2019\n      2020\n      2021\n    \n  \n  \n    Impulsionando a inovação com dados\n59.50%\n64.20%\n48.50%\n    Competindo com análise de dados\n47.60%\n45.10%\n41.20%\n    Gerenciando dados como um ativo de negócio\n46.90%\n50.00%\n39.30%\n    Possui uma estratégia de dados bem articulada\n-\n-\n30.00%\n    Resultados de negócios em transformação\n-\n-\n29.20%\n    Forjou uma cultura de dados\n28.30%\n26.80%\n24.40%\n    Criou uma organização orientada a dados\n31.00%\n37.80%\n24.00%\n  \n  \n    \n      Fonte: NewVantage Partners, Big Data and AI Executive Survey 2021.\n    \n    \n      Referência: (BEAN, 2021)\n    \n  \n  \n\n\n\n\n\n\n\n\n\n\nNota\n\n\nParticiparam do The 2021 Big Data and AI Executive Survey empresas como: Bank of America, Citigroup, Morgan Stanley, VISA, Mastercard, Pfizer, AIG, McDonald’s, Starbucks e Wallmart.\nApesar dos altos níveis de investimento em Big Data e Inteligência Artificial, chegando a 99% das empresas que participaram da pesquisa, as organizações ainda lutam para extrair valor dessas tecnologias e se tornarem organizações orientadas a dados (Bean, 2021)."
   },
   {
     "objectID": "conacon_2023.html#vencer-a-hippo",
@@ -417,14 +417,21 @@
     "href": "conacon_2023.html#fatores-culturais",
     "title": "",
     "section": "Fatores culturais",
+    "text": "Fatores culturais\nAlguns fatores de resistência à mudança:\n\nMedo do desconhecido;\nFalta de compreensão da necessidade de mudança;\nMedo de perder status, segurança, pertencimento ou competência;\nConexão emocional com o estado atual;\nFalta de confiança naqueles que promovem às mudanças;\nInsuficiente conhecimento sobre as mudanças propostas e suas implicações;\nFalta de crença de que a mudança leverá a um estado melhor."
+  },
+  {
+    "objectID": "conacon_2023.html#fatores-culturais-1",
+    "href": "conacon_2023.html#fatores-culturais-1",
+    "title": "",
+    "section": "Fatores culturais",
     "text": "Fatores culturais\n\n\n\n\n\n\n\nNota\n\n\nPor cinco anos consecutivos, o grande desafio para as organizações se tornarem orientadas a dados continuam sendo as barreiras culturais (92,2%) e não as barreiras tecnológicas. As empresas continuam lutando contra mudanças de cultura, alinhamento organizacional, e problemas com comunicação, conhecimento das pessoas, resistência ou falta de compreensão sobre a necessidade de mudança. (Bean, 2021)"
   },
   {
-    "objectID": "conacon_2023.html#ausência-de-alfabetização-em-dados",
-    "href": "conacon_2023.html#ausência-de-alfabetização-em-dados",
+    "objectID": "conacon_2023.html#ausência-de-alfabetização-de-dados",
+    "href": "conacon_2023.html#ausência-de-alfabetização-de-dados",
     "title": "",
-    "section": "Ausência de alfabetização em dados",
-    "text": "Ausência de alfabetização em dados\n\n\n..quero desmistificar dois mitos comuns. O primeiro é a visão de que você precisa ser um sábio da matemática para tomar decisões com dados, o que impede muitas pessoas de usar dados para a tomada de decisões. Esta é uma crença errônea. A realidade é que tomar decisões com dados não é uma escolha mais, é uma necessidade.\n[…]\nO segundo mito é a ilusão de que, com a abundância de Big Data que nos cercam, podemos finalmente chegar ao nirvana de tomar certas decisões — a decisão perfeita. (Frank, Magnone e Netzer, 2022)"
+    "section": "Ausência de alfabetização de dados",
+    "text": "Ausência de alfabetização de dados\n\n\n..quero desmistificar dois mitos comuns. O primeiro é a visão de que você precisa ser um sábio da matemática para tomar decisões com dados, o que impede muitas pessoas de usar dados para a tomada de decisões. Esta é uma crença errônea. A realidade é que tomar decisões com dados não é uma escolha mais, é uma necessidade.\n[…]\nO segundo mito é a ilusão de que, com a abundância de Big Data que nos cercam, podemos finalmente chegar ao nirvana de tomar certas decisões — a decisão perfeita. (Frank, Magnone e Netzer, 2022)"
   },
   {
     "objectID": "conacon_2023.html#algo-em-comum",
@@ -448,8 +455,8 @@
     "text": "Vamos decidir com dados?"
   },
   {
-    "objectID": "conacon_2023.html#section-11",
-    "href": "conacon_2023.html#section-11",
+    "objectID": "conacon_2023.html#section-9",
+    "href": "conacon_2023.html#section-9",
     "title": "",
     "section": "",
     "text": "O desafio do mundo atual não é a falta de informação, mas nosso julgamento para utilizá-la. (Frank, Magnone e Netzer, 2022)"
@@ -459,7 +466,7 @@
     "href": "conacon_2023.html#exercício-1-a-infecção-pelo-cordyceps",
     "title": "",
     "section": "Exercício 1: A infecção pelo Cordyceps",
-    "text": "Exercício 1: A infecção pelo Cordyceps\n\nEm um município do Estado da Paraíba, 6.000 pessoas foram infectadas pelo Cordyceps. Um grupo de cientistas concluiu por duas possibilidades de tratamento para essas pessoas. Como sendo a autoridade responsável pela tomada de decisão, você foi informado das consequências de cada uma das opções, com dados precisos, ou seja, sem margem de erro.\nTome a decisão com base no que foi reportado. Vidas estão em jogo e você não tem muito tempo!"
+    "text": "Exercício 1: A infecção pelo Cordyceps\n\nEm um município do Estado da Paraíba, 6.000 pessoas foram infectadas por uma variante mortal do Cordyceps. Um grupo de cientistas concluiu por duas possibilidades de tratamento para essas pessoas. Como sendo a autoridade responsável pela tomada de decisão, você foi informado das consequências de cada uma das opções, com dados precisos, ou seja, sem margem de erro.\nTome a decisão com base no que foi reportado. Vidas estão em jogo e você não tem muito tempo!"
   },
   {
     "objectID": "conacon_2023.html#exercício-2-nascimentos-de-uma-maternidade-pública",
@@ -476,8 +483,8 @@
     "text": "Relembrando…\n\n\n\n\n\n\n\nNota\n\n\nSe A e B forem dois eventos independentes, a probabilidade de ocorrência conjunta deles é igual ao produto de suas probabilidades individuais. Para \\(n\\) eventos temos:\n\\[\nP(A_{1}\\cap A_{2} \\cap A_{3} ...A_{n} ) = P(A_{1}) \\cdot P(A_{2}) \\cdot ... P(A_{n})\n\\]"
   },
   {
-    "objectID": "conacon_2023.html#section-12",
-    "href": "conacon_2023.html#section-12",
+    "objectID": "conacon_2023.html#section-10",
+    "href": "conacon_2023.html#section-10",
     "title": "",
     "section": "",
     "text": "O maquinário associativo procura causas. A dificuldade que temos com as regularidades estatísticas é que elas pedem uma abordagem diferente. […] Somos ávidos por padrões, temos fé em um mundo coerente, em que as regularidades não aparecem por acidente, mas como resultado de uma causalidade mecânica ou da intenção de alguém. (Kahneman, 2012)"
@@ -490,15 +497,15 @@
     "text": "Barreiras cognitivas"
   },
   {
-    "objectID": "conacon_2023.html#section-13",
-    "href": "conacon_2023.html#section-13",
+    "objectID": "conacon_2023.html#section-11",
+    "href": "conacon_2023.html#section-11",
     "title": "",
     "section": "",
     "text": "[…] uma limitação desconcertante de nossa mente: nossa confiança excessiva no que acreditamos saber, e nossa aparente incapacidade de admitir a verdadeira extensão da nossa ignorância e a incerteza do mundo em que vivemos. (Kahneman, 2012)"
   },
   {
-    "objectID": "conacon_2023.html#section-14",
-    "href": "conacon_2023.html#section-14",
+    "objectID": "conacon_2023.html#section-12",
+    "href": "conacon_2023.html#section-12",
     "title": "",
     "section": "",
     "text": "Os mal-informados são muito mais perigosos do que os não informados; a má informação é pegajosa. (Anderson, 2015)"
@@ -532,8 +539,8 @@
     "text": "Casos"
   },
   {
-    "objectID": "conacon_2023.html#section-15",
-    "href": "conacon_2023.html#section-15",
+    "objectID": "conacon_2023.html#section-13",
+    "href": "conacon_2023.html#section-13",
     "title": "",
     "section": "",
     "text": "Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível provocar o assunto com cinco1 perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras. A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo. (Huff, 2016)\n\nDentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido?"
@@ -558,6 +565,13 @@
     "title": "",
     "section": "Onde estava o erro?",
     "text": "Onde estava o erro?\n \n\n\n“Teste do golinho”;\nAtribuição da perda de mercado a uma única causa.\nTransferência de sensação."
+  },
+  {
+    "objectID": "conacon_2023.html#section-14",
+    "href": "conacon_2023.html#section-14",
+    "title": "",
+    "section": "",
+    "text": "Dados e números tendem a fornecer a sensação confortável de precisão e certeza, mas raramente nos contam a história completa. Os números por si só podem nunca fornecer uma solução ou resposta perfeita, e eles nunca imunizarão os tomadores de decisão de vacilos. (Frank, Magnone e Netzer, 2022)"
   },
   {
     "objectID": "conacon_2023.html#caso-iii-são-joão-em-maceió-fa-solid-fire-size1xl",
@@ -588,8 +602,8 @@
     "text": "Caso IV: Gastos com combustíveis"
   },
   {
-    "objectID": "conacon_2023.html#section-16",
-    "href": "conacon_2023.html#section-16",
+    "objectID": "conacon_2023.html#section-15",
+    "href": "conacon_2023.html#section-15",
     "title": "",
     "section": "",
     "text": "Com apenas 17 mil habitantes, Prefeitura de ########### abre licitação de R$ 2,8 milhões em combustíveis.\nMunicípio da Paraíba com 3,3 mil habitantes assina contrato de mais de R$ 1,4 milhão em combustíveis.\nCom apenas 14,6 mil habitantes, Prefeitura de ########### vai gastar mais de meio milhão com combustíveis."
@@ -602,15 +616,22 @@
     "text": "Devemos questionar\n\n\nA população está correlacionada com o gasto de combustíveis?\nNão seria mais interessante associar com o número de veículos do município ao consumo de combustíveis?\nA distância entre o município e o respectivo pólo tem influência no consumo?\nA área geográfica do município tem influência no consumo de combustíveis?\nHá veículos de diferentes portes na frota municipal? (ônibus, camionetes, veículos de passeio)\nTodo valor licitado será gasto?\nHá máquinas consumindo combustível?"
   },
   {
-    "objectID": "conacon_2023.html#section-17",
-    "href": "conacon_2023.html#section-17",
+    "objectID": "conacon_2023.html#section-16",
+    "href": "conacon_2023.html#section-16",
     "title": "",
     "section": "",
     "text": "Inteligência Artificial: para onde vamos?"
   },
   {
-    "objectID": "conacon_2023.html#section-19",
-    "href": "conacon_2023.html#section-19",
+    "objectID": "conacon_2023.html#section-17",
+    "href": "conacon_2023.html#section-17",
+    "title": "",
+    "section": "",
+    "text": "Johannes Vermeer  Moça com brinco de pérola (1665)"
+  },
+  {
+    "objectID": "conacon_2023.html#section-18",
+    "href": "conacon_2023.html#section-18",
     "title": "",
     "section": "",
     "text": "IA não é um conceito novo. Na verdade, as suas raízes remontam a várias décadas. Mas a sua adoção generalizada e o seu crescimento exponencial só foram sentidos nos últimos 10-15 anos devido à convergência de três vetores de crescimento: avanços algorítmicos, poder computacional e explosão de dados. (Espindola e Wright, 2021)"
@@ -630,6 +651,20 @@
     "text": "Considerações finais"
   },
   {
+    "objectID": "conacon_2023.html#considerações-finais-1",
+    "href": "conacon_2023.html#considerações-finais-1",
+    "title": "",
+    "section": "Considerações finais",
+    "text": "Considerações finais\n\n\nMesmo com abundância de dados e tecnologia, criar um Controle Externo orientado a dados não é uma tarefa simples;\nA alfabetização de dados é uma necessidade;\nSem dados de qualidade, não haverá avanços nas decisões com dados;\nDemocratizar dados (internamente e externamente) trará benefícios à atividade de controle;\nDevemos nos policiar e compreender as nossas limitações e os nossos vieses;\nDevemos estar abertos a mudanças;\nA participação dos ACE nesse processo é imprescindível."
+  },
+  {
+    "objectID": "conacon_2023.html#section-19",
+    "href": "conacon_2023.html#section-19",
+    "title": "",
+    "section": "",
+    "text": "O talento vence jogos, mas só o trabalho em equipe vence campeonatos - Michael Jordan."
+  },
+  {
     "objectID": "conacon_2023.html#contato",
     "href": "conacon_2023.html#contato",
     "title": "",
@@ -641,7 +676,7 @@
     "href": "conacon_2023.html#referências",
     "title": "",
     "section": "Referências",
-    "text": "Referências\n\n\nANDERSON, C. Creating a data-driven organization: Practical advice from the trenches. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.\n\n\nBEAN, R. Fail fast, learn faster : lessons in data-driven leadership in an age of disruption, big data, and AI. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\n___. How The U.S. Federal Government Is Mobilizing To Enable Data-Driven Decision Making. Disponível em: &lt;https://www.forbes.com/sites/randybean/2022/06/01/how-the-us-federal-government-is-mobilizing-to-enable-data-driven-decision-making&gt;. Acesso em: 10 jul. 2023.\n\n\nBRUCE, A.; BRUCE, P. Estatı́stica prática para cientistas de dados. Rio de Janeiro: Alta Books, 2019.\n\n\nCABTREE, M.; NEHME, A. What is Data Literacy? A Comprehensive Guide for Organizations. Disponível em: &lt;https://www.datacamp.com/blog/what-is-data-literacy-a-comprehensive-guide-for-organizations&gt;. Acesso em: 8 jul. 2023.\n\n\nCHIU, J. How Enterprise Organizations Can Become Data-Driven. Disponível em: &lt;https://www.datacamp.com/blog/how-enterprise-organizations-can-become-data-driven&gt;. Acesso em: 6 jul. 2023.\n\n\nDAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen. [s.l: s.n.].\n\n\nEREMENKO, K. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. [s.l.] Kogan Page Publishers, 2018.\n\n\nESPINDOLA, D.; WRIGHT, M. W. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nFRANK, C. J.; MAGNONE, P. F.; NETZER, O. Decisions Over Decimals: Striking the Balance Between Intuition and Information. Hoboken, New Jersey: John Wiley & Sons, 2022.\n\n\nGALOR, O. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. ed. Rio de Janeiro: Intrínseca, 2022.\n\n\nGLADWELL, M. Blink: a desisão num piscar de olhos. Rio de Janeiro, RJ: Sextante, 2016.\n\n\nGLASS, R.; CALLAHAN, S. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. [s.l.] John Wiley & Sons, 2014.\n\n\nGUTMAN, A. J.; GOLDMEIER, J. Becoming a data head: How to think, speak, and understand data science, statistics, and machine learning. Hoboken, NJ: John Wiley & Sons, 2021.\n\n\nHUFF, D. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca, 2016.\n\n\nKAHNEMAN, D. Rápido e devagar: duas formas de pensar. 1 ed. ed. Rio de Janeiro, RJ: Objetiva, 2012.\n\n\nKAHNEMAN, D.; SIBONY, O.; SUNSTEIN, C. R. Noise: a flaw in human judgment. London: UK: HarperCollins Publishers, 2021.\n\n\nKNAFLIC, C. N. Storytelling com dados: um guia sobre visualização de dados para profissionais de negócios. Rio de Janeiro: RJ: Alta Books, 2018.\n\n\nMORROW, J. Be data literate: The data literacy skills everyone needs to succeed. [s.l.] Kogan Page Publishers, 2021.\n\n\n___. Be Data Driven: How Organizations Can Harness the Power of Data. New York, NY: Kogan Page Publishers, 2022.\n\n\nPECHERSKIY, M. Operationalizing Data Within Large Organizations. Disponível em: &lt;https://www.datacamp.com/resources/webinars/operationalizing-data-within-large-organizations&gt;. Acesso em: 20 ago. 2023.\n\n\nREDMAN, T. C. Bad Data Costs the U.S. $ 3 Trillion Per Year. Disponível em: &lt;https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year&gt;. Acesso em: 10 jul. 2023.\n\n\nRIBEIRO, F. G. DE M. M. Value creation and barriers in the commercial use of open government data. Porto, Portugal: Universidade do Porto, 2017.\n\n\nSILBERZAHN, R. et al. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, v. 1, n. 3, p. 337–356, 2018.\n\n\nSUSSKIND, R. E.; SUSSKIND, D. The future of the professions: How technology will transform the work of human experts. New York: Oxford University Press, USA, 2015.\n\n\nWICKHAM, H.; ÇETINKAYA-RUNDEL, M.; GROLEMUND, G. R for data science. [s.l.] O’Reilly Media, Inc., 2023."
+    "text": "Referências\n\n\nANDERSON, C. Creating a data-driven organization: Practical advice from the trenches. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.\n\n\nBEAN, R. Fail fast, learn faster : lessons in data-driven leadership in an age of disruption, big data, and AI. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\n___. How The U.S. Federal Government Is Mobilizing To Enable Data-Driven Decision Making. Disponível em: &lt;https://www.forbes.com/sites/randybean/2022/06/01/how-the-us-federal-government-is-mobilizing-to-enable-data-driven-decision-making&gt;. Acesso em: 10 jul. 2023.\n\n\nBRUCE, A.; BRUCE, P. Estatı́stica prática para cientistas de dados. Rio de Janeiro: Alta Books, 2019.\n\n\nCABTREE, M.; NEHME, A. What is Data Literacy? A Comprehensive Guide for Organizations. Disponível em: &lt;https://www.datacamp.com/blog/what-is-data-literacy-a-comprehensive-guide-for-organizations&gt;. Acesso em: 8 jul. 2023.\n\n\nCHIU, J. How Enterprise Organizations Can Become Data-Driven. Disponível em: &lt;https://www.datacamp.com/blog/how-enterprise-organizations-can-become-data-driven&gt;. Acesso em: 6 jul. 2023.\n\n\nDAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen. [s.l: s.n.].\n\n\nEREMENKO, K. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. [s.l.] Kogan Page Publishers, 2018.\n\n\nESPINDOLA, D.; WRIGHT, M. W. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nFRANK, C. J.; MAGNONE, P. F.; NETZER, O. Decisions Over Decimals: Striking the Balance Between Intuition and Information. Hoboken, New Jersey: John Wiley & Sons, 2022.\n\n\nGALOR, O. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. ed. Rio de Janeiro: Intrínseca, 2022.\n\n\nGLADWELL, M. Blink: a desisão num piscar de olhos. Rio de Janeiro, RJ: Sextante, 2016.\n\n\nGLASS, R.; CALLAHAN, S. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. [s.l.] John Wiley & Sons, 2014.\n\n\nGUTMAN, A. J.; GOLDMEIER, J. Becoming a data head: How to think, speak, and understand data science, statistics, and machine learning. Hoboken, NJ: John Wiley & Sons, 2021.\n\n\nHUFF, D. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca, 2016.\n\n\nKAHNEMAN, D. Rápido e devagar: duas formas de pensar. 1 ed. ed. Rio de Janeiro, RJ: Objetiva, 2012.\n\n\nKAHNEMAN, D.; SIBONY, O.; SUNSTEIN, C. R. Noise: a flaw in human judgment. London: UK: HarperCollins Publishers, 2021.\n\n\nKNAFLIC, C. N. Storytelling com dados: um guia sobre visualização de dados para profissionais de negócios. Rio de Janeiro: RJ: Alta Books, 2018.\n\n\nMORROW, J. Be data literate: The data literacy skills everyone needs to succeed. [s.l.] Kogan Page Publishers, 2021.\n\n\n___. Be Data Driven: How Organizations Can Harness the Power of Data. New York, NY: Kogan Page Publishers, 2022.\n\n\nPECHERSKIY, M. Operationalizing Data Within Large Organizations. Disponível em: &lt;https://www.datacamp.com/resources/webinars/operationalizing-data-within-large-organizations&gt;. Acesso em: 20 ago. 2023.\n\n\nREDMAN, T. C. Bad Data Costs the U.S. $ 3 Trillion Per Year. Disponível em: &lt;https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year&gt;. Acesso em: 10 jul. 2023.\n\n\nRIBEIRO, F. G. DE M. M. Value creation and barriers in the commercial use of open government data. Porto, Portugal: Universidade do Porto, 2017.\n\n\nSILBERZAHN, R. et al. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, v. 1, n. 3, p. 337–356, 2018.\n\n\nSUSSKIND, R. E.; SUSSKIND, D. The future of the professions: How technology will transform the work of human experts. New York: Oxford University Press, USA, 2015.\n\n\nWICKHAM, H.; ÇETINKAYA-RUNDEL, M.; GROLEMUND, G. R for data science. [s.l.] O’Reilly Media, Inc., 2023.\n\n\nWILKE, C. O. Fundamentals of data visualization: a primer on making informative and compelling figures. Sebastopol, CA: O’Reilly Media, 2019."
   },
   {
     "objectID": "conacon_2023.html#section-20",

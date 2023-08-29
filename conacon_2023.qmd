@@ -13,6 +13,7 @@ csl: resources/associacao-brasileira-de-normas-tecnicas-ipea.csl
 fontsize: "33px"
 format:
   revealjs:
+    css: custom.css
     multiplex: true
     scrollable: true
     template-partials: 
@@ -46,6 +47,96 @@ revealjs-plugins:
   - simplemenu
 ---
 
+
+
+
+<!-- ```{css} -->
+
+<!-- #| echo: false -->
+<!-- #| class-output: output -->
+
+<!-- .parte-title { -->
+<!--   font-size: 50px -->
+<!-- } -->
+
+<!-- .scrolling { -->
+<!--   max-height: 700px; -->
+<!--   max-width: 1800px; -->
+<!--   overflow-y: auto; -->
+<!-- } -->
+
+<!-- .big { -->
+<!--   background-color: black; -->
+<!--   color: white; -->
+<!--   font-size: 3em; -->
+<!--   padding: 10px; -->
+<!--   vertical-align: middle; -->
+<!--   font-weight: bold; -->
+<!--   border-radius: 20px -->
+<!-- } -->
+
+<!-- .white { -->
+<!--   color: gray; -->
+<!--   background-color: white; -->
+<!--   font-size: 1.5em; -->
+<!--   vertical-align: middle; -->
+<!--   font-weight: bold; -->
+<!-- } -->
+
+<!-- .case{ -->
+<!--   background-color: black; -->
+<!--   color: white; -->
+<!-- } -->
+
+<!-- .hlight{ -->
+<!--   background-color: yellow; -->
+<!-- } -->
+
+<!-- .circle1 { -->
+<!--   width: 300px; -->
+<!--   height: 300px; -->
+<!--   line-height: 300px; -->
+<!--   border-radius: 50%; -->
+<!--   font-size: 25px; -->
+<!--   color: #fff; -->
+<!--   text-align: center; -->
+<!--   vertical-align: middle; -->
+<!--   background: #000 -->
+<!-- } -->
+
+<!-- .title1{ -->
+<!--   font-size: 300px; -->
+<!--   background: linear-gradient(to left, #FFFFFF 0%, #2AB814 100%);; -->
+<!--   -webkit-background-clip: text; -->
+<!--   font-weight: bold; -->
+<!--   -webkit-text-fill-color: transparent; -->
+<!-- } -->
+
+
+<!-- ``` -->
+
+
+## Índice {.scrolling}
+
+
+-   **Introdução**
+* **Parte I**
+  - O que são dados?
+  - O que é uma organização orientada a dados?
+  - Controle Externo orientado a dados
+  - Caso I
+  - Alfabetização de dados
+  - Comunicando com dados
+* **Parte II**
+  - Desafios para um Controle Externo orientados a dados
+  - Vamos decidir com dados?
+  - Barreiras cognitivas
+  - Viés
+  - Casos II, III e IV
+  - Inteligência artificial: para onde vamos?
+* **Considerações finais**
+
+
 ---
 nocite: |
   @galor2022jornada
@@ -65,93 +156,8 @@ nocite: |
   @bean2022book
   @kahneman2021noise
   @gladwell2005
+  @frank2022
 ---
-
-```{css, echo=FALSE}
-.parte-title {
-  font-size: 50px
-}
-
-.scrolling {
-  max-height: 700px;
-  max-width: 1800px;
-  overflow-y: auto;
-}
-
-.big {
-  background-color: black;
-  color: white;
-  font-size: 3em;
-  padding: 10px;
-  vertical-align: middle;
-  font-weight: bold;
-  border-radius: 20px
-}
-
-.white {
-  color: gray;
-  background-color: white;
-  font-size: 1.5em;
-  vertical-align: middle;
-  font-weight: bold;
-}
-
-.case{
-  background-color: black;
-  color: white;
-}
-
-.hlight{
-  background-color: yellow;
-}
-
-.circle1 {
-  width: 300px;
-  height: 300px;
-  line-height: 300px;
-  border-radius: 50%;
-  font-size: 25px;
-  color: #fff;
-  text-align: center;
-  vertical-align: middle;
-  background: #000
-}
-
-.title1{
-  font-size: 300px;
-  background: linear-gradient(to left, #FFFFFF 0%, #2AB814 100%);;
-  -webkit-background-clip: text;
-  font-weight: bold;
-  -webkit-text-fill-color: transparent;
-}
-
-
-```
-
-
-##  {data-name="Índice" .scrolling}
-
-::: incremental
--   **Introdução**
-* **Parte I**
-  - O que são dados?
-  - O que é uma organização orientada a dados?
-  - Controle Externo orientado a dados
-  - Caso I
-  - Alfabetização em dados
-  - Comunicando com dados
-* **Parte II**
-  - Desafios para um Controle Externo orientados a dados
-  - Vamos decidir com dados?
-  - Barreiras cognitivas
-  - Viés
-  - Casos II, III e IV
-  - Inteligência artificial: para onde vamos?
-
-*   **Considerações finais**
-:::
-
-
 
 ## Introdução {data-name="Introdução" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title}
 
@@ -174,7 +180,6 @@ nocite: |
 <!-- <p class="small">Of course, you can set it to stop inheriting the name as well.</p> -->
 
 ## Parte I  {data-name="Parte I" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title background-image="imagens/imagem14.png" background-size="35%" background-position="top 0px right 2px"}
-
 
 
 ##
@@ -252,11 +257,7 @@ Esse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em arti
 </br>
 
 
-## O que significa uma organização orientada a dados? {style="text-align:justify" background="linear-gradient(to right, #33ffcc, #33cc66)"}
-
-##
-
-> "Nós confiamos em Deus. Todos os outros tragam dados" - **William Edwards Deming**
+## O que significa uma organização orientada a dados _(data-driven)_ ? {style="text-align:justify" background="linear-gradient(to right, #33ffcc, #33cc66)"}
 
 
 ## Organização orientada a dados {style="text-align:justify"}
@@ -280,7 +281,7 @@ Esse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em arti
 <br>
 
 > O governo federal dos EUA está se mobilizando em um esforço unificado para realizar uma das maiores iniciativas de transformação federal em décadas. [...]
-> Esta é a história da iniciativa do governo federal para permitir que todas as agências federais tomem decisões orientadas por dados em uma economia mundial e nacional em ritmo acelerado, em mudança e competitiva. [Esta é uma história sobre a qual você pode não ler nas primeiras páginas do The New York Times ou do The Wall Street Journal]{.hlight}, mas pode ser ainda mais conseqüente e de longo alcance em termos de seu impacto competitivo econômico e global [@bean2022]
+> Esta é a história da iniciativa do governo federal para permitir que todas as agências federais tomem decisões orientadas por dados em uma economia mundial e nacional em ritmo acelerado, em mudança e competitiva. [Esta é uma história sobre a qual você pode não ler nas primeiras páginas do The New York Times ou do The Wall Street Journal]{.hlight}, mas pode ser ainda mais consequente e de longo alcance em termos de seu impacto competitivo econômico e global [@bean2022]
 
 
 ## Controle Externo orientado a dados {background="linear-gradient(to right, #33ffcc, #33cc66)" style="text-align:center"}
@@ -342,7 +343,7 @@ Segundo @morrow2022, há cinco pilares para construir uma organização orientad
 ::: incremental
 1. **Estratégia:** o que estamos fazendo?
 2. **Liderança:** quem decide o que estamos fazendo?
-3. **Alfabetização em dados:** nós temos as habilidades necessárias para cumprir o que estamos fazendo?
+3. **Alfabetização de dados:** nós temos as habilidades necessárias para cumprir o que estamos fazendo?
 4. **Dados e tecnologia:** nós temos acesso aos dados e às ferramentas necessárias para tomar decisões baseadas em dados?
 5. **Cultura:** o ambiente está pronto para ter sucesso com dados?
 
@@ -602,7 +603,7 @@ Foram encontrados 86^[Há a possibilidade de outros casos, uma vez que a busca s
 <br>
 <br>
 
-## Alfabetização em dados
+## Alfabetização de dados {background="linear-gradient(to right, #33ffcc, #33cc66)"}
 
 ## Definição {style="text-align:justify"}
 
@@ -626,7 +627,7 @@ Foram encontrados 86^[Há a possibilidade de outros casos, uma vez que a busca s
 
 <br>
 
-> No nosso caso, ler dados significa olhar para os dados e informações apresentados e compreendê-los. Claro e simples. No mundo dos dados, existem muitas formas em que os dados chegam e serão apresentados, mostrados para cada um de nós. A leitura de dados é a nossa capacidade de olhar e compreender os dados e as informações, quando as possuímos, o que nos capacita a ter sucesso com os dados. [@morrow2021data]
+> A leitura de dados é a nossa capacidade de olhar e compreender os dados e as informações, quando as possuímos, o que nos capacita a ter sucesso com os dados. [@morrow2021data]
 
 
 ## Trabalhar com os dados {style="text-align:justify"}
@@ -650,8 +651,6 @@ Foram encontrados 86^[Há a possibilidade de outros casos, uma vez que a busca s
 * **Análise diagnóstica:** _Por que isso aconteceu?_
 * **Análise preditiva:** _O que acontecerá?_
 * **Análise prescritiva:** _O que devemos fazer caso isso ocorra?_
-
-
 
 
 ## Comunicar com dados {style="text-align:justify"}
@@ -717,6 +716,17 @@ Foram encontrados 86^[Há a possibilidade de outros casos, uma vez que a busca s
 Os gráficos de barras são fáceis de interpretar e identificar diferenças entre as categorias. No entanto, no exemplo acima, as escalas iniciam em valores diferentes, causando essa distorção visual.
 
 :::
+
+## Tabelas
+
+
+Alguns exemplos^[Os exemplos acima foram obtidos de @wilke2019.]:
+
+
+![](https://clauswilke.com/dataviz/figure_titles_captions_files/figure-html/table-examples-1.png){fig-align="center" width=85%}
+
+
+
 
 ## Exemplo 1
 
@@ -815,7 +825,7 @@ tab_01 %>%
 
 Participaram do _The 2021 Big Data and AI Executive Survey_ empresas como: Bank of America, Citigroup, Morgan Stanley, VISA, Mastercard, Pfizer, AIG, McDonald's, Starbucks e Wallmart.
 
-Apesar dos altos níveis de investimento em Big Data e Inteligência Artificial, chegando a 99% das empresas que participaram da pesquisa, as organizações ainda lutam para extrair valor dessas tecnologias e se tornarem organizações orientadas a dados [@bean2022].
+Apesar dos altos níveis de investimento em Big Data e Inteligência Artificial, chegando a 99% das empresas que participaram da pesquisa, as organizações ainda lutam para extrair valor dessas tecnologias e se tornarem organizações orientadas a dados [@bean2022book].
 
 :::
 
@@ -838,6 +848,18 @@ Apesar dos altos níveis de investimento em Big Data e Inteligência Artificial,
 
 ## Fatores culturais {style="text-align:justify"}
 
+Alguns fatores de resistência à mudança:
+
+* Medo do desconhecido;
+* Falta de compreensão da necessidade de mudança;
+* Medo de perder _status_, segurança, pertencimento ou competência;
+* Conexão emocional com o estado atual;
+* Falta de confiança naqueles que promovem às mudanças;
+* Insuficiente conhecimento sobre as mudanças propostas e suas implicações;
+* Falta de crença de que a mudança leverá a um estado melhor.
+
+## Fatores culturais {style="text-align:justify"}
+
 <br>
 
 ::: callout-note
@@ -846,7 +868,7 @@ Por cinco anos consecutivos, o grande desafio para as organizações se tornarem
 
 :::
 
-## Ausência de alfabetização em dados {style="text-align:justify"}
+## Ausência de alfabetização de dados {style="text-align:justify"}
 
 <br>
 
@@ -910,7 +932,7 @@ datasaurus_dozen |>
 
 <br>
 
-[Em um município do Estado da Paraíba, 6.000 pessoas foram infectadas pelo _Cordyceps_. Um grupo de cientistas concluiu por duas possibilidades de tratamento para essas pessoas. Como sendo a autoridade responsável pela tomada de decisão, você foi informado das consequências de cada uma das opções, com dados precisos, ou seja, sem margem de erro.]{.case}
+[Em um município do Estado da Paraíba, 6.000 pessoas foram infectadas por uma variante mortal do _Cordyceps_. Um grupo de cientistas concluiu por duas possibilidades de tratamento para essas pessoas. Como sendo a autoridade responsável pela tomada de decisão, você foi informado das consequências de cada uma das opções, com dados precisos, ou seja, sem margem de erro.]{.case}
 
 [Tome a decisão com base no que foi reportado. Vidas estão em jogo e você não tem muito tempo!]{.case}
 
@@ -1028,6 +1050,10 @@ A primeira característica a procurar é a parcialidade — o laboratório que t
 
 :::
 
+## {style="text-align:justify"}
+
+> Dados e números tendem a fornecer a sensação confortável de precisão e certeza, mas raramente nos contam a história completa. Os números por si só podem nunca fornecer uma solução ou resposta perfeita, e eles nunca imunizarão os tomadores de decisão de vacilos. [@frank2022]
+
 
 
 ## [Caso III: São João em Maceió!]{.case}  {{< fa solid fire size=1xl >}} {background="linear-gradient(to right, #33ffcc, #33cc66)" style="text-align:justify"}
@@ -1088,8 +1114,24 @@ A primeira característica a procurar é a parcialidade — o laboratório que t
 [Inteligência Artificial: para onde vamos?]{.white}
 
 
-## {background-image="https://uploads3.wikiart.org/00129/images/johannes-vermeer/the-girl-with-a-pearl-earring.jpg!HD.jpg" background-size="50%" style="text-align:center"}
+## {background-image="https://uploads3.wikiart.org/00129/images/johannes-vermeer/the-girl-with-a-pearl-earring.jpg!HD.jpg" background-size="50%"}
 
+:::: {.columns}
+
+::: {.column width="20%"}
+
+[**Johannes Vermeer**]{style="color:gray"}
+<br>
+[Moça com brinco de pérola (1665)]{.small}
+
+:::
+
+
+::: {.column width="80%"}
+
+:::
+
+::::
 
 ## {style="text-align:justify"}
 
@@ -1102,6 +1144,22 @@ A primeira característica a procurar é a parcialidade — o laboratório que t
 
 ## Considerações finais {data-name="Final" background="linear-gradient(to right, #33ffcc, #33cc66)"}
 
+## Considerações finais
+
+::: incremental
+* Mesmo com abundância de dados e tecnologia, criar um Controle Externo orientado a dados não é uma tarefa simples;
+* A alfabetização de dados é uma necessidade;
+* Sem dados de qualidade, não haverá avanços nas decisões com dados;
+* Democratizar dados (internamente e externamente) trará benefícios à atividade de controle;
+* Devemos nos policiar e compreender as nossas limitações e os nossos vieses;
+* Devemos estar abertos a mudanças;
+* A participação dos ACE nesse processo é imprescindível.
+
+:::
+
+## {style="text-align:justify"}
+
+> O talento vence jogos, mas só o trabalho em equipe vence campeonatos - **Michael Jordan**.
 
 ## Contato {background="linear-gradient(to right, #33ffcc, #33cc66)"}
 
@@ -1160,3 +1218,5 @@ A primeira característica a procurar é a parcialidade — o laboratório que t
 <h1> **Muito obrigado!** </h1>
 
 :::
+
+
