@@ -116,6 +116,10 @@ revealjs-plugins:
 <!-- ``` -->
 
 
+## {background-image="imagens/capa_antc.svg" background-size="100%"}
+
+
+
 ## Índice {.scrolling}
 
 
@@ -163,7 +167,7 @@ nocite: |
 
 ## {background-image="imagens/imagem04.jpg"}
 
-## {background-image="imagens/imagem05.jpg"}
+## {background-image="imagens/imagem05.jpg" transition="fade" transition-speed="slow"}
 
 ## PIB Mundial
 
@@ -284,7 +288,7 @@ Esse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em arti
 > Esta é a história da iniciativa do governo federal para permitir que todas as agências federais tomem decisões orientadas por dados em uma economia mundial e nacional em ritmo acelerado, em mudança e competitiva. [Esta é uma história sobre a qual você pode não ler nas primeiras páginas do The New York Times ou do The Wall Street Journal]{.hlight}, mas pode ser ainda mais consequente e de longo alcance em termos de seu impacto competitivo econômico e global [@bean2022]
 
 
-## Controle Externo orientado a dados {background="linear-gradient(to right, #33ffcc, #33cc66)" style="text-align:center"}
+## Controle Externo orientado a dados {background="linear-gradient(to right, #33ffcc, #33cc66)"}
 
 ## Por que necessitamos de um Controle Externo orientado a dados?
 
@@ -524,7 +528,8 @@ dados_pacientes_idades %>%
    ) %>% 
   tab_footnote(footnote = "Dados coletados em 6 de julho de 2023.") %>% 
   tab_footnote(footnote = "A coluna # foi adicionada para numeração das linhas e não faz parte dos dados originais.") %>% 
-  tab_source_note(source_note = "OpenDataSUS - opendatasus.saude.gov.br")
+  tab_source_note(source_note = "OpenDataSUS - opendatasus.saude.gov.br") %>% 
+  tab_options(table.font.size = "18px")
 
 ```
 
@@ -574,7 +579,8 @@ dados_data_aplic %>%
       rows = c(1, 3, 12, 13, 35, 41, 44, 48,
                59, 62, 87, 88, 93, 147, 151, 156)
       )
-   )
+   ) %>% 
+  tab_options(table.font.size = "20px")
 ```
 
 
@@ -653,17 +659,14 @@ Foram encontrados 86^[Há a possibilidade de outros casos, uma vez que a busca s
 * **Análise prescritiva:** _O que devemos fazer caso isso ocorra?_
 
 
-## Comunicar com dados {style="text-align:justify"}
-
-> Além de coletar dados e torná-los apresentáveis, essa habilidade trata de explicar esses dados para não especialistas de uma maneira compreensível. Muitas vezes, isso significa entender tópicos de dados mais avançados. [@crabtree2023]
-
-> Somo mal preparados para uma importante tarefa, cada vez mais exigida. A tecnologia permitiu acumular volumes de dados cada vez maiores e há um também crescente desejo associado de entendê-los. [@knaflic2015]
-
 
 ## Comunicando com dados {background="linear-gradient(to right, #33ffcc, #33cc66)"}
 
 
 ## {style="text-align:justify"}
+
+> Além de coletar dados e torná-los apresentáveis, essa habilidade trata de explicar esses dados para não especialistas de uma maneira compreensível. Muitas vezes, isso significa entender tópicos de dados mais avançados. [@crabtree2023]
+
 
 > Somos mal preparados para uma importante tarefa, cada vez mais exigida. A tecnologia permitiu acumular volumes de dados cada vez maiores e há também um crescente desejo associado de entendê-los. [...] Há uma história em seus dados. Mas suas ferramentas não sabem qual é essa história. É aí que você entra. [@knaflic2015]
 
@@ -737,7 +740,7 @@ Alguns exemplos^[Os exemplos acima foram obtidos de @wilke2019.]:
 
 ## Exemplo 2
 
-<h4> Aplicação em Fundeb x DTP^[Relatório de Auditoria Temática do Novo Fundeb - TCE-PB] <h4>
+Aplicação em Fundeb x DTP^[Relatório de Auditoria Temática do Novo Fundeb - TCE-PB]
 
 ![](./imagens/imagem12.svg){fig-align="center" width=65%}
 

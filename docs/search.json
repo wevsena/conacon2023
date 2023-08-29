@@ -21,8 +21,8 @@
     "text": "PIB Mundial"
   },
   {
-    "objectID": "conacon_2023.html#section-2",
-    "href": "conacon_2023.html#section-2",
+    "objectID": "conacon_2023.html#section-3",
+    "href": "conacon_2023.html#section-3",
     "title": "",
     "section": "",
     "text": "Na verdade, tal progresso contínuo foi tão radical que muitas vezes perdemos de vista o quanto esse período é excepcional em relação ao resto da nossa história. (Galor, 2022)"
@@ -35,8 +35,8 @@
     "text": "Parte I"
   },
   {
-    "objectID": "conacon_2023.html#section-3",
-    "href": "conacon_2023.html#section-3",
+    "objectID": "conacon_2023.html#section-4",
+    "href": "conacon_2023.html#section-4",
     "title": "",
     "section": "",
     "text": "Sem dados, você é apenas mais uma pessoa com uma opinião. - William Edwards Deming"
@@ -91,8 +91,8 @@
     "text": "Custo de armazenamento"
   },
   {
-    "objectID": "conacon_2023.html#section-4",
-    "href": "conacon_2023.html#section-4",
+    "objectID": "conacon_2023.html#section-5",
+    "href": "conacon_2023.html#section-5",
     "title": "",
     "section": "",
     "text": "O IDC’s Global DataSphere1 projeta que em 2026 os dados alcançarão 221.000 Exabytes2, sendo mais de 90% desse volume composto por dados não estruturados. Essa informação é de 2022.\n\n\n\n\n\n\n\nNota\n\n\nEsse número corresponde a 110,5 vezes o volume gerado em 2010. Em 2018, em artigo publicado na Forbes, estimou-se que 90% dos dados do mundo foram criados apenas nos últimos dois anos.\n\n\n\n\nO IDC Global DataSphere mundial é uma medida de quantos novos dados são criados, capturados, replicados e consumidos a cada ano. É previsto por vários segmentos, incluindo consumidor/empresa, região, tipo de dados, localização (core, edge, endpoint) e tipo de implantação (nuvem/não nuvem) da tecnologia envolvida na geração de dados.221.000 Exabyte (EB) correspondem a 221 bilhões de Terabytes (TB)."
@@ -168,8 +168,8 @@
     "text": "Coletando dados de qualidade\n\nrelevante;\ntempestivo;\nacurado;\nlimpo;\nsem viés;\nconfiável.\n\n\n\n\n\n\n\nNota\n\n\nA estimativa da IBM (em 2016) para o custo anual de dados de baixa qualidade é de US$ 3,1 trilhões por ano apenas nos Estados Unidos. (Redman, 2016)"
   },
   {
-    "objectID": "conacon_2023.html#section-5",
-    "href": "conacon_2023.html#section-5",
+    "objectID": "conacon_2023.html#section-6",
+    "href": "conacon_2023.html#section-6",
     "title": "",
     "section": "",
     "text": "Erros, aparentemente simples, podem causar grandes problemas.\n\nCoordenada geográfica do TCE-PB: -7.13023, -34.87061\nCoordenada geográfica do TCE-PB: -7.13023, -34.97061"
@@ -245,8 +245,8 @@
     "text": "Vamos ver como é na Alemanha?"
   },
   {
-    "objectID": "conacon_2023.html#section-7",
-    "href": "conacon_2023.html#section-7",
+    "objectID": "conacon_2023.html#section-8",
+    "href": "conacon_2023.html#section-8",
     "title": "",
     "section": "",
     "text": "Clique aqui para ver a tradução"
@@ -301,13 +301,6 @@
     "text": "Os quatro tipos de análise\n\n\nAnálise descritiva: O que aconteceu?\nAnálise diagnóstica: Por que isso aconteceu?\nAnálise preditiva: O que acontecerá?\nAnálise prescritiva: O que devemos fazer caso isso ocorra?"
   },
   {
-    "objectID": "conacon_2023.html#comunicar-com-dados",
-    "href": "conacon_2023.html#comunicar-com-dados",
-    "title": "",
-    "section": "Comunicar com dados",
-    "text": "Comunicar com dados\n\nAlém de coletar dados e torná-los apresentáveis, essa habilidade trata de explicar esses dados para não especialistas de uma maneira compreensível. Muitas vezes, isso significa entender tópicos de dados mais avançados. (Cabtree e Nehme, 2023)\n\n\nSomo mal preparados para uma importante tarefa, cada vez mais exigida. A tecnologia permitiu acumular volumes de dados cada vez maiores e há um também crescente desejo associado de entendê-los. (Knaflic, 2018)"
-  },
-  {
     "objectID": "conacon_2023.html#comunicando-com-dados",
     "href": "conacon_2023.html#comunicando-com-dados",
     "title": "",
@@ -315,11 +308,11 @@
     "text": "Comunicando com dados"
   },
   {
-    "objectID": "conacon_2023.html#section-8",
-    "href": "conacon_2023.html#section-8",
+    "objectID": "conacon_2023.html#section-9",
+    "href": "conacon_2023.html#section-9",
     "title": "",
     "section": "",
-    "text": "Somos mal preparados para uma importante tarefa, cada vez mais exigida. A tecnologia permitiu acumular volumes de dados cada vez maiores e há também um crescente desejo associado de entendê-los. […] Há uma história em seus dados. Mas suas ferramentas não sabem qual é essa história. É aí que você entra. (Knaflic, 2018)"
+    "text": "Além de coletar dados e torná-los apresentáveis, essa habilidade trata de explicar esses dados para não especialistas de uma maneira compreensível. Muitas vezes, isso significa entender tópicos de dados mais avançados. (Cabtree e Nehme, 2023)\n\n\nSomos mal preparados para uma importante tarefa, cada vez mais exigida. A tecnologia permitiu acumular volumes de dados cada vez maiores e há também um crescente desejo associado de entendê-los. […] Há uma história em seus dados. Mas suas ferramentas não sabem qual é essa história. É aí que você entra. (Knaflic, 2018)"
   },
   {
     "objectID": "conacon_2023.html#o-que-evitar",
@@ -361,7 +354,7 @@
     "href": "conacon_2023.html#exemplo-2",
     "title": "",
     "section": "Exemplo 2",
-    "text": "Exemplo 2\n\nAplicação em Fundeb x DTP1\n\n\n\n\n\n\nRelatório de Auditoria Temática do Novo Fundeb - TCE-PB"
+    "text": "Exemplo 2\nAplicação em Fundeb x DTP1\n\n\n\n\n\nRelatório de Auditoria Temática do Novo Fundeb - TCE-PB"
   },
   {
     "objectID": "conacon_2023.html#exemplo-3",
@@ -455,8 +448,8 @@
     "text": "Vamos decidir com dados?"
   },
   {
-    "objectID": "conacon_2023.html#section-9",
-    "href": "conacon_2023.html#section-9",
+    "objectID": "conacon_2023.html#section-10",
+    "href": "conacon_2023.html#section-10",
     "title": "",
     "section": "",
     "text": "O desafio do mundo atual não é a falta de informação, mas nosso julgamento para utilizá-la. (Frank, Magnone e Netzer, 2022)"
@@ -483,8 +476,8 @@
     "text": "Relembrando…\n\n\n\n\n\n\n\nNota\n\n\nSe A e B forem dois eventos independentes, a probabilidade de ocorrência conjunta deles é igual ao produto de suas probabilidades individuais. Para \\(n\\) eventos temos:\n\\[\nP(A_{1}\\cap A_{2} \\cap A_{3} ...A_{n} ) = P(A_{1}) \\cdot P(A_{2}) \\cdot ... P(A_{n})\n\\]"
   },
   {
-    "objectID": "conacon_2023.html#section-10",
-    "href": "conacon_2023.html#section-10",
+    "objectID": "conacon_2023.html#section-11",
+    "href": "conacon_2023.html#section-11",
     "title": "",
     "section": "",
     "text": "O maquinário associativo procura causas. A dificuldade que temos com as regularidades estatísticas é que elas pedem uma abordagem diferente. […] Somos ávidos por padrões, temos fé em um mundo coerente, em que as regularidades não aparecem por acidente, mas como resultado de uma causalidade mecânica ou da intenção de alguém. (Kahneman, 2012)"
@@ -497,15 +490,15 @@
     "text": "Barreiras cognitivas"
   },
   {
-    "objectID": "conacon_2023.html#section-11",
-    "href": "conacon_2023.html#section-11",
+    "objectID": "conacon_2023.html#section-12",
+    "href": "conacon_2023.html#section-12",
     "title": "",
     "section": "",
     "text": "[…] uma limitação desconcertante de nossa mente: nossa confiança excessiva no que acreditamos saber, e nossa aparente incapacidade de admitir a verdadeira extensão da nossa ignorância e a incerteza do mundo em que vivemos. (Kahneman, 2012)"
   },
   {
-    "objectID": "conacon_2023.html#section-12",
-    "href": "conacon_2023.html#section-12",
+    "objectID": "conacon_2023.html#section-13",
+    "href": "conacon_2023.html#section-13",
     "title": "",
     "section": "",
     "text": "Os mal-informados são muito mais perigosos do que os não informados; a má informação é pegajosa. (Anderson, 2015)"
@@ -539,8 +532,8 @@
     "text": "Casos"
   },
   {
-    "objectID": "conacon_2023.html#section-13",
-    "href": "conacon_2023.html#section-13",
+    "objectID": "conacon_2023.html#section-14",
+    "href": "conacon_2023.html#section-14",
     "title": "",
     "section": "",
     "text": "Nem todas as informações estatísticas que você vai encontrar podem ser testadas com a segurança de uma análise química ou a precisão de um laboratório de testes. No entanto, é possível provocar o assunto com cinco1 perguntas básicas e, ao encontrar as respostas, evitar aprender um monte de coisas que não são verdadeiras. A primeira característica a procurar é a parcialidade — o laboratório que tem um ponto a ser provado para estabelecer uma teoria, uma reputação ou uma remuneração; o jornal cujo objetivo é uma boa história; os trabalhadores ou gerentes com um nível salarial em jogo. (Huff, 2016)\n\nDentre as cinco mencionadas por Darrel Huff estão: quem está dizendo?; como ele sabe? o que está faltando? alguém mudou de assunto?; isso faz sentido?"
@@ -567,8 +560,8 @@
     "text": "Onde estava o erro?\n \n\n\n“Teste do golinho”;\nAtribuição da perda de mercado a uma única causa.\nTransferência de sensação."
   },
   {
-    "objectID": "conacon_2023.html#section-14",
-    "href": "conacon_2023.html#section-14",
+    "objectID": "conacon_2023.html#section-15",
+    "href": "conacon_2023.html#section-15",
     "title": "",
     "section": "",
     "text": "Dados e números tendem a fornecer a sensação confortável de precisão e certeza, mas raramente nos contam a história completa. Os números por si só podem nunca fornecer uma solução ou resposta perfeita, e eles nunca imunizarão os tomadores de decisão de vacilos. (Frank, Magnone e Netzer, 2022)"
@@ -602,8 +595,8 @@
     "text": "Caso IV: Gastos com combustíveis"
   },
   {
-    "objectID": "conacon_2023.html#section-15",
-    "href": "conacon_2023.html#section-15",
+    "objectID": "conacon_2023.html#section-16",
+    "href": "conacon_2023.html#section-16",
     "title": "",
     "section": "",
     "text": "Com apenas 17 mil habitantes, Prefeitura de ########### abre licitação de R$ 2,8 milhões em combustíveis.\nMunicípio da Paraíba com 3,3 mil habitantes assina contrato de mais de R$ 1,4 milhão em combustíveis.\nCom apenas 14,6 mil habitantes, Prefeitura de ########### vai gastar mais de meio milhão com combustíveis."
@@ -616,22 +609,22 @@
     "text": "Devemos questionar\n\n\nA população está correlacionada com o gasto de combustíveis?\nNão seria mais interessante associar com o número de veículos do município ao consumo de combustíveis?\nA distância entre o município e o respectivo pólo tem influência no consumo?\nA área geográfica do município tem influência no consumo de combustíveis?\nHá veículos de diferentes portes na frota municipal? (ônibus, camionetes, veículos de passeio)\nTodo valor licitado será gasto?\nHá máquinas consumindo combustível?"
   },
   {
-    "objectID": "conacon_2023.html#section-16",
-    "href": "conacon_2023.html#section-16",
+    "objectID": "conacon_2023.html#section-17",
+    "href": "conacon_2023.html#section-17",
     "title": "",
     "section": "",
     "text": "Inteligência Artificial: para onde vamos?"
   },
   {
-    "objectID": "conacon_2023.html#section-17",
-    "href": "conacon_2023.html#section-17",
+    "objectID": "conacon_2023.html#section-18",
+    "href": "conacon_2023.html#section-18",
     "title": "",
     "section": "",
     "text": "Johannes Vermeer  Moça com brinco de pérola (1665)"
   },
   {
-    "objectID": "conacon_2023.html#section-18",
-    "href": "conacon_2023.html#section-18",
+    "objectID": "conacon_2023.html#section-19",
+    "href": "conacon_2023.html#section-19",
     "title": "",
     "section": "",
     "text": "IA não é um conceito novo. Na verdade, as suas raízes remontam a várias décadas. Mas a sua adoção generalizada e o seu crescimento exponencial só foram sentidos nos últimos 10-15 anos devido à convergência de três vetores de crescimento: avanços algorítmicos, poder computacional e explosão de dados. (Espindola e Wright, 2021)"
@@ -658,8 +651,8 @@
     "text": "Considerações finais\n\n\nMesmo com abundância de dados e tecnologia, criar um Controle Externo orientado a dados não é uma tarefa simples;\nA alfabetização de dados é uma necessidade;\nSem dados de qualidade, não haverá avanços nas decisões com dados;\nDemocratizar dados (internamente e externamente) trará benefícios à atividade de controle;\nDevemos nos policiar e compreender as nossas limitações e os nossos vieses;\nDevemos estar abertos a mudanças;\nA participação dos ACE nesse processo é imprescindível."
   },
   {
-    "objectID": "conacon_2023.html#section-19",
-    "href": "conacon_2023.html#section-19",
+    "objectID": "conacon_2023.html#section-20",
+    "href": "conacon_2023.html#section-20",
     "title": "",
     "section": "",
     "text": "O talento vence jogos, mas só o trabalho em equipe vence campeonatos - Michael Jordan."
@@ -679,8 +672,8 @@
     "text": "Referências\n\n\nANDERSON, C. Creating a data-driven organization: Practical advice from the trenches. 1. ed. ed. [s.l.] O’Reilly Media, Inc., 2015.\n\n\nBEAN, R. Fail fast, learn faster : lessons in data-driven leadership in an age of disruption, big data, and AI. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\n___. How The U.S. Federal Government Is Mobilizing To Enable Data-Driven Decision Making. Disponível em: &lt;https://www.forbes.com/sites/randybean/2022/06/01/how-the-us-federal-government-is-mobilizing-to-enable-data-driven-decision-making&gt;. Acesso em: 10 jul. 2023.\n\n\nBRUCE, A.; BRUCE, P. Estatı́stica prática para cientistas de dados. Rio de Janeiro: Alta Books, 2019.\n\n\nCABTREE, M.; NEHME, A. What is Data Literacy? A Comprehensive Guide for Organizations. Disponível em: &lt;https://www.datacamp.com/blog/what-is-data-literacy-a-comprehensive-guide-for-organizations&gt;. Acesso em: 8 jul. 2023.\n\n\nCHIU, J. How Enterprise Organizations Can Become Data-Driven. Disponível em: &lt;https://www.datacamp.com/blog/how-enterprise-organizations-can-become-data-driven&gt;. Acesso em: 6 jul. 2023.\n\n\nDAVIES, R.; LOCKE, S.; D’AGOSTINO MCGOWAN, L. datasauRus: Datasets from the Datasaurus Dozen. [s.l: s.n.].\n\n\nEREMENKO, K. Confident Data Skills: Master the Fundamentals of Working with Data and Supercharge Your Career. [s.l.] Kogan Page Publishers, 2018.\n\n\nESPINDOLA, D.; WRIGHT, M. W. The Exponential Era: Strategies to Stay Ahead of the Curve in an Era of Chaotic Changes and Disruptive Forces. Hoboken, New Jersey: John Wiley & Sons, Incorporated, 2021.\n\n\nFRANK, C. J.; MAGNONE, P. F.; NETZER, O. Decisions Over Decimals: Striking the Balance Between Intuition and Information. Hoboken, New Jersey: John Wiley & Sons, 2022.\n\n\nGALOR, O. A Jornada da Humanidade: as origens da riqueza e da desigualdade. 1. ed. ed. Rio de Janeiro: Intrínseca, 2022.\n\n\nGLADWELL, M. Blink: a desisão num piscar de olhos. Rio de Janeiro, RJ: Sextante, 2016.\n\n\nGLASS, R.; CALLAHAN, S. The Big Data-driven business: How to use big data to win customers, beat competitors, and boost profits. [s.l.] John Wiley & Sons, 2014.\n\n\nGUTMAN, A. J.; GOLDMEIER, J. Becoming a data head: How to think, speak, and understand data science, statistics, and machine learning. Hoboken, NJ: John Wiley & Sons, 2021.\n\n\nHUFF, D. Como mentir com estatı́stica. Rio de Janeiro - RJ: Editora Intrinseca, 2016.\n\n\nKAHNEMAN, D. Rápido e devagar: duas formas de pensar. 1 ed. ed. Rio de Janeiro, RJ: Objetiva, 2012.\n\n\nKAHNEMAN, D.; SIBONY, O.; SUNSTEIN, C. R. Noise: a flaw in human judgment. London: UK: HarperCollins Publishers, 2021.\n\n\nKNAFLIC, C. N. Storytelling com dados: um guia sobre visualização de dados para profissionais de negócios. Rio de Janeiro: RJ: Alta Books, 2018.\n\n\nMORROW, J. Be data literate: The data literacy skills everyone needs to succeed. [s.l.] Kogan Page Publishers, 2021.\n\n\n___. Be Data Driven: How Organizations Can Harness the Power of Data. New York, NY: Kogan Page Publishers, 2022.\n\n\nPECHERSKIY, M. Operationalizing Data Within Large Organizations. Disponível em: &lt;https://www.datacamp.com/resources/webinars/operationalizing-data-within-large-organizations&gt;. Acesso em: 20 ago. 2023.\n\n\nREDMAN, T. C. Bad Data Costs the U.S. $ 3 Trillion Per Year. Disponível em: &lt;https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year&gt;. Acesso em: 10 jul. 2023.\n\n\nRIBEIRO, F. G. DE M. M. Value creation and barriers in the commercial use of open government data. Porto, Portugal: Universidade do Porto, 2017.\n\n\nSILBERZAHN, R. et al. Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, v. 1, n. 3, p. 337–356, 2018.\n\n\nSUSSKIND, R. E.; SUSSKIND, D. The future of the professions: How technology will transform the work of human experts. New York: Oxford University Press, USA, 2015.\n\n\nWICKHAM, H.; ÇETINKAYA-RUNDEL, M.; GROLEMUND, G. R for data science. [s.l.] O’Reilly Media, Inc., 2023.\n\n\nWILKE, C. O. Fundamentals of data visualization: a primer on making informative and compelling figures. Sebastopol, CA: O’Reilly Media, 2019."
   },
   {
-    "objectID": "conacon_2023.html#section-20",
-    "href": "conacon_2023.html#section-20",
+    "objectID": "conacon_2023.html#section-21",
+    "href": "conacon_2023.html#section-21",
     "title": "",
     "section": "",
     "text": "Muito obrigado!\n\n\n\n\n6º CONACON - João Pessoa - Paraíba"
