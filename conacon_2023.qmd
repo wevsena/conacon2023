@@ -763,7 +763,10 @@ Aplicação em Fundeb x DTP^[Relatório de Auditoria Temática do Novo Fundeb - 
 
 ## Parte II {data-name="Parte II" background="linear-gradient(to right, #33ffcc, #33cc66)" font-size="200px" .parte-title background-image="imagens/imagem15.png" background-size="45%" background-position="bottom 40px left 0px"}
 
-## Desafios para um Controle Externo orientado a dados
+## Desafios para um Controle Externo orientado a dados {background="linear-gradient(to right, #33ffcc, #33cc66)"}
+
+
+## {style="text-align:justify"}
 
 <br>
 
